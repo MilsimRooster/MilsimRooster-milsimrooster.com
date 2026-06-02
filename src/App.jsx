@@ -84,7 +84,24 @@ const projects = [
   }
 ];
 
-const links = ["Photography Portfolio", "Video Channel", "Project Updates", "GitHub"];
+const links = [
+  {
+    label: "Photography Portfolio",
+    href: "https://youpic.com/dude01"
+  },
+  {
+    label: "Video Channel",
+    href: "https://www.youtube.com/@milsimirl"
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/MilsimRooster"
+  },
+  {
+    label: "Email",
+    href: "mailto:info@keithleague.com"
+  }
+];
 
 const videos = [
   {
@@ -237,14 +254,16 @@ function App() {
             <p>
               For photography, media work, project questions, or collaboration, use this section for preferred contact details.
             </p>
-            <a href="mailto:contact@milsimrooster.com">contact@milsimrooster.com</a>
+            <a href="mailto:info@keithleague.com">info@keithleague.com</a>
           </div>
         </Section>
 
         <Section id="links" eyebrow="Links" title="External Channels">
           <div className="links-list">
             {links.map((link) => (
-              <a href="#" key={link}>{link}<span>↗</span></a>
+              <a href={link.href} key={link.label} target={link.href.startsWith("mailto:") ? undefined : "_blank"} rel={link.href.startsWith("mailto:") ? undefined : "noreferrer"}>
+                {link.label}<span>↗</span>
+              </a>
             ))}
           </div>
         </Section>
