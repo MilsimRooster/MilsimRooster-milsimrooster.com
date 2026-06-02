@@ -1,10 +1,45 @@
 const navItems = ["Home", "About", "Photography", "Videos", "Projects", "Contact", "Links"];
 
 const photoCategories = [
-  "Portraits",
-  "Events",
-  "Milsim / Airsoft",
-  "Church / Community"
+  {
+    name: "Portraits",
+    slug: "portraits",
+    items: [
+      "/media/photography/portraits/00016-846853311.jpg",
+      "/media/photography/portraits/IMG_0808B.jpg",
+      "/media/photography/portraits/IMG_4888.jpg",
+      "/media/photography/portraits/heather_clip.mp4"
+    ]
+  },
+  {
+    name: "Events",
+    slug: "events",
+    items: []
+  },
+  {
+    name: "Milsim / Airsoft",
+    slug: "milsim-airsoft",
+    items: [
+      "/media/photography/milsim-airsoft/Crossbone2s.PNG",
+      "/media/photography/milsim-airsoft/goats.jpg",
+      "/media/photography/milsim-airsoft/IMG_1726.JPG",
+      "/media/photography/milsim-airsoft/IMG_1831.JPG",
+      "/media/photography/milsim-airsoft/IMG_1951.JPG",
+      "/media/photography/milsim-airsoft/jackbranch.jpg"
+    ]
+  },
+  {
+    name: "Church / Community",
+    slug: "church-community",
+    items: [
+      "/media/photography/church-community/IMG_4159.JPG",
+      "/media/photography/church-community/IMG_4161.JPG",
+      "/media/photography/church-community/IMG_4163.JPG",
+      "/media/photography/church-community/IMG_4164.JPG",
+      "/media/photography/church-community/IMG_4166.JPG",
+      "/media/photography/church-community/IMG_4167.JPG"
+    ]
+  }
 ];
 
 const projects = [
@@ -97,13 +132,27 @@ function App() {
         </Section>
 
         <Section id="photography" eyebrow="Gallery" title="Photography Categories">
-          <div className="card-grid photo-grid">
+          <div className="gallery-stack">
             {photoCategories.map((category, index) => (
-              <article className="photo-card" key={category}>
-                <div className="photo-texture" />
-                <span>{String(index + 1).padStart(2, "0")}</span>
-                <h3>{category}</h3>
-                <p>Placeholder gallery lane ready for selected images and captions.</p>
+              <article className="gallery-category" key={category.slug}>
+                <div className="gallery-heading">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <h3>{category.name}</h3>
+                  <p>{category.items.length ? `${category.items.length} featured test media item${category.items.length === 1 ? "" : "s"}` : "Drop media into this folder to populate the category."}</p>
+                </div>
+                <div className="media-grid">
+                  {category.items.length ? category.items.map((src) => (
+                    <div className="media-tile" key={src}>
+                      {src.toLowerCase().endsWith(".mp4") ? (
+                        <video src={src} controls muted playsInline />
+                      ) : (
+                        <img src={src} alt={`${category.name} sample`} loading="lazy" />
+                      )}
+                    </div>
+                  )) : (
+                    <div className="media-empty">Waiting for uploads</div>
+                  )}
+                </div>
               </article>
             ))}
           </div>

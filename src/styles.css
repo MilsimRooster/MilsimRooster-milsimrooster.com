@@ -235,29 +235,68 @@ h2 {
   gap: 14px;
 }
 
-.photo-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.gallery-stack {
+  display: grid;
+  gap: 18px;
 }
 
-.photo-card {
-  min-height: 245px;
-  position: relative;
+.gallery-category {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 14px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.gallery-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 220px;
+  padding: 18px;
+  background: var(--panel-soft);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+}
+
+.gallery-heading span {
+  color: var(--danger);
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.media-tile,
+.media-empty {
+  min-height: 220px;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #0f1213;
+  border-radius: 8px;
 }
 
-.photo-texture {
-  position: absolute;
-  inset: 0;
-  opacity: 0.22;
-  background:
-    linear-gradient(135deg, transparent 0 42%, rgba(157, 170, 124, 0.55) 42% 45%, transparent 45%),
-    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 16px);
+.media-tile img,
+.media-tile video {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  display: block;
 }
 
-.photo-card span,
-.photo-card h3,
-.photo-card p {
-  position: relative;
+.media-empty {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-weight: 800;
 }
 
 h3 {
@@ -338,6 +377,14 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .gallery-category {
+    grid-template-columns: 1fr;
+  }
+
+  .media-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .hero {
     min-height: auto;
   }
@@ -345,5 +392,11 @@ footer {
   .contact-panel {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .media-grid {
+    grid-template-columns: 1fr;
   }
 }
