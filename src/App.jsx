@@ -5,9 +5,9 @@ const photoCategories = [
     name: "Portraits",
     slug: "portraits",
     items: [
-      "/media/photography/portraits/00016-846853311.jpg",
-      "/media/photography/portraits/IMG_0808B.jpg",
-      "/media/photography/portraits/IMG_4888.jpg",
+      "/media/optimized/photography/portraits/00016-846853311.jpg",
+      "/media/optimized/photography/portraits/img-0808b.jpg",
+      "/media/optimized/photography/portraits/img-4888.jpg",
       "/media/photography/portraits/heather_clip.mp4"
     ]
   },
@@ -20,24 +20,24 @@ const photoCategories = [
     name: "Milsim / Airsoft",
     slug: "milsim-airsoft",
     items: [
-      "/media/photography/milsim-airsoft/Crossbone2s.PNG",
-      "/media/photography/milsim-airsoft/goats.jpg",
-      "/media/photography/milsim-airsoft/IMG_1726.JPG",
-      "/media/photography/milsim-airsoft/IMG_1831.JPG",
-      "/media/photography/milsim-airsoft/IMG_1951.JPG",
-      "/media/photography/milsim-airsoft/jackbranch.jpg"
+      "/media/optimized/photography/milsim-airsoft/crossbone2s.jpg",
+      "/media/optimized/photography/milsim-airsoft/goats.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-1726.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-1831.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-1951.jpg",
+      "/media/optimized/photography/milsim-airsoft/jackbranch.jpg"
     ]
   },
   {
     name: "Church / Community",
     slug: "church-community",
     items: [
-      "/media/photography/church-community/IMG_4159.JPG",
-      "/media/photography/church-community/IMG_4161.JPG",
-      "/media/photography/church-community/IMG_4163.JPG",
-      "/media/photography/church-community/IMG_4164.JPG",
-      "/media/photography/church-community/IMG_4166.JPG",
-      "/media/photography/church-community/IMG_4167.JPG"
+      "/media/optimized/photography/church-community/img-4159.jpg",
+      "/media/optimized/photography/church-community/img-4161.jpg",
+      "/media/optimized/photography/church-community/img-4163.jpg",
+      "/media/optimized/photography/church-community/img-4164.jpg",
+      "/media/optimized/photography/church-community/img-4166.jpg",
+      "/media/optimized/photography/church-community/img-4167.jpg"
     ]
   }
 ];
