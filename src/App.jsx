@@ -169,7 +169,7 @@ function App() {
                 <div className="gallery-heading">
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <h3>{category.name}</h3>
-                  <p>{category.items.length ? `${category.items.length} featured test media item${category.items.length === 1 ? "" : "s"}` : "Drop media into this folder to populate the category."}</p>
+                  <p>{category.items.length ? `${category.items.length} featured media item${category.items.length === 1 ? "" : "s"}` : "Drop media into this folder to populate the category."}</p>
                 </div>
                 <div className="media-grid">
                   {category.items.length ? category.items.map((src) => (
@@ -177,7 +177,7 @@ function App() {
                       {src.toLowerCase().endsWith(".mp4") ? (
                         <video src={src} controls muted playsInline />
                       ) : (
-                        <img src={src} alt={`${category.name} sample`} loading="lazy" />
+                        <img src={src} alt={category.name} loading="lazy" />
                       )}
                     </div>
                   )) : (
