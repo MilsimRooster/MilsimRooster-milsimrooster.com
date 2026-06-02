@@ -101,21 +101,24 @@ function App() {
               <a href="#contact">Contact</a>
             </div>
           </div>
-          <div className="mission-card" aria-label="Site overview">
-            <div>
-              <span>01</span>
-              <strong>Capture</strong>
-              <p>Portraits, events, community moments, and milsim atmosphere.</p>
-            </div>
-            <div>
-              <span>02</span>
-              <strong>Produce</strong>
-              <p>Short-form video work, field edits, and promotional media.</p>
-            </div>
-            <div>
-              <span>03</span>
-              <strong>Build</strong>
-              <p>Local utilities that turn repeated desktop work into fast controls.</p>
+          <div className="hero-visual" aria-label="Milsim Rooster visual preview">
+            <img src="/media/optimized/photography/milsim-airsoft/jackbranch.jpg" alt="Milsim field media preview" />
+            <div className="mission-card">
+              <div>
+                <span>01</span>
+                <strong>Capture</strong>
+                <p>Portraits, events, community moments, and milsim atmosphere.</p>
+              </div>
+              <div>
+                <span>02</span>
+                <strong>Produce</strong>
+                <p>Short-form video work, field edits, and promotional media.</p>
+              </div>
+              <div>
+                <span>03</span>
+                <strong>Build</strong>
+                <p>Local utilities that turn repeated desktop work into fast controls.</p>
+              </div>
             </div>
           </div>
         </section>
