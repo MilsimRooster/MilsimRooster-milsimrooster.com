@@ -102,7 +102,7 @@ function App() {
             </div>
           </div>
           <div className="hero-visual" aria-label="Milsim Rooster visual preview">
-            <img src="/media/optimized/photography/milsim-airsoft/jackbranch.jpg" alt="Milsim field media preview" />
+            <img src="/media/optimized/hero/img-9535-hero.jpg" alt="Milsim Rooster hero media preview" />
             <div className="mission-card">
               <div>
                 <span>01</span>
