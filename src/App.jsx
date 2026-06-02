@@ -7,14 +7,31 @@ const photoCategories = [
     items: [
       "/media/optimized/photography/portraits/00016-846853311.jpg",
       "/media/optimized/photography/portraits/img-0808b.jpg",
+      "/media/optimized/photography/portraits/img-0844.jpg",
       "/media/optimized/photography/portraits/img-4888.jpg",
-      "/media/photography/portraits/heather_clip.mp4"
+      "/media/optimized/photography/portraits/img-9535.jpg",
+      "/media/optimized/photography/portraits/img-9571.jpg",
+      "/media/optimized/photography/portraits/img-9797.jpg",
+      "/media/optimized/photography/portraits/img-9798.jpg"
     ]
   },
   {
     name: "Events",
     slug: "events",
-    items: []
+    items: [
+      "/media/optimized/photography/events/00246-00-03-47-13.jpg",
+      "/media/optimized/photography/events/chatgpt-image-may-8-2026-05-50-48-pm.jpg",
+      "/media/optimized/photography/events/chatgpt-image-may-8-2026-05-54-24-pm.jpg",
+      "/media/optimized/photography/events/img-0812.jpg",
+      "/media/optimized/photography/events/img-1253.jpg",
+      "/media/optimized/photography/events/img-1514.jpg",
+      "/media/optimized/photography/events/img-1742.jpg",
+      "/media/optimized/photography/events/img-2965.jpg",
+      "/media/optimized/photography/events/img-6492.jpg",
+      "/media/optimized/photography/events/img-6604.jpg",
+      "/media/optimized/photography/events/img-6926-2.jpg",
+      "/media/optimized/photography/events/img-6949.jpg"
+    ]
   },
   {
     name: "Milsim / Airsoft",
@@ -22,22 +39,33 @@ const photoCategories = [
     items: [
       "/media/optimized/photography/milsim-airsoft/crossbone2s.jpg",
       "/media/optimized/photography/milsim-airsoft/goats.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-1726.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-1831.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-0633.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-1657.jpg",
       "/media/optimized/photography/milsim-airsoft/img-1951.jpg",
-      "/media/optimized/photography/milsim-airsoft/jackbranch.jpg"
+      "/media/optimized/photography/milsim-airsoft/img-7003.jpg",
+      "/media/optimized/photography/milsim-airsoft/img-9072.jpg",
+      "/media/optimized/photography/milsim-airsoft/jackbranch.jpg",
+      "/media/optimized/photography/milsim-airsoft/report.jpg",
+      "/media/optimized/photography/milsim-airsoft/vce55-sv260220-007.jpg",
+      "/media/optimized/photography/milsim-airsoft/whohasmyfinger.jpg"
     ]
   },
   {
     name: "Church / Community",
     slug: "church-community",
     items: [
-      "/media/optimized/photography/church-community/img-4159.jpg",
-      "/media/optimized/photography/church-community/img-4161.jpg",
-      "/media/optimized/photography/church-community/img-4163.jpg",
-      "/media/optimized/photography/church-community/img-4164.jpg",
       "/media/optimized/photography/church-community/img-4166.jpg",
-      "/media/optimized/photography/church-community/img-4167.jpg"
+      "/media/optimized/photography/church-community/img-4170.jpg",
+      "/media/optimized/photography/church-community/img-4177.jpg",
+      "/media/optimized/photography/church-community/img-4182.jpg",
+      "/media/optimized/photography/church-community/img-4184.jpg",
+      "/media/optimized/photography/church-community/img-4187.jpg",
+      "/media/optimized/photography/church-community/img-4191.jpg",
+      "/media/optimized/photography/church-community/img-4194.jpg",
+      "/media/optimized/photography/church-community/img-4195.jpg",
+      "/media/optimized/photography/church-community/img-4196.jpg",
+      "/media/optimized/photography/church-community/img-4216.jpg",
+      "/media/optimized/photography/church-community/img-4217.jpg"
     ]
   }
 ];
@@ -102,7 +130,7 @@ function App() {
             </div>
           </div>
           <div className="hero-visual" aria-label="Milsim Rooster visual preview">
-            <img src="/media/optimized/hero/img-9535-hero.jpg" alt="Milsim Rooster hero media preview" />
+            <img src="/media/optimized/hero/img-7003-hero.jpg" alt="Milsim Rooster hero media preview" />
             <div className="mission-card">
               <div>
                 <span>01</span>
