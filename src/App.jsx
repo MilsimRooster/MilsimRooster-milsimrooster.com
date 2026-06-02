@@ -5,7 +5,6 @@ const photoCategories = [
     name: "Portraits",
     slug: "portraits",
     items: [
-      "/media/optimized/photography/portraits/00016-846853311.jpg",
       "/media/optimized/photography/portraits/img-0808b.jpg",
       "/media/optimized/photography/portraits/img-0844.jpg",
       "/media/optimized/photography/portraits/img-4888.jpg",
