@@ -87,6 +87,19 @@ const projects = [
 
 const links = ["Photography Portfolio", "Video Channel", "Project Updates", "GitHub"];
 
+const videos = [
+  {
+    title: "Featured Video 01",
+    embed: "https://www.youtube.com/embed/L8-81IFMeWQ",
+    link: "https://youtu.be/L8-81IFMeWQ?si=570zj6dAQEAtsIaB"
+  },
+  {
+    title: "Featured Video 02",
+    embed: "https://www.youtube.com/embed/LWxlvE7Y_cA",
+    link: "https://youtu.be/LWxlvE7Y_cA?si=A2eZOq3PTP314gVT"
+  }
+];
+
 function Section({ id, eyebrow, title, children }) {
   return (
     <section id={id} className="section">
@@ -190,12 +203,20 @@ function App() {
         </Section>
 
         <Section id="videos" eyebrow="Motion" title="Video Showcase">
-          <div className="card-grid">
-            {[1, 2, 3].map((item) => (
-              <article className="video-card" key={item}>
-                <div className="play-symbol">▶</div>
-                <h3>Featured Video Slot {item}</h3>
-                <p>Embed a reel, walkthrough, project demo, or short promotional cut here.</p>
+          <div className="video-grid">
+            {videos.map((video) => (
+              <article className="video-card" key={video.embed}>
+                <div className="video-frame">
+                  <iframe
+                    src={video.embed}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
+                </div>
+                <h3>{video.title}</h3>
+                <p>Embedded YouTube feature ready for demos, field clips, and promotional media.</p>
+                <a className="video-link" href={video.link} target="_blank" rel="noreferrer">Open on YouTube</a>
               </article>
             ))}
           </div>
