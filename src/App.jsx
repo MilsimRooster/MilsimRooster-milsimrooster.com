@@ -96,12 +96,12 @@ const links = [
 
 const videos = [
   {
-    title: "Featured Video 01",
+    title: "Video 01",
     embed: "https://www.youtube.com/embed/L8-81IFMeWQ",
     link: "https://youtu.be/L8-81IFMeWQ?si=570zj6dAQEAtsIaB"
   },
   {
-    title: "Featured Video 02",
+    title: "Video 02",
     embed: "https://www.youtube.com/embed/LWxlvE7Y_cA",
     link: "https://youtu.be/LWxlvE7Y_cA?si=A2eZOq3PTP314gVT"
   }
@@ -175,9 +175,6 @@ function App() {
             <p>
               Keith League, operating as Milsim Rooster, works across photography, video production, media projects, and hands-on software utilities. This site is a central place to collect the creative work, promote new releases, and point people toward the projects that matter most.
             </p>
-            <p>
-              The current content is intentionally structured for expansion: galleries, video embeds, project writeups, and external links can grow without changing the core layout.
-            </p>
           </div>
         </Section>
 
@@ -188,7 +185,6 @@ function App() {
                 <div className="gallery-heading">
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <h3>{category.name}</h3>
-                  <p>{category.items.length ? `${category.items.length} featured media item${category.items.length === 1 ? "" : "s"}` : "Drop media into this folder to populate the category."}</p>
                 </div>
                 <div className="media-grid">
                   {category.items.length ? category.items.map((src) => (
@@ -221,7 +217,6 @@ function App() {
                   />
                 </div>
                 <h3>{video.title}</h3>
-                <p>Embedded YouTube feature ready for demos, field clips, and promotional media.</p>
                 <a className="video-link" href={video.link} target="_blank" rel="noreferrer">Open on YouTube</a>
               </article>
             ))}
