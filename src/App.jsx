@@ -1,4 +1,4 @@
-const navItems = ["Home", "About", "Photography", "Videos", "Projects", "Contact", "Links"];
+const navItems = ["Home", "About", "Photography", "Videos", "Projects", "Links"];
 
 const photoCategories = [
   {
@@ -91,10 +91,6 @@ const links = [
   {
     label: "GitHub",
     href: "https://github.com/MilsimRooster"
-  },
-  {
-    label: "Email",
-    href: "mailto:info@keithleague.com"
   }
 ];
 
@@ -150,7 +146,6 @@ function App() {
               <a href="#photography">Photography</a>
               <a href="#videos">Videos</a>
               <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
             </div>
           </div>
           <div className="hero-visual" aria-label="Milsim Rooster visual preview">
@@ -181,7 +176,7 @@ function App() {
               Keith League, operating as Milsim Rooster, works across photography, video production, media projects, and hands-on software utilities. This site is a central place to collect the creative work, promote new releases, and point people toward the projects that matter most.
             </p>
             <p>
-              The current content is intentionally structured for expansion: galleries, video embeds, project writeups, external links, and contact details can grow without changing the core layout.
+              The current content is intentionally structured for expansion: galleries, video embeds, project writeups, and external links can grow without changing the core layout.
             </p>
           </div>
         </Section>
@@ -244,19 +239,10 @@ function App() {
           </div>
         </Section>
 
-        <Section id="contact" eyebrow="Contact" title="Start A Conversation">
-          <div className="contact-panel">
-            <p>
-              For photography, media work, project questions, or collaboration, use this section for preferred contact details.
-            </p>
-            <a href="mailto:info@keithleague.com">info@keithleague.com</a>
-          </div>
-        </Section>
-
         <Section id="links" eyebrow="Links" title="External Channels">
           <div className="links-list">
             {links.map((link) => (
-              <a href={link.href} key={link.label} target={link.href.startsWith("mailto:") ? undefined : "_blank"} rel={link.href.startsWith("mailto:") ? undefined : "noreferrer"}>
+              <a href={link.href} key={link.label} target="_blank" rel="noreferrer">
                 {link.label}<span>↗</span>
               </a>
             ))}

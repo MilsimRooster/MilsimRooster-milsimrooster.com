@@ -40,5 +40,4 @@ The production output is generated in `dist`.
 - Photography
 - Videos
 - Projects
-- Contact
 - Links
