@@ -511,11 +511,13 @@ footer {
 
   .hero-visual,
   .hero-visual > img {
-    min-height: 520px;
+    min-height: 0;
   }
 
   .mission-card {
+    position: static;
     grid-template-columns: 1fr;
+    margin-top: 10px;
   }
 
   .gallery-category {
@@ -551,7 +553,20 @@ footer {
 
   .hero-visual,
   .hero-visual > img {
-    min-height: 640px;
+    min-height: 0;
+  }
+
+  .hero-visual {
+    overflow: visible;
+  }
+
+  .hero-visual > img {
+    height: auto;
+    aspect-ratio: 4 / 5;
+  }
+
+  .hero-visual::after {
+    display: none;
   }
 
   .media-grid {
