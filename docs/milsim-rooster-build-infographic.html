@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milsim Rooster Website Build Infographic</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #f7f2e8;
+        --muted: #b9c0b8;
+        --line: rgba(255, 255, 255, 0.18);
+        --glass: rgba(12, 16, 18, 0.62);
+        --green: #93d56f;
+        --blue: #76c7ff;
+        --gold: #f1c764;
+        --red: #ff8878;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        color: var(--ink);
+        background:
+          linear-gradient(145deg, rgba(5, 8, 9, 0.62), rgba(7, 11, 12, 0.92)),
+          radial-gradient(circle at 15% 10%, rgba(147, 213, 111, 0.22), transparent 30%),
+          radial-gradient(circle at 88% 16%, rgba(118, 199, 255, 0.18), transparent 32%),
+          #06090a;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 42px 0;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 20px;
+        align-items: stretch;
+      }
+
+      .panel {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.035));
+        box-shadow: 0 24px 80px rgba(0,0,0,0.36);
+        backdrop-filter: blur(18px);
+      }
+
+      .intro {
+        padding: 36px;
+        min-height: 430px;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--green);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-size: clamp(44px, 7vw, 88px);
+        line-height: 0.92;
+        letter-spacing: 0;
+      }
+
+      .lede {
+        max-width: 650px;
+        margin: 22px 0 0;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.62;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .stat {
+        min-height: 112px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(0,0,0,0.22);
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 30px;
+        line-height: 1;
+      }
+
+      .stat span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .stack {
+        display: grid;
+        gap: 20px;
+      }
+
+      .card {
+        padding: 24px;
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        font-size: 22px;
+      }
+
+      .pill-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .pill {
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--ink);
+        background: rgba(255,255,255,0.06);
+        font-weight: 700;
+      }
+
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .step {
+        min-height: 150px;
+        padding: 18px;
+      }
+
+      .step b {
+        display: inline-grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        color: #08100a;
+        background: var(--green);
+      }
+
+      .step h3 {
+        margin: 16px 0 8px;
+        font-size: 17px;
+      }
+
+      .step p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .systems {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+        margin-top: 20px;
+      }
+
+      .system {
+        padding: 18px;
+        border-left: 4px solid var(--blue);
+      }
+
+      .system:nth-child(2) { border-color: var(--green); }
+      .system:nth-child(3) { border-color: var(--gold); }
+      .system:nth-child(4) { border-color: var(--red); }
+
+      .system h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .system p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.5;
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 20px;
+        padding: 18px 0;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      @media (max-width: 900px) {
+        .hero, .flow, .systems { grid-template-columns: 1fr; }
+        .stats, .pill-grid { grid-template-columns: 1fr; }
+        main { width: min(100% - 24px, 1180px); padding-top: 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="panel intro">
+          <p class="eyebrow">From Concept To Public Site</p>
+          <h1>Milsim Rooster Website Build</h1>
+          <p class="lede">
+            A fast static portfolio site moved from spec to live domain with gallery media, liquid-glass styling, GitHub source control, Cloudflare Pages deployment, custom DNS, and security headers.
+          </p>
+          <div class="stats">
+            <div class="stat"><strong>~2h</strong><span>estimated focused build time excluding breaks</span></div>
+            <div class="stat"><strong>14</strong><span>tracked commits from first build to privacy cleanup</span></div>
+            <div class="stat"><strong>1</strong><span>secure public domain serving the finished site</span></div>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="panel card">
+            <h2>Core Skills Used</h2>
+            <div class="pill-grid">
+              <div class="pill">React + Vite</div>
+              <div class="pill">Responsive CSS</div>
+              <div class="pill">Media Curation</div>
+              <div class="pill">GitHub Publishing</div>
+              <div class="pill">Cloudflare Pages</div>
+              <div class="pill">DNS Debugging</div>
+              <div class="pill">Security Headers</div>
+              <div class="pill">Live Verification</div>
+            </div>
+          </div>
+
+          <div class="panel card">
+            <h2>Final Posture</h2>
+            <p class="lede" style="margin:0;font-size:15px">
+              Static frontend, no backend, no database, no public email, HTTPS enforced, CSP applied, and source pushed cleanly to GitHub.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow">
+        <article class="panel step"><b>1</b><h3>Read The Spec</h3><p>Turned the project brief into a practical single-page portfolio structure.</p></article>
+        <article class="panel step"><b>2</b><h3>Build The Site</h3><p>Created the React/Vite app, sections, navigation, embeds, and responsive layout.</p></article>
+        <article class="panel step"><b>3</b><h3>Add Media</h3><p>Organized galleries, optimized public image paths, and selected the hero image.</p></article>
+        <article class="panel step"><b>4</b><h3>Publish</h3><p>Committed to GitHub, deployed to Cloudflare Pages, and connected the domain.</p></article>
+        <article class="panel step"><b>5</b><h3>Harden</h3><p>Added headers, removed public email exposure, and verified the live response.</p></article>
+      </section>
+
+      <section class="systems">
+        <article class="panel system"><h3>Design</h3><p>Dark liquid-glass direction with dense, media-forward sections and minimal marketing fluff.</p></article>
+        <article class="panel system"><h3>Content</h3><p>Photography categories, YouTube embeds, project cards, and external portfolio channels.</p></article>
+        <article class="panel system"><h3>Infrastructure</h3><p>GitHub repository, Cloudflare Pages deployment, DNS records, and custom domain validation.</p></article>
+        <article class="panel system"><h3>Security</h3><p>HTTPS, HSTS, CSP, clickjacking protection, no public email, and a small static attack surface.</p></article>
+      </section>
+
+      <footer>MilsimRooster.com build overview • June 2026</footer>
+    </main>
+  </body>
+</html>
