@@ -46,7 +46,7 @@ const dinnerMessages = [
 ];
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-const ratingFaces = ["☹", "😐", "🙂", "😋", "🤠"];
+const ratingFaces = ["😕", "😐", "🙂", "😋", "🤠"];
 const ratingLabels = ["Nope", "Not again", "Okay", "Good", "Rooster approved"];
 
 function saveFavorites() {
