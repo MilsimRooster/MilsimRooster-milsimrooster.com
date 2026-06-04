@@ -360,6 +360,43 @@ select {
   margin-top: auto;
 }
 
+.rating-control {
+  display: grid;
+  gap: 8px;
+  margin: 4px 0 10px;
+}
+
+.rating-control span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.rating-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.rating-buttons button {
+  display: grid;
+  width: 38px;
+  min-height: 38px;
+  place-items: center;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 19px;
+}
+
+.rating-buttons button.active {
+  border-color: rgba(242, 177, 95, 0.88);
+  background: var(--accent);
+}
+
+.rating-control.compact {
+  margin-top: auto;
+}
+
 .card-actions button,
 .detail-actions button,
 .suggestion-card button {

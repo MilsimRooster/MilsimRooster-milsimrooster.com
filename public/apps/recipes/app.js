@@ -8,6 +8,7 @@ const state = {
   selectedRecipe: null,
   lastDinnerId: null,
   favorites: new Set(JSON.parse(localStorage.getItem("roosterRecipeFavorites") || "[]")),
+  ratings: JSON.parse(localStorage.getItem("roosterRecipeRatings") || "{}"),
   shopping: JSON.parse(localStorage.getItem("roosterShoppingList") || "[]"),
   mealPlan: JSON.parse(localStorage.getItem("roosterMealPlan") || "{}")
 };
@@ -45,9 +46,15 @@ const dinnerMessages = [
 ];
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const ratingFaces = ["☹", "😐", "🙂", "😋", "🤠"];
+const ratingLabels = ["Nope", "Not again", "Okay", "Good", "Rooster approved"];
 
 function saveFavorites() {
   localStorage.setItem("roosterRecipeFavorites", JSON.stringify([...state.favorites]));
+}
+
+function saveRatings() {
+  localStorage.setItem("roosterRecipeRatings", JSON.stringify(state.ratings));
 }
 
 function saveShopping() {
@@ -152,6 +159,31 @@ function toggleFavorite(id) {
   if (state.selectedRecipe?.id === id) openRecipe(id);
 }
 
+function setRating(id, value) {
+  const score = Number(value);
+  if (!Number.isFinite(score) || score < 1 || score > 5) return;
+  state.ratings[id] = score;
+  saveRatings();
+  renderRecipes();
+  if (state.selectedRecipe?.id === id) openRecipe(id);
+  showToast(`Saved ${score}/5 for this recipe.`);
+}
+
+function ratingControl(recipe, compact = false) {
+  const current = Number(state.ratings[recipe.id] || 0);
+  return `
+    <div class="rating-control ${compact ? "compact" : ""}" aria-label="Rate ${escapeHtml(recipe.title)}">
+      <span>${current ? `Your rating: ${current}/5` : "Rate it"}</span>
+      <div class="rating-buttons">
+        ${ratingFaces.map((face, index) => {
+          const value = index + 1;
+          return `<button class="${current === value ? "active" : ""}" type="button" data-rate="${recipe.id}" data-score="${value}" aria-label="${ratingLabels[index]}">${face}</button>`;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+
 function recipeMatches(recipe) {
   const haystack = [
     recipe.title,
@@ -174,6 +206,7 @@ function sortedRecipes() {
     if (state.sort === "total") return totalTime(a) - totalTime(b);
     if (state.sort === "difficulty") return difficultyRank(a.difficulty) - difficultyRank(b.difficulty);
     if (state.sort === "servings") return a.servings - b.servings;
+    if (state.sort === "rating") return (Number(state.ratings[a.id] || 0) - Number(state.ratings[b.id] || 0)) || a.title.localeCompare(b.title);
     return a.title.localeCompare(b.title);
   });
 }
@@ -192,6 +225,7 @@ function renderRecipes() {
       </div>
       <h3>${escapeHtml(recipe.title)}</h3>
       <p>${escapeHtml(recipe.description)}</p>
+      ${ratingControl(recipe, true)}
       <div class="card-actions">
         <button type="button" data-open="${recipe.id}">Open</button>
         <button class="favorite-button ${state.favorites.has(recipe.id) ? "active" : ""}" type="button" data-favorite="${recipe.id}">${state.favorites.has(recipe.id) ? "Favorited" : "Favorite"}</button>
@@ -263,6 +297,7 @@ function openRecipe(id) {
       <button class="favorite-button ${favorite ? "active" : ""}" type="button" data-favorite="${recipe.id}">${favorite ? "Favorited" : "Favorite"}</button>
       <button type="button" data-shop-detail="${recipe.id}">Add to shopping list</button>
     </div>
+    ${ratingControl(recipe)}
     <div class="serving-control">
       <label for="servingsInput">Scale servings</label>
       <input id="servingsInput" type="number" min="1" max="40" value="${recipe.servings}">
@@ -362,6 +397,7 @@ document.addEventListener("click", async (event) => {
   const shopId = target.dataset.shop || target.dataset.shopDetail;
   if (openId) openRecipe(openId);
   if (favoriteId) toggleFavorite(favoriteId);
+  if (target.dataset.rate) setRating(target.dataset.rate, target.dataset.score);
   if (shopId) {
     const recipe = state.recipes.find((item) => item.id === shopId);
     const servings = Number(document.querySelector("#servingsInput")?.value || recipe.servings);
