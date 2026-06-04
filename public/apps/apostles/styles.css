@@ -794,6 +794,11 @@ h2 {
 
   .apostle-card {
     min-height: unset;
+    width: 100%;
+  }
+
+  .question-layout.hint-open {
+    grid-template-columns: 1fr;
   }
 
   .journey-map {
