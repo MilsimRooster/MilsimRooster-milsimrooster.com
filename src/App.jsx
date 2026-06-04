@@ -166,6 +166,7 @@ function App() {
               <a href="#videos">Videos</a>
               <a href="#projects">Projects</a>
             </div>
+            <h2 className="app-launcher-title">Games and Utilities</h2>
             <div className="app-launcher" aria-label="Featured app launcher">
               {featuredApps.map((app) => (
                 <a className="app-launch" href={app.href} key={app.name}>
