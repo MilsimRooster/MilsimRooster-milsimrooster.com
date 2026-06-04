@@ -8,16 +8,61 @@
     "cookMinutes": 18,
     "servings": 4,
     "difficulty": "Easy",
-    "keywords": ["taco", "beef", "weeknight", "budget"],
+    "keywords": [
+      "taco",
+      "beef",
+      "weeknight",
+      "budget"
+    ],
     "ingredients": [
-      { "qty": 1.25, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "tbsp", "item": "chili powder", "group": "Spices" },
-      { "qty": 1, "unit": "tsp", "item": "cumin", "group": "Spices" },
-      { "qty": 0.5, "unit": "tsp", "item": "garlic powder", "group": "Spices" },
-      { "qty": 0.5, "unit": "cup", "item": "tomato sauce", "group": "Canned" },
-      { "qty": 8, "unit": "", "item": "taco shells or tortillas", "group": "Bakery" },
-      { "qty": 1.5, "unit": "cups", "item": "shredded lettuce", "group": "Produce" },
-      { "qty": 1, "unit": "cup", "item": "shredded cheddar", "group": "Dairy" }
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "chili powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "cumin",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "tomato sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "taco shells or tortillas",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "shredded lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
     ],
     "instructions": [
       "Brown the beef in a skillet over medium heat and drain excess grease.",
@@ -25,7 +70,11 @@
       "Simmer for 8 to 10 minutes until saucy.",
       "Serve in warm shells with lettuce, cheese, and whatever taco toppings are on duty."
     ],
-    "notes": ["Add a can of drained black beans to stretch the meat.", "Set toppings out buffet-style for easy family serving."]
+    "notes": [
+      "Add a can of drained black beans to stretch the meat.",
+      "Set toppings out buffet-style for easy family serving."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "weeknight-chicken-tacos",
@@ -36,18 +85,66 @@
     "cookMinutes": 20,
     "servings": 4,
     "difficulty": "Easy",
-    "keywords": ["chicken", "taco", "quick"],
-    "ingredients": [
-      { "qty": 1.5, "unit": "lb", "item": "boneless chicken thighs", "group": "Meat" },
-      { "qty": 1, "unit": "tbsp", "item": "taco seasoning", "group": "Spices" },
-      { "qty": 0.5, "unit": "cup", "item": "salsa", "group": "Canned" },
-      { "qty": 1, "unit": "", "item": "lime", "group": "Produce" },
-      { "qty": 8, "unit": "", "item": "flour tortillas", "group": "Bakery" },
-      { "qty": 1, "unit": "cup", "item": "shredded cheese", "group": "Dairy" },
-      { "qty": 0.5, "unit": "cup", "item": "sour cream", "group": "Dairy" }
+    "keywords": [
+      "chicken",
+      "taco",
+      "quick"
     ],
-    "instructions": ["Season chicken and sear it in a hot skillet.", "Add salsa, cover, and cook until tender.", "Shred or chop chicken and squeeze lime over the pan.", "Serve in warm tortillas with cheese and sour cream."],
-    "notes": ["Thighs stay juicy, but chicken breast works too.", "Leftovers make strong quesadillas."]
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "boneless chicken thighs",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "salsa",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lime",
+        "group": "Produce"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "flour tortillas",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "sour cream",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Season chicken and sear it in a hot skillet.",
+      "Add salsa, cover, and cook until tender.",
+      "Shred or chop chicken and squeeze lime over the pan.",
+      "Serve in warm tortillas with cheese and sour cream."
+    ],
+    "notes": [
+      "Thighs stay juicy, but chicken breast works too.",
+      "Leftovers make strong quesadillas."
+    ],
+    "protein": "Chicken"
   },
   {
     "id": "walking-taco-bowls",
@@ -58,18 +155,67 @@
     "cookMinutes": 15,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["taco", "bowl", "potluck", "kids"],
-    "ingredients": [
-      { "qty": 1.5, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "packet", "item": "taco seasoning", "group": "Spices" },
-      { "qty": 6, "unit": "cups", "item": "corn chips", "group": "Pantry" },
-      { "qty": 1, "unit": "can", "item": "pinto beans", "group": "Canned" },
-      { "qty": 2, "unit": "cups", "item": "shredded lettuce", "group": "Produce" },
-      { "qty": 1.5, "unit": "cups", "item": "shredded cheddar", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "diced tomatoes", "group": "Produce" }
+    "keywords": [
+      "taco",
+      "bowl",
+      "potluck",
+      "kids"
     ],
-    "instructions": ["Brown beef and season it according to packet directions.", "Warm beans in a small pan.", "Build bowls with chips, beef, beans, lettuce, cheese, and tomatoes.", "Let everyone add salsa, sour cream, or hot sauce."],
-    "notes": ["Use individual chip bags for a true walking taco setup.", "Great for feeding a crowd without many dishes."]
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "packet",
+        "item": "taco seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 6,
+        "unit": "cups",
+        "item": "corn chips",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "pinto beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "shredded lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "diced tomatoes",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Brown beef and season it according to packet directions.",
+      "Warm beans in a small pan.",
+      "Build bowls with chips, beef, beans, lettuce, cheese, and tomatoes.",
+      "Let everyone add salsa, sour cream, or hot sauce."
+    ],
+    "notes": [
+      "Use individual chip bags for a true walking taco setup.",
+      "Great for feeding a crowd without many dishes."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "taco-casserole",
@@ -80,18 +226,66 @@
     "cookMinutes": 25,
     "servings": 8,
     "difficulty": "Easy",
-    "keywords": ["taco", "casserole", "potluck"],
-    "ingredients": [
-      { "qty": 1.5, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "packet", "item": "taco seasoning", "group": "Spices" },
-      { "qty": 1, "unit": "can", "item": "black beans", "group": "Canned" },
-      { "qty": 1, "unit": "can", "item": "corn", "group": "Canned" },
-      { "qty": 2, "unit": "cups", "item": "crushed tortilla chips", "group": "Pantry" },
-      { "qty": 2, "unit": "cups", "item": "shredded cheddar", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "salsa", "group": "Canned" }
+    "keywords": [
+      "taco",
+      "casserole",
+      "potluck"
     ],
-    "instructions": ["Heat oven to 375 F.", "Brown beef and stir in seasoning, beans, corn, and salsa.", "Layer chips, beef mixture, and cheese in a baking dish.", "Bake until bubbly and browned around the edges."],
-    "notes": ["Top with lettuce and sour cream after baking.", "Crushed nacho cheese chips make it extra loud."]
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "packet",
+        "item": "taco seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "black beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "corn",
+        "group": "Canned"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "crushed tortilla chips",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "salsa",
+        "group": "Canned"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 375 F.",
+      "Brown beef and stir in seasoning, beans, corn, and salsa.",
+      "Layer chips, beef mixture, and cheese in a baking dish.",
+      "Bake until bubbly and browned around the edges."
+    ],
+    "notes": [
+      "Top with lettuce and sour cream after baking.",
+      "Crushed nacho cheese chips make it extra loud."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "sunday-potluck-chili",
@@ -102,18 +296,67 @@
     "cookMinutes": 90,
     "servings": 10,
     "difficulty": "Easy",
-    "keywords": ["chili", "potluck", "beef", "beans"],
-    "ingredients": [
-      { "qty": 2, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "", "item": "yellow onion", "group": "Produce" },
-      { "qty": 2, "unit": "cans", "item": "kidney beans", "group": "Canned" },
-      { "qty": 2, "unit": "cans", "item": "diced tomatoes", "group": "Canned" },
-      { "qty": 1, "unit": "can", "item": "tomato sauce", "group": "Canned" },
-      { "qty": 3, "unit": "tbsp", "item": "chili powder", "group": "Spices" },
-      { "qty": 1, "unit": "tbsp", "item": "cumin", "group": "Spices" }
+    "keywords": [
+      "chili",
+      "potluck",
+      "beef",
+      "beans"
     ],
-    "instructions": ["Brown beef with onion in a large pot.", "Add beans, tomatoes, tomato sauce, chili powder, cumin, salt, and pepper.", "Simmer at least 90 minutes, stirring occasionally.", "Serve with crackers, cornbread, cheese, and chopped onions."],
-    "notes": ["Move to a slow cooker on warm for serving.", "Add cayenne only if your crowd approves."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "yellow onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "kidney beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "diced tomatoes",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "tomato sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "chili powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "cumin",
+        "group": "Spices"
+      }
+    ],
+    "instructions": [
+      "Brown beef with onion in a large pot.",
+      "Add beans, tomatoes, tomato sauce, chili powder, cumin, salt, and pepper.",
+      "Simmer at least 90 minutes, stirring occasionally.",
+      "Serve with crackers, cornbread, cheese, and chopped onions."
+    ],
+    "notes": [
+      "Move to a slow cooker on warm for serving.",
+      "Add cayenne only if your crowd approves."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "white-chicken-chili",
@@ -124,18 +367,66 @@
     "cookMinutes": 35,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["chicken", "chili", "comfort"],
-    "ingredients": [
-      { "qty": 1.5, "unit": "lb", "item": "cooked shredded chicken", "group": "Meat" },
-      { "qty": 2, "unit": "cans", "item": "great northern beans", "group": "Canned" },
-      { "qty": 1, "unit": "can", "item": "green chiles", "group": "Canned" },
-      { "qty": 4, "unit": "cups", "item": "chicken broth", "group": "Pantry" },
-      { "qty": 1, "unit": "tsp", "item": "cumin", "group": "Spices" },
-      { "qty": 4, "unit": "oz", "item": "cream cheese", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "shredded Monterey Jack", "group": "Dairy" }
+    "keywords": [
+      "chicken",
+      "chili",
+      "comfort"
     ],
-    "instructions": ["Combine chicken, beans, chiles, broth, and cumin in a pot.", "Simmer for 25 minutes.", "Stir in cream cheese until smooth.", "Serve with shredded cheese and tortilla chips."],
-    "notes": ["Rotisserie chicken is welcome here.", "Mash some beans to thicken without extra flour."]
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "cooked shredded chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "great northern beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "green chiles",
+        "group": "Canned"
+      },
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "chicken broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "cumin",
+        "group": "Spices"
+      },
+      {
+        "qty": 4,
+        "unit": "oz",
+        "item": "cream cheese",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded Monterey Jack",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Combine chicken, beans, chiles, broth, and cumin in a pot.",
+      "Simmer for 25 minutes.",
+      "Stir in cream cheese until smooth.",
+      "Serve with shredded cheese and tortilla chips."
+    ],
+    "notes": [
+      "Rotisserie chicken is welcome here.",
+      "Mash some beans to thicken without extra flour."
+    ],
+    "protein": "Chicken"
   },
   {
     "id": "cowboy-beans-and-sausage",
@@ -146,17 +437,61 @@
     "cookMinutes": 35,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["beans", "sausage", "budget", "skillet"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "smoked sausage", "group": "Meat" },
-      { "qty": 2, "unit": "cans", "item": "pinto beans", "group": "Canned" },
-      { "qty": 1, "unit": "can", "item": "baked beans", "group": "Canned" },
-      { "qty": 0.5, "unit": "cup", "item": "barbecue sauce", "group": "Condiments" },
-      { "qty": 1, "unit": "", "item": "onion", "group": "Produce" },
-      { "qty": 1, "unit": "tbsp", "item": "brown sugar", "group": "Pantry" }
+    "keywords": [
+      "beans",
+      "sausage",
+      "budget",
+      "skillet"
     ],
-    "instructions": ["Brown sliced sausage in a large skillet.", "Add onion and cook until softened.", "Stir in beans, barbecue sauce, and brown sugar.", "Simmer until thick and smoky."],
-    "notes": ["Serve over rice or with cornbread.", "A cast iron skillet makes the edges better."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "smoked sausage",
+        "group": "Meat"
+      },
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "pinto beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "baked beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Brown sliced sausage in a large skillet.",
+      "Add onion and cook until softened.",
+      "Stir in beans, barbecue sauce, and brown sugar.",
+      "Simmer until thick and smoky."
+    ],
+    "notes": [
+      "Serve over rice or with cornbread.",
+      "A cast iron skillet makes the edges better."
+    ],
+    "protein": "Pork"
   },
   {
     "id": "backyard-bbq-chicken",
@@ -167,16 +502,54 @@
     "cookMinutes": 40,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["bbq", "chicken", "grill"],
-    "ingredients": [
-      { "qty": 3, "unit": "lb", "item": "bone-in chicken pieces", "group": "Meat" },
-      { "qty": 1.5, "unit": "cups", "item": "barbecue sauce", "group": "Condiments" },
-      { "qty": 1, "unit": "tbsp", "item": "paprika", "group": "Spices" },
-      { "qty": 1, "unit": "tsp", "item": "garlic powder", "group": "Spices" },
-      { "qty": 1, "unit": "tbsp", "item": "oil", "group": "Pantry" }
+    "keywords": [
+      "bbq",
+      "chicken",
+      "grill"
     ],
-    "instructions": ["Season chicken with paprika, garlic powder, salt, pepper, and oil.", "Bake or grill until almost cooked through.", "Brush with barbecue sauce in the final 10 minutes.", "Rest before serving."],
-    "notes": ["Sauce late so it does not burn.", "Works with drumsticks for a budget-friendly tray."]
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "lb",
+        "item": "bone-in chicken pieces",
+        "group": "Meat"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "paprika",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "oil",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Season chicken with paprika, garlic powder, salt, pepper, and oil.",
+      "Bake or grill until almost cooked through.",
+      "Brush with barbecue sauce in the final 10 minutes.",
+      "Rest before serving."
+    ],
+    "notes": [
+      "Sauce late so it does not burn.",
+      "Works with drumsticks for a budget-friendly tray."
+    ],
+    "protein": "Chicken"
   },
   {
     "id": "pulled-pork-sandwiches",
@@ -187,17 +560,61 @@
     "cookMinutes": 480,
     "servings": 10,
     "difficulty": "Easy",
-    "keywords": ["pork", "crockpot", "bbq", "sandwich"],
-    "ingredients": [
-      { "qty": 4, "unit": "lb", "item": "pork shoulder", "group": "Meat" },
-      { "qty": 1, "unit": "", "item": "onion", "group": "Produce" },
-      { "qty": 1, "unit": "cup", "item": "barbecue sauce", "group": "Condiments" },
-      { "qty": 0.5, "unit": "cup", "item": "apple juice", "group": "Beverages" },
-      { "qty": 2, "unit": "tbsp", "item": "brown sugar", "group": "Pantry" },
-      { "qty": 10, "unit": "", "item": "sandwich buns", "group": "Bakery" }
+    "keywords": [
+      "pork",
+      "crockpot",
+      "bbq",
+      "sandwich"
     ],
-    "instructions": ["Place sliced onion in a slow cooker and add pork.", "Add apple juice, brown sugar, salt, and pepper.", "Cook on low 8 hours until shreddable.", "Shred pork and mix with barbecue sauce. Serve on buns."],
-    "notes": ["Save extra pork for tacos later in the week.", "Toast buns if you have time."]
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "lb",
+        "item": "pork shoulder",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "apple juice",
+        "group": "Beverages"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 10,
+        "unit": "",
+        "item": "sandwich buns",
+        "group": "Bakery"
+      }
+    ],
+    "instructions": [
+      "Place sliced onion in a slow cooker and add pork.",
+      "Add apple juice, brown sugar, salt, and pepper.",
+      "Cook on low 8 hours until shreddable.",
+      "Shred pork and mix with barbecue sauce. Serve on buns."
+    ],
+    "notes": [
+      "Save extra pork for tacos later in the week.",
+      "Toast buns if you have time."
+    ],
+    "protein": "Pork"
   },
   {
     "id": "bbq-smoked-sausage-sheet-pan",
@@ -208,17 +625,60 @@
     "cookMinutes": 30,
     "servings": 4,
     "difficulty": "Easy",
-    "keywords": ["sausage", "sheet pan", "bbq"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "smoked sausage", "group": "Meat" },
-      { "qty": 1.5, "unit": "lb", "item": "baby potatoes", "group": "Produce" },
-      { "qty": 2, "unit": "", "item": "bell peppers", "group": "Produce" },
-      { "qty": 1, "unit": "", "item": "red onion", "group": "Produce" },
-      { "qty": 0.5, "unit": "cup", "item": "barbecue sauce", "group": "Condiments" },
-      { "qty": 2, "unit": "tbsp", "item": "oil", "group": "Pantry" }
+    "keywords": [
+      "sausage",
+      "sheet pan",
+      "bbq"
     ],
-    "instructions": ["Heat oven to 425 F.", "Toss potatoes with oil, salt, and pepper. Roast 15 minutes.", "Add sausage, peppers, onion, and barbecue sauce.", "Roast until potatoes are tender and sausage is browned."],
-    "notes": ["Cut potatoes small so everything finishes together.", "Use foil for easier cleanup."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "smoked sausage",
+        "group": "Meat"
+      },
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "baby potatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "bell peppers",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "red onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "oil",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 425 F.",
+      "Toss potatoes with oil, salt, and pepper. Roast 15 minutes.",
+      "Add sausage, peppers, onion, and barbecue sauce.",
+      "Roast until potatoes are tender and sausage is browned."
+    ],
+    "notes": [
+      "Cut potatoes small so everything finishes together.",
+      "Use foil for easier cleanup."
+    ],
+    "protein": "Pork"
   },
   {
     "id": "church-potluck-mac-and-cheese",
@@ -229,17 +689,60 @@
     "cookMinutes": 35,
     "servings": 10,
     "difficulty": "Medium",
-    "keywords": ["macaroni", "cheese", "potluck"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "elbow macaroni", "group": "Pantry" },
-      { "qty": 4, "unit": "tbsp", "item": "butter", "group": "Dairy" },
-      { "qty": 4, "unit": "tbsp", "item": "flour", "group": "Pantry" },
-      { "qty": 3, "unit": "cups", "item": "milk", "group": "Dairy" },
-      { "qty": 4, "unit": "cups", "item": "shredded cheddar", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "crushed crackers", "group": "Pantry" }
+    "keywords": [
+      "macaroni",
+      "cheese",
+      "potluck"
     ],
-    "instructions": ["Cook macaroni just shy of tender.", "Make a butter and flour roux, then whisk in milk until thick.", "Stir in cheese and combine with macaroni.", "Top with crackers and bake at 375 F until bubbly."],
-    "notes": ["Sharp cheddar keeps it from tasting flat.", "Let it rest 10 minutes before serving."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "elbow macaroni",
+        "group": "Pantry"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "crushed crackers",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Cook macaroni just shy of tender.",
+      "Make a butter and flour roux, then whisk in milk until thick.",
+      "Stir in cheese and combine with macaroni.",
+      "Top with crackers and bake at 375 F until bubbly."
+    ],
+    "notes": [
+      "Sharp cheddar keeps it from tasting flat.",
+      "Let it rest 10 minutes before serving."
+    ],
+    "protein": "Vegetarian"
   },
   {
     "id": "deviled-eggs",
@@ -250,16 +753,54 @@
     "cookMinutes": 12,
     "servings": 12,
     "difficulty": "Easy",
-    "keywords": ["eggs", "potluck", "side"],
-    "ingredients": [
-      { "qty": 12, "unit": "", "item": "eggs", "group": "Dairy" },
-      { "qty": 0.5, "unit": "cup", "item": "mayonnaise", "group": "Condiments" },
-      { "qty": 2, "unit": "tsp", "item": "yellow mustard", "group": "Condiments" },
-      { "qty": 1, "unit": "tbsp", "item": "pickle relish", "group": "Condiments" },
-      { "qty": 1, "unit": "tsp", "item": "paprika", "group": "Spices" }
+    "keywords": [
+      "eggs",
+      "potluck",
+      "side"
     ],
-    "instructions": ["Hard boil eggs, cool, peel, and halve.", "Mash yolks with mayo, mustard, relish, salt, and pepper.", "Spoon filling into egg whites.", "Dust with paprika and chill."],
-    "notes": ["A zip-top bag with the corner cut works for piping.", "Make extra if your family snacks early."]
+    "ingredients": [
+      {
+        "qty": 12,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "mayonnaise",
+        "group": "Condiments"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "item": "yellow mustard",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "pickle relish",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "paprika",
+        "group": "Spices"
+      }
+    ],
+    "instructions": [
+      "Hard boil eggs, cool, peel, and halve.",
+      "Mash yolks with mayo, mustard, relish, salt, and pepper.",
+      "Spoon filling into egg whites.",
+      "Dust with paprika and chill."
+    ],
+    "notes": [
+      "A zip-top bag with the corner cut works for piping.",
+      "Make extra if your family snacks early."
+    ],
+    "protein": "Eggs"
   },
   {
     "id": "banana-pudding",
@@ -270,16 +811,54 @@
     "cookMinutes": 0,
     "servings": 10,
     "difficulty": "Easy",
-    "keywords": ["dessert", "banana", "potluck"],
-    "ingredients": [
-      { "qty": 2, "unit": "boxes", "item": "instant vanilla pudding", "group": "Pantry" },
-      { "qty": 4, "unit": "cups", "item": "cold milk", "group": "Dairy" },
-      { "qty": 1, "unit": "tub", "item": "whipped topping", "group": "Frozen" },
-      { "qty": 5, "unit": "", "item": "bananas", "group": "Produce" },
-      { "qty": 1, "unit": "box", "item": "vanilla wafers", "group": "Pantry" }
+    "keywords": [
+      "dessert",
+      "banana",
+      "potluck"
     ],
-    "instructions": ["Whisk pudding mix with cold milk until thick.", "Fold in whipped topping.", "Layer wafers, sliced bananas, and pudding in a dish.", "Chill at least 2 hours before serving."],
-    "notes": ["Add bananas close to serving if making far ahead.", "Save a few wafers for the top so it looks finished."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "boxes",
+        "item": "instant vanilla pudding",
+        "group": "Pantry"
+      },
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "cold milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tub",
+        "item": "whipped topping",
+        "group": "Frozen"
+      },
+      {
+        "qty": 5,
+        "unit": "",
+        "item": "bananas",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "box",
+        "item": "vanilla wafers",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Whisk pudding mix with cold milk until thick.",
+      "Fold in whipped topping.",
+      "Layer wafers, sliced bananas, and pudding in a dish.",
+      "Chill at least 2 hours before serving."
+    ],
+    "notes": [
+      "Add bananas close to serving if making far ahead.",
+      "Save a few wafers for the top so it looks finished."
+    ],
+    "protein": "Dessert"
   },
   {
     "id": "chicken-and-rice-casserole",
@@ -290,17 +869,60 @@
     "cookMinutes": 45,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["chicken", "rice", "casserole"],
-    "ingredients": [
-      { "qty": 2, "unit": "cups", "item": "cooked chicken", "group": "Meat" },
-      { "qty": 1.5, "unit": "cups", "item": "rice", "group": "Pantry" },
-      { "qty": 2, "unit": "cups", "item": "chicken broth", "group": "Pantry" },
-      { "qty": 1, "unit": "can", "item": "cream of chicken soup", "group": "Canned" },
-      { "qty": 1, "unit": "cup", "item": "frozen mixed vegetables", "group": "Frozen" },
-      { "qty": 1, "unit": "cup", "item": "shredded cheddar", "group": "Dairy" }
+    "keywords": [
+      "chicken",
+      "rice",
+      "casserole"
     ],
-    "instructions": ["Heat oven to 375 F.", "Combine chicken, rice, broth, soup, vegetables, and half the cheese.", "Cover and bake until rice is tender.", "Top with remaining cheese and bake uncovered 10 minutes."],
-    "notes": ["Check rice tenderness before uncovering.", "A rotisserie chicken makes this fast."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "cooked chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "rice",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "chicken broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "cream of chicken soup",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "frozen mixed vegetables",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 375 F.",
+      "Combine chicken, rice, broth, soup, vegetables, and half the cheese.",
+      "Cover and bake until rice is tender.",
+      "Top with remaining cheese and bake uncovered 10 minutes."
+    ],
+    "notes": [
+      "Check rice tenderness before uncovering.",
+      "A rotisserie chicken makes this fast."
+    ],
+    "protein": "Chicken"
   },
   {
     "id": "mama-style-meatloaf",
@@ -311,17 +933,60 @@
     "cookMinutes": 60,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["meatloaf", "beef", "comfort"],
-    "ingredients": [
-      { "qty": 2, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "cup", "item": "breadcrumbs", "group": "Pantry" },
-      { "qty": 2, "unit": "", "item": "eggs", "group": "Dairy" },
-      { "qty": 0.5, "unit": "cup", "item": "milk", "group": "Dairy" },
-      { "qty": 0.5, "unit": "cup", "item": "ketchup", "group": "Condiments" },
-      { "qty": 1, "unit": "tbsp", "item": "Worcestershire sauce", "group": "Condiments" }
+    "keywords": [
+      "meatloaf",
+      "beef",
+      "comfort"
     ],
-    "instructions": ["Heat oven to 350 F.", "Mix beef, breadcrumbs, eggs, milk, Worcestershire, salt, and pepper.", "Shape into a loaf and place in a baking dish.", "Spread ketchup on top and bake until cooked through."],
-    "notes": ["Do not overmix or it gets tough.", "Leftovers make excellent sandwiches."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "breadcrumbs",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "ketchup",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "Worcestershire sauce",
+        "group": "Condiments"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Mix beef, breadcrumbs, eggs, milk, Worcestershire, salt, and pepper.",
+      "Shape into a loaf and place in a baking dish.",
+      "Spread ketchup on top and bake until cooked through."
+    ],
+    "notes": [
+      "Do not overmix or it gets tough.",
+      "Leftovers make excellent sandwiches."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "no-nonsense-weeknight-spaghetti",
@@ -332,16 +997,54 @@
     "cookMinutes": 22,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["spaghetti", "pasta", "budget"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "spaghetti", "group": "Pantry" },
-      { "qty": 1, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "jar", "item": "marinara sauce", "group": "Canned" },
-      { "qty": 1, "unit": "tsp", "item": "Italian seasoning", "group": "Spices" },
-      { "qty": 0.5, "unit": "cup", "item": "grated Parmesan", "group": "Dairy" }
+    "keywords": [
+      "spaghetti",
+      "pasta",
+      "budget"
     ],
-    "instructions": ["Boil spaghetti in salted water.", "Brown beef and drain grease.", "Add marinara and Italian seasoning, then simmer.", "Toss pasta with sauce and finish with Parmesan."],
-    "notes": ["Save pasta water to loosen the sauce.", "Garlic bread makes it feel like you planned ahead."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "spaghetti",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "jar",
+        "item": "marinara sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "Italian seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "grated Parmesan",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Boil spaghetti in salted water.",
+      "Brown beef and drain grease.",
+      "Add marinara and Italian seasoning, then simmer.",
+      "Toss pasta with sauce and finish with Parmesan."
+    ],
+    "notes": [
+      "Save pasta water to loosen the sauce.",
+      "Garlic bread makes it feel like you planned ahead."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "crockpot-meatballs",
@@ -352,15 +1055,48 @@
     "cookMinutes": 240,
     "servings": 8,
     "difficulty": "Easy",
-    "keywords": ["meatballs", "crockpot", "potluck"],
-    "ingredients": [
-      { "qty": 2, "unit": "lb", "item": "frozen meatballs", "group": "Frozen" },
-      { "qty": 1, "unit": "cup", "item": "barbecue sauce", "group": "Condiments" },
-      { "qty": 0.75, "unit": "cup", "item": "grape jelly", "group": "Condiments" },
-      { "qty": 1, "unit": "tbsp", "item": "Worcestershire sauce", "group": "Condiments" }
+    "keywords": [
+      "meatballs",
+      "crockpot",
+      "potluck"
     ],
-    "instructions": ["Add meatballs to a slow cooker.", "Whisk barbecue sauce, jelly, and Worcestershire.", "Pour sauce over meatballs.", "Cook on low until hot and glossy."],
-    "notes": ["Keep warm for serving.", "Use leftovers in hoagie rolls."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "lb",
+        "item": "frozen meatballs",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "grape jelly",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "Worcestershire sauce",
+        "group": "Condiments"
+      }
+    ],
+    "instructions": [
+      "Add meatballs to a slow cooker.",
+      "Whisk barbecue sauce, jelly, and Worcestershire.",
+      "Pour sauce over meatballs.",
+      "Cook on low until hot and glossy."
+    ],
+    "notes": [
+      "Keep warm for serving.",
+      "Use leftovers in hoagie rolls."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "breakfast-casserole",
@@ -371,16 +1107,56 @@
     "cookMinutes": 45,
     "servings": 8,
     "difficulty": "Easy",
-    "keywords": ["breakfast", "eggs", "sausage", "casserole"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "breakfast sausage", "group": "Meat" },
-      { "qty": 8, "unit": "", "item": "eggs", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "milk", "group": "Dairy" },
-      { "qty": 3, "unit": "cups", "item": "frozen hash browns", "group": "Frozen" },
-      { "qty": 2, "unit": "cups", "item": "shredded cheddar", "group": "Dairy" }
+    "keywords": [
+      "breakfast",
+      "eggs",
+      "sausage",
+      "casserole"
     ],
-    "instructions": ["Heat oven to 350 F.", "Brown sausage and drain.", "Whisk eggs and milk.", "Layer hash browns, sausage, cheese, and eggs in a baking dish.", "Bake until set in the center."],
-    "notes": ["Assemble the night before and bake in the morning.", "Add diced peppers if your crowd likes them."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "breakfast sausage",
+        "group": "Meat"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "frozen hash browns",
+        "group": "Frozen"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Brown sausage and drain.",
+      "Whisk eggs and milk.",
+      "Layer hash browns, sausage, cheese, and eggs in a baking dish.",
+      "Bake until set in the center."
+    ],
+    "notes": [
+      "Assemble the night before and bake in the morning.",
+      "Add diced peppers if your crowd likes them."
+    ],
+    "protein": "Pork"
   },
   {
     "id": "southern-green-beans",
@@ -391,15 +1167,48 @@
     "cookMinutes": 45,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["green beans", "side", "southern"],
-    "ingredients": [
-      { "qty": 4, "unit": "cups", "item": "green beans", "group": "Produce" },
-      { "qty": 4, "unit": "slices", "item": "bacon", "group": "Meat" },
-      { "qty": 1, "unit": "", "item": "onion", "group": "Produce" },
-      { "qty": 1, "unit": "cup", "item": "chicken broth", "group": "Pantry" }
+    "keywords": [
+      "green beans",
+      "side",
+      "southern"
     ],
-    "instructions": ["Cook bacon in a pot until crisp, then remove and crumble.", "Cook onion in the drippings.", "Add green beans and broth.", "Simmer until tender and finish with bacon."],
-    "notes": ["Canned green beans work in a hurry.", "A pinch of sugar rounds out the broth."]
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "green beans",
+        "group": "Produce"
+      },
+      {
+        "qty": 4,
+        "unit": "slices",
+        "item": "bacon",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "chicken broth",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Cook bacon in a pot until crisp, then remove and crumble.",
+      "Cook onion in the drippings.",
+      "Add green beans and broth.",
+      "Simmer until tender and finish with bacon."
+    ],
+    "notes": [
+      "Canned green beans work in a hurry.",
+      "A pinch of sugar rounds out the broth."
+    ],
+    "protein": "Pork"
   },
   {
     "id": "cornbread-skillet",
@@ -410,17 +1219,60 @@
     "cookMinutes": 22,
     "servings": 8,
     "difficulty": "Easy",
-    "keywords": ["cornbread", "skillet", "side"],
-    "ingredients": [
-      { "qty": 1, "unit": "cup", "item": "cornmeal", "group": "Pantry" },
-      { "qty": 1, "unit": "cup", "item": "flour", "group": "Pantry" },
-      { "qty": 1, "unit": "tbsp", "item": "baking powder", "group": "Pantry" },
-      { "qty": 1, "unit": "cup", "item": "buttermilk", "group": "Dairy" },
-      { "qty": 2, "unit": "", "item": "eggs", "group": "Dairy" },
-      { "qty": 4, "unit": "tbsp", "item": "butter", "group": "Dairy" }
+    "keywords": [
+      "cornbread",
+      "skillet",
+      "side"
     ],
-    "instructions": ["Heat oven to 425 F with a cast iron skillet inside.", "Mix dry ingredients, then stir in buttermilk and eggs.", "Melt butter in the hot skillet and pour in batter.", "Bake until golden and crisp around the edges."],
-    "notes": ["The hot skillet makes the crust.", "Serve with butter and honey if nobody objects."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "cornmeal",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "baking powder",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "buttermilk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 425 F with a cast iron skillet inside.",
+      "Mix dry ingredients, then stir in buttermilk and eggs.",
+      "Melt butter in the hot skillet and pour in batter.",
+      "Bake until golden and crisp around the edges."
+    ],
+    "notes": [
+      "The hot skillet makes the crust.",
+      "Serve with butter and honey if nobody objects."
+    ],
+    "protein": "Vegetarian"
   },
   {
     "id": "wife-style-creamy-chicken-pasta",
@@ -431,17 +1283,61 @@
     "cookMinutes": 25,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["chicken", "pasta", "cream", "family"],
-    "ingredients": [
-      { "qty": 1, "unit": "lb", "item": "penne pasta", "group": "Pantry" },
-      { "qty": 1.25, "unit": "lb", "item": "chicken breast", "group": "Meat" },
-      { "qty": 1, "unit": "cup", "item": "heavy cream", "group": "Dairy" },
-      { "qty": 1, "unit": "cup", "item": "chicken broth", "group": "Pantry" },
-      { "qty": 0.75, "unit": "cup", "item": "Parmesan", "group": "Dairy" },
-      { "qty": 1, "unit": "tsp", "item": "garlic powder", "group": "Spices" }
+    "keywords": [
+      "chicken",
+      "pasta",
+      "cream",
+      "family"
     ],
-    "instructions": ["Boil pasta and reserve a little pasta water.", "Cook seasoned chicken pieces in a skillet.", "Add broth and cream, then simmer until slightly thick.", "Stir in Parmesan and pasta. Loosen with pasta water if needed."],
-    "notes": ["Frozen peas or spinach fit nicely.", "Use rotisserie chicken for a shortcut."]
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "penne pasta",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "chicken breast",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "heavy cream",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "chicken broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "Parmesan",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "group": "Spices"
+      }
+    ],
+    "instructions": [
+      "Boil pasta and reserve a little pasta water.",
+      "Cook seasoned chicken pieces in a skillet.",
+      "Add broth and cream, then simmer until slightly thick.",
+      "Stir in Parmesan and pasta. Loosen with pasta water if needed."
+    ],
+    "notes": [
+      "Frozen peas or spinach fit nicely.",
+      "Use rotisserie chicken for a shortcut."
+    ],
+    "protein": "Chicken"
   },
   {
     "id": "rooster-frito-chili-pie",
@@ -452,17 +1348,61 @@
     "cookMinutes": 20,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["chili", "fritos", "budget", "kids"],
-    "ingredients": [
-      { "qty": 1.5, "unit": "lb", "item": "ground beef", "group": "Meat" },
-      { "qty": 1, "unit": "can", "item": "chili beans", "group": "Canned" },
-      { "qty": 1, "unit": "can", "item": "tomato sauce", "group": "Canned" },
-      { "qty": 2, "unit": "tbsp", "item": "chili powder", "group": "Spices" },
-      { "qty": 6, "unit": "cups", "item": "corn chips", "group": "Pantry" },
-      { "qty": 2, "unit": "cups", "item": "shredded cheddar", "group": "Dairy" }
+    "keywords": [
+      "chili",
+      "fritos",
+      "budget",
+      "kids"
     ],
-    "instructions": ["Brown beef and drain.", "Add beans, tomato sauce, chili powder, and a splash of water.", "Simmer until thick.", "Serve over corn chips with cheddar."],
-    "notes": ["Add chopped onion if you want bite.", "This scales easily for youth nights."]
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "chili beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "tomato sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "chili powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 6,
+        "unit": "cups",
+        "item": "corn chips",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Brown beef and drain.",
+      "Add beans, tomato sauce, chili powder, and a splash of water.",
+      "Simmer until thick.",
+      "Serve over corn chips with cheddar."
+    ],
+    "notes": [
+      "Add chopped onion if you want bite.",
+      "This scales easily for youth nights."
+    ],
+    "protein": "Beef"
   },
   {
     "id": "honey-garlic-crockpot-chicken",
@@ -473,16 +1413,1727 @@
     "cookMinutes": 300,
     "servings": 6,
     "difficulty": "Easy",
-    "keywords": ["chicken", "crockpot", "rice"],
-    "ingredients": [
-      { "qty": 2, "unit": "lb", "item": "boneless chicken thighs", "group": "Meat" },
-      { "qty": 0.5, "unit": "cup", "item": "honey", "group": "Pantry" },
-      { "qty": 0.5, "unit": "cup", "item": "soy sauce", "group": "Condiments" },
-      { "qty": 3, "unit": "cloves", "item": "garlic", "group": "Produce" },
-      { "qty": 1, "unit": "tbsp", "item": "cornstarch", "group": "Pantry" },
-      { "qty": 3, "unit": "cups", "item": "cooked rice", "group": "Pantry" }
+    "keywords": [
+      "chicken",
+      "crockpot",
+      "rice"
     ],
-    "instructions": ["Place chicken in the slow cooker.", "Whisk honey, soy sauce, garlic, and a little water.", "Cook on low until tender.", "Thicken sauce with cornstarch slurry and serve over rice."],
-    "notes": ["Add broccoli at serving time for a full bowl.", "Chicken thighs stay tender through the long cook."]
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "lb",
+        "item": "boneless chicken thighs",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "honey",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "soy sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 3,
+        "unit": "cloves",
+        "item": "garlic",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "cornstarch",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "cooked rice",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Place chicken in the slow cooker.",
+      "Whisk honey, soy sauce, garlic, and a little water.",
+      "Cook on low until tender.",
+      "Thicken sauce with cornstarch slurry and serve over rice."
+    ],
+    "notes": [
+      "Add broccoli at serving time for a full bowl.",
+      "Chicken thighs stay tender through the long cook."
+    ],
+    "protein": "Chicken"
+  },
+  {
+    "id": "rooster-fish-tacos",
+    "title": "Rooster Fish Tacos",
+    "category": "Tacos",
+    "protein": "Fish",
+    "description": "Crispy skillet fish tacos with crunchy slaw and a limey sauce Rooster would absolutely circle back for.",
+    "prepMinutes": 20,
+    "cookMinutes": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "fish",
+      "taco",
+      "rooster",
+      "slaw"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "white fish fillets",
+        "group": "Seafood"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "panko breadcrumbs",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "chili powder",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "item": "cumin",
+        "group": "Spices"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "corn tortillas",
+        "group": "Bakery"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "shredded cabbage",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lime",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "sour cream",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Season fish with chili powder, cumin, salt, and pepper.",
+      "Press fish into panko and cook in a lightly oiled skillet until crisp and flaky.",
+      "Mix cabbage with lime juice and a pinch of salt.",
+      "Serve fish in warm tortillas with slaw and sour cream."
+    ],
+    "notes": [
+      "Cod, tilapia, or haddock all work.",
+      "Add hot sauce if taco night needs a little spark."
+    ]
+  },
+  {
+    "id": "blackened-salmon-rice-bowls",
+    "title": "Blackened Salmon Rice Bowls",
+    "category": "Fish",
+    "protein": "Fish",
+    "description": "Weeknight salmon bowls with smoky seasoning, rice, and whatever vegetables are waiting in the fridge.",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "salmon",
+      "rice",
+      "fish",
+      "bowl"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "salmon fillets",
+        "group": "Seafood"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "blackening seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "cooked rice",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "corn",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "avocado",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lime",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Season salmon well on all sides.",
+      "Sear in a hot skillet until browned and cooked through.",
+      "Build bowls with rice, corn, avocado, and salmon.",
+      "Finish with lime juice."
+    ],
+    "notes": [
+      "Use leftover rice to make this fast.",
+      "A spoonful of salsa is never wrong here."
+    ]
+  },
+  {
+    "id": "crispy-catfish-plates",
+    "title": "Crispy Catfish Plates",
+    "category": "Fish",
+    "protein": "Fish",
+    "description": "Cornmeal-crusted catfish with a simple plate-lunch feel.",
+    "prepMinutes": 15,
+    "cookMinutes": 14,
+    "servings": 4,
+    "difficulty": "Medium",
+    "keywords": [
+      "catfish",
+      "fish",
+      "southern"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "catfish fillets",
+        "group": "Seafood"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "cornmeal",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "Cajun seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "buttermilk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lemon",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Whisk egg and buttermilk in a shallow dish.",
+      "Combine cornmeal, flour, Cajun seasoning, salt, and pepper.",
+      "Dip fish in buttermilk, then dredge in cornmeal.",
+      "Pan-fry until golden and flaky. Serve with lemon."
+    ],
+    "notes": [
+      "Keep cooked fish warm on a rack in a low oven.",
+      "Good with green beans and cornbread."
+    ]
+  },
+  {
+    "id": "lemon-pepper-tilapia",
+    "title": "Lemon Pepper Tilapia",
+    "category": "Fish",
+    "protein": "Fish",
+    "description": "A fast, clean skillet fish dinner for nights when supper needs to move.",
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "tilapia",
+      "fish",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "tilapia fillets",
+        "group": "Seafood"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "lemon pepper seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lemon",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "parsley",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Pat fish dry and season with lemon pepper.",
+      "Melt butter in a skillet over medium heat.",
+      "Cook fish until opaque and flaky.",
+      "Finish with lemon juice and parsley."
+    ],
+    "notes": [
+      "Serve with rice or roasted potatoes.",
+      "Do not crowd the skillet or the fish steams."
+    ]
+  },
+  {
+    "id": "tuna-patties-with-crackers",
+    "title": "Tuna Patties With Crackers",
+    "category": "Budget Meals",
+    "protein": "Fish",
+    "description": "Pantry tuna patties that turn a couple cans into a real supper.",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "tuna",
+      "fish",
+      "budget",
+      "pantry"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "tuna",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "crushed crackers",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "mayonnaise",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "mustard",
+        "group": "Condiments"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "oil",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Drain tuna well.",
+      "Mix tuna, egg, crackers, mayonnaise, mustard, salt, and pepper.",
+      "Shape into patties.",
+      "Pan-fry until browned on both sides."
+    ],
+    "notes": [
+      "Let the mix sit 5 minutes so crackers hydrate.",
+      "Serve with pickles or tartar sauce."
+    ]
+  },
+  {
+    "id": "shrimp-taco-bowls",
+    "title": "Shrimp Taco Bowls",
+    "category": "Tacos",
+    "protein": "Seafood",
+    "description": "Taco-seasoned shrimp over rice with crunchy toppings and quick lime sauce.",
+    "prepMinutes": 15,
+    "cookMinutes": 8,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "shrimp",
+      "taco",
+      "bowl"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "peeled shrimp",
+        "group": "Seafood"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "cooked rice",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "black beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "sour cream",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lime",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Toss shrimp with taco seasoning.",
+      "Cook shrimp quickly in a hot skillet.",
+      "Warm beans and build bowls with rice, beans, shrimp, and lettuce.",
+      "Mix sour cream with lime juice and drizzle over bowls."
+    ],
+    "notes": [
+      "Shrimp cooks fast, so stay close.",
+      "Add corn or salsa if you have it."
+    ]
+  },
+  {
+    "id": "fish-stick-taco-night",
+    "title": "Fish Stick Taco Night",
+    "category": "Tacos",
+    "protein": "Fish",
+    "description": "The no-shame freezer shortcut taco that still gets dinner on the table smiling.",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "fish",
+      "taco",
+      "freezer",
+      "kids"
+    ],
+    "ingredients": [
+      {
+        "qty": 16,
+        "unit": "",
+        "item": "fish sticks",
+        "group": "Frozen"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "flour tortillas",
+        "group": "Bakery"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "bagged slaw mix",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "ranch dressing",
+        "group": "Condiments"
+      },
+      {
+        "qty": 0.25,
+        "unit": "cup",
+        "item": "pickle relish",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "lime",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Bake fish sticks until crisp.",
+      "Stir ranch, relish, and lime juice together.",
+      "Warm tortillas.",
+      "Fill tortillas with fish sticks, slaw, and sauce."
+    ],
+    "notes": [
+      "Perfect for a low-energy Friday.",
+      "Hot sauce makes the grownup version."
+    ]
+  },
+  {
+    "id": "beef-and-potato-skillet",
+    "title": "Beef and Potato Skillet",
+    "category": "Budget Meals",
+    "protein": "Beef",
+    "description": "Ground beef, potatoes, and onions in one skillet with crispy edges.",
+    "prepMinutes": 12,
+    "cookMinutes": 28,
+    "servings": 5,
+    "difficulty": "Easy",
+    "keywords": [
+      "beef",
+      "potato",
+      "skillet",
+      "budget"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "potatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "paprika",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Dice potatoes small and cook in oil until tender.",
+      "Add onion and beef, then cook until beef browns.",
+      "Season with paprika, salt, and pepper.",
+      "Top with cheese and cover until melted."
+    ],
+    "notes": [
+      "A fried egg on top turns leftovers into breakfast.",
+      "Small potato cubes are the key."
+    ]
+  },
+  {
+    "id": "rooster-burger-sliders",
+    "title": "Rooster Burger Sliders",
+    "category": "Family Dinners",
+    "protein": "Beef",
+    "description": "Sheet-pan sliders for game night, birthdays, or a casual crowd.",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "beef",
+      "burgers",
+      "sliders"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 12,
+        "unit": "",
+        "item": "slider buns",
+        "group": "Bakery"
+      },
+      {
+        "qty": 6,
+        "unit": "slices",
+        "item": "American cheese",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.25,
+        "unit": "cup",
+        "item": "burger sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "sesame seeds",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Press beef into a thin rectangle and bake until cooked through.",
+      "Place beef and cheese on slider buns.",
+      "Brush tops with butter and sesame seeds.",
+      "Bake until buns are warm and cheese melts."
+    ],
+    "notes": [
+      "Add pickles after baking.",
+      "Cut with a serrated knife for clean squares."
+    ]
+  },
+  {
+    "id": "chicken-pot-pie-biscuits",
+    "title": "Chicken Pot Pie Biscuits",
+    "category": "Comfort Food",
+    "protein": "Chicken",
+    "description": "Creamy chicken filling with biscuits baked on top, cozy without fuss.",
+    "prepMinutes": 15,
+    "cookMinutes": 28,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "chicken",
+      "pot pie",
+      "biscuits"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "cooked chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "frozen mixed vegetables",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "cream of chicken soup",
+        "group": "Canned"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "refrigerated biscuits",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 375 F.",
+      "Mix chicken, vegetables, soup, milk, salt, and pepper.",
+      "Spread in a baking dish and top with biscuits.",
+      "Bake until filling bubbles and biscuits are golden."
+    ],
+    "notes": [
+      "Cut biscuits in half if they are large.",
+      "Let it cool a few minutes before scooping."
+    ]
+  },
+  {
+    "id": "buffalo-chicken-wraps",
+    "title": "Buffalo Chicken Wraps",
+    "category": "Weeknight",
+    "protein": "Chicken",
+    "description": "Fast wraps with saucy chicken, lettuce, ranch, and just enough heat.",
+    "prepMinutes": 12,
+    "cookMinutes": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "chicken",
+      "buffalo",
+      "wraps"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "cooked shredded chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "buffalo sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 4,
+        "unit": "",
+        "item": "large tortillas",
+        "group": "Bakery"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "romaine lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "ranch dressing",
+        "group": "Condiments"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Warm chicken with buffalo sauce.",
+      "Lay out tortillas with lettuce, chicken, cheese, and ranch.",
+      "Roll tightly and slice in half.",
+      "Serve with chips or carrot sticks."
+    ],
+    "notes": [
+      "Good use for leftover chicken.",
+      "Use less buffalo sauce for younger eaters."
+    ]
+  },
+  {
+    "id": "baked-pork-chops-and-apples",
+    "title": "Baked Pork Chops and Apples",
+    "category": "Family Dinners",
+    "protein": "Pork",
+    "description": "Simple pork chops baked with apples and onions for a sweet-savory supper.",
+    "prepMinutes": 12,
+    "cookMinutes": 35,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "pork",
+      "apples",
+      "baked"
+    ],
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "",
+        "item": "pork chops",
+        "group": "Meat"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "apples",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "Dijon mustard",
+        "group": "Condiments"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 375 F.",
+      "Season pork chops and place in a baking dish.",
+      "Top with sliced apples and onion.",
+      "Mix brown sugar, mustard, and a splash of water, then spoon over top.",
+      "Bake until pork is cooked through."
+    ],
+    "notes": [
+      "Do not overbake lean chops.",
+      "Serve with mashed potatoes."
+    ]
+  },
+  {
+    "id": "smothered-pork-chop-skillet",
+    "title": "Smothered Pork Chop Skillet",
+    "category": "Comfort Food",
+    "protein": "Pork",
+    "description": "Browned pork chops tucked into onion gravy for a proper comfort plate.",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "servings": 4,
+    "difficulty": "Medium",
+    "keywords": [
+      "pork",
+      "gravy",
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "",
+        "item": "pork chops",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "chicken broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Brown seasoned pork chops and remove from skillet.",
+      "Cook onion until soft.",
+      "Stir in flour, then broth and milk to make gravy.",
+      "Return chops and simmer until tender."
+    ],
+    "notes": [
+      "Scrape up browned bits for flavor.",
+      "Rice or mashed potatoes are mandatory in spirit."
+    ]
+  },
+  {
+    "id": "turkey-taco-lettuce-cups",
+    "title": "Turkey Taco Lettuce Cups",
+    "category": "Tacos",
+    "protein": "Turkey",
+    "description": "Lighter taco night with seasoned turkey and crisp lettuce cups.",
+    "prepMinutes": 12,
+    "cookMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "turkey",
+      "taco",
+      "lettuce"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.25,
+        "unit": "lb",
+        "item": "ground turkey",
+        "group": "Meat"
+      },
+      {
+        "qty": 1,
+        "unit": "packet",
+        "item": "taco seasoning",
+        "group": "Spices"
+      },
+      {
+        "qty": 1,
+        "unit": "head",
+        "item": "butter lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "diced tomatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Brown turkey and season it.",
+      "Separate lettuce leaves into cups.",
+      "Fill lettuce with turkey, tomatoes, and cheese.",
+      "Serve with salsa or ranch."
+    ],
+    "notes": [
+      "Pat lettuce dry so cups hold.",
+      "Tortillas can stand in if lettuce runs out."
+    ]
+  },
+  {
+    "id": "turkey-meatball-subs",
+    "title": "Turkey Meatball Subs",
+    "category": "Family Dinners",
+    "protein": "Turkey",
+    "description": "Tender turkey meatballs in marinara with melted cheese on toasted rolls.",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "servings": 5,
+    "difficulty": "Medium",
+    "keywords": [
+      "turkey",
+      "meatballs",
+      "subs"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground turkey",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "breadcrumbs",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "jar",
+        "item": "marinara sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 5,
+        "unit": "",
+        "item": "sub rolls",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1.25,
+        "unit": "cups",
+        "item": "mozzarella",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Mix turkey, breadcrumbs, egg, salt, and pepper.",
+      "Shape meatballs and bake until browned.",
+      "Simmer in marinara.",
+      "Serve on toasted rolls with mozzarella."
+    ],
+    "notes": [
+      "Turkey likes extra seasoning.",
+      "Broil briefly for bubbly cheese."
+    ]
+  },
+  {
+    "id": "egg-salad-sandwiches",
+    "title": "Egg Salad Sandwiches",
+    "category": "Lunch",
+    "protein": "Eggs",
+    "description": "A simple egg salad that belongs in lunchboxes, picnic coolers, and quiet Saturdays.",
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "eggs",
+      "lunch",
+      "sandwich"
+    ],
+    "ingredients": [
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.33,
+        "unit": "cup",
+        "item": "mayonnaise",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "yellow mustard",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "pickle relish",
+        "group": "Condiments"
+      },
+      {
+        "qty": 8,
+        "unit": "slices",
+        "item": "sandwich bread",
+        "group": "Bakery"
+      }
+    ],
+    "instructions": [
+      "Hard boil eggs, cool, peel, and chop.",
+      "Mix with mayo, mustard, relish, salt, and pepper.",
+      "Chill briefly if time allows.",
+      "Serve on bread or crackers."
+    ],
+    "notes": [
+      "A little celery adds crunch.",
+      "Keep cold if taking to a picnic."
+    ]
+  },
+  {
+    "id": "ham-and-cheese-sliders",
+    "title": "Ham and Cheese Sliders",
+    "category": "Potluck",
+    "protein": "Pork",
+    "description": "Buttery baked sliders that vanish from the pan before halftime.",
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "servings": 12,
+    "difficulty": "Easy",
+    "keywords": [
+      "ham",
+      "sliders",
+      "potluck"
+    ],
+    "ingredients": [
+      {
+        "qty": 12,
+        "unit": "",
+        "item": "slider rolls",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "deli ham",
+        "group": "Meat"
+      },
+      {
+        "qty": 12,
+        "unit": "slices",
+        "item": "Swiss cheese",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "Dijon mustard",
+        "group": "Condiments"
+      }
+    ],
+    "instructions": [
+      "Layer ham and cheese inside connected slider rolls.",
+      "Mix melted butter with Dijon and brush over tops.",
+      "Cover and bake until warm.",
+      "Uncover for a few minutes to toast tops."
+    ],
+    "notes": [
+      "Great for church lunch or game night.",
+      "Use foil so bottoms do not overbrown."
+    ]
+  },
+  {
+    "id": "vegetable-beef-soup",
+    "title": "Vegetable Beef Soup",
+    "category": "Soup",
+    "protein": "Beef",
+    "description": "A big pot of beefy vegetable soup that gets better the next day.",
+    "prepMinutes": 20,
+    "cookMinutes": 75,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "beef",
+      "soup",
+      "vegetables"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "stew beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "beef broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "frozen mixed vegetables",
+        "group": "Frozen"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "potatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "diced tomatoes",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      }
+    ],
+    "instructions": [
+      "Brown beef in a soup pot.",
+      "Add onion, broth, tomatoes, and potatoes.",
+      "Simmer until beef is tender.",
+      "Add mixed vegetables and cook until hot."
+    ],
+    "notes": [
+      "Salt near the end after broth reduces.",
+      "Serve with cornbread or crackers."
+    ]
+  },
+  {
+    "id": "chicken-noodle-soup",
+    "title": "Chicken Noodle Soup",
+    "category": "Soup",
+    "protein": "Chicken",
+    "description": "Classic chicken noodle soup for sick days, cold days, or just because.",
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "chicken",
+      "soup",
+      "noodles"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "cooked chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 6,
+        "unit": "cups",
+        "item": "chicken broth",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "carrots",
+        "group": "Produce"
+      },
+      {
+        "qty": 2,
+        "unit": "stalks",
+        "item": "celery",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "onion",
+        "group": "Produce"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "egg noodles",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Cook carrots, celery, and onion in a little oil.",
+      "Add broth and simmer until vegetables soften.",
+      "Add chicken and noodles.",
+      "Cook until noodles are tender."
+    ],
+    "notes": [
+      "Do not overcook noodles if saving leftovers.",
+      "A squeeze of lemon wakes it up."
+    ]
+  },
+  {
+    "id": "rooster-pancake-supper",
+    "title": "Rooster Pancake Supper",
+    "category": "Breakfast",
+    "protein": "Eggs",
+    "description": "Breakfast-for-dinner pancakes with bacon or sausage on the side if the night calls for it.",
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "servings": 4,
+    "difficulty": "Easy",
+    "keywords": [
+      "pancakes",
+      "breakfast",
+      "eggs"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "baking powder",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1.25,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Whisk dry ingredients.",
+      "Whisk milk, egg, and melted butter separately.",
+      "Combine wet and dry ingredients just until mixed.",
+      "Cook pancakes on a greased griddle until golden."
+    ],
+    "notes": [
+      "Small lumps are fine.",
+      "Add chocolate chips if morale needs help."
+    ]
+  },
+  {
+    "id": "loaded-baked-potato-bar",
+    "title": "Loaded Baked Potato Bar",
+    "category": "Budget Meals",
+    "protein": "Vegetarian",
+    "description": "A choose-your-own potato dinner with toppings for everybody.",
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "potatoes",
+      "budget",
+      "bar"
+    ],
+    "ingredients": [
+      {
+        "qty": 6,
+        "unit": "",
+        "item": "russet potatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "shredded cheddar",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "sour cream",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "green onions",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "chili beans",
+        "group": "Canned"
+      }
+    ],
+    "instructions": [
+      "Bake potatoes until tender.",
+      "Warm chili beans.",
+      "Set out cheese, sour cream, green onions, and beans.",
+      "Split potatoes and let everyone build their own."
+    ],
+    "notes": [
+      "Add bacon bits if desired.",
+      "This is a great clean-out-the-fridge dinner."
+    ]
+  },
+  {
+    "id": "church-lady-chicken-salad",
+    "title": "Church Lady Chicken Salad",
+    "category": "Lunch",
+    "protein": "Chicken",
+    "description": "Creamy chicken salad with grapes and pecans, good on croissants or crackers.",
+    "prepMinutes": 18,
+    "cookMinutes": 0,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "chicken",
+      "salad",
+      "lunch",
+      "potluck"
+    ],
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "cooked chicken",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "mayonnaise",
+        "group": "Condiments"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "grapes",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "pecans",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "stalks",
+        "item": "celery",
+        "group": "Produce"
+      },
+      {
+        "qty": 6,
+        "unit": "",
+        "item": "croissants",
+        "group": "Bakery"
+      }
+    ],
+    "instructions": [
+      "Chop chicken, grapes, celery, and pecans.",
+      "Fold together with mayonnaise, salt, and pepper.",
+      "Chill before serving.",
+      "Serve on croissants or over lettuce."
+    ],
+    "notes": [
+      "Add a little mustard if you like tang.",
+      "Rotisserie chicken keeps this easy."
+    ]
+  },
+  {
+    "id": "sausage-gravy-and-biscuits",
+    "title": "Sausage Gravy and Biscuits",
+    "category": "Breakfast",
+    "protein": "Pork",
+    "description": "Peppery sausage gravy over biscuits for big breakfast energy.",
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "sausage",
+      "gravy",
+      "biscuits"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "lb",
+        "item": "breakfast sausage",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.25,
+        "unit": "cup",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "black pepper",
+        "group": "Spices"
+      },
+      {
+        "qty": 8,
+        "unit": "",
+        "item": "biscuits",
+        "group": "Bakery"
+      }
+    ],
+    "instructions": [
+      "Brown sausage in a skillet.",
+      "Sprinkle flour over sausage and stir for 1 minute.",
+      "Slowly add milk, stirring until thick.",
+      "Season heavily with black pepper and serve over biscuits."
+    ],
+    "notes": [
+      "If gravy gets too thick, add milk.",
+      "Bake biscuits while gravy cooks."
+    ]
+  },
+  {
+    "id": "baked-ziti-for-a-crowd",
+    "title": "Baked Ziti for a Crowd",
+    "category": "Potluck",
+    "protein": "Beef",
+    "description": "Saucy baked pasta with beef and cheese for when the dish needs to travel.",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "servings": 10,
+    "difficulty": "Easy",
+    "keywords": [
+      "beef",
+      "pasta",
+      "potluck"
+    ],
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "group": "Meat"
+      },
+      {
+        "qty": 1.5,
+        "unit": "lb",
+        "item": "ziti pasta",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "jars",
+        "item": "marinara sauce",
+        "group": "Canned"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "ricotta",
+        "group": "Dairy"
+      },
+      {
+        "qty": 3,
+        "unit": "cups",
+        "item": "mozzarella",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Cook ziti just shy of done.",
+      "Brown beef and mix with marinara.",
+      "Layer pasta, sauce, ricotta, and mozzarella in a baking dish.",
+      "Bake until bubbly and browned."
+    ],
+    "notes": [
+      "Cover for transport and keep warm.",
+      "Make two pans if teenagers are involved."
+    ]
+  },
+  {
+    "id": "sweet-tea-baked-beans",
+    "title": "Sweet Tea Baked Beans",
+    "category": "Sides",
+    "protein": "Pork",
+    "description": "Baked beans with bacon, brown sugar, and a splash of sweet tea because the South had an idea.",
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "beans",
+      "side",
+      "bbq"
+    ],
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "cans",
+        "item": "pork and beans",
+        "group": "Canned"
+      },
+      {
+        "qty": 6,
+        "unit": "slices",
+        "item": "bacon",
+        "group": "Meat"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "brown sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "group": "Condiments"
+      },
+      {
+        "qty": 0.25,
+        "unit": "cup",
+        "item": "sweet tea",
+        "group": "Beverages"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Mix beans, brown sugar, barbecue sauce, and sweet tea.",
+      "Top with bacon.",
+      "Bake until thick and bubbling."
+    ],
+    "notes": [
+      "Let them rest so sauce thickens.",
+      "Excellent next to pulled pork."
+    ]
+  },
+  {
+    "id": "simple-garden-salad",
+    "title": "Simple Garden Salad",
+    "category": "Sides",
+    "protein": "Vegetarian",
+    "description": "A clean, crunchy salad to put something fresh beside all that comfort food.",
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "salad",
+      "vegetarian",
+      "side"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "head",
+        "item": "romaine lettuce",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "cherry tomatoes",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "cucumber",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "shredded carrots",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "ranch dressing",
+        "group": "Condiments"
+      }
+    ],
+    "instructions": [
+      "Chop lettuce and vegetables.",
+      "Toss together in a large bowl.",
+      "Serve dressing on the side so leftovers keep better."
+    ],
+    "notes": [
+      "Add cheese or croutons if desired.",
+      "Dry lettuce well so it stays crisp."
+    ]
+  },
+  {
+    "id": "peach-dump-cake",
+    "title": "Peach Dump Cake",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "A lazy peach dessert with crisp cake-mix topping and church-basement credibility.",
+    "prepMinutes": 8,
+    "cookMinutes": 45,
+    "servings": 10,
+    "difficulty": "Easy",
+    "keywords": [
+      "peach",
+      "dessert",
+      "potluck"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "sliced peaches",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "box",
+        "item": "yellow cake mix",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "butter",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Pour peaches into a baking dish.",
+      "Sprinkle cake mix and cinnamon over top.",
+      "Cover with thin slices of butter and bake until golden."
+    ],
+    "notes": [
+      "Serve warm with ice cream.",
+      "Do not stir; the layers do the work."
+    ]
   }
 ]

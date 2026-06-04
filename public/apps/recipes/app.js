@@ -2,6 +2,7 @@ const state = {
   recipes: [],
   query: "",
   category: "all",
+  protein: "all",
   sort: "title",
   favoritesOnly: false,
   selectedRecipe: null,
@@ -17,6 +18,7 @@ const els = {
   dinnerSuggestion: document.querySelector("#dinnerSuggestion"),
   searchInput: document.querySelector("#searchInput"),
   categoryFilter: document.querySelector("#categoryFilter"),
+  proteinFilter: document.querySelector("#proteinFilter"),
   sortSelect: document.querySelector("#sortSelect"),
   favoritesOnly: document.querySelector("#favoritesOnly"),
   recipeCount: document.querySelector("#recipeCount"),
@@ -154,6 +156,7 @@ function recipeMatches(recipe) {
   const haystack = [
     recipe.title,
     recipe.category,
+    recipe.protein || "",
     recipe.description,
     recipe.difficulty,
     recipe.keywords.join(" "),
@@ -161,8 +164,9 @@ function recipeMatches(recipe) {
   ].join(" ").toLowerCase();
   const matchesQuery = !state.query || haystack.includes(state.query.toLowerCase());
   const matchesCategory = state.category === "all" || recipe.category === state.category;
+  const matchesProtein = state.protein === "all" || recipe.protein === state.protein;
   const matchesFavorites = !state.favoritesOnly || state.favorites.has(recipe.id);
-  return matchesQuery && matchesCategory && matchesFavorites;
+  return matchesQuery && matchesCategory && matchesProtein && matchesFavorites;
 }
 
 function sortedRecipes() {
@@ -181,6 +185,7 @@ function renderRecipes() {
     <article class="recipe-card ${state.favorites.has(recipe.id) ? "favorite" : ""}">
       <div class="recipe-meta">
         <span class="pill">${escapeHtml(recipe.category)}</span>
+        <span class="pill">${escapeHtml(recipe.protein || "Any")}</span>
         <span class="pill">${formatTime(totalTime(recipe))}</span>
         <span class="pill">${recipe.servings} servings</span>
         <span class="pill">${escapeHtml(recipe.difficulty)}</span>
@@ -248,6 +253,7 @@ function openRecipe(id) {
       <span class="pill">Prep ${formatTime(recipe.prepMinutes)}</span>
       <span class="pill">Cook ${formatTime(recipe.cookMinutes)}</span>
       <span class="pill">Total ${formatTime(totalTime(recipe))}</span>
+      <span class="pill">${escapeHtml(recipe.protein || "Any")}</span>
       <span class="pill">${recipe.servings} servings</span>
       <span class="pill">${escapeHtml(recipe.difficulty)}</span>
     </div>
@@ -325,6 +331,7 @@ function randomDinner() {
     els.dinnerSuggestion.innerHTML = `
       <div class="recipe-meta">
         <span class="pill">${escapeHtml(recipe.category)}</span>
+        <span class="pill">${escapeHtml(recipe.protein || "Any")}</span>
         <span class="pill">Prep ${formatTime(recipe.prepMinutes)}</span>
         <span class="pill">Cook ${formatTime(recipe.cookMinutes)}</span>
         <span class="pill">${recipe.servings} servings</span>
@@ -343,6 +350,8 @@ function randomDinner() {
 function setupCategories() {
   const categories = [...new Set(state.recipes.map((recipe) => recipe.category))].sort();
   els.categoryFilter.innerHTML = `<option value="all">All categories</option>` + categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("");
+  const proteins = [...new Set(state.recipes.map((recipe) => recipe.protein || "Any"))].sort();
+  els.proteinFilter.innerHTML = `<option value="all">All proteins</option>` + proteins.map((protein) => `<option value="${escapeHtml(protein)}">${escapeHtml(protein)}</option>`).join("");
 }
 
 document.addEventListener("click", async (event) => {
@@ -392,6 +401,11 @@ els.searchInput.addEventListener("input", () => {
 
 els.categoryFilter.addEventListener("change", () => {
   state.category = els.categoryFilter.value;
+  renderRecipes();
+});
+
+els.proteinFilter.addEventListener("change", () => {
+  state.protein = els.proteinFilter.value;
   renderRecipes();
 });
 
