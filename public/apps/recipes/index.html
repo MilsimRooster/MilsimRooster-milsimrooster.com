@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rooster Recipes is a warm family recipe toolbox for meal ideas, favorites, and grocery planning.">
+  <title>Rooster Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/">
+        <span class="brand-mark">RR</span>
+        <span>Rooster Recipes</span>
+      </a>
+      <nav aria-label="Recipe navigation">
+        <a href="#recipes">Recipes</a>
+        <a href="#shopping">Shopping List</a>
+        <a href="#planner">Meal Plan</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="kicker">Family meals / potlucks / taco nights</p>
+          <h1>Real recipes for hungry people.</h1>
+          <p class="tagline">A practical kitchen toolbox for comfort food, church-table favorites, barbecue weekends, and weeknight dinners that do not need a long speech first.</p>
+        </div>
+        <section class="dinner-card" aria-label="What's for dinner suggestion">
+          <div class="dinner-heading">
+            <span id="dinnerMessage">Tonight's Rooster pick is...</span>
+            <button id="dinnerButton" type="button">What's For Dinner?</button>
+          </div>
+          <article id="dinnerSuggestion" class="suggestion-card"></article>
+        </section>
+      </section>
+
+      <section class="workspace">
+        <div class="main-column">
+          <section id="recipes" class="panel browser-panel">
+            <div class="section-heading">
+              <div>
+                <p class="kicker">Recipe Browser</p>
+                <h2>Find the next pan, pot, or plate.</h2>
+              </div>
+              <button id="favoritesOnly" class="toggle-button" type="button" aria-pressed="false">Favorites</button>
+            </div>
+
+            <div class="filters" aria-label="Recipe filters">
+              <label>
+                <span>Search</span>
+                <input id="searchInput" type="search" placeholder="Title, ingredient, or keyword">
+              </label>
+              <label>
+                <span>Category</span>
+                <select id="categoryFilter">
+                  <option value="all">All categories</option>
+                </select>
+              </label>
+              <label>
+                <span>Sort</span>
+                <select id="sortSelect">
+                  <option value="title">Title</option>
+                  <option value="total">Total time</option>
+                  <option value="difficulty">Difficulty</option>
+                  <option value="servings">Servings</option>
+                </select>
+              </label>
+            </div>
+
+            <div id="recipeCount" class="result-count"></div>
+            <div id="recipeGrid" class="recipe-grid"></div>
+          </section>
+
+          <section id="planner" class="panel planner-panel">
+            <div class="section-heading">
+              <div>
+                <p class="kicker">Weekly Helper</p>
+                <h2>Simple meal plan.</h2>
+              </div>
+              <button id="addPlanToList" class="secondary-button" type="button">Add Week to List</button>
+            </div>
+            <div id="mealPlanner" class="meal-planner"></div>
+          </section>
+
+          <section class="panel coming-soon">
+            <p class="kicker">Coming Later</p>
+            <div class="future-grid">
+              <span>User recipe submissions</span>
+              <span>Photo uploads</span>
+              <span>Ratings</span>
+              <span>Comments</span>
+              <span>AI recipe ideas</span>
+              <span>Pantry search</span>
+              <span>Nutrition calculator</span>
+              <span>Planner upgrades</span>
+            </div>
+          </section>
+        </div>
+
+        <aside id="shopping" class="shopping-panel panel">
+          <div class="shopping-header">
+            <div>
+              <p class="kicker">Shopping List</p>
+              <h2>Groceries</h2>
+            </div>
+            <span id="shoppingCount">0 items</span>
+          </div>
+          <div class="shopping-actions">
+            <button id="copyList" type="button">Copy</button>
+            <button id="printList" type="button">Print</button>
+            <button id="clearList" type="button">Clear</button>
+          </div>
+          <div id="shoppingList" class="shopping-list"></div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="recipeDialog" class="recipe-dialog">
+    <article id="recipeDetail" class="recipe-detail"></article>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

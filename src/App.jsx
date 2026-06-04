@@ -76,6 +76,12 @@ const featuredApps = [
     href: "/apps/fps-visualizer/",
     icon: "FPS",
     text: "Launch the airsoft BB performance tool for energy, range, drop, and useful-distance estimates."
+  },
+  {
+    name: "Rooster Recipes",
+    href: "/apps/recipes/",
+    icon: "RR",
+    text: "Browse family recipes, scale servings, save favorites, and build a practical shopping list."
   }
 ];
 
