@@ -202,7 +202,7 @@ function renderRecipes() {
 }
 
 function recipeOptionList(selectedId = "") {
-  return [`<option value="">Pick a recipe</option>`]
+  return [`<option value="">Pick</option>`]
     .concat(state.recipes.map((recipe) => `<option value="${recipe.id}" ${recipe.id === selectedId ? "selected" : ""}>${escapeHtml(recipe.title)}</option>`))
     .join("");
 }
