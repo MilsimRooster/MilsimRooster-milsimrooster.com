@@ -3135,5 +3135,763 @@
       "Serve warm with ice cream.",
       "Do not stir; the layers do the work."
     ]
+  },
+  {
+    "id": "traditional-apple-pie",
+    "title": "Traditional Apple Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "A classic apple pie with tender cinnamon apples and a golden crust that smells like somebody did something right.",
+    "prepMinutes": 30,
+    "cookMinutes": 55,
+    "servings": 8,
+    "difficulty": "Medium",
+    "keywords": [
+      "apple",
+      "pie",
+      "dessert",
+      "classic"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "pie crusts",
+        "group": "Frozen"
+      },
+      {
+        "qty": 6,
+        "unit": "",
+        "item": "apples",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "group": "Spices"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "item": "nutmeg",
+        "group": "Spices"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 425 F.",
+      "Peel, core, and slice apples.",
+      "Toss apples with sugar, flour, cinnamon, nutmeg, and a pinch of salt.",
+      "Fill bottom crust, dot with butter, and top with second crust.",
+      "Brush with beaten egg, cut vents, and bake until crust is golden and filling bubbles."
+    ],
+    "notes": [
+      "Use a mix of tart and sweet apples if possible.",
+      "Let the pie cool before slicing so the filling sets."
+    ]
+  },
+  {
+    "id": "southern-pecan-pie",
+    "title": "Southern Pecan Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Sweet, rich pecan pie for holidays, Sunday tables, and people who say they only want a small slice.",
+    "prepMinutes": 15,
+    "cookMinutes": 55,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "pecan",
+      "pie",
+      "holiday",
+      "southern"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "pie crust",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "corn syrup",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "brown sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "vanilla extract",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "pecans",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Whisk corn syrup, brown sugar, eggs, melted butter, vanilla, and a pinch of salt.",
+      "Stir in pecans.",
+      "Pour into pie crust and bake until the center is set with a slight jiggle.",
+      "Cool completely before slicing."
+    ],
+    "notes": [
+      "Cover crust edges if they brown too fast.",
+      "A tiny pinch of salt keeps the sweetness balanced."
+    ]
+  },
+  {
+    "id": "chocolate-cream-pie",
+    "title": "Chocolate Cream Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Cold chocolate pie with whipped topping and an easy cookie-style payoff.",
+    "prepMinutes": 20,
+    "cookMinutes": 8,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "chocolate",
+      "pie",
+      "cream",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "baked pie crust",
+        "group": "Bakery"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.25,
+        "unit": "cup",
+        "item": "cocoa powder",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "cornstarch",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2.5,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 3,
+        "unit": "",
+        "item": "egg yolks",
+        "group": "Dairy"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "whipped topping",
+        "group": "Frozen"
+      }
+    ],
+    "instructions": [
+      "Whisk sugar, cocoa, cornstarch, milk, and egg yolks in a saucepan.",
+      "Cook over medium heat, stirring constantly, until thick.",
+      "Remove from heat and stir in butter and vanilla if you have it.",
+      "Pour into baked crust and chill until firm.",
+      "Top with whipped topping before serving."
+    ],
+    "notes": [
+      "Keep stirring so the filling stays smooth.",
+      "A graham crust also works."
+    ]
+  },
+  {
+    "id": "lemon-icebox-pie",
+    "title": "Lemon Icebox Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Bright, cold lemon pie with a graham crust. Sweet enough for dessert, sharp enough to wake everybody up.",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "lemon",
+      "pie",
+      "icebox",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "graham cracker crust",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "sweetened condensed milk",
+        "group": "Canned"
+      },
+      {
+        "qty": 3,
+        "unit": "",
+        "item": "egg yolks",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "lemon juice",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "lemon zest",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "whipped topping",
+        "group": "Frozen"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Whisk condensed milk, egg yolks, lemon juice, and zest.",
+      "Pour filling into crust.",
+      "Bake until just set, then cool and chill.",
+      "Top with whipped topping."
+    ],
+    "notes": [
+      "Fresh lemon juice tastes best.",
+      "Chill several hours for clean slices."
+    ]
+  },
+  {
+    "id": "coconut-cream-pie",
+    "title": "Coconut Cream Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Old-school coconut cream pie with toasted coconut on top and a smooth custard middle.",
+    "prepMinutes": 25,
+    "cookMinutes": 10,
+    "servings": 8,
+    "difficulty": "Medium",
+    "keywords": [
+      "coconut",
+      "cream",
+      "pie",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "baked pie crust",
+        "group": "Bakery"
+      },
+      {
+        "qty": 2.5,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "cornstarch",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "",
+        "item": "egg yolks",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "sweetened coconut",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "whipped topping",
+        "group": "Frozen"
+      }
+    ],
+    "instructions": [
+      "Whisk milk, sugar, cornstarch, and egg yolks in a saucepan.",
+      "Cook until thick, stirring constantly.",
+      "Stir in coconut and vanilla if available.",
+      "Pour into crust and chill until firm.",
+      "Top with whipped topping and toasted coconut."
+    ],
+    "notes": [
+      "Toast a little extra coconut for the top.",
+      "Let it chill fully before cutting."
+    ]
+  },
+  {
+    "id": "cherry-pie",
+    "title": "Cherry Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "A simple cherry pie with a bubbling red filling and a crust that begs for vanilla ice cream.",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "cherry",
+      "pie",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "",
+        "item": "pie crusts",
+        "group": "Frozen"
+      },
+      {
+        "qty": 2,
+        "unit": "cans",
+        "item": "cherry pie filling",
+        "group": "Canned"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "lemon juice",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "sugar",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 400 F.",
+      "Mix cherry filling with lemon juice.",
+      "Fill bottom crust and top with second crust or lattice.",
+      "Brush with egg and sprinkle sugar.",
+      "Bake until golden and bubbling."
+    ],
+    "notes": [
+      "Put the pie on a sheet pan in case it bubbles over.",
+      "Cool before slicing."
+    ]
+  },
+  {
+    "id": "key-lime-pie",
+    "title": "Key Lime Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Tangy, creamy lime pie in a graham crust, especially good after barbecue or fish tacos.",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "lime",
+      "pie",
+      "dessert",
+      "summer"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "graham cracker crust",
+        "group": "Bakery"
+      },
+      {
+        "qty": 1,
+        "unit": "can",
+        "item": "sweetened condensed milk",
+        "group": "Canned"
+      },
+      {
+        "qty": 4,
+        "unit": "",
+        "item": "egg yolks",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "lime juice",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "lime zest",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "whipped cream",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Whisk condensed milk, egg yolks, lime juice, and zest.",
+      "Pour into crust and bake until set.",
+      "Chill completely.",
+      "Top with whipped cream."
+    ],
+    "notes": [
+      "Regular limes work fine if key limes are not around.",
+      "Do not skip the chill time."
+    ]
+  },
+  {
+    "id": "buttermilk-pie",
+    "title": "Buttermilk Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "A humble custard pie with a tender tang and a crackly golden top.",
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "buttermilk",
+      "pie",
+      "southern",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "pie crust",
+        "group": "Frozen"
+      },
+      {
+        "qty": 1.5,
+        "unit": "cups",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 3,
+        "unit": "",
+        "item": "eggs",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.5,
+        "unit": "cup",
+        "item": "butter",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "buttermilk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "vanilla extract",
+        "group": "Pantry"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 350 F.",
+      "Whisk sugar, eggs, melted butter, buttermilk, flour, vanilla, and a pinch of salt.",
+      "Pour into crust.",
+      "Bake until the center is set and top is golden.",
+      "Cool before slicing."
+    ],
+    "notes": [
+      "The center should have a slight wobble when done.",
+      "Excellent with coffee."
+    ]
+  },
+  {
+    "id": "peanut-butter-pie",
+    "title": "Peanut Butter Pie",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Cold peanut butter pie with a creamy filling and cookie crust energy.",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "peanut butter",
+      "pie",
+      "dessert",
+      "no bake"
+    ],
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "chocolate cookie crust",
+        "group": "Bakery"
+      },
+      {
+        "qty": 8,
+        "unit": "oz",
+        "item": "cream cheese",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "peanut butter",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "powdered sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tub",
+        "item": "whipped topping",
+        "group": "Frozen"
+      }
+    ],
+    "instructions": [
+      "Beat cream cheese, peanut butter, and powdered sugar until smooth.",
+      "Fold in whipped topping.",
+      "Spread into crust.",
+      "Chill until firm."
+    ],
+    "notes": [
+      "Drizzle chocolate syrup over the top if you want applause.",
+      "This is rich, so small slices work."
+    ]
+  },
+  {
+    "id": "blueberry-cobbler",
+    "title": "Blueberry Cobbler",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Juicy blueberries under a simple sweet topping, built for a scoop of ice cream.",
+    "prepMinutes": 12,
+    "cookMinutes": 40,
+    "servings": 8,
+    "difficulty": "Easy",
+    "keywords": [
+      "blueberry",
+      "cobbler",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "cups",
+        "item": "blueberries",
+        "group": "Produce"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "item": "lemon juice",
+        "group": "Produce"
+      },
+      {
+        "qty": 1,
+        "unit": "cup",
+        "item": "flour",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "baking powder",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.75,
+        "unit": "cup",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 4,
+        "unit": "tbsp",
+        "item": "butter",
+        "group": "Dairy"
+      }
+    ],
+    "instructions": [
+      "Heat oven to 375 F.",
+      "Toss blueberries with sugar and lemon juice.",
+      "Mix flour, baking powder, milk, melted butter, and a pinch of salt.",
+      "Spread batter and berries in a baking dish.",
+      "Bake until bubbling and golden."
+    ],
+    "notes": [
+      "Frozen berries work; add a few extra minutes.",
+      "Serve warm."
+    ]
+  },
+  {
+    "id": "rice-pudding",
+    "title": "Rice Pudding",
+    "category": "Dessert",
+    "protein": "Dessert",
+    "description": "Creamy old-fashioned rice pudding with cinnamon, best eaten warm or cold straight from the fridge.",
+    "prepMinutes": 5,
+    "cookMinutes": 30,
+    "servings": 6,
+    "difficulty": "Easy",
+    "keywords": [
+      "rice",
+      "pudding",
+      "dessert",
+      "budget"
+    ],
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "cooked rice",
+        "group": "Pantry"
+      },
+      {
+        "qty": 2,
+        "unit": "cups",
+        "item": "milk",
+        "group": "Dairy"
+      },
+      {
+        "qty": 0.33,
+        "unit": "cup",
+        "item": "sugar",
+        "group": "Pantry"
+      },
+      {
+        "qty": 1,
+        "unit": "",
+        "item": "egg",
+        "group": "Dairy"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "item": "vanilla extract",
+        "group": "Pantry"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "group": "Spices"
+      }
+    ],
+    "instructions": [
+      "Simmer rice, milk, and sugar until creamy.",
+      "Whisk egg in a bowl and temper with a little hot rice mixture.",
+      "Stir egg mixture back into the pot and cook gently until thick.",
+      "Add vanilla and cinnamon."
+    ],
+    "notes": [
+      "Keep heat low after adding egg.",
+      "Raisins are optional and controversial."
+    ]
   }
 ]
