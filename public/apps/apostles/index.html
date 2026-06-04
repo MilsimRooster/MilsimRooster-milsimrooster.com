@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apostles Quest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="game-panel" aria-label="Apostles Quest game">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Youth Class Review Game</p>
+          <h1>Apostles Quest</h1>
+        </div>
+        <div class="top-actions">
+          <button id="soundToggle" class="icon-button" type="button" aria-label="Toggle sound" title="Toggle sound">S</button>
+          <button id="resetGame" class="ghost-button" type="button">Reset</button>
+        </div>
+      </header>
+
+      <section id="titleView" class="title-view" aria-label="Game setup">
+        <div class="title-scene" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="distant-city"></div>
+          <div class="title-path"></div>
+        </div>
+        <div class="title-copy">
+          <p class="eyebrow">Apostles, Acts, and Mission</p>
+          <h2>Choose a round and begin the journey.</h2>
+          <p class="quiet">Built for quick review, team competition, and discussion-friendly hints.</p>
+        </div>
+        <div class="setup-grid">
+          <div class="setup-panel">
+            <h3>Round Length</h3>
+            <div class="segmented" id="roundSettings">
+              <button class="segment active" type="button" data-round="10">10</button>
+              <button class="segment" type="button" data-round="20">20</button>
+              <button class="segment" type="button" data-round="50">50</button>
+            </div>
+          </div>
+          <div class="setup-panel">
+            <h3>Team Names</h3>
+            <label>Team 1<input id="teamOneName" type="text" maxlength="18" value="Team Olive"></label>
+            <label>Team 2<input id="teamTwoName" type="text" maxlength="18" value="Team Sea"></label>
+          </div>
+        </div>
+        <div class="start-actions">
+          <button id="startQuest" class="primary-button big-button" type="button">Start Solo Quest</button>
+          <button id="startTeams" class="primary-button big-button" type="button">Start Team Game</button>
+          <button id="openCards" class="ghost-button big-button" type="button">Review Cards</button>
+        </div>
+      </section>
+
+      <section id="finishView" class="finish-view" aria-label="Round results" hidden>
+        <div class="finish-card">
+          <p class="eyebrow">Round Complete</p>
+          <h2 id="winnerTitle">Great work</h2>
+          <p id="winnerSummary"></p>
+          <div id="finalScores" class="final-scores"></div>
+          <div class="start-actions">
+            <button id="playAgain" class="primary-button big-button" type="button">Play Again</button>
+            <button id="backToTitle" class="ghost-button big-button" type="button">Back to Setup</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="gameContent" class="game-content" hidden>
+        <nav class="mode-tabs" aria-label="Game modes">
+          <button class="tab active" type="button" data-mode="quest">Quest</button>
+          <button class="tab" type="button" data-mode="teams">Teams</button>
+          <button class="tab" type="button" data-mode="match">Match</button>
+          <button class="tab" type="button" data-mode="cards">Cards</button>
+        </nav>
+
+        <section id="scoreboard" class="scoreboard" aria-label="Scoreboard"></section>
+
+        <section id="questView" class="view active" aria-label="Question view">
+        <section class="journey-map" aria-label="Desert journey map">
+          <div class="map-sky">
+            <span></span>
+          </div>
+          <svg class="map-path" viewBox="0 0 900 210" aria-hidden="true" preserveAspectRatio="none">
+            <path class="route-shadow" d="M55 156 C150 64 250 72 330 128 S520 196 600 98 S758 50 845 132"/>
+            <path class="route-line" d="M55 156 C150 64 250 72 330 128 S520 196 600 98 S758 50 845 132"/>
+          </svg>
+          <div id="mapCallout" class="map-callout"></div>
+          <div id="mapStops" class="map-stops"></div>
+        </section>
+        <div class="question-layout" id="questionLayout">
+          <section class="question-card">
+            <div class="question-meta">
+              <span id="roundLabel">Question 1</span>
+              <span id="categoryLabel">Names</span>
+            </div>
+            <h2 id="questionText"></h2>
+            <div id="answerGrid" class="answer-grid"></div>
+            <div id="feedback" class="feedback" aria-live="polite"></div>
+            <div class="question-actions">
+              <button id="hintButton" class="ghost-button" type="button">Hint</button>
+              <button id="nextButton" class="primary-button" type="button">Next Question</button>
+            </div>
+          </section>
+          <aside class="apostle-card" id="featuredCard" hidden></aside>
+        </div>
+        </section>
+
+        <section id="matchView" class="view" aria-label="Matching view">
+        <div class="match-board">
+          <div>
+            <h2>Match the Apostle</h2>
+            <p class="quiet">Pick a name, then pick the matching clue.</p>
+            <div id="nameList" class="match-list"></div>
+          </div>
+          <div>
+            <h2>Clues</h2>
+            <p class="quiet">Matched pairs lock in place.</p>
+            <div id="clueList" class="match-list"></div>
+          </div>
+        </div>
+        </section>
+
+        <section id="cardsView" class="view" aria-label="Apostle cards">
+          <div id="cardGrid" class="card-grid"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

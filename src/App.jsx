@@ -64,17 +64,36 @@ const photoCategories = [
   }
 ];
 
+const featuredApps = [
+  {
+    name: "Apostles Quest",
+    href: "/apps/apostles/",
+    icon: "AQ",
+    text: "Open the classroom review game for apostles, Acts, teams, cards, and quick quiz rounds."
+  },
+  {
+    name: "FPS Visualizer",
+    href: "/apps/fps-visualizer/",
+    icon: "FPS",
+    text: "Launch the airsoft BB performance tool for energy, range, drop, and useful-distance estimates."
+  }
+];
+
 const projects = [
+  ...featuredApps,
   {
     name: "Command Center",
+    icon: "CC",
     text: "A compact Windows workflow hub for launching tools, opening folders, checking status, and keeping daily actions close."
   },
   {
     name: "System Gauges",
+    icon: "SG",
     text: "A desktop monitoring utility focused on quick system visibility, clean controls, and lightweight performance."
   },
   {
     name: "Pomodoro Timer",
+    icon: "PT",
     text: "A polished timer shell with media playback, visual backgrounds, and focused work-session controls."
   }
 ];
@@ -146,6 +165,14 @@ function App() {
               <a href="#photography">Photography</a>
               <a href="#videos">Videos</a>
               <a href="#projects">Projects</a>
+            </div>
+            <div className="app-launcher" aria-label="Featured app launcher">
+              {featuredApps.map((app) => (
+                <a className="app-launch" href={app.href} key={app.name}>
+                  <span className={`app-icon ${app.icon === "FPS" ? "app-icon-reticle" : ""}`}>{app.icon}</span>
+                  <span>{app.name}</span>
+                </a>
+              ))}
             </div>
           </div>
           <div className="hero-visual" aria-label="Milsim Rooster visual preview">
@@ -223,13 +250,25 @@ function App() {
           </div>
         </Section>
 
-        <Section id="projects" eyebrow="Builds" title="Software Utilities">
+        <Section id="projects" eyebrow="Builds" title="Software Utilities and Web Apps">
           <div className="card-grid">
             {projects.map((project) => (
-              <article className="project-card" key={project.name}>
-                <h3>{project.name}</h3>
-                <p>{project.text}</p>
-              </article>
+              project.href ? (
+                <a className="project-card project-link-card" href={project.href} key={project.name}>
+                  <span className={`project-icon ${project.icon === "FPS" ? "project-icon-reticle" : ""}`}>{project.icon}</span>
+                  <span className="project-card-copy">
+                    <h3>{project.name}</h3>
+                    <p>{project.text}</p>
+                    <strong>Open app</strong>
+                  </span>
+                </a>
+              ) : (
+                <article className="project-card" key={project.name}>
+                  <span className="project-icon">{project.icon}</span>
+                  <h3>{project.name}</h3>
+                  <p>{project.text}</p>
+                </article>
+              )
             ))}
           </div>
         </Section>
