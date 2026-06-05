@@ -19,3 +19,11 @@ Version 1 is intentionally backend-free. It randomizes a 20-question run from 15
 ## Content Guardrails
 
 Keep jokes warm and recognizable. Good targets are food habits, church potlucks, weather, manners, backroads, family quirks, home repair, and sweet tea. Avoid hateful, political, racist, classist, or copied social-media jokes.
+
+
+## Expanded Content Bank
+
+- `question-bank.json` stores the full 500-question Southern culture bank.
+- `questions.js` is generated from that bank for the current browser app.
+- `content-report.json` records counts, duplicate removal, and validation status.
+- Regenerate with `node scripts/generate-southern-content.mjs`.

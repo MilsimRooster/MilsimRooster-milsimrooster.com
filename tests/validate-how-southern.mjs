@@ -66,11 +66,21 @@ assert.ok(indexHtml.includes('type="module" src="./results.js"'));
 assert.ok(indexHtml.includes('type="module" src="./app.js"'));
 
 assert.equal(new Set(QUESTIONS.map((question) => question.id)).size, QUESTIONS.length);
-assert.ok(QUESTIONS.length >= 150, "question pool should have at least 150 questions");
-assert.ok(QUESTION_CATEGORIES.length >= 15, "category list should include all planned categories");
+assert.ok(QUESTIONS.length >= 500, "question pool should have at least 500 questions");
+assert.ok(QUESTION_CATEGORIES.includes("southern_culture"), "category list should include Southern culture");
 assert.ok(
   QUESTIONS.every((question) => question.answers.length >= 4 && question.answers.every((answer) => Number.isFinite(answer.points))),
   "every question should have four scored answers"
+);
+assert.ok(
+  QUESTIONS.every((question) =>
+    question.answers.every((answer) => answer.text.split(/\s+/).length <= 6)
+  ),
+  "every answer should be short and punchy"
+);
+assert.ok(
+  QUESTIONS.every((question) => Math.max(...question.answers.map((answer) => answer.points)) === 5),
+  "every question should keep a five-point top answer"
 );
 assert.ok(
   QUESTION_CATEGORIES.every((category) => QUESTIONS.some((question) => question.category === category)),
