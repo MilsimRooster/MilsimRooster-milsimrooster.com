@@ -310,6 +310,7 @@ const el = {
   nextButton: document.querySelector("#nextButton"),
   mapCallout: document.querySelector("#mapCallout"),
   mapStops: document.querySelector("#mapStops"),
+  menuButton: document.querySelector("#menuButton"),
   resetGame: document.querySelector("#resetGame"),
   soundToggle: document.querySelector("#soundToggle"),
   startQuest: document.querySelector("#startQuest"),
@@ -782,6 +783,7 @@ el.openCards.addEventListener("click", () => {
 });
 el.playAgain.addEventListener("click", () => startRound(state.mode === "teams" ? "teams" : "quest"));
 el.backToTitle.addEventListener("click", showTitle);
+el.menuButton.addEventListener("click", showTitle);
 el.nextButton.addEventListener("click", nextQuestion);
 el.hintButton.addEventListener("click", showHint);
 el.resetGame.addEventListener("click", resetGame);

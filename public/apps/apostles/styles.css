@@ -114,6 +114,13 @@ h2 {
   padding: 10px 16px;
 }
 
+.top-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .primary-button {
   background: var(--sea);
   color: white;
@@ -780,6 +787,16 @@ h2 {
     flex-direction: column;
   }
 
+  .top-actions {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .icon-button {
+    width: auto;
+  }
+
   .mode-tabs,
   .scoreboard,
   .question-layout,
@@ -802,7 +819,30 @@ h2 {
   }
 
   .journey-map {
-    min-height: 190px;
+    min-height: 250px;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .map-callout {
+    position: relative;
+    left: auto;
+    top: auto;
+    max-width: none;
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .map-path {
+    inset: 72px 10px 18px;
+    width: calc(100% - 20px);
+    height: calc(100% - 90px);
+  }
+
+  .map-sky span {
+    left: 8%;
+    top: 44%;
+    box-shadow: 150px 18px 0 -12px rgba(255, 255, 255, 0.26);
   }
 
   .stop-dot {
