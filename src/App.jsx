@@ -58,13 +58,8 @@ const photoCategories = [
     name: "Portraits",
     slug: "portraits",
     items: [
-      "/media/optimized/photography/portraits/img-0808b.jpg",
-      "/media/optimized/photography/portraits/img-0844.jpg",
       "/media/optimized/photography/portraits/img-4888.jpg",
-      "/media/optimized/photography/portraits/img-9535.jpg",
-      "/media/optimized/photography/portraits/img-9571.jpg",
-      "/media/optimized/photography/portraits/img-9797.jpg",
-      "/media/optimized/photography/portraits/img-9798.jpg"
+      "/media/optimized/photography/portraits/img-9535.jpg"
     ]
   }
 ];
