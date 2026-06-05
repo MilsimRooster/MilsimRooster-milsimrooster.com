@@ -296,7 +296,7 @@ function App() {
           <div className="links-list">
             {links.map((link) => (
               <a href={link.href} key={link.label} target="_blank" rel="noreferrer">
-                {link.label}<span>↗</span>
+                {link.label}<span>Open</span>
               </a>
             ))}
           </div>

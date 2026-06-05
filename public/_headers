@@ -5,3 +5,24 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+
+/assets/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/media/optimized/*
+  Cache-Control: public, max-age=2592000
+
+/apps/*.css
+  Cache-Control: public, max-age=3600
+
+/apps/*.js
+  Cache-Control: public, max-age=3600
+
+/apps/*/*.css
+  Cache-Control: public, max-age=3600
+
+/apps/*/*.js
+  Cache-Control: public, max-age=3600
+
+/apps/*/*.json
+  Cache-Control: public, max-age=3600

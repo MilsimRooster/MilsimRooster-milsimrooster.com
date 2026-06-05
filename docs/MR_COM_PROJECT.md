@@ -19,6 +19,7 @@ Cloudflare Pages is currently Direct Upload, not Git-connected. GitHub pushes do
 Build and deploy from `E:\games\website`:
 
 ```powershell
+npm run check
 npm run build
 npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
 ```
@@ -38,7 +39,7 @@ All four routes were checked live and returned HTTP `200` with the expected page
 
 ### Home Page
 
-- Main page includes launch cards for Apostles Quest, FPS Visualizer, and Rooster Recipes.
+- Main page includes launch cards for Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, and Southern Translator.
 - The apps launcher should feel like a clear "Games and Utilities" section, separate from Wasteland.
 
 ### Apostles Quest
@@ -66,6 +67,28 @@ All four routes were checked live and returned HTTP `200` with the expected page
 - Rating face style should stay playful; 1-star uses a softer bad rating face, not a harsh black-and-white frown.
 - Recipe disclaimer should be "Rooster style": practical, friendly, and clear that measurements are starting points to verify with taste, temperature, and common sense.
 - Future backend discussion centered on recipe ratings, shared data, submissions, and persistence. Treat auth, spam prevention, rate limits, and write permissions as required before adding a backend.
+
+### How Southern Are You?
+
+- Hosted under `/apps/how-southern-are-you/`.
+- Current app uses a 500-question Southern-culture humor bank with score-labeled answers.
+- Validation lives in `tests/validate-how-southern.mjs` and `tests/validate-southern-content-bank.mjs`.
+
+### Southern Translator
+
+- Hosted under `/apps/southern-translator/`.
+- Current app includes a 2,112-entry phrase database across Southern, Appalachian, Alabama, rural, church, food, military, weather, and humor categories.
+- Validation lives in `tests/validate-southern-translator.mjs`.
+
+## Stabilization Notes
+
+June 5, 2026 stabilization pass:
+
+- Added `npm run check` to run the site validators before build/deploy.
+- Corrected `README.md` to describe the real Direct Upload Cloudflare Pages workflow.
+- Converted `public/_headers` into active Cloudflare Pages header rules and added cache hints for Vite assets, optimized media, and hosted app assets.
+- Added `tests/validate-headers.mjs` so header/security/cache rules are checked with the rest of the site.
+- Replaced the external-link arrow glyph with visible `Open` text for a simpler, more robust link label.
 
 ## Security Snapshot
 
@@ -103,4 +126,3 @@ Live response headers looked good:
 3. Improve static asset caching once app edits settle down.
 4. Decide whether to keep Direct Upload or connect Cloudflare Pages to GitHub for push-to-deploy.
 5. Before adding shared ratings/submissions, design a small backend with spam/rate-limit protections.
-

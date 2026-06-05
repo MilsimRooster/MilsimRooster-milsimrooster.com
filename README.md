@@ -25,13 +25,25 @@ The production output is generated in `dist`.
 
 ## Cloudflare Pages Deployment
 
-1. Push this repository to GitHub.
-2. In Cloudflare Pages, create a new project and connect the GitHub repository.
-3. Use these build settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-   - Production branch: `main`
-4. For `milsimrooster.com`, update GoDaddy DNS to use Cloudflare nameservers, then add the domain in Cloudflare Pages as a custom domain.
+Cloudflare Pages is currently a Direct Upload project, not Git-connected. GitHub pushes do not deploy automatically.
+
+Deploy from this repo:
+
+```bash
+npm run check
+npm run build
+npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
+```
+
+Live domains:
+
+- `https://milsimrooster.com`
+- `https://www.milsimrooster.com`
+- `https://milsimrooster-com.pages.dev`
+
+Cloudflare Pages project: `milsimrooster-com`.
+
+The `public/_headers` file owns site security headers and browser cache hints for built Vite assets, optimized media, and hosted app assets.
 
 ## Site Sections
 
@@ -41,3 +53,11 @@ The production output is generated in `dist`.
 - Videos
 - Projects
 - Links
+
+## Hosted Apps
+
+- Apostles Quest: `/apps/apostles/`
+- FPS Visualizer: `/apps/fps-visualizer/`
+- Rooster Recipes: `/apps/recipes/`
+- How Southern Are You?: `/apps/how-southern-are-you/`
+- Southern Translator: `/apps/southern-translator/`

@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check": "node tests/validate-headers.mjs && node tests/validate-liquid-glass.mjs && node tests/validate-portrait-selection.mjs && node tests/validate-how-southern.mjs && node tests/validate-southern-content-bank.mjs && node tests/validate-southern-translator.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
