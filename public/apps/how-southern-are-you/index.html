@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Southern Are You? | Milsim Rooster</title>
+    <meta name="description" content="Take a funny Southern culture quiz and find out if you're a tourist, sweet tea apprentice, or cast iron royalty.">
+    <meta property="og:title" content="How Southern Are You?">
+    <meta property="og:description" content="A funny Southern culture quiz from Milsim Rooster.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://milsimrooster.com/apps/how-southern-are-you/">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="quiz-shell">
+      <header class="topbar">
+        <a href="/" class="brand" aria-label="Milsim Rooster home">
+          <span class="brand-mark">MR</span>
+          <span>Milsim Rooster</span>
+        </a>
+        <a class="home-link" href="/">Main Site</a>
+      </header>
+
+      <section class="hero-card" id="startScreen">
+        <p class="kicker">Milsim Rooster Quiz Lab</p>
+        <h1>How Southern Are You?</h1>
+        <p class="intro">
+          Twenty randomized questions, a heap of food judgment, a little porch logic, and a final score you can send to the group chat.
+        </p>
+        <div class="hero-actions">
+          <button class="primary-button" id="startButton" type="button">Start Quiz</button>
+          <span class="tiny-note">No login. No database. Just vibes and sweet tea accountability.</span>
+        </div>
+      </section>
+
+      <section class="quiz-card hidden" id="quizScreen" aria-live="polite">
+        <div class="progress-row">
+          <span id="questionCount">Question 1 of 20</span>
+          <span id="categoryPill">food</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <span id="progressBar"></span>
+        </div>
+        <h2 id="questionText"></h2>
+        <div class="answers" id="answers"></div>
+      </section>
+
+      <section class="result-wrap hidden" id="resultScreen" aria-live="polite">
+        <article class="result-card" id="resultCard">
+          <p class="kicker">Official-ish Southern Score</p>
+          <div class="score" id="scorePercent">87%</div>
+          <h2 id="resultTitle"></h2>
+          <div class="badge" id="resultBadge"></div>
+          <p id="resultObservation"></p>
+          <p class="warning" id="resultWarning"></p>
+          <p class="regional-note" id="regionalNote"></p>
+        </article>
+        <div class="share-panel">
+          <label for="shareText">Share text</label>
+          <textarea id="shareText" readonly></textarea>
+          <div class="button-row">
+            <button class="primary-button" id="copyButton" type="button">Copy Share Text</button>
+            <button id="downloadButton" type="button">Download Result Image</button>
+            <button id="randomizeButton" type="button">Randomize Again</button>
+            <button id="retryButton" type="button">Try Again</button>
+          </div>
+          <p class="toast" id="toast" role="status"></p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./questions.js"></script>
+    <script type="module" src="./results.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -82,6 +82,18 @@ const featuredApps = [
     href: "/apps/recipes/",
     icon: "RR",
     text: "Browse family recipes, scale servings, save favorites, and build a practical shopping list."
+  },
+  {
+    name: "How Southern Are You?",
+    href: "/apps/how-southern-are-you/",
+    icon: "HS",
+    text: "Take the funny Southern culture quiz and get a screenshot-friendly score card to share."
+  },
+  {
+    name: "Southern Translator",
+    href: "/apps/southern-translator/",
+    icon: "ST",
+    text: "Translate Southern sayings, grandma warnings, weather talk, and church phrases into plain English."
   }
 ];
 
