@@ -271,6 +271,64 @@ const actualTemplates = {
   compliments: ["This person can be trusted when it matters.", "That is real respect, stated plainly.", "The approval is quiet because it is serious.", "Someone's character has been noticed."]
 };
 
+const literalDescriptions = {
+  church: [
+    "A polite church phrase that sounds spiritual and may also involve scheduling.",
+    "A Sunday-ready expression for kindness, logistics, or a gentle nudge.",
+    "A fellowship phrase with hospitality on top and a sign-up sheet underneath."
+  ],
+  grandma: [
+    "A loving household warning delivered by someone who already knows best.",
+    "A grandmotherly phrase that mixes affection, correction, and food.",
+    "A kitchen-table expression that means love is present and instructions are coming."
+  ],
+  weather: [
+    "A calm weather comment that may mean everyone should quietly start preparing.",
+    "A sky-reading phrase used before the radar proves somebody's knee was right.",
+    "A porch forecast that sounds casual but comes with operational consequences."
+  ],
+  food: [
+    "A food-table observation where generosity and judgment sit on the same plate.",
+    "A kitchen phrase that may be praise, warning, or a seasoning audit.",
+    "A supper expression used when taste buds have entered committee review."
+  ],
+  family: [
+    "A family phrase that means affection, news, and supervision are all in motion.",
+    "A kinfolk expression used when love travels faster than privacy.",
+    "A reunion-ready sentence with more backstory than it admits."
+  ],
+  "small-town": [
+    "A small-town phrase where directions, rumors, and public memory overlap.",
+    "A local expression that assumes everybody knows the landmarks and the people.",
+    "A community sentence that has already made three stops before reaching you."
+  ],
+  vehicles: [
+    "A vehicle phrase that turns mechanical uncertainty into cautious optimism.",
+    "A driveway diagnosis built from experience, hope, and selective hearing.",
+    "A truck-or-car comment used when the repair plan is still negotiating with reality."
+  ],
+  work: [
+    "A worksite phrase that means keep moving and solve the next visible problem.",
+    "A practical expression for progress that may not be pretty but is currently standing.",
+    "A get-it-done sentence with dirt on its boots and no patience for overthinking."
+  ],
+  outdoors: [
+    "An outdoors phrase where weather, patience, and storytelling share the blame.",
+    "A woods-and-water expression that preserves dignity after nature wins a round.",
+    "A hunting or fishing sentence with confidence, humility, and flexible measurements."
+  ],
+  insults: [
+    "A playful Southern insult dressed up nicely enough to pass through polite company.",
+    "A smiling phrase used when correction needs manners and plausible deniability.",
+    "A soft-sounding jab that lets the room understand without anyone acting ugly."
+  ],
+  compliments: [
+    "A plainspoken compliment that carries real weight because it is not overdecorated.",
+    "A respectful phrase used when somebody's character has been properly noticed.",
+    "A simple approval that means more because Southern praise does not waste words."
+  ]
+};
+
 function severityFor(category, index) {
   const bases = { church: 2, grandma: 3, weather: 2, food: 3, family: 3, "small-town": 2, vehicles: 3, work: 2, outdoors: 2, insults: 4, compliments: 1 };
   return Math.min(5, Math.max(1, bases[category] + (index % 3 === 0 ? 1 : 0) - (index % 7 === 0 ? 1 : 0)));
@@ -285,7 +343,7 @@ function buildPhrasePool() {
         id: `${category}-${String(index + 1).padStart(2, "0")}`,
         phrase,
         category,
-        literalMeaning: `A familiar ${category.replace("-", " ")} expression used in everyday conversation.`,
+        literalMeaning: literalDescriptions[category][index % literalDescriptions[category].length],
         actualMeanings: [
           templates[index % templates.length],
           templates[(index + 1) % templates.length],
@@ -326,12 +384,21 @@ const englishSeeds = [
 ];
 
 function buildEnglishTranslations() {
+  const promptVariants = [
+    (text) => text,
+    (text) => `${text}, but say it gently`,
+    (text) => `${text}, and everyone can tell`,
+    (text) => `${text}, before somebody makes it worse`,
+    (text) => `${text}, with manners still attached`
+  ];
+
   return Array.from({ length: 100 }, (_, index) => {
     const seed = englishSeeds[index % englishSeeds.length];
     const round = Math.floor(index / englishSeeds.length);
+    const variant = promptVariants[round % promptVariants.length];
     return {
       id: `english-${String(index + 1).padStart(3, "0")}`,
-      english: round ? `${seed[0]} (${round + 1})` : seed[0],
+      english: variant(seed[0]),
       southernOptions: seed[1].map((option, optionIndex) => optionIndex === 0 && round ? `${option}, if you know what I mean` : option),
       context: seed[2],
       roosterNotes: "Best delivered with timing, tone, and enough politeness to keep the peace."

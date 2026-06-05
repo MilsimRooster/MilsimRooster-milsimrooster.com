@@ -64,6 +64,9 @@ assert.ok(PHRASES.every((entry) => CATEGORIES.some((category) => category.id ===
 assert.ok(PHRASES.every((entry) => entry.phrase && entry.literalMeaning && entry.actualMeanings?.length >= 3 && Number.isInteger(entry.severity)));
 assert.ok(ENGLISH_TRANSLATIONS.every((entry) => entry.english && entry.southernOptions?.length >= 3 && entry.context));
 assert.ok(SAYINGS.every((entry) => entry.saying && entry.meaning && entry.usage && entry.category));
+assert.ok(PHRASES.every((entry) => !/^A familiar .+ expression used in everyday conversation\.$/.test(entry.literalMeaning)), "literal meanings should be specific and natural");
+assert.ok(PHRASES.every((entry) => !/\binsults expression\b|\bvehicles expression\b|\boutdoors expression\b/.test(entry.literalMeaning)), "literal meanings should not expose raw category ids");
+assert.ok(ENGLISH_TRANSLATIONS.every((entry) => !/\(\d+\)$/.test(entry.english)), "English prompts should not show duplicate counters");
 
 for (const requiredCategory of ["church", "grandma", "weather", "food", "family"]) {
   assert.ok(PHRASES.filter((entry) => entry.category === requiredCategory).length >= 20, `${requiredCategory} should have a deep phrase pool`);
