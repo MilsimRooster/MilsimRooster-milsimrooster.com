@@ -9,6 +9,6 @@ assert.ok(portraitBlock, "Portraits category should exist");
 const portraits = [...portraitBlock[1].matchAll(/"([^"]+\.jpg)"/g)].map((match) => match[1]);
 
 assert.deepEqual(portraits, [
-  "/media/optimized/photography/portraits/img-4888.jpg",
-  "/media/optimized/photography/portraits/img-9535.jpg"
+  "/media/optimized/photography/portraits/img-9535.jpg",
+  "/media/optimized/photography/portraits/img-9797.jpg"
 ]);
