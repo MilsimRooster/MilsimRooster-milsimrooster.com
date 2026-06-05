@@ -53,8 +53,8 @@ assert.ok(indexHtml.includes('type="module" src="./sayings.js"'));
 assert.ok(indexHtml.includes('type="module" src="./categories.js"'));
 assert.ok(indexHtml.includes('type="module" src="./app.js"'));
 
-assert.ok(CATEGORIES.length >= 10, "category browser should expose planned categories");
-assert.ok(PHRASES.length >= 200, "Southern phrase pool should have at least 200 entries");
+assert.ok(CATEGORIES.length >= 12, "category browser should expose planned categories");
+assert.ok(PHRASES.length >= 2000, "Southern phrase pool should have at least 2,000 entries");
 assert.ok(ENGLISH_TRANSLATIONS.length >= 100, "English-to-Southern pool should have at least 100 entries");
 assert.ok(SAYINGS.length >= 100, "random saying pool should have at least 100 entries");
 assert.equal(new Set(PHRASES.map((entry) => entry.id)).size, PHRASES.length);
@@ -62,14 +62,28 @@ assert.equal(new Set(ENGLISH_TRANSLATIONS.map((entry) => entry.id)).size, ENGLIS
 assert.equal(new Set(SAYINGS.map((entry) => entry.id)).size, SAYINGS.length);
 assert.ok(PHRASES.every((entry) => CATEGORIES.some((category) => category.id === entry.category)), "phrase categories should be known");
 assert.ok(PHRASES.every((entry) => entry.phrase && entry.literalMeaning && entry.actualMeanings?.length >= 3 && Number.isInteger(entry.severity)));
+assert.ok(
+  PHRASES.every((entry) =>
+    entry.phrase &&
+    entry.translation &&
+    entry.explanation &&
+    entry.region &&
+    entry.generation &&
+    entry.category &&
+    Number.isFinite(entry.confidence) &&
+    entry.confidence >= 0 &&
+    entry.confidence <= 1
+  ),
+  "every phrase should include the expanded translation database schema"
+);
 assert.ok(ENGLISH_TRANSLATIONS.every((entry) => entry.english && entry.southernOptions?.length >= 3 && entry.context));
 assert.ok(SAYINGS.every((entry) => entry.saying && entry.meaning && entry.usage && entry.category));
 assert.ok(PHRASES.every((entry) => !/^A familiar .+ expression used in everyday conversation\.$/.test(entry.literalMeaning)), "literal meanings should be specific and natural");
 assert.ok(PHRASES.every((entry) => !/\binsults expression\b|\bvehicles expression\b|\boutdoors expression\b/.test(entry.literalMeaning)), "literal meanings should not expose raw category ids");
 assert.ok(ENGLISH_TRANSLATIONS.every((entry) => !/\(\d+\)$/.test(entry.english)), "English prompts should not show duplicate counters");
 
-for (const requiredCategory of ["church", "grandma", "weather", "food", "family"]) {
-  assert.ok(PHRASES.filter((entry) => entry.category === requiredCategory).length >= 20, `${requiredCategory} should have a deep phrase pool`);
+for (const requiredCategory of ["church", "family", "food", "farming", "hunting", "fishing", "military", "small-town", "humor", "weather", "politics"]) {
+  assert.ok(PHRASES.filter((entry) => entry.category === requiredCategory).length >= 100, `${requiredCategory} should have a deep phrase pool`);
 }
 
 assert.ok(appJs.includes("navigator.clipboard"));
