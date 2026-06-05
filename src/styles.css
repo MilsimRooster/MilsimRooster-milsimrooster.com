@@ -540,6 +540,24 @@ h2 {
   filter: saturate(1.04) contrast(1.05);
 }
 
+.gallery-category-portraits .media-grid {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.gallery-category-portraits .media-tile {
+  min-height: 0;
+  aspect-ratio: 3 / 4;
+  background:
+    radial-gradient(circle at 50% 22%, rgba(184, 200, 145, 0.12), transparent 36%),
+    rgba(5, 8, 8, 0.64);
+}
+
+.gallery-category-portraits .media-tile img {
+  height: 100%;
+  min-height: 0;
+  object-fit: contain;
+}
+
 .media-empty {
   display: grid;
   place-items: center;

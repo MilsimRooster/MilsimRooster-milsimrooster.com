@@ -58,8 +58,13 @@ const photoCategories = [
     name: "Portraits",
     slug: "portraits",
     items: [
+      "/media/optimized/photography/portraits/img-0808b.jpg",
+      "/media/optimized/photography/portraits/img-0844.jpg",
+      "/media/optimized/photography/portraits/img-4888.jpg",
       "/media/optimized/photography/portraits/img-9535.jpg",
-      "/media/optimized/photography/portraits/img-9797.jpg"
+      "/media/optimized/photography/portraits/img-9571.jpg",
+      "/media/optimized/photography/portraits/img-9797.jpg",
+      "/media/optimized/photography/portraits/img-9798.jpg"
     ]
   }
 ];
@@ -227,7 +232,7 @@ function App() {
         <Section id="photography" eyebrow="Gallery" title="Photography Categories">
           <div className="gallery-stack">
             {photoCategories.map((category, index) => (
-              <article className="gallery-category" key={category.slug}>
+              <article className={`gallery-category gallery-category-${category.slug}`} key={category.slug}>
                 <div className="gallery-heading">
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <h3>{category.name}</h3>
