@@ -12,17 +12,17 @@
 /media/optimized/*
   Cache-Control: public, max-age=2592000
 
-/apps/*.css
+/apps/apostles/*
   Cache-Control: public, max-age=3600
 
-/apps/*.js
+/apps/fps-visualizer/*
   Cache-Control: public, max-age=3600
 
-/apps/*/*.css
+/apps/recipes/*
   Cache-Control: public, max-age=3600
 
-/apps/*/*.js
+/apps/how-southern-are-you/*
   Cache-Control: public, max-age=3600
 
-/apps/*/*.json
+/apps/southern-translator/*
   Cache-Control: public, max-age=3600

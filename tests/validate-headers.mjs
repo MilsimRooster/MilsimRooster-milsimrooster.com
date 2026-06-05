@@ -16,9 +16,11 @@ for (const token of [
   "Cache-Control: public, max-age=31556952, immutable",
   "/media/optimized/*",
   "Cache-Control: public, max-age=2592000",
-  "/apps/*/*.js",
-  "/apps/*/*.css",
-  "/apps/*/*.json",
+  "/apps/apostles/*",
+  "/apps/fps-visualizer/*",
+  "/apps/recipes/*",
+  "/apps/how-southern-are-you/*",
+  "/apps/southern-translator/*",
   "Cache-Control: public, max-age=3600"
 ]) {
   assert.ok(headers.includes(token), `public/_headers should include ${token}`);
