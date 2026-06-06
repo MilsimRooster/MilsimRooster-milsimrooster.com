@@ -155,63 +155,37 @@ h2 {
   border: 1px solid rgba(144, 104, 44, 0.32);
   border-radius: 8px;
   background:
-    linear-gradient(180deg, rgba(76, 142, 174, 0.62), rgba(251, 219, 149, 0.75) 48%, rgba(181, 112, 59, 0.88)),
+    linear-gradient(180deg, rgba(22, 35, 43, 0.02), rgba(22, 35, 43, 0.18)),
+    url("assets/storybook-galilee-hero.webp") center / cover no-repeat,
     #e6bd73;
-  box-shadow: inset 0 -50px 80px rgba(93, 54, 27, 0.28);
+  box-shadow: inset 0 -70px 90px rgba(43, 30, 18, 0.34);
 }
 
 .title-scene::before,
 .title-scene::after {
   content: "";
   position: absolute;
-  left: -8%;
-  right: -8%;
-  bottom: -35px;
-  height: 160px;
-  border-radius: 50% 50% 0 0;
-  background: #c68a4c;
+  pointer-events: none;
+}
+
+.title-scene::before {
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(23, 33, 43, 0.18), transparent 42%),
+    linear-gradient(0deg, rgba(50, 32, 18, 0.28), transparent 36%);
 }
 
 .title-scene::after {
-  bottom: -78px;
-  height: 190px;
-  background: #8d5a36;
-  opacity: .74;
+  inset: 14px;
+  border: 1px solid rgba(255, 248, 223, 0.5);
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(84, 57, 31, 0.2);
 }
 
-.sun {
-  position: absolute;
-  right: 52px;
-  top: 42px;
-  width: 84px;
-  height: 84px;
-  border-radius: 50%;
-  background: #fff2a8;
-  box-shadow: 0 0 46px rgba(255, 241, 164, 0.72);
-}
-
-.distant-city {
-  position: absolute;
-  left: 70px;
-  bottom: 130px;
-  width: 270px;
-  height: 82px;
-  background:
-    linear-gradient(to top, #6f4e35 0 45px, transparent 45px),
-    linear-gradient(to top, transparent 0 18px, #78563b 18px 60px, transparent 60px);
-  clip-path: polygon(0 100%, 0 48%, 8% 48%, 8% 28%, 17% 28%, 17% 48%, 26% 48%, 26% 10%, 39% 10%, 39% 48%, 52% 48%, 52% 24%, 62% 24%, 62% 48%, 72% 48%, 72% 34%, 83% 34%, 83% 48%, 100% 48%, 100% 100%);
-  opacity: .78;
-}
-
+.sun,
+.distant-city,
 .title-path {
-  position: absolute;
-  left: 22%;
-  bottom: -20px;
-  width: 42%;
-  height: 250px;
-  background: linear-gradient(180deg, rgba(255, 244, 194, 0.72), rgba(103, 66, 37, 0.28));
-  clip-path: polygon(42% 0, 62% 0, 100% 100%, 0 100%);
-  opacity: .72;
+  display: none;
 }
 
 .title-copy {
@@ -529,20 +503,60 @@ h2 {
   outline: 6px solid rgba(255, 248, 223, 0.48);
 }
 
-.stop-label {
-  max-width: 98px;
-  padding: 4px 7px;
-  border-radius: 999px;
-  background: rgba(255, 250, 240, 0.88);
-  color: #3c2a18;
-  font-size: 0.75rem;
-  font-weight: 800;
-  text-align: center;
-  box-shadow: 0 4px 9px rgba(47, 31, 16, 0.13);
+.map-progress {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 16px;
+  z-index: 4;
+  display: grid;
+  gap: 9px;
+  padding: 12px;
+  border: 1px solid rgba(122, 83, 37, 0.28);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.9);
+  box-shadow: 0 10px 24px rgba(74, 48, 23, 0.14);
 }
 
-.map-stop.current .stop-label {
-  background: #fff4c2;
+.map-progress-track {
+  height: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(123, 93, 57, 0.24);
+  box-shadow: inset 0 0 0 1px rgba(84, 57, 31, 0.14);
+}
+
+.map-progress-track span {
+  display: block;
+  width: var(--progress);
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--olive), var(--gold));
+}
+
+.map-progress-labels {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3px 10px;
+  align-items: center;
+}
+
+.map-progress-labels strong {
+  color: var(--wine);
+}
+
+.map-progress-labels span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.map-progress-labels em {
+  grid-column: 1 / -1;
+  color: #3c2a18;
+  font-size: 0.84rem;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .question-layout {
@@ -580,6 +594,19 @@ h2 {
   overflow: hidden;
   background: #efe0bd;
   border: 1px solid var(--line);
+}
+
+.portrait.art-card {
+  aspect-ratio: 4 / 5;
+  background: #efe0bd;
+  box-shadow: inset 0 0 0 1px rgba(255, 248, 223, 0.42);
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .apostle-card h2 {
@@ -769,6 +796,10 @@ h2 {
   aspect-ratio: 1.2;
 }
 
+.mini-card .portrait.art-card {
+  aspect-ratio: 4 / 5;
+}
+
 .mini-card h2 {
   margin: 10px 0 4px;
   font-size: 1.2rem;
@@ -824,6 +855,10 @@ h2 {
     padding: 10px;
   }
 
+  .journey-map.compact-map {
+    min-height: 228px;
+  }
+
   .map-callout {
     position: relative;
     left: auto;
@@ -837,6 +872,24 @@ h2 {
     inset: 72px 10px 18px;
     width: calc(100% - 20px);
     height: calc(100% - 90px);
+  }
+
+  .journey-map.compact-map .map-path {
+    display: none;
+  }
+
+  .journey-map.compact-map .map-stops {
+    position: static;
+  }
+
+  .journey-map.compact-map::before {
+    bottom: -46px;
+    height: 92px;
+  }
+
+  .journey-map.compact-map::after {
+    bottom: -72px;
+    height: 112px;
   }
 
   .map-sky span {
@@ -856,11 +909,4 @@ h2 {
     height: 28px;
   }
 
-  .map-stop:not(.current) .stop-label {
-    display: none;
-  }
-
-  .stop-label {
-    font-size: 0.68rem;
-  }
 }

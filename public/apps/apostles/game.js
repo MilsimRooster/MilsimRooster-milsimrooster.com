@@ -3,6 +3,7 @@ const apostles = [
     name: "Peter",
     also: "Simon Peter, Cephas",
     symbol: "Keys",
+    image: "assets/apostle-peter-storybook.webp",
     color: "#226d73",
     reference: "Matthew 16:18-19",
     fact: "He confessed that Jesus is the Christ and became a leading voice among the apostles.",
@@ -13,6 +14,7 @@ const apostles = [
     name: "Andrew",
     also: "Peter's brother",
     symbol: "Net",
+    image: "assets/apostle-andrew-storybook.webp",
     color: "#697a37",
     reference: "John 1:40-42",
     fact: "He brought his brother Simon Peter to Jesus.",
@@ -23,6 +25,7 @@ const apostles = [
     name: "James",
     also: "Son of Zebedee",
     symbol: "Thunder",
+    image: "assets/apostle-james-storybook.webp",
     color: "#7b2d45",
     reference: "Mark 3:17",
     fact: "He and John were called Sons of Thunder.",
@@ -33,6 +36,7 @@ const apostles = [
     name: "John",
     also: "Son of Zebedee",
     symbol: "Scroll",
+    image: "assets/apostle-john-storybook.webp",
     color: "#284b7a",
     reference: "John 19:26-27",
     fact: "Jesus entrusted Mary to his care at the cross.",
@@ -43,6 +47,7 @@ const apostles = [
     name: "Philip",
     also: "From Bethsaida",
     symbol: "Loaves",
+    image: "assets/apostle-philip-storybook.webp",
     color: "#b7791f",
     reference: "John 6:5-7",
     fact: "Jesus tested him before feeding the five thousand.",
@@ -53,6 +58,7 @@ const apostles = [
     name: "Bartholomew",
     also: "Often identified with Nathanael",
     symbol: "Fig Tree",
+    image: "assets/apostle-bartholomew-storybook.webp",
     color: "#2f855a",
     reference: "John 1:47-49",
     fact: "Jesus described Nathanael as a man without deceit.",
@@ -63,6 +69,7 @@ const apostles = [
     name: "Thomas",
     also: "Didymus",
     symbol: "Spear",
+    image: "assets/apostle-thomas-storybook.webp",
     color: "#5a4a8f",
     reference: "John 20:24-29",
     fact: "He wanted to see Jesus' wounds and then confessed, 'My Lord and my God.'",
@@ -73,6 +80,7 @@ const apostles = [
     name: "Matthew",
     also: "Levi",
     symbol: "Coins",
+    image: "assets/apostle-matthew-storybook.webp",
     color: "#8a4f2b",
     reference: "Matthew 9:9",
     fact: "He was a tax collector when Jesus called him.",
@@ -83,6 +91,7 @@ const apostles = [
     name: "James the Less",
     also: "Son of Alphaeus",
     symbol: "Lamp",
+    image: "assets/apostle-james-the-less-storybook.webp",
     color: "#805ad5",
     reference: "Mark 15:40",
     fact: "He is listed among the Twelve and is often distinguished from James son of Zebedee.",
@@ -93,6 +102,7 @@ const apostles = [
     name: "Thaddaeus",
     also: "Judas son of James, Jude",
     symbol: "Heart",
+    image: "assets/apostle-thaddaeus-storybook.webp",
     color: "#b83280",
     reference: "John 14:22",
     fact: "He asked Jesus why He would reveal Himself to the disciples and not the world.",
@@ -103,6 +113,7 @@ const apostles = [
     name: "Simon the Zealot",
     also: "Simon the Cananaean",
     symbol: "Flame",
+    image: "assets/apostle-simon-the-zealot-storybook.webp",
     color: "#c53030",
     reference: "Luke 6:15",
     fact: "His title suggests passionate commitment before following Jesus.",
@@ -113,6 +124,7 @@ const apostles = [
     name: "Judas Iscariot",
     also: "The betrayer",
     symbol: "Purse",
+    image: "assets/apostle-judas-iscariot-storybook.webp",
     color: "#4a5568",
     reference: "Matthew 26:14-16",
     fact: "He betrayed Jesus, and his story warns against divided loyalty.",
@@ -123,6 +135,7 @@ const apostles = [
     name: "Matthias",
     also: "Chosen after Judas",
     symbol: "Lot",
+    image: "assets/apostle-matthias-storybook.webp",
     color: "#3182ce",
     reference: "Acts 1:23-26",
     fact: "He was chosen to take Judas Iscariot's place after the resurrection.",
@@ -133,6 +146,7 @@ const apostles = [
     name: "Paul",
     also: "Saul of Tarsus",
     symbol: "Road",
+    image: "assets/apostle-paul-storybook.webp",
     color: "#2c7a7b",
     reference: "Acts 9:1-19",
     fact: "The risen Jesus met him on the road to Damascus.",
@@ -140,6 +154,91 @@ const apostles = [
     clue: "He met Jesus on the road to Damascus."
   }
 ];
+
+const extraFigures = [
+  {
+    name: "Joseph called Barsabbas",
+    also: "Candidate with Matthias",
+    symbol: "Lot",
+    color: "#7a5a2f",
+    reference: "Acts 1:23",
+    fact: "He was considered along with Matthias before Matthias was chosen.",
+    lesson: "Faithfulness still matters when another person is selected.",
+    clue: "He was considered with Matthias in Acts 1."
+  },
+  {
+    name: "Barnabas",
+    also: "Son of encouragement",
+    symbol: "Cloak",
+    color: "#5f7d3b",
+    reference: "Acts 4:36-37",
+    fact: "He encouraged believers and helped welcome Paul.",
+    lesson: "Encouragement can open doors for others.",
+    clue: "He traveled with Paul and was known for encouragement."
+  },
+  {
+    name: "Silas",
+    also: "Mission companion",
+    symbol: "Song",
+    color: "#3d6f86",
+    reference: "Acts 16:25",
+    fact: "He prayed and sang with Paul in prison.",
+    lesson: "Worship can continue even in hard places.",
+    clue: "He joined Paul on missionary journeys."
+  },
+  {
+    name: "Timothy",
+    also: "Young coworker",
+    symbol: "Letter",
+    color: "#7b5a8f",
+    reference: "2 Timothy 1:5",
+    fact: "He learned sincere faith and served alongside Paul.",
+    lesson: "Young believers can serve with courage.",
+    clue: "Paul wrote letters to him."
+  },
+  {
+    name: "Stephen",
+    also: "Early witness",
+    symbol: "Crown",
+    color: "#8a6a2a",
+    reference: "Acts 6-7",
+    fact: "He served the church and spoke boldly about Jesus.",
+    lesson: "Courage and service belong together.",
+    clue: "He was one of the first deacons and a bold witness."
+  },
+  {
+    name: "Luke",
+    also: "Gospel writer",
+    symbol: "Scroll",
+    color: "#466b75",
+    reference: "Luke 1:1-4",
+    fact: "He carefully wrote about Jesus and the early church.",
+    lesson: "Careful truth-telling helps others learn.",
+    clue: "His name is connected with a Gospel and Acts."
+  },
+  {
+    name: "Mark",
+    also: "Gospel writer",
+    symbol: "Quill",
+    color: "#8a4f2b",
+    reference: "Mark 1:1",
+    fact: "His name is connected with the Gospel of Mark.",
+    lesson: "God can keep using people as they grow.",
+    clue: "His name is connected with the shortest Gospel."
+  },
+  {
+    name: "Ananias",
+    also: "Disciple in Damascus",
+    symbol: "Road",
+    color: "#2c7a7b",
+    reference: "Acts 9:10-19",
+    fact: "God sent him to help Saul after the Damascus road.",
+    lesson: "Obedience can help someone take their first faithful step.",
+    clue: "He helped Saul after Saul met Jesus."
+  }
+];
+
+const figures = [...apostles, ...extraFigures];
 
 const questions = [
   q("Which apostle was also called Cephas?", "Peter", ["Andrew", "Thomas", "Matthew"], "Names", "Cephas is an Aramaic name meaning rock."),
@@ -308,6 +407,7 @@ const el = {
   feedback: document.querySelector("#feedback"),
   hintButton: document.querySelector("#hintButton"),
   nextButton: document.querySelector("#nextButton"),
+  journeyMap: document.querySelector(".journey-map"),
   mapCallout: document.querySelector("#mapCallout"),
   mapStops: document.querySelector("#mapStops"),
   menuButton: document.querySelector("#menuButton"),
@@ -341,13 +441,13 @@ function reshuffleQuestions() {
 }
 
 const mapPositions = [
-  { x: 6, y: 69 },
+  { x: 8, y: 69 },
   { x: 19, y: 33 },
   { x: 34, y: 58 },
   { x: 50, y: 77 },
   { x: 66, y: 38 },
   { x: 83, y: 57 },
-  { x: 94, y: 66 }
+  { x: 92, y: 66 }
 ];
 
 const journeyStops = [
@@ -448,18 +548,29 @@ function portrait(apostle) {
     </svg>`;
 }
 
+function portraitMarkup(apostle) {
+  if (apostle.image) {
+    return `
+      <div class="portrait art-card">
+        <img src="${escapeAttr(apostle.image)}" alt="${escapeAttr(apostle.name)} storybook portrait" loading="lazy">
+      </div>`;
+  }
+
+  return `<div class="portrait">${portrait(apostle)}</div>`;
+}
+
 function cardTemplate(apostle, compact = false) {
   if (compact) {
     return `
       <article class="mini-card">
-        <div class="portrait">${portrait(apostle)}</div>
+        ${portraitMarkup(apostle)}
         <h2>${escapeHtml(apostle.name)}</h2>
         <p>${escapeHtml(apostle.clue)}</p>
       </article>`;
   }
 
   return `
-    <div class="portrait">${portrait(apostle)}</div>
+    ${portraitMarkup(apostle)}
     <h2>${escapeHtml(apostle.name)}</h2>
     <p class="subtitle">${escapeHtml(apostle.also)}</p>
     <dl class="fact-list">
@@ -476,9 +587,33 @@ function currentQuestion() {
   return questions[state.questionOrder[state.current % questions.length]];
 }
 
-function currentApostle() {
+function normalizeAnswer(value) {
+  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function figureSearchTerms(figure) {
+  const terms = [figure.name, figure.also]
+    .flatMap(value => String(value).split(","))
+    .map(normalizeAnswer)
+    .filter(Boolean);
+  if (figure.name === "Bartholomew") terms.push("nathanael");
+  if (figure.name === "Simon the Zealot") terms.push("simon");
+  if (figure.name === "Peter") terms.push("simon peter", "cephas");
+  if (figure.name === "Thaddaeus") terms.push("judas son of james", "jude");
+  if (figure.name === "Paul") terms.push("saul", "saul of tarsus");
+  if (figure.name === "Joseph called Barsabbas") terms.push("joseph barsabbas", "barsabbas");
+  return terms;
+}
+
+function resolveFigureForAnswer(answer) {
+  const normalizedAnswer = normalizeAnswer(answer);
+  return figures.find(figure => figureSearchTerms(figure).some(term => normalizedAnswer === term))
+    || figures.find(figure => figureSearchTerms(figure).some(term => normalizedAnswer.includes(term)));
+}
+
+function currentFigure() {
   const question = currentQuestion();
-  return apostles.find(apostle => question.answer.includes(apostle.name) || apostle.name.includes(question.answer)) || apostles[state.current % apostles.length];
+  return resolveFigureForAnswer(question.answer);
 }
 
 function renderScoreboard() {
@@ -500,28 +635,44 @@ function renderMap() {
   const currentIndex = step - segmentStart;
   const currentStop = journeyStops[step];
   const nextStop = journeyStops[Math.min(step + 1, journeyStops.length - 1)];
+  const compact = window.matchMedia("(max-width: 850px)").matches;
 
   el.mapCallout.innerHTML = `
     <strong>${escapeHtml(currentStop.label)}</strong>
     <span>${escapeHtml(currentStop.note)}</span>
     <em>Next: ${escapeHtml(nextStop.label)}</em>`;
 
+  el.journeyMap.classList.toggle("compact-map", compact);
+
+  if (compact) {
+    const progress = Math.round((step / (journeyStops.length - 1)) * 100);
+    el.mapStops.innerHTML = `
+      <div class="map-progress" style="--progress: ${progress}%;">
+        <span class="map-progress-track"><span></span></span>
+        <div class="map-progress-labels">
+          <strong>${escapeHtml(currentStop.label)}</strong>
+          <span>${step + 1} / ${journeyStops.length}</span>
+          <em>${step === journeyStops.length - 1 ? "Journey complete" : `Toward ${escapeHtml(nextStop.label)}`}</em>
+        </div>
+      </div>`;
+    return;
+  }
+
   el.mapStops.innerHTML = visibleStops.map((stop, index) => {
     const absoluteIndex = segmentStart + index;
     const status = absoluteIndex < step ? "complete" : index === currentIndex ? "current" : "";
     const pos = mapPositions[index];
     return `
-      <div class="map-stop ${status}" style="left: ${pos.x}%; top: ${pos.y}%;">
+      <div class="map-stop ${status}" style="left: ${pos.x}%; top: ${pos.y}%;" aria-label="${escapeAttr(stop.label)}" title="${escapeAttr(stop.label)}">
         <span class="stop-dot"></span>
-        <span class="stop-label">${escapeHtml(stop.label)}</span>
       </div>`;
-  }).join("");
+}).join("");
 }
 
 function renderQuestion() {
   const question = currentQuestion();
   state.answered = false;
-  el.featuredCard.innerHTML = cardTemplate(currentApostle());
+  el.featuredCard.innerHTML = "";
   el.featuredCard.hidden = true;
   el.questionLayout.classList.remove("hint-open");
   el.questionCard.classList.remove("correct-flash", "wrong-flash");
@@ -542,6 +693,21 @@ function renderQuestion() {
   });
   renderScoreboard();
   renderMap();
+}
+
+function setFeaturedCard(answer, reveal = true) {
+  const figure = resolveFigureForAnswer(answer);
+  if (!figure) {
+    el.featuredCard.innerHTML = "";
+    el.featuredCard.hidden = true;
+    el.questionLayout.classList.remove("hint-open");
+    return false;
+  }
+
+  el.featuredCard.innerHTML = cardTemplate(figure);
+  el.featuredCard.hidden = !reveal;
+  el.questionLayout.classList.toggle("hint-open", reveal);
+  return true;
 }
 
 function chooseAnswer(button) {
@@ -580,6 +746,8 @@ function chooseAnswer(button) {
     el.nextButton.textContent = "Show Results";
   }
 
+  setFeaturedCard(question.answer, true);
+
   if (state.mode === "teams") {
     state.teamTurn = (state.teamTurn + 1) % state.teams.length;
   }
@@ -607,10 +775,18 @@ function flashQuestionCard(className) {
 
 function showHint() {
   const showingHint = el.featuredCard.hidden;
-  el.featuredCard.hidden = !showingHint;
-  el.questionLayout.classList.toggle("hint-open", showingHint);
+  const hasCard = showingHint ? setFeaturedCard(currentQuestion().answer, true) : false;
+  if (!showingHint) {
+    el.featuredCard.hidden = true;
+    el.questionLayout.classList.remove("hint-open");
+  }
   el.hintButton.textContent = showingHint ? "Hide Hint" : "Show Hint";
-  el.feedback.textContent = showingHint ? currentQuestion().hint : "Hint hidden.";
+  el.feedback.textContent = showingHint
+    ? currentQuestion().hint
+    : "Hint hidden.";
+  if (showingHint && !hasCard) {
+    el.feedback.textContent = `${currentQuestion().hint} No person card is needed for this answer.`;
+  }
   el.feedback.className = "feedback";
 }
 
@@ -791,7 +967,10 @@ el.soundToggle.addEventListener("click", () => {
   state.sound = !state.sound;
   el.soundToggle.textContent = state.sound ? "S" : "M";
 });
+window.addEventListener("resize", () => {
+  if (!el.gameContent.hidden && document.querySelector("#questView").classList.contains("active")) {
+    renderMap();
+  }
+});
 
-renderCards();
-renderMatch();
 showTitle();

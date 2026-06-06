@@ -1,6 +1,6 @@
 # MR.com Project Context
 
-This project covers milsimrooster.com and the small HTML apps published under it. Keep this context separate from Wasteland work.
+This project covers milsimrooster.com and the small HTML apps published under it. Keep this context focused on MR.com site and app work.
 
 ## Project Homes
 
@@ -40,7 +40,7 @@ All four routes were checked live and returned HTTP `200` with the expected page
 ### Home Page
 
 - Main page includes launch cards for Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, and Southern Translator.
-- The apps launcher should feel like a clear "Games and Utilities" section, separate from Wasteland.
+- The apps launcher should feel like a clear "Games and Utilities" section for the MR.com app family.
 
 ### Apostles Quest
 
@@ -121,7 +121,7 @@ Live response headers looked good:
 
 ## Near-Term Priorities
 
-1. Keep Wasteland work separate from MR.com work.
+1. Keep MR.com planning, site work, and app handoffs anchored in this project context.
 2. Consider adding a Cloudflare rule if `195.178.110.199` keeps dominating traffic.
 3. Improve static asset caching once app edits settle down.
 4. Decide whether to keep Direct Upload or connect Cloudflare Pages to GitHub for push-to-deploy.

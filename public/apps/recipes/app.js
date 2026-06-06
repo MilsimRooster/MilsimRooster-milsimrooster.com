@@ -355,8 +355,9 @@ function shoppingText() {
 
 function randomDinner() {
   if (!state.recipes.length) return;
-  let options = state.recipes;
-  if (state.recipes.length > 1) options = state.recipes.filter((recipe) => recipe.id !== state.lastDinnerId);
+  const dinnerRecipes = state.recipes.filter((recipe) => recipe.category !== "Dessert" && recipe.protein !== "Dessert");
+  let options = dinnerRecipes.length ? dinnerRecipes : state.recipes;
+  if (options.length > 1) options = options.filter((recipe) => recipe.id !== state.lastDinnerId);
   const recipe = options[Math.floor(Math.random() * options.length)];
   state.lastDinnerId = recipe.id;
   const message = dinnerMessages[Math.floor(Math.random() * dinnerMessages.length)];
