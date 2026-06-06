@@ -230,7 +230,6 @@ nav a:hover,
 }
 
 .video-card::before,
-.project-card::before,
 .contact-panel::before,
 .links-list::before {
   content: "";
@@ -246,7 +245,6 @@ nav a:hover,
 }
 
 .video-card::after,
-.project-card::after,
 .contact-panel::after,
 .links-list::after {
   content: "";
@@ -421,18 +419,17 @@ h1 {
 .app-launch::after {
   content: "";
   position: absolute;
-  inset: 1px auto auto 7%;
-  width: 68%;
-  height: 34%;
+  inset: 0;
   border-radius: inherit;
   pointer-events: none;
   /* liquid-glass edge glint */
   background:
-    radial-gradient(ellipse at 12% 0%, var(--glass-edge-hot), rgba(255, 255, 255, 0.14) 26%, transparent 48%),
-    linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.54) 16%, rgba(255, 255, 255, 0.16) 38%, rgba(126, 239, 229, 0.20) 62%, transparent 82%);
-  mask-image: linear-gradient(90deg, transparent 0%, #000 12%, #000 58%, transparent 82%);
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 12%, #000 58%, transparent 82%);
-  opacity: 0.66;
+    radial-gradient(ellipse at 13% 0%, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.08) 26%, transparent 54%),
+    linear-gradient(90deg, transparent 0%, transparent 64%, rgba(126, 239, 229, 0.16) 88%, transparent 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.10), transparent 70%);
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.48) 42%, transparent 92%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.48) 42%, transparent 92%);
+  opacity: 0.54;
   mix-blend-mode: screen;
 }
 
@@ -608,6 +605,37 @@ h2 {
   display: grid;
   align-content: start;
   gap: 12px;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 14% -4%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.05) 28%, transparent 58%),
+    radial-gradient(ellipse at 96% 40%, rgba(126, 239, 229, 0.12), transparent 54%),
+    linear-gradient(130deg, rgba(255, 255, 255, 0.05), transparent 44%, rgba(126, 239, 229, 0.06) 92%, transparent);
+  opacity: 0.58;
+  mix-blend-mode: screen;
+}
+
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  /* liquid-glass edge glint */
+  background:
+    radial-gradient(ellipse at 13% 0%, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.08) 24%, transparent 54%),
+    linear-gradient(90deg, transparent 0%, transparent 64%, rgba(126, 239, 229, 0.16) 88%, transparent 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12), transparent 72%);
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.46) 44%, transparent 94%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.46) 44%, transparent 94%);
+  opacity: 0.56;
+  mix-blend-mode: screen;
 }
 
 .project-card h3,

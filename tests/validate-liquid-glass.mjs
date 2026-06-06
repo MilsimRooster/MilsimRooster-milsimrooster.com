@@ -27,6 +27,7 @@ const tallGlintGroup = css.match(/\.video-card::after,[\s\S]*?\.links-list::afte
 assert.ok(tallGlintGroup, "shared card glint group should still exist for non-media cards");
 assert.ok(!tallGlintGroup[0].includes(".gallery-category::after"), "gallery sections should not use the tall card glint that creates hard media edges");
 assert.ok(!tallGlintGroup[0].includes(".hero-copy::after"), "hero copy should use a custom soft glint instead of the tall hard cutoff");
+assert.ok(!tallGlintGroup[0].includes(".project-card::after"), "project cards should not use the tall card glint that creates hard software-card edges");
 
 for (const token of [
   ".hero-copy::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;",
@@ -35,6 +36,19 @@ for (const token of [
   ".media-tile {\n  position: relative;\n  border-radius: 8px;",
   "linear-gradient(180deg, transparent 0%, transparent 72%, rgba(0, 0, 0, 0.16) 100%)",
   ".split-card p {\n  color: rgba(247, 248, 242, 0.90);",
+  ".project-card::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;",
+  "radial-gradient(ellipse at 13% 0%, rgba(255, 255, 255, 0.24)",
+  ".app-launch::after {\n  content: \"\";\n  position: absolute;\n  inset: 0;",
+  "linear-gradient(90deg, transparent 0%, transparent 64%, rgba(126, 239, 229, 0.16) 88%, transparent 100%)",
 ]) {
   assert.ok(css.includes(token), `src/styles.css should include softened bloom rule: ${token}`);
 }
+
+const projectAfter = css.match(/\.project-card::after \{[\s\S]*?\n\}/);
+assert.ok(projectAfter, "project cards should define a custom full-card bloom");
+assert.ok(!projectAfter[0].includes("height:"), "project card bloom should not have an internal hard height cutoff");
+
+const appLaunchAfter = css.match(/\.app-launch::after \{[\s\S]*?\n\}/);
+assert.ok(appLaunchAfter, "app launcher buttons should define a custom full-button bloom");
+assert.ok(!appLaunchAfter[0].includes("width:"), "app launcher bloom should not have an internal hard width cutoff");
+assert.ok(!appLaunchAfter[0].includes("height:"), "app launcher bloom should not have an internal hard height cutoff");
