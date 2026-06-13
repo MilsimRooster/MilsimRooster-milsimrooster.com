@@ -4,3 +4,4 @@ dist/
 .wrangler/
 npm-debug.log*
 media-source/
+.superpowers/

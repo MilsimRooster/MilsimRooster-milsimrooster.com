@@ -199,6 +199,13 @@ nav a:hover,
   padding: 38px 0 56px;
 }
 
+.gallery-first-hero {
+  min-height: calc(100vh - 86px);
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(18px, 3vw, 34px);
+  padding: clamp(24px, 4vw, 48px) 0 64px;
+}
+
 .hero-copy,
 .split-card,
 .gallery-category,
@@ -278,6 +285,15 @@ nav a:hover,
   padding: clamp(30px, 5vw, 58px);
 }
 
+.gallery-first-hero .hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  min-height: 520px;
+  padding: clamp(28px, 4.8vw, 58px);
+}
+
 .hero-copy::before,
 .split-card::before {
   content: "";
@@ -354,6 +370,11 @@ h1 {
   text-shadow: 0 24px 54px rgba(0, 0, 0, 0.7);
 }
 
+.gallery-first-hero h1 {
+  font-size: clamp(54px, 8vw, 96px);
+  line-height: 0.94;
+}
+
 .tagline {
   max-width: 720px;
   color: var(--muted);
@@ -400,6 +421,12 @@ h1 {
   color: var(--text);
 }
 
+.hero-gallery-button {
+  width: min(100%, 460px);
+  margin-top: clamp(14px, 2vw, 24px);
+  padding: clamp(14px, 1.7vw, 18px);
+}
+
 .gallery-launch-button::before {
   content: "";
   position: absolute;
@@ -414,7 +441,8 @@ h1 {
 }
 
 .gallery-launch-button span,
-.gallery-launch-button strong {
+.gallery-launch-button strong,
+.gallery-launch-button small {
   position: relative;
   z-index: 1;
 }
@@ -430,6 +458,20 @@ h1 {
 .gallery-launch-button strong {
   font-size: clamp(20px, 3vw, 30px);
   line-height: 1;
+}
+
+.hero-gallery-button strong {
+  font-size: clamp(28px, 3vw, 36px);
+  letter-spacing: 0;
+  line-height: 0.94;
+}
+
+.gallery-launch-button small {
+  max-width: 36ch;
+  color: rgba(247, 248, 242, 0.72);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .gallery-launch-button:hover {
@@ -543,6 +585,10 @@ h1 {
   box-shadow: 0 32px 90px var(--shadow);
 }
 
+.gallery-first-hero .hero-visual {
+  min-height: min(72vh, 700px);
+}
+
 .hero-visual > img {
   width: 100%;
   height: 100%;
@@ -550,6 +596,10 @@ h1 {
   display: block;
   object-fit: cover;
   filter: contrast(1.08) saturate(0.86) brightness(0.72);
+}
+
+.gallery-first-hero .hero-visual > img {
+  min-height: min(72vh, 700px);
 }
 
 .hero-visual::after {

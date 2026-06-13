@@ -131,51 +131,40 @@ function App() {
         </header>
 
         <main>
-          <section id="home" className="hero">
+          <section id="home" className="hero gallery-first-hero">
             <div className="hero-copy">
-            <p className="kicker">Photography / Video / Utilities</p>
-            <h1>Milsim Rooster</h1>
-            <p className="tagline">
-              A tactical-media home base for photography, field footage, creative projects, and practical software built around real workflows.
-            </p>
-            <div className="hero-actions">
-              <a href="/apps/gallery/">Gallery</a>
+              <p className="kicker">Field Gallery / Media Archive</p>
+              <h1>Milsim Rooster</h1>
+              <p className="tagline">
+                The gallery is the front door now: field photography, second-layer moments, and cinematic milsim media in one focused archive.
+              </p>
+              <a className="hero-gallery-button gallery-launch-button" href="/apps/gallery/">
+                <span>Gallery</span>
+                <strong>Enter the Gallery</strong>
+                <small>Spherical field archive, second layer, and media wall.</small>
+              </a>
             </div>
-            <h2 className="app-launcher-title">Games and Utilities</h2>
-            <div className="app-launcher" aria-label="Featured app launcher">
-              {featuredApps.map((app) => (
-                <a className="app-launch" href={app.href} key={app.name}>
-                  <span className={`app-icon ${app.icon === "FPS" ? "app-icon-reticle" : ""}`}>{app.icon}</span>
-                  <span>{app.name}</span>
-                </a>
-              ))}
-            </div>
-            <a className="gallery-launch-button" href="/apps/gallery/">
-              <span>Gallery</span>
-              <strong>Enter the spherical field archive</strong>
-            </a>
-          </div>
-          <div className="hero-visual" aria-label="Milsim Rooster visual preview">
-            <img src="/media/optimized/hero/img-7003-hero.jpg" alt="Milsim Rooster hero media preview" />
-            <div className="mission-card">
-              <div>
-                <span>01</span>
-                <strong>Capture</strong>
-                <p>Portraits, events, community moments, and milsim atmosphere.</p>
-              </div>
-              <div>
-                <span>02</span>
-                <strong>Produce</strong>
-                <p>Short-form video work, field edits, and promotional media.</p>
-              </div>
-              <div>
-                <span>03</span>
-                <strong>Build</strong>
-                <p>Local utilities that turn repeated desktop work into fast controls.</p>
+            <div className="hero-visual" aria-label="Milsim Rooster visual preview">
+              <img src="/media/optimized/hero/img-7003-hero.jpg" alt="Milsim Rooster hero media preview" />
+              <div className="mission-card">
+                <div>
+                  <span>01</span>
+                  <strong>Surface</strong>
+                  <p>Curated portraits, events, and field atmosphere.</p>
+                </div>
+                <div>
+                  <span>02</span>
+                  <strong>Second Layer</strong>
+                  <p>Expanded image wall with clean framed viewing.</p>
+                </div>
+                <div>
+                  <span>03</span>
+                  <strong>Motion</strong>
+                  <p>Field video and channel links sit below the archive.</p>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
         <Section id="about" eyebrow="About" title="Creative Work With Practical Edges">
           <div className="split-card">
