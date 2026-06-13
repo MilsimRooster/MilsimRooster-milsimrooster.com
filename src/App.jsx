@@ -140,8 +140,6 @@ function App() {
             </p>
             <div className="hero-actions">
               <a href="/apps/gallery/">Gallery</a>
-              <a href="#videos">Videos</a>
-              <a href="#projects">Projects</a>
             </div>
             <h2 className="app-launcher-title">Games and Utilities</h2>
             <div className="app-launcher" aria-label="Featured app launcher">

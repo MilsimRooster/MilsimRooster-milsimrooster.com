@@ -267,5 +267,12 @@ assert.equal(
 
 assert.ok(homeSource.includes("href: \"/apps/gallery/\""), "home nav should link to the standalone gallery");
 assert.ok(homeSource.includes("className=\"gallery-launch-button\""), "home page should include the gallery launch button");
+assert.ok(
+  homeSource.includes('<div className="hero-actions">\r\n              <a href="/apps/gallery/">Gallery</a>\r\n            </div>') ||
+    homeSource.includes('<div className="hero-actions">\n              <a href="/apps/gallery/">Gallery</a>\n            </div>'),
+  "home page hero quick actions should only include the gallery button"
+);
+assert.ok(!homeSource.includes('<a href="#videos">Videos</a>'), "home page hero quick actions should not duplicate the videos tile");
+assert.ok(!homeSource.includes('<a href="#projects">Projects</a>'), "home page hero quick actions should not duplicate the projects tile");
 assert.ok(!homeSource.includes("<Section id=\"photography\""), "old embedded photography gallery should be replaced");
 assert.ok(viteConfig.includes("apps/gallery/index.html"), "Vite should build the gallery page");
