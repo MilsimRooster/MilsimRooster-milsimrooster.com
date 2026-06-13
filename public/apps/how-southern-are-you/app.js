@@ -11,13 +11,24 @@ import {
 
 const QUIZ_LENGTH = 20;
 const appUrl = "https://milsimrooster.com/apps/how-southern-are-you/";
+const AUDIO_BASE = "./assets/audio/";
+const AUDIO_STORAGE_KEY = "howSouthernAudioMuted";
+const BACKGROUND_THEME = "welcome_theme.wav";
+const HERO_VOLUME = 0.72;
+const MUSIC_VOLUME = 0.32;
+const MUSIC_DUCKED_VOLUME = 0.06;
+const PAUSE_DUCKING_QUERY = "(hover: none), (pointer: coarse)";
+const usePauseDucking = window.matchMedia(PAUSE_DUCKING_QUERY).matches;
 
 const state = {
   questions: [],
   index: 0,
   score: 0,
   maxScore: 0,
-  lastScore: 0
+  lastScore: 0,
+  muted: localStorage.getItem(AUDIO_STORAGE_KEY) === "true",
+  lastResultClip: "",
+  resultAudioToken: 0
 };
 
 const els = {
@@ -41,9 +52,162 @@ const els = {
   downloadButton: document.querySelector("#downloadButton"),
   randomizeButton: document.querySelector("#randomizeButton"),
   retryButton: document.querySelector("#retryButton"),
+  audioToggle: document.querySelector("#audioToggle"),
+  replayResultAudio: document.querySelector("#replayResultAudio"),
+  musicAudio: document.querySelector("#musicAudio"),
+  heroAudio: document.querySelector("#heroAudio"),
   toast: document.querySelector("#toast"),
   resultCard: document.querySelector("#resultCard")
 };
+
+const currentAudio = els.heroAudio || new Audio();
+const musicAudio = els.musicAudio || new Audio();
+let currentClip = "";
+let currentMusic = "";
+let activeClipOptions = {};
+let musicUnlocked = false;
+let musicPausedForDuck = false;
+
+currentAudio.volume = HERO_VOLUME;
+currentAudio.preload = "auto";
+currentAudio.setAttribute("playsinline", "");
+musicAudio.loop = true;
+musicAudio.volume = MUSIC_VOLUME;
+musicAudio.preload = "auto";
+musicAudio.setAttribute("playsinline", "");
+
+function audioClipForScore(score) {
+  if (score <= 20) return "yankee-spy.wav";
+  if (score <= 40) return "visiting-cousin.wav";
+  if (score <= 60) return "honorary-southerner.wav";
+  if (score <= 80) return "porch-certified.wav";
+  if (score <= 95) return "sweet-tea-professional.wav";
+  if (score <= 99) return "state-fair-legend.wav";
+  return "southern-champion.wav";
+}
+
+function updateAudioToggle() {
+  els.audioToggle.textContent = state.muted ? "Audio Off" : "Audio On";
+  els.audioToggle.setAttribute("aria-pressed", String(!state.muted));
+}
+
+function stopAudio() {
+  activeClipOptions = {};
+  currentAudio.pause();
+  currentAudio.currentTime = 0;
+}
+
+function stopMusic() {
+  musicPausedForDuck = false;
+  musicAudio.pause();
+  musicAudio.currentTime = 0;
+}
+
+function stopAllAudioForPageLifecycle() {
+  stopAudio();
+  stopMusic();
+}
+
+function stopAllAudioForPageExit() {
+  musicUnlocked = false;
+  stopAllAudioForPageLifecycle();
+}
+
+function resumeMusicAfterPageReturn() {
+  if (!document.hidden && !state.muted && musicUnlocked) {
+    startBackgroundTheme();
+  }
+}
+
+function duckMusic() {
+  musicPausedForDuck = false;
+  if (usePauseDucking) {
+    musicPausedForDuck = !musicAudio.paused;
+    musicAudio.pause();
+    return;
+  }
+  if (musicAudio.paused) return;
+  musicAudio.volume = MUSIC_DUCKED_VOLUME;
+}
+
+function restoreMusic() {
+  if (state.muted) return;
+  musicAudio.volume = MUSIC_VOLUME;
+  if (musicPausedForDuck) {
+    musicPausedForDuck = false;
+    musicAudio.play().then(() => {
+      musicUnlocked = true;
+    }).catch(() => {
+      musicUnlocked = false;
+    });
+  }
+}
+
+function playMusic(file, options = {}) {
+  if (state.muted || !file) return Promise.resolve(false);
+  const nextMusic = `${AUDIO_BASE}${file}`;
+  if (currentMusic !== nextMusic) {
+    musicAudio.src = nextMusic;
+    currentMusic = nextMusic;
+    musicAudio.load();
+  }
+  musicAudio.loop = true;
+  musicAudio.volume = MUSIC_VOLUME;
+  const playAttempt = musicAudio.play();
+  if (!playAttempt || typeof playAttempt.then !== "function") {
+    musicUnlocked = true;
+    return Promise.resolve(true);
+  }
+  return playAttempt.then(() => {
+    musicUnlocked = true;
+    return true;
+  }).catch(() => {
+    musicUnlocked = false;
+    if (options.silentBlocked) return;
+    showToast("Tap Start Quiz to start audio.");
+    return false;
+  });
+}
+
+function startBackgroundTheme() {
+  return playMusic(BACKGROUND_THEME);
+}
+
+function playClip(file, options = {}) {
+  if (state.muted || !file) return;
+  stopAudio();
+  activeClipOptions = {
+    restoreMusicAfter: options.restoreMusicAfter !== false,
+    startMusicAfter: options.startMusicAfter === true
+  };
+  duckMusic();
+  const nextClip = `${AUDIO_BASE}${file}`;
+  if (currentClip !== nextClip) {
+    currentAudio.src = nextClip;
+    currentClip = nextClip;
+  }
+  currentAudio.preload = "auto";
+  currentAudio.play().catch(() => {
+    if (activeClipOptions.restoreMusicAfter) restoreMusic();
+    showToast("Audio is blocked. Click Start Quiz or Replay Result Audio.");
+  });
+}
+
+function setMuted(value) {
+  state.muted = value;
+  localStorage.setItem(AUDIO_STORAGE_KEY, String(state.muted));
+  if (state.muted) {
+    stopAudio();
+    stopMusic();
+  }
+  updateAudioToggle();
+  if (!state.muted && musicUnlocked) startBackgroundTheme();
+}
+
+function enableAudioAndPlayClip(file) {
+  if (state.muted) setMuted(false);
+  playClip(file);
+}
 
 function randomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
@@ -74,7 +238,13 @@ function showOnly(screen) {
   screen.classList.remove("hidden");
 }
 
-function startQuiz() {
+function startQuiz({ playWelcome = true } = {}) {
+  state.resultAudioToken += 1;
+  if (playWelcome) {
+    playClip("welcome.wav", { startMusicAfter: true });
+  } else {
+    startBackgroundTheme();
+  }
   state.questions = categoryBalancedQuestions();
   state.index = 0;
   state.score = 0;
@@ -87,7 +257,7 @@ function renderQuestion() {
   const question = state.questions[state.index];
   const questionNumber = state.index + 1;
   els.questionCount.textContent = `Question ${questionNumber} of ${QUIZ_LENGTH}`;
-  els.categoryPill.textContent = question.category.replace("_", " ");
+  els.categoryPill.textContent = (question.subcategory || question.category).replace("_", " ");
   els.progressBar.style.width = `${((questionNumber - 1) / QUIZ_LENGTH) * 100}%`;
   els.questionText.textContent = question.question;
   els.answers.innerHTML = "";
@@ -102,6 +272,7 @@ function renderQuestion() {
 }
 
 function chooseAnswer(points) {
+  startBackgroundTheme();
   state.score += points;
   state.index += 1;
   if (state.index >= state.questions.length) {
@@ -113,8 +284,7 @@ function chooseAnswer(points) {
 
 function buildResult(score) {
   const range = pickResultRange(score);
-  const titleOptions = RESULT_TITLES.filter((title) => title === range.label || Math.random() > 0.55);
-  const title = randomItem(titleOptions.length ? titleOptions : RESULT_TITLES);
+  const title = range.label;
   const badge = randomItem(RESULT_BADGES);
   const observation = randomItem(RESULT_OBSERVATIONS);
   const warning = randomItem(RESULT_WARNINGS);
@@ -127,7 +297,10 @@ function buildResult(score) {
 function showResults() {
   const score = Math.round((state.score / state.maxScore) * 100);
   state.lastScore = score;
+  state.lastResultClip = audioClipForScore(score);
+  const resultAudioToken = state.resultAudioToken;
   const result = buildResult(score);
+  playClip("calculating.wav");
   els.progressBar.style.width = "100%";
   els.scorePercent.textContent = `${score}%`;
   els.resultTitle.textContent = result.title;
@@ -137,15 +310,22 @@ function showResults() {
   els.regionalNote.textContent = result.regionalNote;
   els.shareText.value = `I scored ${score}% Southern on Milsim Rooster's "How Southern Are You?" quiz.\n\nApparently I'm ${result.range.label}.\n\n${result.shareCaption}\n\nTake it here:\n${appUrl}`;
   showOnly(els.resultScreen);
+  window.setTimeout(() => {
+    if (resultAudioToken === state.resultAudioToken && !els.resultScreen.classList.contains("hidden")) {
+      playClip(state.lastResultClip);
+    }
+  }, 650);
 }
 
 async function copyText() {
   try {
     await navigator.clipboard.writeText(els.shareText.value);
+    playClip("share-result.wav");
     showToast("Share text copied.");
   } catch {
     els.shareText.select();
     document.execCommand("copy");
+    playClip("share-result.wav");
     showToast("Share text selected and copied.");
   }
 }
@@ -219,8 +399,63 @@ function showToast(message) {
   }, 2200);
 }
 
+updateAudioToggle();
+
 els.startButton.addEventListener("click", startQuiz);
-els.retryButton.addEventListener("click", startQuiz);
+els.retryButton.addEventListener("click", () => {
+  startQuiz({ playWelcome: false });
+  playClip("try-again.wav");
+});
 els.copyButton.addEventListener("click", copyText);
 els.downloadButton.addEventListener("click", downloadResultImage);
 els.randomizeButton.addEventListener("click", randomizeResult);
+els.audioToggle.addEventListener("click", () => {
+  const nextMuted = !state.muted;
+  setMuted(nextMuted);
+});
+els.replayResultAudio.addEventListener("click", () => enableAudioAndPlayClip(state.lastResultClip));
+
+currentAudio.addEventListener("ended", () => {
+  if (activeClipOptions.restoreMusicAfter) restoreMusic();
+  if (activeClipOptions.startMusicAfter && !state.muted) startBackgroundTheme();
+  activeClipOptions = {};
+});
+
+function shouldAutoUnlockMusic(event) {
+  const target = event.target instanceof Element ? event.target : null;
+  if (!target) return true;
+  if (target.closest("#startButton")) return false;
+  if (target.closest("#retryButton")) return false;
+  if (target.closest("#replayResultAudio")) return false;
+  if (target.closest("#copyButton")) return false;
+  if (target.closest("#audioToggle")) return false;
+  return true;
+}
+
+document.addEventListener("pointerdown", (event) => {
+  if (!shouldAutoUnlockMusic(event)) return;
+  if (!musicUnlocked && !state.muted) startBackgroundTheme();
+}, { capture: true });
+
+document.addEventListener("touchstart", (event) => {
+  if (!shouldAutoUnlockMusic(event)) return;
+  if (!musicUnlocked && !state.muted) startBackgroundTheme();
+}, { capture: true, passive: true });
+
+document.addEventListener("click", (event) => {
+  if (!shouldAutoUnlockMusic(event)) return;
+  if (!musicUnlocked && !state.muted) startBackgroundTheme();
+}, { capture: true });
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    stopAllAudioForPageLifecycle();
+  } else {
+    resumeMusicAfterPageReturn();
+  }
+});
+
+window.addEventListener("pagehide", stopAllAudioForPageExit);
+window.addEventListener("beforeunload", stopAllAudioForPageExit);
+window.addEventListener("freeze", stopAllAudioForPageLifecycle);
+window.addEventListener("pageshow", resumeMusicAfterPageReturn);

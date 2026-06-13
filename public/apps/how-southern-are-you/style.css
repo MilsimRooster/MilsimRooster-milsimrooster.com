@@ -66,6 +66,12 @@ a {
   font-weight: 900;
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .brand-mark {
   display: grid;
   width: 30px;
@@ -96,6 +102,73 @@ a {
     linear-gradient(155deg, rgba(255, 247, 232, 0.96), rgba(248, 223, 181, 0.9)),
     var(--panel);
   color: var(--ink);
+}
+
+.title-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  min-height: auto;
+  overflow: hidden;
+  padding: 0;
+  background: var(--charcoal);
+  color: var(--panel);
+}
+
+.title-art,
+.title-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.title-art {
+  position: absolute;
+  inset: 0;
+}
+
+.title-art img {
+  object-fit: cover;
+}
+
+.title-card::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(180deg, rgba(18, 13, 9, 0.08), rgba(18, 13, 9, 0.08) 55%, rgba(18, 13, 9, 0.76));
+  pointer-events: none;
+}
+
+.title-overlay {
+  position: absolute;
+  right: clamp(14px, 4vw, 34px);
+  bottom: clamp(14px, 4vw, 34px);
+  left: clamp(14px, 4vw, 34px);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.title-overlay .kicker {
+  width: 100%;
+  margin-bottom: 0;
+  color: var(--gold);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.86);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .kicker {
@@ -152,6 +225,13 @@ button:hover {
   transform: translateY(-1px);
 }
 
+.audio-toggle {
+  min-height: 44px;
+  border-color: var(--line);
+  background: rgba(255, 247, 232, 0.08);
+  color: var(--panel);
+}
+
 .primary-button {
   background: linear-gradient(145deg, var(--gold), var(--orange));
   color: #1b1008;
@@ -160,6 +240,11 @@ button:hover {
 .tiny-note {
   color: var(--muted);
   font-weight: 800;
+}
+
+.title-overlay .tiny-note {
+  color: rgba(255, 247, 232, 0.9);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.86);
 }
 
 .progress-row {
@@ -274,6 +359,21 @@ button:hover {
   font-weight: 1000;
 }
 
+.result-audio-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  color: var(--gold);
+  font-weight: 1000;
+}
+
+.result-audio-row button {
+  min-height: 42px;
+  padding: 10px 12px;
+}
+
 textarea {
   width: 100%;
   min-height: 142px;
@@ -304,13 +404,38 @@ textarea {
   }
 
   .brand,
-  .home-link {
+  .home-link,
+  .audio-toggle {
     justify-content: center;
+  }
+
+  .topbar-actions,
+  .result-audio-row {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .hero-card,
   .quiz-card {
     min-height: calc(100vh - 132px);
+  }
+
+  .title-card {
+    aspect-ratio: 9 / 16;
+    min-height: auto;
+  }
+
+  .title-card::after {
+    background:
+      linear-gradient(180deg, rgba(18, 13, 9, 0.02), rgba(18, 13, 9, 0.02) 62%, rgba(18, 13, 9, 0.78));
+  }
+
+  .title-overlay {
+    bottom: 18px;
+  }
+
+  .title-overlay .primary-button {
+    width: min(100%, 320px);
   }
 
   .button-row button {

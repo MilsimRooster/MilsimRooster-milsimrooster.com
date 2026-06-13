@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rooster Recipes admin view for recipe ratings and pending feedback.">
+  <title>Rooster Recipes Admin</title>
+  <link rel="stylesheet" href="styles.css?v=20260608-recipes-d1-1">
+  <link rel="stylesheet" href="admin.css?v=20260608-recipes-d1-1">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/apps/recipes/">
+        <span class="brand-mark">RR</span>
+        <span>Rooster Recipes Admin</span>
+      </a>
+      <nav aria-label="Admin navigation">
+        <a href="/apps/recipes/">Recipes</a>
+        <a href="/">Main Site</a>
+      </nav>
+    </header>
+
+    <main class="admin-main">
+      <section class="panel admin-hero">
+        <div>
+          <p class="kicker">Admin Results</p>
+          <h1>Ratings and feedback.</h1>
+          <p class="tagline">Shared recipe outcomes, recent public comments, and anything the spam filter held back.</p>
+        </div>
+        <form id="tokenForm" class="admin-token">
+          <label>
+            <span>Admin token</span>
+            <input id="adminToken" type="password" autocomplete="current-password" required>
+          </label>
+          <button type="submit">Load Results</button>
+        </form>
+      </section>
+
+      <section class="panel admin-results">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Recipe Outcomes</p>
+            <h2>Results</h2>
+          </div>
+          <button id="refreshResults" class="secondary-button" type="button">Refresh</button>
+        </div>
+        <div id="adminStatus" class="result-count">Enter the admin token to load results.</div>
+        <div id="ratingsAdminGrid" class="admin-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="admin.js?v=20260608-recipes-d1-1"></script>
+</body>
+</html>

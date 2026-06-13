@@ -1,0 +1,1122 @@
+{
+  "title": "Milsim Rooster Sandbox Archive",
+  "source_manifest": "media-source/assets/milsim_rooster_simple_archive/milsim_rooster_simple_archive/manifest.json",
+  "generated_from": "media-source/assets/milsim_rooster_simple_archive",
+  "items": [
+    {
+      "id": "pirate-and-tactical-player-001",
+      "title": "Two Characters Twinning",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/pirate-and-tactical-player-001.jpg",
+      "original_filename": "Mall_CQB_Pirate_and_Tactical_Player.jpg",
+      "source_path": "Field_Operations/pirate-and-tactical-player-001.jpg"
+    },
+    {
+      "id": "rifleman-aiming-from-cover-002",
+      "title": "Rifleman Aiming From Cover",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "rifle"
+      ],
+      "src": "assets/milsim/rifleman-aiming-from-cover-002.jpg",
+      "original_filename": "Mall_CQB_Rifleman_Aiming_From_Cover.jpg",
+      "source_path": "Field_Operations/rifleman-aiming-from-cover-002.jpg"
+    },
+    {
+      "id": "directional-command-003",
+      "title": "Tossing a Frag",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/directional-command-003.jpg",
+      "original_filename": "Mall_CQB_Directional_Command.jpg",
+      "source_path": "Field_Operations/directional-command-003.jpg"
+    },
+    {
+      "id": "single-rifleman-security-004",
+      "title": "Joker Pulling Rear Security",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "rifle"
+      ],
+      "src": "assets/milsim/single-rifleman-security-004.jpg",
+      "original_filename": "Mall_CQB_Single_Rifleman_Security.jpg",
+      "source_path": "Field_Operations/single-rifleman-security-004.jpg"
+    },
+    {
+      "id": "two-riflemen-window-security-001",
+      "title": "Two Players Taking Aim at Their Targets",
+      "description": "Participants moving through an indoor or close-quarters environment.",
+      "category": "CQB & Indoor",
+      "collection": "CQB_and_Indoor",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "cqb",
+        "indoor",
+        "rifle"
+      ],
+      "src": "assets/milsim/two-riflemen-window-security-001.jpg",
+      "original_filename": "Mall_CQB_Two_Riflemen_Window_Security.jpg",
+      "source_path": "CQB_and_Indoor/two-riflemen-window-security-001.jpg"
+    },
+    {
+      "id": "bucees-statue-roadstop-001",
+      "title": "Bucees Statue Roadstop",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/bucees-statue-roadstop-001.jpg",
+      "original_filename": "Stonebreaker_XII_Bucees_Statue_Roadstop.jpg",
+      "source_path": "Team_and_Community/bucees-statue-roadstop-001.jpg"
+    },
+    {
+      "id": "selfie-joker-002",
+      "title": "Airsoft With Friends",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/selfie-joker-002.jpg",
+      "original_filename": "Stonebreaker_XII_GTI_Selfie_Joker.jpg",
+      "source_path": "Team_and_Community/selfie-joker-002.jpg"
+    },
+    {
+      "id": "hawaiian-field-selfie-003",
+      "title": "Soldier Peering Out to Acquire His Target",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/hawaiian-field-selfie-003.png",
+      "original_filename": "Stonebreaker_XII_Rooster_Hawaiian_Field_Selfie.png",
+      "source_path": "Team_and_Community/hawaiian-field-selfie-003.png"
+    },
+    {
+      "id": "fish-club-interceptor-001",
+      "title": "The Fupa at Operation Iron Fury",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft"
+      ],
+      "src": "assets/milsim/fish-club-interceptor-001.jpg",
+      "original_filename": "Stonebreaker_XII_Fish_Club_Interceptor.jpg",
+      "source_path": "Vehicles_and_Aircraft/fish-club-interceptor-001.jpg"
+    },
+    {
+      "id": "bucees-insurgent-camp-004",
+      "title": "Bucees Insurgent Camp",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/bucees-insurgent-camp-004.jpg",
+      "original_filename": "Stonebreaker_XII_Bucees_Insurgent_Camp.jpg",
+      "source_path": "Team_and_Community/bucees-insurgent-camp-004.jpg"
+    },
+    {
+      "id": "lakeside-truck-staging-002",
+      "title": "Lakeside Truck Staging",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft"
+      ],
+      "src": "assets/milsim/lakeside-truck-staging-002.jpg",
+      "original_filename": "Stonebreaker_XII_Lakeside_Truck_Staging.jpg",
+      "source_path": "Vehicles_and_Aircraft/lakeside-truck-staging-002.jpg"
+    },
+    {
+      "id": "smiling-teammate-tactical-gear-001",
+      "title": "Milsim Marauders Having Fun at Operation Iron Fury",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment",
+        "team"
+      ],
+      "src": "assets/milsim/smiling-teammate-tactical-gear-001.jpg",
+      "original_filename": "Stonebreaker_XII_Smiling_Teammate_Tactical_Gear.jpg",
+      "source_path": "Equipment_and_Details/smiling-teammate-tactical-gear-001.jpg"
+    },
+    {
+      "id": "lakeside-selfie-two-players-005",
+      "title": "Lakeside Selfie With a Friend",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/lakeside-selfie-two-players-005.jpg",
+      "original_filename": "Stonebreaker_XII_Lakeside_Selfie_Two_Players.jpg",
+      "source_path": "Team_and_Community/lakeside-selfie-two-players-005.jpg"
+    },
+    {
+      "id": "lakeside-group-portrait-006",
+      "title": "Lakeside Group Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/lakeside-group-portrait-006.jpg",
+      "original_filename": "Stonebreaker_XII_Lakeside_Group_Portrait.jpg",
+      "source_path": "Team_and_Community/lakeside-group-portrait-006.jpg"
+    },
+    {
+      "id": "green-flightsuit-portrait-007",
+      "title": "Green Flightsuit Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/green-flightsuit-portrait-007.jpeg",
+      "original_filename": "Stonebreaker_XII_Green_Flightsuit_Portrait.jpeg",
+      "source_path": "Team_and_Community/green-flightsuit-portrait-007.jpeg"
+    },
+    {
+      "id": "patches-002",
+      "title": "Two Roosters",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment",
+        "patch"
+      ],
+      "src": "assets/milsim/patches-002.jpg",
+      "original_filename": "Stonebreaker_XII_COMCAM_Rooster_Patches.jpg",
+      "source_path": "Equipment_and_Details/patches-002.jpg"
+    },
+    {
+      "id": "tactical-command-interface-inside-sphere-001",
+      "title": "Tactical Command Interface Inside Sphere",
+      "description": "Digital HUD-style background asset for the website gallery experience.",
+      "category": "Website Backgrounds",
+      "collection": "Website_Backgrounds",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "website",
+        "hud",
+        "background"
+      ],
+      "src": "assets/milsim/tactical-command-interface-inside-sphere-001.png",
+      "original_filename": "HUD_Tactical_Command_Interface_Inside_Sphere.png",
+      "source_path": "Website_Backgrounds/tactical-command-interface-inside-sphere-001.png"
+    },
+    {
+      "id": "tactical-command-interface-outside-sphere-002",
+      "title": "Tactical Command Interface Outside Sphere",
+      "description": "Digital HUD-style background asset for the website gallery experience.",
+      "category": "Website Backgrounds",
+      "collection": "Website_Backgrounds",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "website",
+        "hud",
+        "background"
+      ],
+      "src": "assets/milsim/tactical-command-interface-outside-sphere-002.png",
+      "original_filename": "HUD_Tactical_Command_Interface_Outside_Sphere.png",
+      "source_path": "Website_Backgrounds/tactical-command-interface-outside-sphere-002.png"
+    },
+    {
+      "id": "rain-team-portrait-cinematic-001",
+      "title": "Rain Team Portrait Cinematic",
+      "description": "Cinematic or AI-enhanced image created for visual presentation.",
+      "category": "AI & Cinematic Edits",
+      "collection": "AI_and_Cinematic_Edits",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "ai-art",
+        "cinematic",
+        "edit",
+        "team",
+        "portrait"
+      ],
+      "src": "assets/milsim/rain-team-portrait-cinematic-001.png",
+      "original_filename": "AI_Rain_Team_Portrait_Cinematic.png",
+      "source_path": "AI_and_Cinematic_Edits/rain-team-portrait-cinematic-001.png"
+    },
+    {
+      "id": "rain-two-player-portrait-cinematic-002",
+      "title": "Rain Two Player Portrait Cinematic",
+      "description": "Cinematic or AI-enhanced image created for visual presentation.",
+      "category": "AI & Cinematic Edits",
+      "collection": "AI_and_Cinematic_Edits",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "ai-art",
+        "cinematic",
+        "edit",
+        "portrait"
+      ],
+      "src": "assets/milsim/rain-two-player-portrait-cinematic-002.png",
+      "original_filename": "AI_Rain_Two_Player_Portrait_Cinematic.png",
+      "source_path": "AI_and_Cinematic_Edits/rain-two-player-portrait-cinematic-002.png"
+    },
+    {
+      "id": "rain-solo-rifleman-cinematic-003",
+      "title": "Rain Solo Rifleman Cinematic",
+      "description": "Cinematic or AI-enhanced image created for visual presentation.",
+      "category": "AI & Cinematic Edits",
+      "collection": "AI_and_Cinematic_Edits",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "ai-art",
+        "cinematic",
+        "edit",
+        "rifle"
+      ],
+      "src": "assets/milsim/rain-solo-rifleman-cinematic-003.png",
+      "original_filename": "AI_Rain_Solo_Rifleman_Cinematic.png",
+      "source_path": "AI_and_Cinematic_Edits/rain-solo-rifleman-cinematic-003.png"
+    },
+    {
+      "id": "red-flare-night-field-moment-001",
+      "title": "Red Flare Night Field Moment",
+      "description": "Low-light or night operation moment from a military simulation event.",
+      "category": "Night Operations",
+      "collection": "Night_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "night",
+        "low-light"
+      ],
+      "src": "assets/milsim/red-flare-night-field-moment-001.png",
+      "original_filename": "Red_Flare_Night_Field_Moment.png",
+      "source_path": "Night_Operations/red-flare-night-field-moment-001.png"
+    },
+    {
+      "id": "woodland-fire-position-close-005",
+      "title": "Woodland Fire Position Close",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/woodland-fire-position-close-005.jpg",
+      "original_filename": "Woodland_Fire_Position_Close.jpg",
+      "source_path": "Field_Operations/woodland-fire-position-close-005.jpg"
+    },
+    {
+      "id": "field-team-group-portrait-woodline-008",
+      "title": "Field Team Group Portrait Woodline",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/field-team-group-portrait-woodline-008.jpg",
+      "original_filename": "Field_Team_Group_Portrait_Woodline.jpg",
+      "source_path": "Team_and_Community/field-team-group-portrait-woodline-008.jpg"
+    },
+    {
+      "id": "night-vision-goat-squad-interior-002",
+      "title": "Tier 1 Operation With the Goat Squad",
+      "description": "Low-light or night operation moment from a military simulation event.",
+      "category": "Night Operations",
+      "collection": "Night_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "night",
+        "low-light",
+        "goat"
+      ],
+      "src": "assets/milsim/night-vision-goat-squad-interior-002.jpg",
+      "original_filename": "Night_Vision_Goat_Squad_Interior.jpg",
+      "source_path": "Night_Operations/night-vision-goat-squad-interior-002.jpg"
+    },
+    {
+      "id": "hilltop-two-player-firing-position-006",
+      "title": "Fiver Leading the Squad at Operation Bonecrusher",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/hilltop-two-player-firing-position-006.jpg",
+      "original_filename": "Hilltop_Two_Player_Firing_Position.jpg",
+      "source_path": "Field_Operations/hilltop-two-player-firing-position-006.jpg"
+    },
+    {
+      "id": "field-sniper-kneeling-overwatch-007",
+      "title": "Soldier Taking Aim",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/field-sniper-kneeling-overwatch-007.jpg",
+      "original_filename": "Field_Sniper_Kneeling_Overwatch.jpg",
+      "source_path": "Field_Operations/field-sniper-kneeling-overwatch-007.jpg"
+    },
+    {
+      "id": "forest-two-player-fire-position-008",
+      "title": "Forest Two Player Fire Position",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/forest-two-player-fire-position-008.png",
+      "original_filename": "Forest_Two_Player_Fire_Position.png",
+      "source_path": "Field_Operations/forest-two-player-fire-position-008.png"
+    },
+    {
+      "id": "field-team-group-portrait-009",
+      "title": "Field Team Group Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/field-team-group-portrait-009.jpg",
+      "original_filename": "Field_Team_Group_Portrait.jpg",
+      "source_path": "Team_and_Community/field-team-group-portrait-009.jpg"
+    },
+    {
+      "id": "night-vision-room-clearing-003",
+      "title": "After Game Selfie With Joker",
+      "description": "Low-light or night operation moment from a military simulation event.",
+      "category": "Night Operations",
+      "collection": "Night_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "night",
+        "low-light"
+      ],
+      "src": "assets/milsim/night-vision-room-clearing-003.jpg",
+      "original_filename": "Night_Vision_Room_Clearing.jpg",
+      "source_path": "Night_Operations/night-vision-room-clearing-003.jpg"
+    },
+    {
+      "id": "woodline-two-player-overwatch-009",
+      "title": "Woodline Two Player Overwatch",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/woodline-two-player-overwatch-009.jpg",
+      "original_filename": "Woodline_Two_Player_Overwatch.jpg",
+      "source_path": "Field_Operations/woodline-two-player-overwatch-009.jpg"
+    },
+    {
+      "id": "three-player-field-selfie-masked-010",
+      "title": "Three Player Field Selfie Masked",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/three-player-field-selfie-masked-010.jpg",
+      "original_filename": "Three_Player_Field_Selfie_Masked.jpg",
+      "source_path": "Team_and_Community/three-player-field-selfie-masked-010.jpg"
+    },
+    {
+      "id": "action-portrait-barrier-rifleman-011",
+      "title": "Action Portrait Barrier Rifleman",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait",
+        "rifle"
+      ],
+      "src": "assets/milsim/action-portrait-barrier-rifleman-011.jpg",
+      "original_filename": "Action_Portrait_Barrier_Rifleman.jpg",
+      "source_path": "Team_and_Community/action-portrait-barrier-rifleman-011.jpg"
+    },
+    {
+      "id": "smoke-filtered-rifleman-profile-010",
+      "title": "Smoke Filtered Rifleman Profile",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "smoke",
+        "rifle"
+      ],
+      "src": "assets/milsim/smoke-filtered-rifleman-profile-010.jpg",
+      "original_filename": "Smoke_Filtered_Rifleman_Profile.jpg",
+      "source_path": "Field_Operations/smoke-filtered-rifleman-profile-010.jpg"
+    },
+    {
+      "id": "goat-mask-vehicle-portrait-003",
+      "title": "MTW Unleashed",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "portrait",
+        "goat"
+      ],
+      "src": "assets/milsim/goat-mask-vehicle-portrait-003.jpg",
+      "original_filename": "Goat_Mask_Vehicle_Portrait.jpg",
+      "source_path": "Vehicles_and_Aircraft/goat-mask-vehicle-portrait-003.jpg"
+    },
+    {
+      "id": "jackbranch-field-portrait-012",
+      "title": "Jackbranch Field Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/jackbranch-field-portrait-012.jpg",
+      "original_filename": "Jackbranch_Rooster_Field_Portrait.jpg",
+      "source_path": "Team_and_Community/jackbranch-field-portrait-012.jpg"
+    },
+    {
+      "id": "joker-field-action-portrait-013",
+      "title": "Joker Field Action Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/joker-field-action-portrait-013.jpg",
+      "original_filename": "Joker_Field_Action_Portrait.jpg",
+      "source_path": "Team_and_Community/joker-field-action-portrait-013.jpg"
+    },
+    {
+      "id": "rifle-detail-rust-backdrop-003",
+      "title": "Pulling Security on the Objective",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment",
+        "rifle"
+      ],
+      "src": "assets/milsim/rifle-detail-rust-backdrop-003.jpg",
+      "original_filename": "Rifle_Detail_Rust_Backdrop.jpg",
+      "source_path": "Equipment_and_Details/rifle-detail-rust-backdrop-003.jpg"
+    },
+    {
+      "id": "m249-rifleman-window-position-002",
+      "title": "M249 on a Hot Sunny Day",
+      "description": "Participants moving through an indoor or close-quarters environment.",
+      "category": "CQB & Indoor",
+      "collection": "CQB_and_Indoor",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "cqb",
+        "indoor",
+        "rifle"
+      ],
+      "src": "assets/milsim/m249-rifleman-window-position-002.jpg",
+      "original_filename": "M249_Rifleman_Window_Position.jpg",
+      "source_path": "CQB_and_Indoor/m249-rifleman-window-position-002.jpg"
+    },
+    {
+      "id": "pyro-breach-sparks-interior-011",
+      "title": "Pyro Breach Sparks Interior",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/pyro-breach-sparks-interior-011.jpg",
+      "original_filename": "Pyro_Breach_Sparks_Interior.jpg",
+      "source_path": "Field_Operations/pyro-breach-sparks-interior-011.jpg"
+    },
+    {
+      "id": "opfor-lineup-woodline-012",
+      "title": "Opfor Lineup Woodline",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/opfor-lineup-woodline-012.jpg",
+      "original_filename": "OPFOR_Lineup_Woodline.jpg",
+      "source_path": "Field_Operations/opfor-lineup-woodline-012.jpg"
+    },
+    {
+      "id": "comms-closeup-humor-portrait-014",
+      "title": "Comms Closeup Humor Portrait",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community",
+        "portrait"
+      ],
+      "src": "assets/milsim/comms-closeup-humor-portrait-014.jpg",
+      "original_filename": "Comms_Closeup_Humor_Portrait.jpg",
+      "source_path": "Team_and_Community/comms-closeup-humor-portrait-014.jpg"
+    },
+    {
+      "id": "field-prep-team-huddle-003",
+      "title": "Field Prep Team Huddle",
+      "description": "Digital HUD-style background asset for the website gallery experience.",
+      "category": "Website Backgrounds",
+      "collection": "Website_Backgrounds",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "website",
+        "hud",
+        "background",
+        "team"
+      ],
+      "src": "assets/milsim/field-prep-team-huddle-003.jpg",
+      "original_filename": "Field_Prep_Team_Huddle.jpg",
+      "source_path": "Website_Backgrounds/field-prep-team-huddle-003.jpg"
+    },
+    {
+      "id": "field-report-directional-brief-013",
+      "title": "Field Report Directional Brief",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/field-report-directional-brief-013.jpg",
+      "original_filename": "Field_Report_Directional_Brief.jpg",
+      "source_path": "Field_Operations/field-report-directional-brief-013.jpg"
+    },
+    {
+      "id": "mass-formation-field-briefing-2023-014",
+      "title": "Mass Formation Field Briefing 2023",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "briefing"
+      ],
+      "src": "assets/milsim/mass-formation-field-briefing-2023-014.jpg",
+      "original_filename": "Mass_Formation_Field_Briefing_2023.jpg",
+      "source_path": "Field_Operations/mass-formation-field-briefing-2023-014.jpg"
+    },
+    {
+      "id": "player-running-along-modular-building-015",
+      "title": "Player Running Along Modular Building",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor"
+      ],
+      "src": "assets/milsim/player-running-along-modular-building-015.jpg",
+      "original_filename": "Player_Running_Along_Modular_Building.jpg",
+      "source_path": "Field_Operations/player-running-along-modular-building-015.jpg"
+    },
+    {
+      "id": "interior-dark-corner-rifleman-016",
+      "title": "Interior Dark Corner Rifleman",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "rifle"
+      ],
+      "src": "assets/milsim/interior-dark-corner-rifleman-016.jpg",
+      "original_filename": "Interior_Dark_Corner_Rifleman.jpg",
+      "source_path": "Field_Operations/interior-dark-corner-rifleman-016.jpg"
+    },
+    {
+      "id": "three-player-woodline-selfie-015",
+      "title": "Three Player Woodline Selfie",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/three-player-woodline-selfie-015.jpg",
+      "original_filename": "Three_Player_Woodline_Selfie.jpg",
+      "source_path": "Team_and_Community/three-player-woodline-selfie-015.jpg"
+    },
+    {
+      "id": "doominator-gunner-flag-portrait-004",
+      "title": "Raffle Winner",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "portrait"
+      ],
+      "src": "assets/milsim/doominator-gunner-flag-portrait-004.jpg",
+      "original_filename": "Doominator_Gunner_Flag_Portrait.jpg",
+      "source_path": "Vehicles_and_Aircraft/doominator-gunner-flag-portrait-004.jpg"
+    },
+    {
+      "id": "smoke-table-card-game-004",
+      "title": "Smoke Table Card Game",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment",
+        "smoke"
+      ],
+      "src": "assets/milsim/smoke-table-card-game-004.jpg",
+      "original_filename": "Smoke_Table_Card_Game.jpg",
+      "source_path": "Equipment_and_Details/smoke-table-card-game-004.jpg"
+    },
+    {
+      "id": "team-portrait-tier1-gear-005",
+      "title": "Team Portrait Tier1 Gear",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment",
+        "team",
+        "portrait"
+      ],
+      "src": "assets/milsim/team-portrait-tier1-gear-005.jpg",
+      "original_filename": "Stonebreaker_XII_Team_Portrait_Tier1_Gear.jpg",
+      "source_path": "Equipment_and_Details/team-portrait-tier1-gear-005.jpg"
+    },
+    {
+      "id": "briefing-area-017",
+      "title": "Briefing Area",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "briefing"
+      ],
+      "src": "assets/milsim/briefing-area-017.jpg",
+      "original_filename": "Stonebreaker_XII_GTI_Briefing_Area.jpg",
+      "source_path": "Field_Operations/briefing-area-017.jpg"
+    },
+    {
+      "id": "tier1-tab-10-comcam2-006",
+      "title": "Tier1 Tab 10 Comcam2",
+      "description": "Detail photo focused on gear, equipment, patches, or event items.",
+      "category": "Equipment & Details",
+      "collection": "Equipment_and_Details",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "gear",
+        "equipment"
+      ],
+      "src": "assets/milsim/tier1-tab-10-comcam2-006.jpg",
+      "original_filename": "Stonebreaker_XII_Tier1_Tab_10_COMCAM2.jpg",
+      "source_path": "Equipment_and_Details/tier1-tab-10-comcam2-006.jpg"
+    },
+    {
+      "id": "helicopter-bw-hero-005",
+      "title": "Helicopter Bw Hero",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "helicopter"
+      ],
+      "src": "assets/milsim/helicopter-bw-hero-005.jpg",
+      "original_filename": "Stonebreaker_XII_Helicopter_BW_Hero.jpg",
+      "source_path": "Vehicles_and_Aircraft/helicopter-bw-hero-005.jpg"
+    },
+    {
+      "id": "ice-vehicle-helicopter-006",
+      "title": "Ice Vehicle Helicopter",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "helicopter"
+      ],
+      "src": "assets/milsim/ice-vehicle-helicopter-006.jpg",
+      "original_filename": "Stonebreaker_XII_ICE_Vehicle_Helicopter.jpg",
+      "source_path": "Vehicles_and_Aircraft/ice-vehicle-helicopter-006.jpg"
+    },
+    {
+      "id": "airsoft-junkiez-helicopter-crew-007",
+      "title": "Airsoft Junkiez Helicopter Crew",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "helicopter"
+      ],
+      "src": "assets/milsim/airsoft-junkiez-helicopter-crew-007.jpg",
+      "original_filename": "Stonebreaker_XII_Airsoft_Junkiez_Helicopter_Crew.jpg",
+      "source_path": "Vehicles_and_Aircraft/airsoft-junkiez-helicopter-crew-007.jpg"
+    },
+    {
+      "id": "doominator-gunner-helicopter-overhead-008",
+      "title": "Doominator Gunner Helicopter Overhead",
+      "description": "Vehicle or aircraft moment captured during a military simulation event.",
+      "category": "Vehicles & Aircraft",
+      "collection": "Vehicles_and_Aircraft",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "vehicle",
+        "aircraft",
+        "helicopter"
+      ],
+      "src": "assets/milsim/doominator-gunner-helicopter-overhead-008.jpg",
+      "original_filename": "Stonebreaker_XII_Doominator_Gunner_Helicopter_Overhead.jpg",
+      "source_path": "Vehicles_and_Aircraft/doominator-gunner-helicopter-overhead-008.jpg"
+    },
+    {
+      "id": "squad-leader-selfie-flag-016",
+      "title": "Squad Leader Selfie Flag",
+      "description": "People gathered during a military simulation event.",
+      "category": "Team & Community",
+      "collection": "Team_and_Community",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "team",
+        "community"
+      ],
+      "src": "assets/milsim/squad-leader-selfie-flag-016.jpg",
+      "original_filename": "Stonebreaker_XII_Squad_Leader_Selfie_Flag.jpg",
+      "source_path": "Team_and_Community/squad-leader-selfie-flag-016.jpg"
+    },
+    {
+      "id": "screaming-goat-squad-windshield-018",
+      "title": "Screaming Goat Squad Windshield",
+      "description": "Participant operating in the field during a military simulation event.",
+      "category": "Field Operations",
+      "collection": "Field_Operations",
+      "tags": [
+        "milsim",
+        "airsoft",
+        "event",
+        "field",
+        "outdoor",
+        "goat"
+      ],
+      "src": "assets/milsim/screaming-goat-squad-windshield-018.jpg",
+      "original_filename": "Stonebreaker_XII_Screaming_Goat_Squad_Windshield.jpg",
+      "source_path": "Field_Operations/screaming-goat-squad-windshield-018.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Field Operations",
+      "count": 18
+    },
+    {
+      "name": "Team & Community",
+      "count": 16
+    },
+    {
+      "name": "Vehicles & Aircraft",
+      "count": 8
+    },
+    {
+      "name": "Equipment & Details",
+      "count": 6
+    },
+    {
+      "name": "AI & Cinematic Edits",
+      "count": 3
+    },
+    {
+      "name": "Night Operations",
+      "count": 3
+    },
+    {
+      "name": "Website Backgrounds",
+      "count": 3
+    },
+    {
+      "name": "CQB & Indoor",
+      "count": 2
+    }
+  ],
+  "collections": [
+    {
+      "name": "Field_Operations",
+      "count": 18
+    },
+    {
+      "name": "Team_and_Community",
+      "count": 16
+    },
+    {
+      "name": "Vehicles_and_Aircraft",
+      "count": 8
+    },
+    {
+      "name": "Equipment_and_Details",
+      "count": 6
+    },
+    {
+      "name": "AI_and_Cinematic_Edits",
+      "count": 3
+    },
+    {
+      "name": "Night_Operations",
+      "count": 3
+    },
+    {
+      "name": "Website_Backgrounds",
+      "count": 3
+    },
+    {
+      "name": "CQB_and_Indoor",
+      "count": 2
+    }
+  ]
+}

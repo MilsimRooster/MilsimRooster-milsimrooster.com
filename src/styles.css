@@ -162,6 +162,7 @@ nav {
 
 nav a,
 .hero-actions a,
+.gallery-launch-button,
 .contact-panel a,
 .links-list a {
   border: 1px solid var(--glass-rim-soft);
@@ -387,6 +388,53 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 10px;
   margin-top: 0;
+}
+
+.gallery-launch-button {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  margin-top: 12px;
+  padding: 18px 20px;
+  overflow: hidden;
+  color: var(--text);
+}
+
+.gallery-launch-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 18% 0%, rgba(255, 255, 255, 0.22), transparent 38%),
+    radial-gradient(ellipse at 82% 50%, rgba(184, 200, 145, 0.18), transparent 44%),
+    linear-gradient(90deg, rgba(189, 118, 88, 0.18), transparent 42%, rgba(126, 239, 229, 0.14));
+  opacity: 0.82;
+  mix-blend-mode: screen;
+}
+
+.gallery-launch-button span,
+.gallery-launch-button strong {
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-launch-button span {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 1000;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.gallery-launch-button strong {
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 1;
+}
+
+.gallery-launch-button:hover {
+  border-color: rgba(184, 200, 145, 0.72);
+  background: rgba(184, 200, 145, 0.13);
 }
 
 .app-launch {

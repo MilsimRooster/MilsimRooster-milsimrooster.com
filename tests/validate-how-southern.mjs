@@ -27,6 +27,9 @@ function loadDataModule(source, names) {
 for (const file of ["index.html", "style.css", "app.js", "questions.js", "results.js", "README.md"]) {
   await ensureFile(file);
 }
+for (const file of ["assets/photos/desktop_screen.png", "assets/photos/mobile_screen.png"]) {
+  await ensureFile(file);
+}
 
 const [indexHtml, appJs, questionsSource, resultsSource, homeSource] = await Promise.all([
   read("index.html"),
@@ -63,7 +66,10 @@ assert.ok(indexHtml.includes('meta name="description"'));
 assert.ok(indexHtml.includes('property="og:title"'));
 assert.ok(indexHtml.includes('type="module" src="./questions.js"'));
 assert.ok(indexHtml.includes('type="module" src="./results.js"'));
-assert.ok(indexHtml.includes('type="module" src="./app.js"'));
+assert.ok(indexHtml.includes('type="module" src="./app.js?v='));
+assert.ok(indexHtml.includes("<picture"), "title screen should use responsive artwork");
+assert.ok(indexHtml.includes("./assets/photos/desktop_screen.png"), "desktop title art should be wired");
+assert.ok(indexHtml.includes("./assets/photos/mobile_screen.png"), "mobile title art should be wired");
 
 assert.equal(new Set(QUESTIONS.map((question) => question.id)).size, QUESTIONS.length);
 assert.ok(QUESTIONS.length >= 500, "question pool should have at least 500 questions");
@@ -97,4 +103,6 @@ assert.ok(REGIONAL_NOTES.length >= 25);
 assert.ok(appJs.includes("navigator.clipboard"));
 assert.ok(appJs.includes("toDataURL(\"image/png\")"));
 assert.ok(appJs.includes("how-southern-are-you"));
+assert.ok(appJs.includes("const title = range.label"), "result title should match the score range");
+assert.ok(appJs.includes("question.subcategory || question.category"), "question pill should show the useful subcategory");
 assert.ok(homeSource.includes("/apps/how-southern-are-you/"));

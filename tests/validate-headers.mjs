@@ -12,6 +12,11 @@ for (const token of [
   "X-Content-Type-Options: nosniff",
   "Referrer-Policy: strict-origin-when-cross-origin",
   "Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()",
+  "/",
+  "/index.html",
+  "/liquid-glass/*",
+  "Cache-Control: no-cache, max-age=0, must-revalidate",
+  "Cache-Control: no-store, max-age=0",
   "/assets/*",
   "Cache-Control: public, max-age=31556952, immutable",
   "/media/optimized/*",
@@ -21,10 +26,13 @@ for (const token of [
   "/apps/recipes/*",
   "/apps/how-southern-are-you/*",
   "/apps/southern-translator/*",
-  "Cache-Control: public, max-age=3600"
+  "/apps/quotetron/*",
+  "/apps/gallery/*"
 ]) {
   assert.ok(headers.includes(token), `public/_headers should include ${token}`);
 }
+
+assert.ok(!headers.includes("/apps/liquid-glass-demo/*"), "public/_headers should not include retired Liquid Glass demo route");
 
 const headerBlocks = headers
   .split(/\n(?=\/)/)
@@ -39,3 +47,11 @@ for (const block of headerBlocks) {
     assert.ok(/^\s{2}\S/.test(line), `header line should be indented by two spaces: ${line}`);
   }
 }
+
+const broadAssetsIndex = headers.indexOf("/assets/*");
+const liquidGlassAssetsIndex = headers.indexOf("/liquid-glass/*");
+assert.ok(
+  liquidGlassAssetsIndex !== -1,
+  "Liquid Glass cache rule should be outside the broad /assets/* path",
+);
+assert.ok(broadAssetsIndex !== liquidGlassAssetsIndex, "Liquid Glass should not share the broad /assets/* rule");

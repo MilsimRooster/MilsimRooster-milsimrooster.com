@@ -1,67 +1,10 @@
-const navItems = ["Home", "About", "Photography", "Videos", "Projects", "Links"];
-
-const photoCategories = [
-  {
-    name: "Events",
-    slug: "events",
-    items: [
-      "/media/optimized/photography/events/00246-00-03-47-13.jpg",
-      "/media/optimized/photography/events/chatgpt-image-may-8-2026-05-50-48-pm.jpg",
-      "/media/optimized/photography/events/chatgpt-image-may-8-2026-05-54-24-pm.jpg",
-      "/media/optimized/photography/events/img-0812.jpg",
-      "/media/optimized/photography/events/img-1253.jpg",
-      "/media/optimized/photography/events/img-1514.jpg",
-      "/media/optimized/photography/events/img-1742.jpg",
-      "/media/optimized/photography/events/img-2965.jpg",
-      "/media/optimized/photography/events/img-6492.jpg",
-      "/media/optimized/photography/events/img-6604.jpg",
-      "/media/optimized/photography/events/img-6926-2.jpg",
-      "/media/optimized/photography/events/img-6949.jpg"
-    ]
-  },
-  {
-    name: "Milsim / Airsoft",
-    slug: "milsim-airsoft",
-    items: [
-      "/media/optimized/photography/milsim-airsoft/crossbone2s.jpg",
-      "/media/optimized/photography/milsim-airsoft/goats.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-0633.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-1657.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-1951.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-7003.jpg",
-      "/media/optimized/photography/milsim-airsoft/img-9072.jpg",
-      "/media/optimized/photography/milsim-airsoft/jackbranch.jpg",
-      "/media/optimized/photography/milsim-airsoft/report.jpg",
-      "/media/optimized/photography/milsim-airsoft/vce55-sv260220-007.jpg",
-      "/media/optimized/photography/milsim-airsoft/whohasmyfinger.jpg"
-    ]
-  },
-  {
-    name: "Church / Community",
-    slug: "church-community",
-    items: [
-      "/media/optimized/photography/church-community/img-4166.jpg",
-      "/media/optimized/photography/church-community/img-4170.jpg",
-      "/media/optimized/photography/church-community/img-4177.jpg",
-      "/media/optimized/photography/church-community/img-4182.jpg",
-      "/media/optimized/photography/church-community/img-4184.jpg",
-      "/media/optimized/photography/church-community/img-4187.jpg",
-      "/media/optimized/photography/church-community/img-4191.jpg",
-      "/media/optimized/photography/church-community/img-4194.jpg",
-      "/media/optimized/photography/church-community/img-4195.jpg",
-      "/media/optimized/photography/church-community/img-4196.jpg",
-      "/media/optimized/photography/church-community/img-4216.jpg",
-      "/media/optimized/photography/church-community/img-4217.jpg"
-    ]
-  },
-  {
-    name: "Portraits",
-    slug: "portraits",
-    items: [
-      "/media/optimized/photography/portraits/img-9535.jpg",
-      "/media/optimized/photography/portraits/img-9797.jpg"
-    ]
-  }
+const navItems = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Gallery", href: "/apps/gallery/" },
+  { label: "Videos", href: "#videos" },
+  { label: "Projects", href: "#projects" },
+  { label: "Links", href: "#links" }
 ];
 
 const featuredApps = [
@@ -94,6 +37,12 @@ const featuredApps = [
     href: "/apps/southern-translator/",
     icon: "ST",
     text: "Translate Southern sayings, grandma warnings, weather talk, and church phrases into plain English."
+  },
+  {
+    name: "Quotetron",
+    href: "/apps/quotetron/",
+    icon: "QT",
+    text: "Price jobs, compare going rates, and decide when to take, negotiate, or pass before profit disappears."
   }
 ];
 
@@ -158,29 +107,39 @@ function Section({ id, eyebrow, title, children }) {
 
 function App() {
   return (
-    <div className="site-shell">
-      <header className="topbar">
-        <a className="brand" href="#home" aria-label="Milsim Rooster home">
-          <span className="brand-mark">MR</span>
-          <span>Milsim Rooster</span>
-        </a>
-        <nav aria-label="Primary navigation">
-          {navItems.map((item) => (
-            <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>
-          ))}
-        </nav>
-      </header>
+    <div
+      className="site-liquid-glass-stage"
+      data-liquid-glass-stage
+      data-liquid-glass-global="true"
+      data-liquid-glass-key="mr-global-cursor"
+      data-liquid-glass-width="56"
+      data-liquid-glass-height="56"
+      data-liquid-glass-scale="58"
+      data-liquid-glass-edge="72"
+    >
+      <div className="site-shell" data-liquid-glass-scene>
+        <header className="topbar">
+          <a className="brand" href="#home" aria-label="Milsim Rooster home">
+            <span className="brand-mark">MR</span>
+            <span>Milsim Rooster</span>
+          </a>
+          <nav aria-label="Primary navigation">
+            {navItems.map((item) => (
+              <a key={item.label} href={item.href}>{item.label}</a>
+            ))}
+          </nav>
+        </header>
 
-      <main>
-        <section id="home" className="hero">
-          <div className="hero-copy">
+        <main>
+          <section id="home" className="hero">
+            <div className="hero-copy">
             <p className="kicker">Photography / Video / Utilities</p>
             <h1>Milsim Rooster</h1>
             <p className="tagline">
               A tactical-media home base for photography, field footage, creative projects, and practical software built around real workflows.
             </p>
             <div className="hero-actions">
-              <a href="#photography">Photography</a>
+              <a href="/apps/gallery/">Gallery</a>
               <a href="#videos">Videos</a>
               <a href="#projects">Projects</a>
             </div>
@@ -193,6 +152,10 @@ function App() {
                 </a>
               ))}
             </div>
+            <a className="gallery-launch-button" href="/apps/gallery/">
+              <span>Gallery</span>
+              <strong>Enter the spherical field archive</strong>
+            </a>
           </div>
           <div className="hero-visual" aria-label="Milsim Rooster visual preview">
             <img src="/media/optimized/hero/img-7003-hero.jpg" alt="Milsim Rooster hero media preview" />
@@ -221,32 +184,6 @@ function App() {
             <p>
               Keith League, operating as Milsim Rooster, works across photography, video production, media projects, and hands-on software utilities. This site is a central place to collect the creative work, promote new releases, and point people toward the projects that matter most.
             </p>
-          </div>
-        </Section>
-
-        <Section id="photography" eyebrow="Gallery" title="Photography Categories">
-          <div className="gallery-stack">
-            {photoCategories.map((category, index) => (
-              <article className={`gallery-category gallery-category-${category.slug}`} key={category.slug}>
-                <div className="gallery-heading">
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <h3>{category.name}</h3>
-                </div>
-                <div className="media-grid">
-                  {category.items.length ? category.items.map((src) => (
-                    <div className="media-tile" key={src}>
-                      {src.toLowerCase().endsWith(".mp4") ? (
-                        <video src={src} controls muted playsInline />
-                      ) : (
-                        <img src={src} alt={category.name} loading="lazy" />
-                      )}
-                    </div>
-                  )) : (
-                    <div className="media-empty">Waiting for uploads</div>
-                  )}
-                </div>
-              </article>
-            ))}
           </div>
         </Section>
 
@@ -307,6 +244,8 @@ function App() {
         <span>MilsimRooster.com</span>
         <span>Photography, video, projects, and local software utilities.</span>
       </footer>
+      </div>
+      <div className="site-glass-pointer" data-liquid-glass-lens aria-hidden="true"></div>
     </div>
   );
 }

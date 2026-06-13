@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quotetron | Price Jobs Before You Say Yes</title>
+  <meta name="description" content="Quotetron helps freelancers, laborers, and side-hustlers build better quotes, compare rates, and avoid undercharging.">
+  <meta name="theme-color" content="#121417">
+  <meta property="og:title" content="Quotetron">
+  <meta property="og:description" content="Build better quotes, compare rates, and avoid undercharging.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milsimrooster.com/apps/freelance-quote-floor-calculator/">
+  <meta property="og:image" content="https://milsimrooster.com/apps/freelance-quote-floor-calculator/assets/img/quotetron-hero.webp">
+  <meta property="og:site_name" content="Milsim Rooster">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quotetron">
+  <meta name="twitter:description" content="Build better quotes, compare rates, and avoid undercharging.">
+  <meta name="twitter:image" content="https://milsimrooster.com/apps/freelance-quote-floor-calculator/assets/img/quotetron-hero.webp">
+  <meta name="facebook-domain-verification" content="configure-during-launch">
+  <link rel="canonical" href="https://milsimrooster.com/apps/freelance-quote-floor-calculator/">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260608-mobile-hero-2">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Quotetron",
+    "description": "Quotetron helps freelancers, laborers, and side-hustlers build better quotes, compare rates, and avoid undercharging.",
+    "url": "https://milsimrooster.com/apps/freelance-quote-floor-calculator/",
+    "image": "https://milsimrooster.com/apps/freelance-quote-floor-calculator/assets/img/quotetron-hero.webp",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any"
+  }
+  </script>
+  <!-- Cloudflare Web Analytics: configure token during launch. -->
+  <script defer src="assets/js/analytics.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="home-link" href="/">Milsim Rooster</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Quotetron</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      <img class="hero-logo" src="assets/img/quotetron-logo-clean.webp" alt="" aria-hidden="true">
+      <span class="sr-only">Quotetron</span>
+    </h1>
+    <p class="lede">Build better quotes, compare rates, and avoid undercharging before the job eats your profit.</p>
+    <div class="actions">
+      <button class="primary" id="share-button" type="button">Share</button>
+      <button class="secondary" id="copy-link-button" type="button">Copy link</button>
+      <button class="lore-bubble" id="open-lore-button" type="button" aria-label="Open the Legend of Quotetron" aria-controls="lore-dialog">i</button>
+    </div>
+  </div>
+</section>
+<main class="app-shell quote-layout" id="app" data-preset="calculator">
+  <section class="tool-card quote-form-card">
+    <div class="section-heading">
+      <p class="eyebrow">Quote check</p>
+      <h2>Project numbers</h2>
+    </div>
+    <p class="helper-note">Tap any ? for plain-English help on what to type.</p>
+    <form id="quote-form">
+      <div class="field-grid">
+        <div class="field-control">
+          <div class="field-top">
+            <label for="project-price">Project quote</label>
+            <details class="field-help">
+              <summary aria-label="Help for project quote">?</summary>
+              <div class="help-panel">Put the full amount the customer offered, or the price you plan to ask for the whole job.</div>
+            </details>
+          </div>
+          <input id="project-price" type="number" min="0" step="25" value="1800" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="target-hourly">Minimum hourly target</label>
+            <details class="field-help">
+              <summary aria-label="Help for minimum hourly target">?</summary>
+              <div class="help-panel">Put the least amount you want to make for each hour of your time after costs are handled.</div>
+            </details>
+          </div>
+          <input id="target-hourly" type="number" min="0" step="5" value="75" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="production-hours">Work hours</label>
+            <details class="field-help">
+              <summary aria-label="Help for work hours">?</summary>
+              <div class="help-panel">Count the hours doing the actual job: building, fixing, hauling, designing, cutting, editing, or making.</div>
+            </details>
+          </div>
+          <input id="production-hours" type="number" min="0" step="0.5" value="12" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="admin-hours">Admin and client hours</label>
+            <details class="field-help">
+              <summary aria-label="Help for admin and client hours">?</summary>
+              <div class="help-panel">Add time for calls, texts, driving, estimates, buying supplies, setup, cleanup, invoices, and follow-up.</div>
+            </details>
+          </div>
+          <input id="admin-hours" type="number" min="0" step="0.5" value="2" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="revision-buffer">Revision buffer %</label>
+            <details class="field-help">
+              <summary aria-label="Help for revision buffer">?</summary>
+              <div class="help-panel">Add extra room for changes, mistakes, delays, picky customers, or anything that usually takes longer than planned.</div>
+            </details>
+          </div>
+          <input id="revision-buffer" type="number" min="0" max="200" step="1" value="15" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="expenses">Out-of-pocket expenses</label>
+            <details class="field-help">
+              <summary aria-label="Help for out-of-pocket expenses">?</summary>
+              <div class="help-panel">Put money you must spend to finish the job: parts, materials, gas, rentals, software, shipping, or helper pay.</div>
+            </details>
+          </div>
+          <input id="expenses" type="number" min="0" step="10" value="85" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="platform-fee">Platform or payment fee %</label>
+            <details class="field-help">
+              <summary aria-label="Help for platform or payment fee">?</summary>
+              <div class="help-panel">Use this for card fees, app fees, marketplace fees, PayPal fees, or any percent taken from the payment.</div>
+            </details>
+          </div>
+          <input id="platform-fee" type="number" min="0" max="80" step="0.5" value="3" inputmode="decimal">
+        </div>
+        <div class="field-control">
+          <div class="field-top">
+            <label for="cash-reserve">Tax or savings set-aside %</label>
+            <details class="field-help">
+              <summary aria-label="Help for tax or savings set-aside">?</summary>
+              <div class="help-panel">Set aside a percent for taxes, slow weeks, tool replacement, or business savings before you call the job profitable.</div>
+            </details>
+          </div>
+          <input id="cash-reserve" type="number" min="0" max="80" step="1" value="25" inputmode="decimal">
+        </div>
+      </div>
+    </form>
+    <p class="fine-print">This is planning math, not tax, legal, or financial advice.</p>
+  </section>
+  <section class="tool-card result-card" aria-live="polite">
+    <div class="decision-pop" id="decision-pop" aria-hidden="true">
+      <img id="decision-image" src="assets/img/decision-negotiate.webp" alt="">
+    </div>
+    <audio id="sound-take" preload="auto" src="assets/audio/decision-take.wav"></audio>
+    <audio id="sound-negotiate" preload="auto" src="assets/audio/decision-negotiate.wav"></audio>
+    <audio id="sound-pass" preload="auto" src="assets/audio/decision-pass.wav"></audio>
+    <audio id="theme-song" preload="auto" loop src="assets/audio/theme.mp3"></audio>
+    <div class="decision-badge" id="decision-badge">Calculating</div>
+    <h2 id="decision-title">Run the numbers</h2>
+    <p id="decision-copy">Your quote summary will update instantly.</p>
+    <dl class="result-grid">
+      <div><dt>True hourly</dt><dd id="true-hourly">$0</dd></div>
+      <div><dt>Target quote</dt><dd id="target-quote">$0</dd></div>
+      <div><dt>Net after costs</dt><dd id="net-profit">$0</dd></div>
+      <div><dt>Total hours</dt><dd id="total-hours">0</dd></div>
+    </dl>
+    <div class="actions result-actions">
+      <button class="primary" id="copy-summary-button" type="button">Copy summary</button>
+      <button class="secondary" id="reset-button" type="button">Reset</button>
+      <button class="secondary sound-toggle" id="sound-toggle" type="button" aria-pressed="true">Sound on</button>
+    </div>
+    <output id="calc-output">Ready.</output>
+  </section>
+  <section class="tool-card rate-card">
+    <div class="section-heading">
+      <p class="eyebrow">Rate helper</p>
+      <h2>What should I charge?</h2>
+    </div>
+    <p class="helper-note">Pick the closest job type. These are starting points, not promises.</p>
+    <div class="field-grid compact-fields">
+      <div class="field-control">
+        <label for="rate-task">Task type</label>
+        <select id="rate-task">
+          <optgroup label="Photo and video">
+            <option value="portrait">Portrait or family photos</option>
+            <option value="headshot">Headshots</option>
+            <option value="event">Event photo coverage</option>
+            <option value="weddingPhoto">Wedding photography</option>
+            <option value="product">Product photos</option>
+            <option value="realEstate">Real estate photos</option>
+            <option value="retouching">Photo editing or retouching</option>
+            <option value="video">Basic videography</option>
+            <option value="drone">Drone photo or video</option>
+          </optgroup>
+          <optgroup label="Creative and digital">
+            <option value="design">Graphic design / flyer work</option>
+            <option value="logoBrand">Logo or brand design</option>
+            <option value="webDesign">Website design</option>
+            <option value="webDev">Website development</option>
+            <option value="copywriting">Copywriting or content writing</option>
+            <option value="socialMedia">Social media management</option>
+            <option value="seo">SEO / local business setup</option>
+            <option value="audioEditing">Podcast or audio editing</option>
+          </optgroup>
+          <optgroup label="Home and trades">
+            <option value="handyman">Handyman / repair labor</option>
+            <option value="painting">Painting labor</option>
+            <option value="drywall">Drywall patch or repair</option>
+            <option value="carpentry">Carpentry / trim work</option>
+            <option value="electrical">Electrical helper work</option>
+            <option value="plumbing">Plumbing helper work</option>
+            <option value="hvac">HVAC service helper</option>
+            <option value="appliance">Appliance repair</option>
+          </optgroup>
+          <optgroup label="Outdoor and hauling">
+            <option value="yard">Yard work / cleanup labor</option>
+            <option value="landscaping">Landscaping labor</option>
+            <option value="pressureWash">Pressure washing</option>
+            <option value="junkRemoval">Junk removal / hauling</option>
+            <option value="snowRemoval">Snow removal</option>
+            <option value="fenceDeck">Fence or deck repair</option>
+          </optgroup>
+          <optgroup label="Auto and mobile service">
+            <option value="mobileMechanic">Mobile mechanic</option>
+            <option value="autoDetail">Auto detailing</option>
+            <option value="smallEngine">Small engine repair</option>
+          </optgroup>
+          <optgroup label="Cleaning, moving, and help">
+            <option value="houseCleaning">House cleaning</option>
+            <option value="deepCleaning">Deep cleaning / move-out clean</option>
+            <option value="movingLabor">Moving labor</option>
+            <option value="assembly">Furniture assembly</option>
+            <option value="tutoring">Tutoring or lessons</option>
+            <option value="bookkeeping">Bookkeeping help</option>
+            <option value="virtualAssistant">Virtual assistant</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="field-control">
+        <label for="rate-level">Your level</label>
+        <select id="rate-level">
+          <option value="starter">Starter</option>
+          <option value="working" selected>Working pro</option>
+          <option value="premium">Premium</option>
+        </select>
+      </div>
+      <div class="field-control">
+        <label for="rate-market">Market</label>
+        <select id="rate-market">
+          <option value="budget">Small town / budget</option>
+          <option value="standard" selected>Normal local market</option>
+          <option value="strong">Busy city / higher income</option>
+        </select>
+      </div>
+    </div>
+    <dl class="rate-grid">
+      <div><dt>Low</dt><dd id="rate-low">$0/hr</dd></div>
+      <div><dt>Typical</dt><dd id="rate-typical">$0/hr</dd></div>
+      <div><dt>High</dt><dd id="rate-high">$0/hr</dd></div>
+    </dl>
+    <p id="rate-guidance" class="rate-guidance">Choose a task to see a practical starting rate.</p>
+    <p id="rate-source" class="source-note">Sources: 2026 public freelance rate guides plus BLS wage context.</p>
+    <div class="actions result-actions">
+      <button class="primary" id="use-rate-button" type="button">Use typical hourly</button>
+      <button class="secondary" id="use-quote-button" type="button">Use suggested quote</button>
+    </div>
+    <output id="rate-output">Suggested quote will use your hours and costs above.</output>
+  </section>
+</main>
+
+<dialog class="lore-dialog" id="lore-dialog" aria-labelledby="lore-title">
+  <article class="lore-card">
+    <button class="lore-close" id="close-lore-button" type="button" aria-label="Close lore">Close</button>
+    <p class="eyebrow">Job Site Mythology</p>
+    <h2 id="lore-title">The Legend of Quotetron</h2>
+    <p>Long ago, before spreadsheets, calculators, and project managers, construction jobs were plagued by bad estimates, missed deadlines, and quotes so terrible they threatened the stability of entire job sites.</p>
+    <p>To restore order, five legendary construction machines were forged:</p>
+    <ul class="lore-artifacts">
+      <li>The Hammer of Truth</li>
+      <li>The Wrench of Precision</li>
+      <li>The Saw of Efficiency</li>
+      <li>The Level of Accuracy</li>
+      <li>The Blueprint of Wisdom</li>
+    </ul>
+    <p>When a quote becomes too confusing, too risky, or too important for ordinary contractors, these machines combine into one unstoppable construction guardian...</p>
+    <h3>QUOTETRON</h3>
+    <p>Part foreman. Part engineer. Part legend.</p>
+    <p>Quotetron analyzes costs, evaluates risks, and protects hardworking builders from bad decisions.</p>
+    <p>Armed with his mighty Hammer of Truth and Wrench of Precision, he reviews every project with one mission:</p>
+    <p class="lore-callout">Build smart. Quote smarter.</p>
+    <p>When Quotetron gives a thumbs up, proceed with confidence.</p>
+    <p>When Quotetron scratches his chin, negotiate wisely.</p>
+    <p>When Quotetron gives a thumbs down...</p>
+    <p><strong>Run.</strong></p>
+    <p>The job site depends on it.</p>
+  </article>
+</dialog>
+
+  <footer>
+    <p>Designed by Milsim Rooster. Built by Codex. Secured by Cloudflare. Powered by Hopium.</p>
+  </footer>
+  <script defer src="assets/js/app.js?v=20260607-audio-lifecycle-1"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+name = "milsimrooster-com"
+compatibility_date = "2026-06-08"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rooster-recipes"
+database_id = "88dc10dc-e6a1-46b2-8fb1-611135aeb129"
+migrations_dir = "migrations"

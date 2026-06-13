@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A spherical Milsim Rooster gallery for events, airsoft, milsim, portraits, and community photography."
+    />
+    <title>Milsim Rooster Gallery</title>
+    <link rel="stylesheet" href="/src/gallery/styles.css" />
+  </head>
+  <body>
+    <main class="gallery-shell" aria-label="Milsim Rooster field archive">
+      <div class="gallery-background" aria-hidden="true"></div>
+      <canvas id="sphere-gallery" aria-label="Interactive spherical photography gallery"></canvas>
+
+      <header class="gallery-topbar">
+        <a class="brand" href="/" aria-label="Back to Milsim Rooster home">
+          <span class="brand-mark">MR</span>
+          <span>Milsim Rooster</span>
+        </a>
+        <nav aria-label="Gallery navigation">
+          <a href="/">Home</a>
+          <a href="/#projects">Apps</a>
+          <a href="/#links">Links</a>
+        </nav>
+      </header>
+
+      <div class="gallery-hud gallery-hud-left" aria-hidden="true">
+        <span>Drag</span>
+        <strong>Look Around</strong>
+        <small id="archive-progress">0 / 24 scanned</small>
+      </div>
+
+      <div class="gallery-hud gallery-hud-right" aria-live="polite">
+        <strong id="active-title">Loading gallery</strong>
+      </div>
+
+      <button type="button" class="sound-pill" aria-pressed="true">Sound On</button>
+      <audio id="gallery-theme" src="/apps/gallery/assets/theme-gallery.wav" preload="auto" autoplay loop></audio>
+
+      <div class="expand-view" aria-hidden="true" role="dialog" aria-label="Expanded gallery image" inert>
+        <button type="button" class="close-expand" aria-label="Close expanded image">Close</button>
+        <button type="button" class="modal-nav modal-prev" aria-label="Previous archive image">‹</button>
+        <button type="button" class="modal-nav modal-next" aria-label="Next archive image">›</button>
+        <div class="expand-card">
+          <img id="expanded-image" alt="" />
+          <div>
+            <h2 id="expanded-title">Image</h2>
+            <div id="expanded-meta" class="expanded-meta"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/gallery/main.js"></script>
+  </body>
+</html>

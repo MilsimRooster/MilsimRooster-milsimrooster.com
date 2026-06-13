@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Milsim Rooster Sandbox Archive</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="archive-shell">
+      <header class="archive-header">
+        <a class="archive-brand" href="../apps/gallery/">MR Gallery</a>
+        <div>
+          <p>Sandbox Import</p>
+          <h1>Milsim Rooster Archive</h1>
+        </div>
+        <output id="archive-count">Loading</output>
+      </header>
+
+      <section class="archive-toolbar" aria-label="Archive filters">
+        <input id="archive-search" type="search" placeholder="Search title, tag, collection" autocomplete="off" />
+        <div id="archive-filters" class="archive-filters"></div>
+      </section>
+
+      <section id="archive-grid" class="archive-grid" aria-live="polite"></section>
+    </main>
+    <script type="module" src="archive-preview.js"></script>
+  </body>
+</html>

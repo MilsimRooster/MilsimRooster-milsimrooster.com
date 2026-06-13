@@ -32,6 +32,7 @@ Wrangler is authenticated as `info@keithleague.com`.
 - Apostles Quest: `https://milsimrooster.com/apps/apostles/`
 - FPS Visualizer: `https://milsimrooster.com/apps/fps-visualizer/`
 - Rooster Recipes: `https://milsimrooster.com/apps/recipes/`
+- Quotetron: `https://milsimrooster.com/apps/quotetron/`
 
 All four routes were checked live and returned HTTP `200` with the expected page titles.
 
@@ -39,7 +40,7 @@ All four routes were checked live and returned HTTP `200` with the expected page
 
 ### Home Page
 
-- Main page includes launch cards for Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, and Southern Translator.
+- Main page includes launch cards for Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, Southern Translator, and Quotetron.
 - The apps launcher should feel like a clear "Games and Utilities" section for the MR.com app family.
 
 ### Apostles Quest
@@ -61,12 +62,13 @@ All four routes were checked live and returned HTTP `200` with the expected page
 ### Rooster Recipes
 
 - Hosted under `/apps/recipes/`.
-- Current app includes search, category/protein filters, recipe cards, shopping list, simple meal plan, and local rating faces.
+- Current app includes search, category/protein filters, recipe cards, shopping list, simple meal plan, shared D1-backed rating faces, and auto-approved clean feedback comments.
 - Recipe categories include beef, chicken, fish, desserts, and others.
 - Fish options and pie/dessert expansion were requested and added.
 - Rating face style should stay playful; 1-star uses a softer bad rating face, not a harsh black-and-white frown.
 - Recipe disclaimer should be "Rooster style": practical, friendly, and clear that measurements are starting points to verify with taste, temperature, and common sense.
-- Future backend discussion centered on recipe ratings, shared data, submissions, and persistence. Treat auth, spam prevention, rate limits, and write permissions as required before adding a backend.
+- D1 backend files live in `functions/api/ratings.js`, `functions/api/comments.js`, `functions/api/admin/ratings.js`, `schema.sql`, and `migrations/0001_rooster_recipes_feedback.sql`.
+- Bind the D1 database to Cloudflare Pages as `DB`; the admin results route also expects an `ADMIN_TOKEN` secret.
 
 ### How Southern Are You?
 

@@ -49,13 +49,15 @@ a {
 
 button,
 input,
-select {
+select,
+textarea {
   font: inherit;
 }
 
 button,
 select,
-input {
+input,
+textarea {
   border-radius: 8px;
 }
 
@@ -299,13 +301,19 @@ label {
 }
 
 input,
-select {
+select,
+textarea {
   min-height: 44px;
   width: 100%;
   border: 1px solid var(--line);
   background: rgba(255, 250, 240, 0.92);
   color: #21170f;
   padding: 10px 12px;
+}
+
+textarea {
+  min-height: 118px;
+  resize: vertical;
 }
 
 .toggle-button[aria-pressed="true"] {
@@ -370,6 +378,12 @@ select {
   color: var(--muted);
   font-size: 13px;
   font-weight: 900;
+}
+
+.rating-control small {
+  color: rgba(213, 194, 167, 0.78);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .rating-buttons {
@@ -526,6 +540,59 @@ select {
 
 .detail-card {
   padding: 16px;
+}
+
+.feedback-card {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid rgba(255, 231, 190, 0.14);
+  border-radius: 8px;
+  background: rgba(12, 13, 11, 0.54);
+}
+
+.comment-form {
+  display: grid;
+  gap: 10px;
+}
+
+.comment-form button {
+  justify-self: start;
+  padding: 10px 14px;
+}
+
+.spam-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.approved-comments {
+  display: grid;
+  gap: 10px;
+}
+
+.approved-comments h4 {
+  margin: 0;
+  color: var(--accent);
+}
+
+.comment {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.comment p {
+  margin: 6px 0;
+}
+
+.comment small {
+  color: rgba(213, 194, 167, 0.72);
 }
 
 .ingredients-list,

@@ -7,8 +7,9 @@ const state = {
   favoritesOnly: false,
   selectedRecipe: null,
   lastDinnerId: null,
+  ratingStats: {},
+  myRatings: {},
   favorites: new Set(JSON.parse(localStorage.getItem("roosterRecipeFavorites") || "[]")),
-  ratings: JSON.parse(localStorage.getItem("roosterRecipeRatings") || "{}"),
   shopping: JSON.parse(localStorage.getItem("roosterShoppingList") || "[]"),
   mealPlan: JSON.parse(localStorage.getItem("roosterMealPlan") || "{}")
 };
@@ -53,10 +54,6 @@ function saveFavorites() {
   localStorage.setItem("roosterRecipeFavorites", JSON.stringify([...state.favorites]));
 }
 
-function saveRatings() {
-  localStorage.setItem("roosterRecipeRatings", JSON.stringify(state.ratings));
-}
-
 function saveShopping() {
   localStorage.setItem("roosterShoppingList", JSON.stringify(state.shopping));
 }
@@ -78,6 +75,74 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function emptyRatingStats(recipeSlug) {
+  return {
+    recipe_slug: recipeSlug,
+    average_rating: 0,
+    rating_count: 0,
+    rating_breakdown: { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    comments: []
+  };
+}
+
+function normalizeRatingStats(recipeSlug, data = {}) {
+  const breakdown = data.rating_breakdown || {};
+  return {
+    recipe_slug: data.recipe_slug || recipeSlug,
+    average_rating: Number(data.average_rating || 0),
+    rating_count: Number(data.rating_count || 0),
+    rating_breakdown: {
+      "1": Number(breakdown["1"] || 0),
+      "2": Number(breakdown["2"] || 0),
+      "3": Number(breakdown["3"] || 0),
+      "4": Number(breakdown["4"] || 0),
+      "5": Number(breakdown["5"] || 0)
+    },
+    comments: Array.isArray(data.comments) ? data.comments : []
+  };
+}
+
+function ratingStatsFor(recipe) {
+  return state.ratingStats[recipe.id] || emptyRatingStats(recipe.id);
+}
+
+function ratingSummaryText(recipe) {
+  const stats = ratingStatsFor(recipe);
+  if (!stats.rating_count) return "No shared ratings yet";
+  const votes = `${stats.rating_count} vote${stats.rating_count === 1 ? "" : "s"}`;
+  return `Shared rating: ${stats.average_rating.toFixed(1)}/5 (${votes})`;
+}
+
+function ratingBreakdownText(recipe) {
+  const breakdown = ratingStatsFor(recipe).rating_breakdown;
+  return [5, 4, 3, 2, 1]
+    .map((star) => `${star}★ ${Number(breakdown[String(star)] || 0)}`)
+    .join(" / ");
+}
+
+async function fetchRatingStats(recipeId) {
+  const response = await fetch(`/api/ratings?recipe=${encodeURIComponent(recipeId)}`);
+  if (!response.ok) throw new Error("Rating request failed");
+  state.ratingStats[recipeId] = normalizeRatingStats(recipeId, await response.json());
+}
+
+async function loadRatingStats() {
+  await Promise.allSettled(state.recipes.map((recipe) => fetchRatingStats(recipe.id)));
+  renderRecipes();
+  if (state.selectedRecipe) openRecipe(state.selectedRecipe.id);
+}
+
+async function postJson(url, payload) {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(payload)
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || "Request failed");
+  return data;
 }
 
 function totalTime(recipe) {
@@ -159,21 +224,27 @@ function toggleFavorite(id) {
   if (state.selectedRecipe?.id === id) openRecipe(id);
 }
 
-function setRating(id, value) {
+async function setRating(id, value) {
   const score = Number(value);
   if (!Number.isFinite(score) || score < 1 || score > 5) return;
-  state.ratings[id] = score;
-  saveRatings();
-  renderRecipes();
-  if (state.selectedRecipe?.id === id) openRecipe(id);
-  showToast(`Saved ${score}/5 for this recipe.`);
+  try {
+    const data = await postJson("/api/ratings", { recipe_slug: id, rating: score });
+    state.myRatings[id] = score;
+    state.ratingStats[id] = normalizeRatingStats(id, data);
+    renderRecipes();
+    if (state.selectedRecipe?.id === id) openRecipe(id);
+    showToast(`Shared ${score}/5 for this recipe.`);
+  } catch (error) {
+    showToast(error.message || "Rating could not be saved.");
+  }
 }
 
 function ratingControl(recipe, compact = false) {
-  const current = Number(state.ratings[recipe.id] || 0);
+  const current = Number(state.myRatings[recipe.id] || 0);
   return `
     <div class="rating-control ${compact ? "compact" : ""}" aria-label="Rate ${escapeHtml(recipe.title)}">
-      <span>${current ? `Your rating: ${current}/5` : "Rate it"}</span>
+      <span>${escapeHtml(ratingSummaryText(recipe))}</span>
+      <small>${escapeHtml(ratingBreakdownText(recipe))}</small>
       <div class="rating-buttons">
         ${ratingFaces.map((face, index) => {
           const value = index + 1;
@@ -206,7 +277,7 @@ function sortedRecipes() {
     if (state.sort === "total") return totalTime(a) - totalTime(b);
     if (state.sort === "difficulty") return difficultyRank(a.difficulty) - difficultyRank(b.difficulty);
     if (state.sort === "servings") return a.servings - b.servings;
-    if (state.sort === "rating") return (Number(state.ratings[a.id] || 0) - Number(state.ratings[b.id] || 0)) || a.title.localeCompare(b.title);
+    if (state.sort === "rating") return (ratingStatsFor(b).average_rating - ratingStatsFor(a).average_rating) || a.title.localeCompare(b.title);
     return a.title.localeCompare(b.title);
   });
 }
@@ -314,9 +385,49 @@ function openRecipe(id) {
         <ul class="notes-list">${recipe.notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul>
       </section>
     </div>
+    <section class="feedback-card">
+      <div>
+        <h3>Comments and feedback</h3>
+        <p>Share a note for the kitchen. Clean feedback shows up automatically; spam stays filtered.</p>
+      </div>
+      <form class="comment-form" data-comment-form>
+        <input type="hidden" name="recipe_slug" value="${escapeHtml(recipe.id)}">
+        <label>
+          <span>Name</span>
+          <input name="name" type="text" maxlength="60" autocomplete="name" placeholder="Optional">
+        </label>
+        <label>
+          <span>Comment</span>
+          <textarea name="comment" maxlength="1200" required placeholder="What worked, what needs tweaking, or what you would change?"></textarea>
+        </label>
+        <label class="spam-field" aria-hidden="true">
+          <span>Website</span>
+          <input name="website" type="text" tabindex="-1" autocomplete="off">
+        </label>
+        <button type="submit">Send Feedback</button>
+      </form>
+      ${renderApprovedComments(recipe)}
+    </section>
   `;
   renderScaledIngredients(recipe.servings);
   if (!els.recipeDialog.open) els.recipeDialog.showModal();
+}
+
+function renderApprovedComments(recipe) {
+  const comments = ratingStatsFor(recipe).comments;
+  if (!comments.length) return `<div class="approved-comments"><p>No approved comments yet.</p></div>`;
+  return `
+    <div class="approved-comments">
+      <h4>Approved comments</h4>
+      ${comments.map((comment) => `
+        <article class="comment">
+          <strong>${escapeHtml(comment.name || "Rooster Recipes reader")}</strong>
+          <p>${escapeHtml(comment.comment)}</p>
+          <small>${escapeHtml(comment.created_at || "")}</small>
+        </article>
+      `).join("")}
+    </div>
+  `;
 }
 
 function renderScaledIngredients(servings) {
@@ -431,6 +542,20 @@ document.addEventListener("input", (event) => {
   if (event.target.id === "servingsInput") renderScaledIngredients(event.target.value);
 });
 
+document.addEventListener("submit", async (event) => {
+  if (!event.target.matches("[data-comment-form]")) return;
+  event.preventDefault();
+  const form = event.target;
+  const payload = Object.fromEntries(new FormData(form).entries());
+  try {
+    const data = await postJson("/api/comments", payload);
+    form.reset();
+    showToast(data.message || "Feedback sent.");
+  } catch (error) {
+    showToast(error.message || "Feedback could not be sent.");
+  }
+});
+
 els.searchInput.addEventListener("input", () => {
   state.query = els.searchInput.value.trim();
   renderRecipes();
@@ -484,6 +609,7 @@ fetch("recipes.json")
     renderPlanner();
     renderShopping();
     randomDinner();
+    loadRatingStats();
   })
   .catch(() => {
     els.recipeGrid.innerHTML = "<p>Recipes could not load. Try refreshing the page.</p>";

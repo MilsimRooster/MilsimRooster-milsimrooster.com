@@ -1,0 +1,159 @@
+.mr-liquid-glass-stage {
+  position: relative;
+  isolation: isolate;
+}
+
+.site-liquid-glass-stage {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
+}
+
+.site-liquid-glass-stage .mr-liquid-glass {
+  --mrlg-width: 56px;
+  --mrlg-height: 56px;
+  position: fixed;
+  z-index: 9999;
+  border-radius: 999px;
+}
+
+.site-liquid-glass-stage .mr-liquid-glass__scene {
+  position: fixed;
+}
+
+.site-glass-pointer {
+  opacity: 0.9;
+}
+
+.site-liquid-glass-stage[data-liquid-glass-variant="app-soft"] .site-glass-pointer {
+  opacity: 0.72;
+}
+
+.mr-liquid-glass {
+  --mrlg-x: 58%;
+  --mrlg-y: 44%;
+  --mrlg-width: 188px;
+  --mrlg-height: 76px;
+  --mrlg-refract-opacity: 1;
+  position: absolute;
+  left: calc(var(--mrlg-x) - (var(--mrlg-width) / 2));
+  top: calc(var(--mrlg-y) - (var(--mrlg-height) / 2));
+  width: var(--mrlg-width);
+  height: var(--mrlg-height);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 8px;
+  background:
+    linear-gradient(130deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.045)),
+    rgba(10, 15, 18, 0.34);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.64),
+    inset 0 -18px 34px rgba(255, 255, 255, 0.06),
+    inset 14px 0 28px rgba(126, 239, 229, 0.12),
+    inset -14px 0 28px rgba(189, 118, 88, 0.10),
+    0 18px 52px rgba(0, 0, 0, 0.42);
+  pointer-events: none;
+  z-index: 4;
+}
+
+.site-liquid-glass-stage[data-liquid-glass-variant="app-soft"] .mr-liquid-glass {
+  border-color: rgba(255, 255, 255, 0.34);
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.08)),
+    rgba(245, 248, 246, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.58),
+    inset 0 -10px 18px rgba(255, 255, 255, 0.05),
+    0 10px 28px rgba(0, 0, 0, 0.18);
+  --mrlg-refract-opacity: 0.34;
+}
+
+.mr-liquid-glass::before,
+.mr-liquid-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mr-liquid-glass::before {
+  background:
+    linear-gradient(130deg, rgba(255, 255, 255, 0.38), transparent 32%),
+    radial-gradient(circle at 28% 18%, rgba(255, 255, 255, 0.42), transparent 20%),
+    linear-gradient(90deg, rgba(126, 239, 229, 0.14), transparent 35%, rgba(189, 118, 88, 0.12));
+  mix-blend-mode: screen;
+}
+
+.mr-liquid-glass::after {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.20),
+    inset 0 0 22px rgba(255, 255, 255, 0.14);
+}
+
+.mr-liquid-glass__source {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  transform: translateZ(0);
+}
+
+.mr-liquid-glass__refract {
+  position: absolute;
+  inset: 0;
+  filter: url("#mr-liquid-glass-filter");
+  opacity: var(--mrlg-refract-opacity);
+  transform: translateZ(0);
+}
+
+.mr-liquid-glass__scene {
+  position: absolute;
+  left: calc(-1 * (var(--mrlg-x) - (var(--mrlg-width) / 2)));
+  top: calc(-1 * (var(--mrlg-y) - (var(--mrlg-height) / 2)));
+  width: var(--mrlg-stage-width, 1000px);
+  height: var(--mrlg-stage-height, 560px);
+}
+
+.mr-liquid-glass__replica {
+  pointer-events: none;
+}
+
+.mr-liquid-glass__replica .topbar {
+  position: static;
+  top: auto;
+}
+
+.mr-liquid-glass__label {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 0.03em;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.68);
+}
+
+.mr-liquid-glass-control {
+  accent-color: #7eefe5;
+}
+
+.mr-liquid-glass-preset {
+  font: 12px/1.45 Consolas, "Cascadia Mono", monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mr-liquid-glass__refract {
+    filter: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .site-glass-pointer {
+    display: none;
+  }
+}

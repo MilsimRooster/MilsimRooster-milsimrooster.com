@@ -9,7 +9,7 @@
     <meta property="og:description" content="A funny Southern culture quiz from Milsim Rooster.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://milsimrooster.com/apps/how-southern-are-you/">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css?v=20260607-title-art-2">
   </head>
   <body>
     <main class="quiz-shell">
@@ -18,16 +18,23 @@
           <span class="brand-mark">MR</span>
           <span>Milsim Rooster</span>
         </a>
-        <a class="home-link" href="/">Main Site</a>
+        <div class="topbar-actions">
+          <button class="audio-toggle" id="audioToggle" type="button" aria-pressed="false">Audio On</button>
+          <a class="home-link" href="/">Main Site</a>
+        </div>
       </header>
 
-      <section class="hero-card" id="startScreen">
-        <p class="kicker">Milsim Rooster Quiz Lab</p>
-        <h1>How Southern Are You?</h1>
-        <p class="intro">
-          Twenty randomized questions, a heap of food judgment, a little porch logic, and a final score you can send to the group chat.
-        </p>
-        <div class="hero-actions">
+      <section class="hero-card title-card" id="startScreen">
+        <picture class="title-art">
+          <source media="(max-width: 620px)" srcset="./assets/photos/mobile_screen.png">
+          <img src="./assets/photos/desktop_screen.png" alt="" aria-hidden="true">
+        </picture>
+        <div class="title-overlay">
+          <p class="kicker">Milsim Rooster Quiz Lab</p>
+          <h1 class="visually-hidden">How Southern Are You?</h1>
+          <p class="intro visually-hidden">
+            Twenty randomized questions, a heap of food judgment, a little porch logic, and a final score you can send to the group chat.
+          </p>
           <button class="primary-button" id="startButton" type="button">Start Quiz</button>
           <span class="tiny-note">No login. No database. Just vibes and sweet tea accountability.</span>
         </div>
@@ -56,6 +63,10 @@
           <p class="regional-note" id="regionalNote"></p>
         </article>
         <div class="share-panel">
+          <div class="result-audio-row">
+            <span>Hear Bubba say it</span>
+            <button id="replayResultAudio" type="button">Replay Result Audio</button>
+          </div>
           <label for="shareText">Share text</label>
           <textarea id="shareText" readonly></textarea>
           <div class="button-row">
@@ -69,8 +80,10 @@
       </section>
     </main>
 
+    <audio id="musicAudio" src="./assets/audio/welcome_theme.wav" preload="auto" loop playsinline></audio>
+    <audio id="heroAudio" preload="auto" playsinline></audio>
     <script type="module" src="./questions.js"></script>
     <script type="module" src="./results.js"></script>
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./app.js?v=20260607-audio-lifecycle-1"></script>
   </body>
 </html>
