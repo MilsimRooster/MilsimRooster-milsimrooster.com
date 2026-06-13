@@ -232,6 +232,7 @@ a {
 }
 
 .gallery-hud-right {
+  display: none;
   right: 26px;
   text-align: right;
 }
@@ -485,12 +486,12 @@ a {
   }
 
   .depth-mode-toggle {
-    right: 12px;
+    right: auto;
     bottom: 16px;
-    left: auto;
+    left: 50%;
     padding: 10px 12px;
     font-size: 13px;
-    transform: none;
+    transform: translateX(-50%);
   }
 
   .gallery-hud-right {

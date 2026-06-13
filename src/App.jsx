@@ -133,10 +133,7 @@ function App() {
           <Section id="about" eyebrow="About" title="About Milsim Rooster">
             <div className="split-card">
               <p>
-                Milsim Rooster is Keith League's home base for field photography, milsim videos, and the side projects that come out of those weekends.
-              </p>
-              <p>
-                The work here stays close to the field: photos, videos, and practical tools built from the same weekends and communities.
+                Keith League's home base for military simulation photos, videos, and projects. Keith is a Veteran, IT Professional, husband, father, and a generally curious creative artist sharing his experiences and ideas here for all to enjoy.
               </p>
             </div>
           </Section>
