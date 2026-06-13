@@ -135,13 +135,10 @@ function App() {
             <div className="hero-copy">
               <p className="kicker">Field Gallery / Media Archive</p>
               <h1>Milsim Rooster</h1>
-              <p className="tagline">
-                The gallery is the front door now: field photography, second-layer moments, and cinematic milsim media in one focused archive.
-              </p>
               <a className="hero-gallery-button gallery-launch-button" href="/apps/gallery/">
                 <span>Gallery</span>
                 <strong>Enter the Gallery</strong>
-                <small>Spherical field archive, second layer, and media wall.</small>
+                <small>Open the full photo wall and field archive.</small>
               </a>
             </div>
             <div className="hero-visual" aria-label="Milsim Rooster visual preview">
@@ -149,18 +146,18 @@ function App() {
               <div className="mission-card">
                 <div>
                   <span>01</span>
-                  <strong>Surface</strong>
-                  <p>Curated portraits, events, and field atmosphere.</p>
+                  <strong>Field Photos</strong>
+                  <p>Game days, portraits, gear, and the best shots from the field.</p>
                 </div>
                 <div>
                   <span>02</span>
-                  <strong>Second Layer</strong>
-                  <p>Expanded image wall with clean framed viewing.</p>
+                  <strong>More Shots</strong>
+                  <p>Extra photos are tucked deeper inside the gallery view.</p>
                 </div>
                 <div>
                   <span>03</span>
-                  <strong>Motion</strong>
-                  <p>Field video and channel links sit below the archive.</p>
+                  <strong>Videos</strong>
+                  <p>Field footage is still here, just lower on the page.</p>
                 </div>
               </div>
             </div>
@@ -169,7 +166,10 @@ function App() {
         <Section id="about" eyebrow="About" title="Creative Work With Practical Edges">
           <div className="split-card">
             <p>
-              Keith League, operating as Milsim Rooster, works across photography, video production, media projects, and hands-on software utilities. This site is a central place to collect the creative work, promote new releases, and point people toward the projects that matter most.
+              Milsim Rooster is Keith League's home base for field photography, milsim videos, and the side projects that come out of those weekends.
+            </p>
+            <p>
+              The gallery is the main draw. The rest of the page stays simple: videos when you want motion, and app tiles when you want the tools.
             </p>
           </div>
         </Section>
@@ -186,7 +186,6 @@ function App() {
                     allowFullScreen
                   />
                 </div>
-                <h3>{video.title}</h3>
                 <a className="video-link" href={video.link} target="_blank" rel="noreferrer">Open on YouTube</a>
               </article>
             ))}

@@ -270,9 +270,14 @@ assert.ok(homeSource.includes("gallery-launch-button"), "home page should includ
 assert.ok(homeSource.includes('className="hero gallery-first-hero"'), "home page should use the gallery-first hero treatment");
 assert.ok(homeSource.includes('className="hero-gallery-button gallery-launch-button"'), "home page hero should use a single prominent gallery launch");
 assert.ok(homeSource.includes("Enter the Gallery"), "home page hero should make the gallery the primary action");
+assert.ok(!homeSource.includes("The gallery is the front door now"), "home page should not use placeholder hero tagline copy");
+assert.ok(!homeSource.includes("<strong>Surface</strong>"), "home page hero cards should use natural titles");
+assert.ok(!homeSource.includes("<strong>Second Layer</strong>"), "home page hero cards should use natural titles");
+assert.ok(!homeSource.includes("<strong>Motion</strong>"), "home page hero cards should use natural titles");
 assert.ok(!homeSource.includes('className="hero-actions"'), "home page hero should not use duplicate quick-action buttons");
 assert.ok(!homeSource.includes('className="app-launcher-title"'), "home page hero should not duplicate the games and utilities launcher");
 assert.ok(!homeSource.includes('className="app-launcher"'), "home page hero should not include the app launcher grid");
+assert.ok(!homeSource.includes("<h3>{video.title}</h3>"), "home page video cards should not show generic video labels");
 assert.ok(homeSource.includes('<Section id="projects" eyebrow="Builds" title="Software Utilities and Web Apps">'), "lower projects section should still hold the app tiles");
 assert.ok(!homeSource.includes("<Section id=\"photography\""), "old embedded photography gallery should be replaced");
 assert.ok(viteConfig.includes("apps/gallery/index.html"), "Vite should build the gallery page");
