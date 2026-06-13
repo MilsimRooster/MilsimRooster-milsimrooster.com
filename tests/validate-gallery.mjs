@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
 
 const galleryHtml = await readFile(new URL("../apps/gallery/index.html", import.meta.url), "utf8");
+const rootHtml = await readFile(new URL("../index.html", import.meta.url), "utf8");
+const aboutHtml = await readFile(new URL("../about/index.html", import.meta.url), "utf8");
 const gallerySource = await readFile(new URL("../src/gallery/main.js", import.meta.url), "utf8");
 const galleryData = await readFile(new URL("../src/gallery/archive-data.js", import.meta.url), "utf8");
 const galleryStyles = await readFile(new URL("../src/gallery/styles.css", import.meta.url), "utf8");
@@ -26,6 +28,38 @@ for (const token of [
   "inert"
 ]) {
   assert.ok(galleryHtml.includes(token), `gallery HTML should include ${token}`);
+  assert.ok(rootHtml.includes(token), `root HTML should include gallery token ${token}`);
+}
+
+for (const token of [
+  "sphere-gallery",
+  "gallery-shell",
+  "gallery-topbar",
+  "/about/",
+  "/about/#videos",
+  "/about/#projects",
+  "/about/#links"
+]) {
+  assert.ok(rootHtml.includes(token), `root page should be the gallery home and include ${token}`);
+  assert.ok(galleryHtml.includes(token), `standalone gallery should include ${token}`);
+}
+
+for (const token of [
+  "/src/main.jsx",
+  "/liquid-glass/liquid-glass.css",
+  "site-liquid-glass-stage",
+  "gallery-launch-button",
+  "mission-card"
+]) {
+  assert.ok(!rootHtml.includes(token), `root gallery home should not include secondary page token ${token}`);
+}
+
+for (const token of [
+  "/src/main.jsx",
+  "/liquid-glass/liquid-glass.css",
+  "/liquid-glass/liquid-glass.js"
+]) {
+  assert.ok(aboutHtml.includes(token), `secondary page shell should include ${token}`);
 }
 
 for (const token of [
@@ -265,19 +299,26 @@ assert.equal(
   "gallery source should reference each second-layer image exactly once"
 );
 
-assert.ok(homeSource.includes("href: \"/apps/gallery/\""), "home nav should link to the standalone gallery");
-assert.ok(homeSource.includes("gallery-launch-button"), "home page should include the gallery launch button");
-assert.ok(homeSource.includes('className="hero gallery-first-hero"'), "home page should use the gallery-first hero treatment");
-assert.ok(homeSource.includes('className="hero-gallery-button gallery-launch-button"'), "home page hero should use a single prominent gallery launch");
-assert.ok(homeSource.includes("Enter the Gallery"), "home page hero should make the gallery the primary action");
-assert.ok(!homeSource.includes("The gallery is the front door now"), "home page should not use placeholder hero tagline copy");
-assert.ok(!homeSource.includes("<strong>Surface</strong>"), "home page hero cards should use natural titles");
-assert.ok(!homeSource.includes("<strong>Second Layer</strong>"), "home page hero cards should use natural titles");
-assert.ok(!homeSource.includes("<strong>Motion</strong>"), "home page hero cards should use natural titles");
-assert.ok(!homeSource.includes('className="hero-actions"'), "home page hero should not use duplicate quick-action buttons");
-assert.ok(!homeSource.includes('className="app-launcher-title"'), "home page hero should not duplicate the games and utilities launcher");
-assert.ok(!homeSource.includes('className="app-launcher"'), "home page hero should not include the app launcher grid");
-assert.ok(!homeSource.includes("<h3>{video.title}</h3>"), "home page video cards should not show generic video labels");
-assert.ok(homeSource.includes('<Section id="projects" eyebrow="Builds" title="Software Utilities and Web Apps">'), "lower projects section should still hold the app tiles");
+assert.ok(homeSource.includes('href: "/"'), "secondary page nav should link back to the gallery home");
+assert.ok(!homeSource.includes("gallery-launch-button"), "secondary page should not duplicate the gallery launch card");
+assert.ok(!homeSource.includes('className="hero gallery-first-hero"'), "secondary page should not include the old draft homepage hero");
+assert.ok(!homeSource.includes('className="hero-gallery-button gallery-launch-button"'), "secondary page should not include a second gallery hero CTA");
+assert.ok(!homeSource.includes("Enter the Gallery"), "secondary page should not duplicate the main gallery entry");
+assert.ok(!homeSource.includes("The gallery is the front door now"), "secondary page should not use placeholder hero tagline copy");
+assert.ok(!homeSource.includes("Open the full photo wall and field archive."), "secondary page should not include explanatory gallery CTA microcopy");
+assert.ok(!homeSource.includes("Extra photos are tucked deeper inside the gallery view."), "secondary page should not explain gallery mechanics");
+assert.ok(!homeSource.includes("Field footage is still here, just lower on the page."), "secondary page should not describe page structure");
+assert.ok(!homeSource.includes("The gallery is the main draw."), "secondary page copy should not read like implementation notes");
+assert.ok(!homeSource.includes("<strong>Surface</strong>"), "secondary page should not use placeholder gallery card titles");
+assert.ok(!homeSource.includes("<strong>Second Layer</strong>"), "secondary page should not use placeholder gallery card titles");
+assert.ok(!homeSource.includes("<strong>Motion</strong>"), "secondary page should not use placeholder gallery card titles");
+assert.ok(!homeSource.includes("<small>"), "secondary page should not include the old hero gallery CTA small text");
+assert.ok(!homeSource.includes('<div className="mission-card"'), "secondary page should not show non-interactive explanatory cards");
+assert.ok(!homeSource.includes('className="hero-actions"'), "secondary page should not use duplicate quick-action buttons");
+assert.ok(!homeSource.includes('className="app-launcher-title"'), "secondary page should not duplicate the games and utilities launcher in a hero");
+assert.ok(!homeSource.includes('className="app-launcher"'), "secondary page should not include the old hero app launcher grid");
+assert.ok(!homeSource.includes("<h3>{video.title}</h3>"), "secondary page video cards should not show generic video labels");
+assert.ok(homeSource.includes('<Section id="projects" eyebrow="Apps" title="Apps and Utilities">'), "secondary page projects section should still hold the app tiles");
 assert.ok(!homeSource.includes("<Section id=\"photography\""), "old embedded photography gallery should be replaced");
 assert.ok(viteConfig.includes("apps/gallery/index.html"), "Vite should build the gallery page");
+assert.ok(viteConfig.includes("about/index.html"), "Vite should build the secondary page");

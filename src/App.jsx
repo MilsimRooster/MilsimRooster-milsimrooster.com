@@ -1,7 +1,6 @@
 const navItems = [
-  { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Gallery", href: "/apps/gallery/" },
+  { label: "Gallery", href: "/" },
   { label: "Videos", href: "#videos" },
   { label: "Projects", href: "#projects" },
   { label: "Links", href: "#links" }
@@ -119,7 +118,7 @@ function App() {
     >
       <div className="site-shell" data-liquid-glass-scene>
         <header className="topbar">
-          <a className="brand" href="#home" aria-label="Milsim Rooster home">
+          <a className="brand" href="/" aria-label="Milsim Rooster gallery">
             <span className="brand-mark">MR</span>
             <span>Milsim Rooster</span>
           </a>
@@ -130,101 +129,69 @@ function App() {
           </nav>
         </header>
 
-        <main>
-          <section id="home" className="hero gallery-first-hero">
-            <div className="hero-copy">
-              <p className="kicker">Field Gallery / Media Archive</p>
-              <h1>Milsim Rooster</h1>
-              <a className="hero-gallery-button gallery-launch-button" href="/apps/gallery/">
-                <span>Gallery</span>
-                <strong>Enter the Gallery</strong>
-                <small>Open the full photo wall and field archive.</small>
-              </a>
+        <main className="secondary-page">
+          <Section id="about" eyebrow="About" title="About Milsim Rooster">
+            <div className="split-card">
+              <p>
+                Milsim Rooster is Keith League's home base for field photography, milsim videos, and the side projects that come out of those weekends.
+              </p>
+              <p>
+                The work here stays close to the field: photos, videos, and practical tools built from the same weekends and communities.
+              </p>
             </div>
-            <div className="hero-visual" aria-label="Milsim Rooster visual preview">
-              <img src="/media/optimized/hero/img-7003-hero.jpg" alt="Milsim Rooster hero media preview" />
-              <div className="mission-card">
-                <div>
-                  <span>01</span>
-                  <strong>Field Photos</strong>
-                  <p>Game days, portraits, gear, and the best shots from the field.</p>
-                </div>
-                <div>
-                  <span>02</span>
-                  <strong>More Shots</strong>
-                  <p>Extra photos are tucked deeper inside the gallery view.</p>
-                </div>
-                <div>
-                  <span>03</span>
-                  <strong>Videos</strong>
-                  <p>Field footage is still here, just lower on the page.</p>
-                </div>
-              </div>
+          </Section>
+
+          <Section id="videos" eyebrow="Videos" title="Field Videos">
+            <div className="video-grid">
+              {videos.map((video) => (
+                <article className="video-card" key={video.embed}>
+                  <div className="video-frame">
+                    <iframe
+                      src={video.embed}
+                      title={video.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
+                  <a className="video-link" href={video.link} target="_blank" rel="noreferrer">Open on YouTube</a>
+                </article>
+              ))}
             </div>
-          </section>
+          </Section>
 
-        <Section id="about" eyebrow="About" title="Creative Work With Practical Edges">
-          <div className="split-card">
-            <p>
-              Milsim Rooster is Keith League's home base for field photography, milsim videos, and the side projects that come out of those weekends.
-            </p>
-            <p>
-              The gallery is the main draw. The rest of the page stays simple: videos when you want motion, and app tiles when you want the tools.
-            </p>
-          </div>
-        </Section>
-
-        <Section id="videos" eyebrow="Motion" title="Video Showcase">
-          <div className="video-grid">
-            {videos.map((video) => (
-              <article className="video-card" key={video.embed}>
-                <div className="video-frame">
-                  <iframe
-                    src={video.embed}
-                    title={video.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  />
-                </div>
-                <a className="video-link" href={video.link} target="_blank" rel="noreferrer">Open on YouTube</a>
-              </article>
-            ))}
-          </div>
-        </Section>
-
-        <Section id="projects" eyebrow="Builds" title="Software Utilities and Web Apps">
-          <div className="card-grid">
-            {projects.map((project) => (
-              project.href ? (
-                <a className="project-card project-link-card" href={project.href} key={project.name}>
-                  <span className={`project-icon ${project.icon === "FPS" ? "project-icon-reticle" : ""}`}>{project.icon}</span>
-                  <span className="project-card-copy">
+          <Section id="projects" eyebrow="Apps" title="Apps and Utilities">
+            <div className="card-grid">
+              {projects.map((project) => (
+                project.href ? (
+                  <a className="project-card project-link-card" href={project.href} key={project.name}>
+                    <span className={`project-icon ${project.icon === "FPS" ? "project-icon-reticle" : ""}`}>{project.icon}</span>
+                    <span className="project-card-copy">
+                      <h3>{project.name}</h3>
+                      <p>{project.text}</p>
+                      <strong>Open app</strong>
+                    </span>
+                  </a>
+                ) : (
+                  <article className="project-card" key={project.name}>
+                    <span className="project-icon">{project.icon}</span>
                     <h3>{project.name}</h3>
                     <p>{project.text}</p>
-                    <strong>Open app</strong>
-                  </span>
-                </a>
-              ) : (
-                <article className="project-card" key={project.name}>
-                  <span className="project-icon">{project.icon}</span>
-                  <h3>{project.name}</h3>
-                  <p>{project.text}</p>
-                </article>
-              )
-            ))}
-          </div>
-        </Section>
+                  </article>
+                )
+              ))}
+            </div>
+          </Section>
 
-        <Section id="links" eyebrow="Links" title="External Channels">
-          <div className="links-list">
-            {links.map((link) => (
-              <a href={link.href} key={link.label} target="_blank" rel="noreferrer">
-                {link.label}<span>Open</span>
-              </a>
-            ))}
-          </div>
-        </Section>
-      </main>
+          <Section id="links" eyebrow="Links" title="Links">
+            <div className="links-list">
+              {links.map((link) => (
+                <a href={link.href} key={link.label} target="_blank" rel="noreferrer">
+                  {link.label}<span>Open</span>
+                </a>
+              ))}
+            </div>
+          </Section>
+        </main>
 
       <footer>
         <span>MilsimRooster.com</span>

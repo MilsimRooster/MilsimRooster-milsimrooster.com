@@ -4,7 +4,8 @@ import { readFile } from "node:fs/promises";
 const css = await readFile(new URL("../public/liquid-glass/liquid-glass.css", import.meta.url), "utf8");
 const js = await readFile(new URL("../public/liquid-glass/liquid-glass.js", import.meta.url), "utf8");
 const headers = await readFile(new URL("../public/_headers", import.meta.url), "utf8");
-const index = await readFile(new URL("../index.html", import.meta.url), "utf8");
+const index = await readFile(new URL("../about/index.html", import.meta.url), "utf8");
+const galleryHome = await readFile(new URL("../index.html", import.meta.url), "utf8");
 const app = await readFile(new URL("../src/App.jsx", import.meta.url), "utf8");
 const assetVersion = "?v=20260607-glass-standard-4";
 const nonHomepagePages = [
@@ -70,7 +71,8 @@ for (const token of [
   `/liquid-glass/liquid-glass.css${assetVersion}`,
   `/liquid-glass/liquid-glass.js${assetVersion}`,
 ]) {
-  assert.ok(index.includes(token), `homepage shell should load shared liquid glass asset: ${token}`);
+  assert.ok(index.includes(token), `secondary page shell should load shared liquid glass asset: ${token}`);
+  assert.ok(!galleryHome.includes(token), `gallery home should not load secondary page glass asset: ${token}`);
 }
 
 for (const token of [

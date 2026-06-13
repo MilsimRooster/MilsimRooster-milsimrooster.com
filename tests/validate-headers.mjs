@@ -14,6 +14,7 @@ for (const token of [
   "Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()",
   "/",
   "/index.html",
+  "/about/*",
   "/liquid-glass/*",
   "Cache-Control: no-cache, max-age=0, must-revalidate",
   "Cache-Control: no-store, max-age=0",

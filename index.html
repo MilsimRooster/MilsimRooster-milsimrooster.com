@@ -3,13 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Milsim Rooster: photography, video work, software utilities, and creative projects by Keith League." />
-    <title>Milsim Rooster</title>
-    <link rel="stylesheet" href="/liquid-glass/liquid-glass.css?v=20260607-glass-standard-4" />
+    <meta
+      name="description"
+      content="Milsim Rooster field gallery: airsoft, milsim, portraits, events, and community photography."
+    />
+    <title>Milsim Rooster Gallery</title>
+    <link rel="stylesheet" href="/src/gallery/styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script type="module" src="/liquid-glass/liquid-glass.js?v=20260607-glass-standard-4"></script>
+    <main class="gallery-shell" aria-label="Milsim Rooster field archive">
+      <div class="gallery-background" aria-hidden="true"></div>
+      <canvas id="sphere-gallery" aria-label="Interactive spherical photography gallery"></canvas>
+
+      <header class="gallery-topbar">
+        <a class="brand" href="/" aria-label="Milsim Rooster gallery">
+          <span class="brand-mark">MR</span>
+          <span>Milsim Rooster</span>
+        </a>
+        <nav aria-label="Site navigation">
+          <a href="/about/">About</a>
+          <a href="/about/#videos">Videos</a>
+          <a href="/about/#projects">Apps</a>
+          <a href="/about/#links">Links</a>
+        </nav>
+      </header>
+
+      <div class="gallery-hud gallery-hud-left" aria-hidden="true">
+        <span>Drag</span>
+        <strong>Look Around</strong>
+        <small id="archive-progress">0 / 24 scanned</small>
+      </div>
+
+      <div class="gallery-hud gallery-hud-right" aria-live="polite">
+        <strong id="active-title">Loading gallery</strong>
+      </div>
+
+      <button type="button" class="sound-pill" aria-pressed="true">Sound On</button>
+      <button type="button" class="depth-mode-toggle" aria-pressed="false">Dive Deeper</button>
+      <audio id="gallery-theme" src="/apps/gallery/assets/theme-gallery.wav" preload="auto" autoplay loop></audio>
+
+      <div class="expand-view" aria-hidden="true" role="dialog" aria-label="Expanded gallery image" inert>
+        <button type="button" class="close-expand" aria-label="Close expanded image">Close</button>
+        <button type="button" class="modal-nav modal-prev" aria-label="Previous archive image">&lsaquo;</button>
+        <button type="button" class="modal-nav modal-next" aria-label="Next archive image">&rsaquo;</button>
+        <div class="expand-card">
+          <img id="expanded-image" alt="" />
+          <div>
+            <h2 id="expanded-title">Image</h2>
+            <div id="expanded-meta" class="expanded-meta"></div>
+            <div id="expanded-journal" class="expanded-journal"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/gallery/main.js"></script>
   </body>
 </html>

@@ -7,6 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
+        about: resolve(__dirname, "about/index.html"),
         gallery: resolve(__dirname, "apps/gallery/index.html"),
       },
     },

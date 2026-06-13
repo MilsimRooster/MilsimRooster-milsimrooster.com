@@ -657,6 +657,14 @@ p {
   padding: 52px 0;
 }
 
+.secondary-page {
+  padding-top: clamp(36px, 8vw, 96px);
+}
+
+.secondary-page .section:first-child {
+  padding-top: 0;
+}
+
 .section-heading {
   display: flex;
   align-items: end;
