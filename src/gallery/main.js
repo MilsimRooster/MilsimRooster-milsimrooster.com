@@ -22,7 +22,46 @@ const closeExpand = document.querySelector(".close-expand");
 const previousItemButton = document.querySelector(".modal-prev");
 const nextItemButton = document.querySelector(".modal-next");
 const soundButton = document.querySelector(".sound-pill");
+const depthModeToggle = document.querySelector(".depth-mode-toggle");
 const themeAudio = document.querySelector("#gallery-theme");
+const expandedJournal = document.querySelector("#expanded-journal");
+
+const depthLayerItems = [
+  { title: "Second Layer 01", displayTitle: "", archiveId: "SL-001", type: "DepthLayer", src: "/media/archive/second-layer/img-1853c.jpg" },
+  { title: "Second Layer 02", displayTitle: "", archiveId: "SL-002", type: "DepthLayer", src: "/media/archive/second-layer/img-1951.jpg" },
+  { title: "Second Layer 03", displayTitle: "", archiveId: "SL-003", type: "DepthLayer", src: "/media/archive/second-layer/img-6931.jpg" },
+  { title: "Second Layer 04", displayTitle: "", archiveId: "SL-004", type: "DepthLayer", src: "/media/archive/second-layer/prepwork.jpg" },
+  { title: "Second Layer 05", displayTitle: "", archiveId: "SL-005", type: "DepthLayer", src: "/media/archive/second-layer/whohasmyfinger.jpg" },
+  { title: "Second Layer 06", displayTitle: "", archiveId: "SL-006", type: "DepthLayer", src: "/media/archive/second-layer/chatgpt-image-may-8-2026-05-50-48-pm.jpg" },
+  { title: "Second Layer 07", displayTitle: "", archiveId: "SL-007", type: "DepthLayer", src: "/media/archive/second-layer/chatgpt-image-may-8-2026-05-54-24-pm.jpg" },
+  { title: "Second Layer 08", displayTitle: "", archiveId: "SL-008", type: "DepthLayer", src: "/media/archive/second-layer/chatgpt-image-may-8-2026-10-42-41-am.jpg" },
+  { title: "Second Layer 09", displayTitle: "", archiveId: "SL-009", type: "DepthLayer", src: "/media/archive/second-layer/report.jpg" },
+  { title: "Second Layer 10", displayTitle: "", archiveId: "SL-010", type: "DepthLayer", src: "/media/archive/second-layer/img-7763.jpg" },
+  { title: "Second Layer 11", displayTitle: "", archiveId: "SL-011", type: "DepthLayer", src: "/media/archive/second-layer/img-8825.jpg" },
+  { title: "Second Layer 12", displayTitle: "", archiveId: "SL-012", type: "DepthLayer", src: "/media/archive/second-layer/img-9106.jpg" },
+  { title: "Second Layer 13", displayTitle: "", archiveId: "SL-013", type: "DepthLayer", src: "/media/archive/second-layer/img-9658.jpg" },
+  { title: "Second Layer 14", displayTitle: "", archiveId: "SL-014", type: "DepthLayer", src: "/media/archive/second-layer/jackbranch.jpg" },
+  { title: "Second Layer 15", displayTitle: "", archiveId: "SL-015", type: "DepthLayer", src: "/media/archive/second-layer/ohshit.jpg" },
+  { title: "Second Layer 16", displayTitle: "", archiveId: "SL-016", type: "DepthLayer", src: "/media/archive/second-layer/opfor.jpg" },
+  { title: "Second Layer 17", displayTitle: "", archiveId: "SL-017", type: "DepthLayer", src: "/media/archive/second-layer/owmytooth.jpg" },
+  { title: "Second Layer 18", displayTitle: "", archiveId: "SL-018", type: "DepthLayer", src: "/media/archive/second-layer/img-9066.jpg" },
+  { title: "Second Layer 19", displayTitle: "", archiveId: "SL-019", type: "DepthLayer", src: "/media/archive/second-layer/river-jax.jpg" },
+  { title: "Second Layer 20", displayTitle: "", archiveId: "SL-020", type: "DepthLayer", src: "/media/archive/second-layer/rooftop1.jpg" },
+  { title: "Second Layer 21", displayTitle: "", archiveId: "SL-021", type: "DepthLayer", src: "/media/archive/second-layer/savemebro.jpg" },
+  { title: "Second Layer 22", displayTitle: "", archiveId: "SL-022", type: "DepthLayer", src: "/media/archive/second-layer/img-9084.jpg" },
+  { title: "Second Layer 23", displayTitle: "", archiveId: "SL-023", type: "DepthLayer", src: "/media/archive/second-layer/smoke.jpg" },
+  { title: "Second Layer 24", displayTitle: "", archiveId: "SL-024", type: "DepthLayer", src: "/media/archive/second-layer/vce55-sv260220-007.jpg" },
+  { title: "Second Layer 25", displayTitle: "", archiveId: "SL-025", type: "DepthLayer", src: "/media/archive/second-layer/img-9072.jpg" },
+  { title: "Second Layer 26", displayTitle: "", archiveId: "SL-026", type: "DepthLayer", src: "/media/archive/second-layer/img-8702.jpg" },
+  { title: "Second Layer 27", displayTitle: "", archiveId: "SL-027", type: "DepthLayer", src: "/media/archive/second-layer/img-9088.jpg" },
+  { title: "Second Layer 28", displayTitle: "", archiveId: "SL-028", type: "DepthLayer", src: "/media/archive/second-layer/img-7003.jpg" },
+  { title: "Second Layer 29", displayTitle: "", archiveId: "SL-029", type: "DepthLayer", src: "/media/archive/second-layer/joker.jpg" },
+  { title: "Second Layer 30", displayTitle: "", archiveId: "SL-030", type: "DepthLayer", src: "/media/archive/second-layer/img-2433.jpg" },
+  { title: "Second Layer 31", displayTitle: "", archiveId: "SL-031", type: "DepthLayer", src: "/media/archive/second-layer/img-1742.jpg" },
+  { title: "Second Layer 32", displayTitle: "", archiveId: "SL-032", type: "DepthLayer", src: "/media/archive/second-layer/img-2965.jpg" },
+  { title: "Second Layer 33", displayTitle: "", archiveId: "SL-033", type: "DepthLayer", src: "/media/archive/second-layer/img-0679.jpg" }
+];
+document.documentElement.dataset.depthLayerItems = String(depthLayerItems.length);
 
 const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0x000000, 0.018);
@@ -40,8 +79,33 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.75));
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
+const surfaceArchiveHome = {
+  position: { z: 0 },
+  scale: 1,
+  cameraZ: 0.01
+};
+const depthLayerHome = {
+  position: { z: -4 },
+  scale: 0.74
+};
+const surfaceArchiveDive = {
+  position: { z: 88 },
+  scale: 4.8,
+  cameraZ: 16
+};
+const depthLayerDive = {
+  position: { z: 30 },
+  scale: 2.05
+};
+
 const sphereGroup = new THREE.Group();
 scene.add(sphereGroup);
+
+const depthShellGroup = new THREE.Group();
+scene.add(depthShellGroup);
+depthShellGroup.position.z = depthLayerHome.position.z;
+depthShellGroup.scale.setScalar(depthLayerHome.scale);
+const depthShellMeshes = [];
 
 const raycaster = new THREE.Raycaster();
 const focusRaycaster = new THREE.Raycaster();
@@ -53,6 +117,7 @@ const focusColor = new THREE.Color(0xffffff);
 const nearColor = new THREE.Color(0xe8ecd8);
 const midColor = new THREE.Color(0xcfd8bf);
 const farColor = new THREE.Color(0x9ba997);
+const activeDepthLayerColor = new THREE.Color(0xf8f9ed);
 
 let activeModalItem = null;
 let activeMesh = null;
@@ -66,6 +131,7 @@ let dragDistance = 0;
 let isPointerDown = false;
 let isModalOpen = false;
 let isThemePlaying = false;
+let isDepthMode = false;
 let wantsTheme = true;
 let lastInteractionTime = performance.now();
 const visitedStorageKey = "milsim-rooster-gallery-visited";
@@ -92,6 +158,18 @@ function getItemKey(item) {
 
 function getItemIndex(item) {
   return Math.max(0, galleryItems.findIndex((candidate) => candidate === item || candidate.archiveId === item.archiveId));
+}
+
+function getDepthLayerIndex(item) {
+  return Math.max(0, depthLayerItems.findIndex((candidate) => candidate === item || candidate.archiveId === item.archiveId));
+}
+
+function getModalItems() {
+  return activeModalItem?.type === "DepthLayer" ? depthLayerItems : galleryItems;
+}
+
+function getModalIndex(item) {
+  return item?.type === "DepthLayer" ? getDepthLayerIndex(item) : getItemIndex(item);
 }
 
 function getArchiveProgressLabel() {
@@ -150,6 +228,19 @@ function makeCanvasTexture(item, index) {
   texture.repeat.x = -1;
   texture.offset.x = 1;
   return { source, ctx, texture };
+}
+
+function createDepthLayerTexture(item, index) {
+  const textureState = makeCanvasTexture(item, index);
+  const image = new Image();
+  image.crossOrigin = "anonymous";
+  image.onload = () => {
+    drawImageIntoCard(textureState.ctx, image);
+    textureState.texture.needsUpdate = true;
+  };
+  image.src = item.src;
+
+  return textureState.texture;
 }
 
 function drawImageIntoCard(ctx, image) {
@@ -212,6 +303,26 @@ function placeCard(mesh, index, count) {
   mesh.rotateY(Math.PI);
 }
 
+function placeDepthShellCard(mesh, index, count) {
+  const rings = 2;
+  const itemsPerRing = Math.ceil(count / rings);
+  const ringIndex = Math.floor(index / itemsPerRing);
+  const indexInRing = index % itemsPerRing;
+  const thetaStep = Math.PI * 2 / itemsPerRing;
+  const theta = Math.PI + (indexInRing * thetaStep) + (ringIndex ? thetaStep * 0.5 : 0);
+  const phi = THREE.MathUtils.lerp(1.2, 1.88, ringIndex / Math.max(1, rings - 1));
+  const shellRadius = radius + 10 + ringIndex * 2.4;
+
+  mesh.position.set(
+    shellRadius * Math.sin(phi) * Math.sin(theta),
+    shellRadius * Math.cos(phi),
+    shellRadius * Math.sin(phi) * Math.cos(theta)
+  );
+  mesh.lookAt(0, 0, 0);
+  mesh.rotateY(Math.PI);
+  mesh.scale.setScalar(0.58 + ((index + count) % 2) * 0.04);
+}
+
 function createFocusOutline() {
   const outlineGeometry = new THREE.EdgesGeometry(new THREE.PlaneGeometry(8.65, 11.35));
   const outlineMaterial = new THREE.LineBasicMaterial({
@@ -222,6 +333,32 @@ function createFocusOutline() {
   const outline = new THREE.LineSegments(outlineGeometry, outlineMaterial);
   outline.position.z = 0.05;
   return outline;
+}
+
+function createDepthShell() {
+  const geometry = new THREE.PlaneGeometry(8.4, 11.1, 4, 4);
+
+  depthLayerItems.forEach((item, index) => {
+    const texture = createDepthLayerTexture(item, index);
+    const previewOpacity = 0.18;
+    const previewScale = 0.7;
+    const material = new THREE.MeshBasicMaterial({
+      map: texture,
+      color: 0x9ead87,
+      transparent: true,
+      opacity: previewOpacity,
+      side: THREE.DoubleSide,
+      depthWrite: false
+    });
+    const mesh = new THREE.Mesh(geometry, material);
+    mesh.userData = { item, layer: "depth-shell", interactive: true, baseOpacity: 0.94, baseScale: 0.9, previewOpacity, previewScale };
+    mesh.renderOrder = -4;
+    mesh.visible = true;
+    placeDepthShellCard(mesh, index, depthLayerItems.length);
+
+    depthShellGroup.add(mesh);
+    depthShellMeshes.push(mesh);
+  });
 }
 
 function createCards() {
@@ -321,6 +458,64 @@ function setSoundButtonState(pressed) {
   soundButton.dataset.playing = String(isThemePlaying);
 }
 
+function setDepthModeButtonState() {
+  if (!depthModeToggle) return;
+  depthModeToggle.textContent = isDepthMode ? "Surface Archive" : "Dive Deeper";
+  depthModeToggle.setAttribute("aria-pressed", String(isDepthMode));
+}
+
+function applyArchiveDepthLayout({ surface, depthLayer, duration, ease = "power3.inOut", onComplete }) {
+  gsap.killTweensOf([
+    camera.position,
+    sphereGroup.position,
+    sphereGroup.scale,
+    depthShellGroup.position,
+    depthShellGroup.scale
+  ]);
+  return gsap.timeline({ defaults: { ease }, onComplete })
+    .to(camera.position, { z: surface.cameraZ, duration }, 0)
+    .to(sphereGroup.position, { z: surface.position.z, duration }, 0)
+    .to(sphereGroup.scale, { x: surface.scale, y: surface.scale, z: surface.scale, duration }, 0)
+    .to(depthShellGroup.position, { z: depthLayer.position.z, duration }, 0.08)
+    .to(depthShellGroup.scale, { x: depthLayer.scale, y: depthLayer.scale, z: depthLayer.scale, duration }, 0.08);
+}
+
+function enterDepthMode() {
+  if (isDepthMode || isModalOpen) return;
+  isDepthMode = true;
+  markInteraction();
+  setDepthModeButtonState();
+  activeMesh = null;
+  applyArchiveDepthLayout({
+    surface: surfaceArchiveDive,
+    depthLayer: depthLayerDive,
+    duration: 1.7
+  });
+  setHud(depthLayerItems[0]);
+}
+
+function exitDepthMode() {
+  if (!isDepthMode || isModalOpen) return;
+  isDepthMode = false;
+  markInteraction();
+  setDepthModeButtonState();
+  activeMesh = null;
+  applyArchiveDepthLayout({
+    surface: surfaceArchiveHome,
+    depthLayer: depthLayerHome,
+    duration: 1
+  });
+  setHud(galleryItems[0]);
+}
+
+function toggleDepthMode() {
+  if (isDepthMode) {
+    exitDepthMode();
+  } else {
+    enterDepthMode();
+  }
+}
+
 async function startTheme() {
   if (!themeAudio) return;
   wantsTheme = true;
@@ -359,13 +554,26 @@ function unlockTheme() {
   }
 }
 
+function getDisplayTitle(item) {
+  return item.displayTitle ?? item.title;
+}
+
+function isDepthLayerItem(item) {
+  return item?.type === "DepthLayer";
+}
+
 function setHud(item) {
-  activeTitle.textContent = item.title;
+  activeTitle.textContent = getDisplayTitle(item);
   updateProgressHud();
 }
 
 function setModalMetadata(item) {
   if (!expandedMeta) return;
+
+  if (item.type === "DepthLayer") {
+    setDepthLayerMetadata();
+    return;
+  }
 
   const values = [
     item.archiveId || "MR-FIELD",
@@ -376,6 +584,17 @@ function setModalMetadata(item) {
     pill.textContent = value;
     return pill;
   }));
+  if (expandedJournal) {
+    expandedJournal.replaceChildren();
+  }
+}
+
+function setDepthLayerMetadata() {
+  if (!expandedMeta) return;
+  expandedMeta.replaceChildren();
+  if (expandedJournal) {
+    expandedJournal.replaceChildren();
+  }
 }
 
 function updatePointer(event) {
@@ -391,6 +610,12 @@ function markInteraction() {
 function pickCard(event) {
   updatePointer(event);
   raycaster.setFromCamera(pointer, camera);
+  if (isDepthMode) {
+    const depthLayerIntersections = raycaster
+      .intersectObjects(depthShellMeshes, false)
+      .filter((hit) => hit.object.visible && hit.object.material.opacity > 0.2);
+    return depthLayerIntersections[0]?.object || null;
+  }
   const intersections = raycaster
     .intersectObjects(cardMeshes, false)
     .filter((hit) => hit.object.visible && hit.object.material.opacity > 0.2);
@@ -399,9 +624,18 @@ function pickCard(event) {
 
 function pickCenterCard() {
   focusRaycaster.setFromCamera(centerPointer, camera);
+  if (isDepthMode) {
+    return focusRaycaster
+      .intersectObjects(depthShellMeshes, false)
+      .find((hit) => hit.object.visible && hit.object.material.opacity > 0.28)?.object || null;
+  }
   return focusRaycaster
     .intersectObjects(cardMeshes, false)
     .find((hit) => hit.object.visible && hit.object.material.opacity > 0.28)?.object || null;
+}
+
+function openDepthLayerItem(item) {
+  openItem(item);
 }
 
 function openItem(item) {
@@ -411,7 +645,8 @@ function openItem(item) {
   setHud(item);
   expandedImage.src = item.src;
   expandedImage.alt = item.title;
-  expandedTitle.textContent = item.title;
+  expanded.classList.toggle("is-media-only", isDepthLayerItem(item));
+  expandedTitle.textContent = isDepthLayerItem(item) ? "" : item.title;
   setModalMetadata(item);
   expanded.classList.add("is-open");
   expanded.setAttribute("aria-hidden", "false");
@@ -424,9 +659,10 @@ function openItem(item) {
 
 function stepModal(direction) {
   const currentItem = activeModalItem || activeMesh?.userData.item || galleryItems[0];
-  const currentIndex = getItemIndex(currentItem);
-  const nextIndex = (currentIndex + direction + galleryItems.length) % galleryItems.length;
-  const nextItem = galleryItems[nextIndex];
+  const modalItems = getModalItems();
+  const currentIndex = getModalIndex(currentItem);
+  const nextIndex = (currentIndex + direction + modalItems.length) % modalItems.length;
+  const nextItem = modalItems[nextIndex];
   if (isModalOpen) {
     openItem(nextItem);
   } else {
@@ -441,7 +677,7 @@ function closeItem() {
   gsap.timeline({
     defaults: { ease: "power3.inOut" },
     onComplete: () => {
-      expanded.classList.remove("is-open");
+      expanded.classList.remove("is-open", "is-media-only");
       expanded.setAttribute("aria-hidden", "true");
       expanded.inert = true;
       expandedImage.removeAttribute("src");
@@ -498,7 +734,11 @@ function onPointerUp(event) {
 
   const selected = pickCard(event);
   if (selected && dragDistance < 8) {
-    openItem(selected.userData.item);
+    if (selected.userData.layer === "depth-shell") {
+      openDepthLayerItem(selected.userData.item);
+    } else {
+      openItem(selected.userData.item);
+    }
   }
 }
 
@@ -532,18 +772,26 @@ function render() {
   currentPitch += (targetPitch - currentPitch) * 0.075;
   sphereGroup.rotation.y = currentYaw;
   sphereGroup.rotation.x = currentPitch;
+  depthShellGroup.rotation.y = currentYaw * 0.72;
+  depthShellGroup.rotation.x = currentPitch * 0.58;
 
   raycaster.setFromCamera(pointer, camera);
+  const hoverMeshes = isDepthMode ? depthShellMeshes : cardMeshes;
   const hover = raycaster
-    .intersectObjects(cardMeshes, false)
+    .intersectObjects(hoverMeshes, false)
     .find((hit) => hit.object.visible && hit.object.material.opacity > 0.4)?.object;
   activeMesh = hover || pickCenterCard();
 
   cardMeshes.forEach((mesh) => {
-    const isFeatured = mesh === activeMesh && !isModalOpen;
-    const isHover = mesh === hover && !isModalOpen;
+    const isFeatured = mesh === activeMesh && !isModalOpen && !isDepthMode;
+    const isHover = mesh === hover && !isModalOpen && !isDepthMode;
     const targetScale = mesh.userData.baseScale * (isHover ? 1.1 : isFeatured ? 1.055 : 1);
-    const targetOpacity = isFeatured ? 1 : mesh.userData.baseOpacity;
+    const travelProgress = THREE.MathUtils.clamp(
+      (sphereGroup.position.z - surfaceArchiveHome.position.z) / (surfaceArchiveDive.position.z - surfaceArchiveHome.position.z),
+      0,
+      1
+    );
+    const targetOpacity = isDepthMode ? THREE.MathUtils.lerp(mesh.userData.baseOpacity, 0.08, travelProgress) : isFeatured ? 1 : mesh.userData.baseOpacity;
     const targetColor = isFeatured
       ? focusColor
       : mesh.userData.depthLayer === "near"
@@ -565,6 +813,25 @@ function render() {
     }
   });
 
+  depthShellMeshes.forEach((mesh, index) => {
+    const isFeatured = mesh === activeMesh && !isModalOpen && isDepthMode;
+    const drift = Math.sin(now * 0.00035 + index) * 0.025;
+    const targetOpacity = !isDepthMode
+      ? mesh.userData.previewOpacity + (drift * 0.45)
+      : isModalOpen
+        ? 0.22
+        : isFeatured
+          ? 1
+          : mesh.userData.baseOpacity + drift;
+    const depthScale = isDepthMode ? mesh.userData.baseScale : mesh.userData.previewScale;
+    const targetScale = depthScale * (isFeatured ? 1.12 : 1);
+    mesh.material.opacity += (targetOpacity - mesh.material.opacity) * 0.035;
+    mesh.material.color.lerp(isDepthMode ? activeDepthLayerColor : midColor, 0.08);
+    mesh.scale.x += (targetScale - mesh.scale.x) * 0.07;
+    mesh.scale.y += (targetScale - mesh.scale.y) * 0.07;
+    mesh.scale.z += (targetScale - mesh.scale.z) * 0.07;
+  });
+
   if (activeMesh && !isModalOpen) {
     setHud(activeMesh.userData.item);
   } else if (activeModalItem) {
@@ -576,6 +843,7 @@ function render() {
 
 addGridLines();
 addAmbientArchiveField();
+createDepthShell();
 createCards();
 setHud(galleryItems[0]);
 animateIn();
@@ -612,6 +880,10 @@ window.addEventListener("keydown", (event) => {
   unlockTheme();
   if (event.key === "Escape" && isModalOpen) {
     closeItem();
+  } else if (event.key === "Escape" && isDepthMode) {
+    exitDepthMode();
+  } else if ((event.key === "d" || event.key === "D") && !isModalOpen) {
+    toggleDepthMode();
   } else if (event.key === "ArrowLeft") {
     event.preventDefault();
     if (isModalOpen) {
@@ -628,11 +900,17 @@ window.addEventListener("keydown", (event) => {
     }
   } else if (event.key === "Enter" && !isModalOpen && activeMesh) {
     event.preventDefault();
-    openItem(activeMesh.userData.item);
+    if (activeMesh.userData.layer === "depth-shell") {
+      openDepthLayerItem(activeMesh.userData.item);
+    } else {
+      openItem(activeMesh.userData.item);
+    }
   }
 });
 soundButton.addEventListener("click", toggleTheme);
+depthModeToggle.addEventListener("click", toggleDepthMode);
 setSoundButtonState(true);
+setDepthModeButtonState();
 updateProgressHud();
 startTheme();
 window.addEventListener("pointerup", unlockTheme);

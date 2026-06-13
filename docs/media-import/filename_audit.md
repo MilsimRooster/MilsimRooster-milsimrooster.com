@@ -3,7 +3,7 @@
 Media files under source assets: 94
 Referenced metadata targets: 92
 Public optimized media files: 44
-Hardcoded gallery image paths: 0
+Hardcoded gallery image paths: 33
 
 ## Gallery Public Path Check
 
