@@ -11,6 +11,7 @@ const HUD_X = layout.hudX;
 const HUD_W = layout.hudWidth;
 const loadedImages = new Map();
 const loadedSounds = new Map();
+const debugParams = new URLSearchParams(location.search);
 
 const STORAGE = {
   scores: "bug-strike.leaderboard",
@@ -32,14 +33,36 @@ const pointer = { active: false, fire: false, x: FIELD_W / 2, y: H - 120 };
 const rnd = (min, max) => Math.random() * (max - min) + min;
 const clamp = core.clamp;
 const hit = (a, b) => a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+let renderProfile = core.renderProfile();
+
+function refreshRenderProfile() {
+  renderProfile = core.renderProfile({
+    coarsePointer: window.matchMedia?.("(pointer: coarse)")?.matches ?? false,
+    viewportWidth: window.innerWidth,
+    pixelRatio: window.devicePixelRatio ?? 1,
+    forceLite: debugParams.has("lite") || debugParams.has("mobilelite"),
+  });
+  if (shell) shell.dataset.quality = renderProfile.name;
+  document.body.dataset.quality = renderProfile.name;
+}
+
+function scaledEffectCount(count, minimum = 0) {
+  return Math.max(minimum, Math.round(count * renderProfile.particleScale));
+}
+
+function scaledBlur(value) {
+  return value * renderProfile.shadowBlurScale;
+}
 
 function fitShellToCanvas() {
+  refreshRenderProfile();
   if (!shell) return;
   const bodyStyle = getComputedStyle(document.body);
   const padX = parseFloat(bodyStyle.paddingLeft) + parseFloat(bodyStyle.paddingRight);
   const padY = parseFloat(bodyStyle.paddingTop) + parseFloat(bodyStyle.paddingBottom);
+  const controlReserve = renderProfile.name === "lite" ? Math.min(92, Math.max(68, window.innerHeight * 0.1)) : 0;
   const maxW = Math.max(320, window.innerWidth - padX);
-  const maxH = Math.max(240, window.innerHeight - padY);
+  const maxH = Math.max(240, window.innerHeight - padY - controlReserve);
   const ratio = W / H;
   const width = Math.min(W, maxW, maxH * ratio);
   shell.style.width = `${Math.floor(width)}px`;
@@ -284,6 +307,7 @@ function exposeDebugState() {
       pointer: { active: pointer.active, fire: pointer.fire },
       powerupMisses: game.powerupMisses,
       combatToast: game.combatToast,
+      renderProfile,
     }),
   };
 }
@@ -486,6 +510,8 @@ function endGame() {
 }
 
 function burst(x, y, color, count = 14) {
+  count = scaledEffectCount(count);
+  if (count <= 0) return;
   if (count >= 10) {
     game.particles.push({ kind: "ring", x, y, vx: 0, vy: 0, t: 0.45, maxT: 0.45, color, radius: rnd(10, 18), size: rnd(38, 62) });
   }
@@ -512,8 +538,8 @@ function burst(x, y, color, count = 14) {
 
 function emitDefeatBreakup(x, y, color, intensity = 1) {
   const ringLife = 0.34 + intensity * 0.08;
-  game.particles.push({ kind: "ring", x, y, vx: 0, vy: 0, t: ringLife, maxT: ringLife, color, radius: 8, size: 48 + intensity * 32 });
-  const shardCount = Math.round(7 + intensity * 7);
+  if (renderProfile.particleScale > 0.5) game.particles.push({ kind: "ring", x, y, vx: 0, vy: 0, t: ringLife, maxT: ringLife, color, radius: 8, size: 48 + intensity * 32 });
+  const shardCount = scaledEffectCount(7 + intensity * 7, 2);
   const glyphs = ["0", "1", "ERR", "BUG", "//"];
   for (let i = 0; i < shardCount; i++) {
     const angle = rnd(0, Math.PI * 2);
@@ -555,7 +581,7 @@ function emitPickupFeedback(p) {
     fontSize: 16,
     rise: 18,
   });
-  burst(cx, cy, color, 10);
+  burst(cx, cy, color, 8);
 }
 
 function emitShotDisruptFeedback(s, color, destroyed) {
@@ -588,7 +614,7 @@ function emitMuzzleFlash(x, y, intensity = 1) {
     color: "#9cff57",
     size: 18 * intensity,
   });
-  for (let i = 0; i < Math.ceil(3 * intensity); i++) {
+  for (let i = 0; i < scaledEffectCount(Math.ceil(3 * intensity), 1); i++) {
     game.particles.push({
       kind: "packetTrace",
       x: x + rnd(-10, 10),
@@ -604,7 +630,7 @@ function emitMuzzleFlash(x, y, intensity = 1) {
 }
 
 function emitImpactFeedback(x, y, color, strength = 1) {
-  const count = Math.round(3 + strength * 5);
+  const count = scaledEffectCount(3 + strength * 5, 1);
   game.particles.push({
     kind: "impactCore",
     x,
@@ -639,14 +665,14 @@ function emitImpactFeedback(x, y, color, strength = 1) {
 function emitEngineDust(dt, boosting) {
   game.engineDustTimer -= dt;
   if (game.engineDustTimer > 0) return;
-  game.engineDustTimer = boosting ? 0.018 : 0.045;
+  game.engineDustTimer = (boosting ? 0.018 : 0.045) / Math.max(0.55, renderProfile.particleScale);
   const p = game.player;
   const jets = [
     [p.x + 21, p.y + p.h - 2],
     [p.x + p.w - 21, p.y + p.h - 2],
     [p.x + p.w / 2, p.y + p.h + 1],
   ];
-  const count = boosting ? 3 : 2;
+  const count = scaledEffectCount(boosting ? 3 : 2, 1);
   for (let i = 0; i < count; i++) {
     const [x, y] = jets[i % jets.length];
     const lifetime = rnd(0.22, boosting ? 0.48 : 0.34);
@@ -697,6 +723,7 @@ function emitDamageFumes(dt) {
 }
 
 function emitThreatGlints(dt) {
+  if (renderProfile.name === "lite") return;
   const pressure = Math.min(1, (game.enemyShots.length / 18) + (game.entities.length / 34) + (game.boss ? 0.75 : 0));
   if (pressure <= 0.16) {
     game.threatGlintTimer = 0;
@@ -733,8 +760,8 @@ function emitThreatGlints(dt) {
 function emitPacketTrace(dt) {
   game.packetTraceTimer -= dt;
   if (game.packetTraceTimer > 0 || game.missiles.length === 0) return;
-  game.packetTraceTimer = game.rapid > 0 ? 0.026 : 0.046;
-  for (const m of game.missiles.slice(0, 12)) {
+  game.packetTraceTimer = (game.rapid > 0 ? 0.026 : 0.046) / Math.max(0.55, renderProfile.particleScale);
+  for (const m of game.missiles.slice(0, renderProfile.name === "lite" ? 5 : 12)) {
     if (Math.random() > 0.68) continue;
     const lifetime = rnd(0.16, 0.28);
     game.particles.push({
@@ -756,7 +783,7 @@ function addPlayerTrail(prevX, prevY, boosting, dt) {
   game.trailTimer -= dt;
   if (speed < 0.35 && !boosting) return;
   if (game.trailTimer > 0) return;
-  game.trailTimer = boosting ? 0.024 : 0.055;
+  game.trailTimer = (boosting ? 0.024 : 0.055) / Math.max(0.55, renderProfile.particleScale);
   game.playerTrail.push({
     x: prevX,
     y: prevY,
@@ -767,7 +794,7 @@ function addPlayerTrail(prevX, prevY, boosting, dt) {
     maxT: boosting ? 0.2 : 0.16,
     boosting,
   });
-  if (game.playerTrail.length > 16) game.playerTrail.splice(0, game.playerTrail.length - 16);
+  if (game.playerTrail.length > renderProfile.trailCap) game.playerTrail.splice(0, game.playerTrail.length - renderProfile.trailCap);
 }
 
 function update(dt) {
@@ -903,7 +930,7 @@ function update(dt) {
   if (game.boss) game.boss.hitFlash = Math.max(0, (game.boss.hitFlash ?? 0) - dt * 5);
   for (const t of game.playerTrail) t.t -= dt;
   game.particles = game.particles.filter((p) => p.t > 0);
-  if (game.particles.length > 420) game.particles.splice(0, game.particles.length - 420);
+  if (game.particles.length > renderProfile.particleCap) game.particles.splice(0, game.particles.length - renderProfile.particleCap);
   game.playerTrail = game.playerTrail.filter((trail) => trail.t > 0);
 }
 
@@ -1001,12 +1028,13 @@ function drawSpriteLit(img, x, y, w, h, options = {}) {
   } = options;
   const cx = x + w / 2;
   const cy = y + h / 2 + bob;
-  if (glow && glowAlpha > 0) {
+  const profileGlowAlpha = glowAlpha * renderProfile.glowAlphaScale;
+  if (glow && profileGlowAlpha > 0.01) {
     ctx.save();
     ctx.globalCompositeOperation = "lighter";
-    ctx.globalAlpha = glowAlpha;
+    ctx.globalAlpha = profileGlowAlpha;
     ctx.shadowColor = glow;
-    ctx.shadowBlur = glowBlur;
+    ctx.shadowBlur = scaledBlur(glowBlur);
     ctx.translate(cx, cy);
     ctx.rotate(rotation);
     ctx.scale(scale, scale);
@@ -1020,7 +1048,7 @@ function drawSpriteLit(img, x, y, w, h, options = {}) {
   ctx.scale(scale, scale);
   ctx.drawImage(img, -w / 2, -h / 2, w, h);
   ctx.restore();
-  if (flashAlpha > 0) {
+  if (flashAlpha > 0 && renderProfile.name !== "lite") {
     ctx.save();
     ctx.globalCompositeOperation = "lighter";
     ctx.globalAlpha = Math.min(0.85, flashAlpha);
@@ -1035,6 +1063,7 @@ function drawSpriteLit(img, x, y, w, h, options = {}) {
 }
 
 function drawBloomOrb(x, y, radius, color, alpha = 0.4) {
+  if (renderProfile.name === "lite") return;
   const glow = ctx.createRadialGradient(x, y, 0, x, y, radius);
   glow.addColorStop(0, color.replace("ALPHA", String(alpha)));
   glow.addColorStop(0.5, color.replace("ALPHA", String(alpha * 0.32)));
@@ -1060,6 +1089,7 @@ function drawLightPool(x, y, radius, color, alpha) {
 }
 
 function drawSceneLightWash(t) {
+  if (!renderProfile.lightWash) return;
   ctx.save();
   ctx.globalCompositeOperation = "lighter";
   const stage = VISUALS.stageTint[game.stage % VISUALS.stageTint.length];
@@ -1271,7 +1301,7 @@ function drawSceneBackground(t) {
     ctx.fill();
   });
 
-  drawBackgroundDataStreams(t);
+  if (renderProfile.backgroundStreams > 0) drawBackgroundDataStreams(t);
 
   ctx.save();
   ctx.globalCompositeOperation = "lighter";
@@ -1307,7 +1337,7 @@ function drawBackgroundDataStreams(t) {
   ctx.save();
   ctx.globalCompositeOperation = "lighter";
   const accent = game.boss ? "#ff4747" : VISUALS.stageTint[game.stage % VISUALS.stageTint.length];
-  const columns = 15;
+  const columns = renderProfile.backgroundStreams;
   for (let i = 0; i < columns; i++) {
     const x = 42 + i * 57 + Math.sin(t * 0.35 + i) * 9;
     const speed = 18 + (i % 5) * 7;
@@ -1631,7 +1661,7 @@ function draw() {
   ctx.restore();
   drawHud();
   drawTacticalFrame(t);
-  drawScanlines(t);
+  if (renderProfile.scanlines) drawScanlines(t);
 }
 
 function drawPlayerTrail(trail) {
@@ -1696,14 +1726,16 @@ function drawPlayer() {
       scale: game.boosting ? 1.035 : 1,
       alpha: visibleAlpha,
     });
-    const coreColor = key === "debugger.damaged" ? "#ff5d5d" : "#65f3ff";
-    drawSpriteCoreNodes(p.x, p.y + bob, p.w, p.h, coreColor, t, game.boosting ? 1.18 : 0.9, [
-      [0.5, 0.42, 3.2],
-      [0.27, 0.62, 2],
-      [0.73, 0.62, 2],
-      [0.5, 0.83, 2.3],
-    ]);
-    drawSpriteScanSweep(p.x, p.y + bob, p.w, p.h, coreColor, t, game.boosting ? 0.9 : 0.55);
+    if (renderProfile.spriteFx) {
+      const coreColor = key === "debugger.damaged" ? "#ff5d5d" : "#65f3ff";
+      drawSpriteCoreNodes(p.x, p.y + bob, p.w, p.h, coreColor, t, game.boosting ? 1.18 : 0.9, [
+        [0.5, 0.42, 3.2],
+        [0.27, 0.62, 2],
+        [0.73, 0.62, 2],
+        [0.5, 0.83, 2.3],
+      ]);
+      drawSpriteScanSweep(p.x, p.y + bob, p.w, p.h, coreColor, t, game.boosting ? 0.9 : 0.55);
+    }
     return;
   }
   if (game.shield) drawShield(p.x + 30, p.y + 45);
@@ -1720,6 +1752,7 @@ function drawPlayer() {
 }
 
 function drawPointerReticle(t) {
+  if (renderProfile.name === "lite") return;
   if (!pointer.active || state !== "playing") return;
   const cx = game.player.x + game.player.w / 2;
   const cy = game.player.y + game.player.h * 0.46;
@@ -1923,7 +1956,7 @@ function drawEntity(e) {
       flashAlpha: (e.hitFlash ?? 0) * 0.48,
       flashColor: e.kind === "asteroid" ? "#fff1bf" : "#ffffff",
     });
-    if (e.kind !== "asteroid") {
+    if (e.kind !== "asteroid" && renderProfile.spriteFx) {
       const liveColor = damaged ? "#ff5d5d" : color;
       drawSpriteCoreNodes(e.x, e.y + bob, e.w, e.h, liveColor, t + e.phase, damaged ? 1.05 : 0.75, [
         [0.5, 0.42, 2.5],
@@ -2037,7 +2070,7 @@ function drawBoss(b) {
   drawBloomOrb(b.x + b.w / 2, b.y + b.h / 2, hurt ? 126 : 108, hurt ? "rgba(255, 71, 71, ALPHA)" : "rgba(101, 243, 255, ALPHA)", hurt ? 0.28 : 0.18);
   drawSpriteShadow(b.x + b.w / 2, b.y + b.h - 8, 94, 20, "rgba(0, 0, 0, ALPHA)", 0.44);
   drawSpawnMaterialize(b.x, b.y, b.w, b.h, bossGlow, t + b.motion, b.spawnAge, 1.55);
-  drawBossPhaseSurge(b, bossGlow, t);
+  if (renderProfile.spriteFx) drawBossPhaseSurge(b, bossGlow, t);
   if (bossImg) {
     drawSpriteLit(bossImg, b.x, b.y, b.w, b.h, {
       bob: Math.sin(t * 3.2 + b.motion) * 2.8,
@@ -2049,15 +2082,17 @@ function drawBoss(b) {
       flashAlpha: (b.hitFlash ?? 0) * 0.62,
       flashColor: "#ffffff",
     });
-    drawSpriteCoreNodes(b.x, b.y, b.w, b.h, hurt ? "#ff5d5d" : bossGlow, t + b.motion, hurt ? 1.45 : 1.05, [
-      [0.5, 0.34, 4.3],
-      [0.28, 0.52, 3],
-      [0.72, 0.52, 3],
-      [0.34, 0.72, 2.4],
-      [0.66, 0.72, 2.4],
-    ]);
-    drawSpriteScanSweep(b.x, b.y, b.w, b.h, hurt ? "#ff5d5d" : bossGlow, t + b.motion, hurt ? 0.95 : 0.68);
-    drawBossSignalHarness(b, bossGlow, t, hurt);
+    if (renderProfile.spriteFx) {
+      drawSpriteCoreNodes(b.x, b.y, b.w, b.h, hurt ? "#ff5d5d" : bossGlow, t + b.motion, hurt ? 1.45 : 1.05, [
+        [0.5, 0.34, 4.3],
+        [0.28, 0.52, 3],
+        [0.72, 0.52, 3],
+        [0.34, 0.72, 2.4],
+        [0.66, 0.72, 2.4],
+      ]);
+      drawSpriteScanSweep(b.x, b.y, b.w, b.h, hurt ? "#ff5d5d" : bossGlow, t + b.motion, hurt ? 0.95 : 0.68);
+      drawBossSignalHarness(b, bossGlow, t, hurt);
+    }
     drawBossBar(b);
     return;
   }
@@ -2735,6 +2770,27 @@ canvas.addEventListener("contextmenu", (e) => {
   if (state === "playing") e.preventDefault();
 });
 
+document.querySelectorAll("[data-touch-action]").forEach((button) => {
+  button.addEventListener("pointerdown", (e) => {
+    unlockAudio();
+    const action = button.dataset.touchAction;
+    if (action === "fire") pointer.fire = true;
+    if (action === "bomb" && state === "playing") bugStrike();
+    if (action === "pause" && state === "playing") { previousPanel = "pause"; setState("pause"); }
+    e.preventDefault();
+  });
+  button.addEventListener("pointerup", (e) => {
+    if (button.dataset.touchAction === "fire") pointer.fire = false;
+    e.preventDefault();
+  });
+  button.addEventListener("pointercancel", () => {
+    if (button.dataset.touchAction === "fire") pointer.fire = false;
+  });
+  button.addEventListener("lostpointercapture", () => {
+    if (button.dataset.touchAction === "fire") pointer.fire = false;
+  });
+});
+
 document.addEventListener("click", (e) => {
   unlockAudio();
   const action = e.target?.dataset?.action;
@@ -2780,7 +2836,6 @@ window.loadImageAssets?.().then((images) => {
 window.loadAudioAssets?.().then((sounds) => {
   sounds.forEach((sound, key) => loadedSounds.set(key, sound));
 });
-const debugParams = new URLSearchParams(location.search);
 if (debugParams.has("playtest")) {
   resetGame();
   spawnAsteroid();

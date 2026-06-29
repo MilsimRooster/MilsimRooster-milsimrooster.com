@@ -197,6 +197,36 @@
     });
   }
 
+  function renderProfile({ coarsePointer = false, viewportWidth = 1200, pixelRatio = 1, forceLite = false } = {}) {
+    const lite = forceLite || coarsePointer || viewportWidth <= 820 || (viewportWidth <= 980 && pixelRatio > 1.6);
+    if (!lite) {
+      return {
+        name: "full",
+        lightWash: true,
+        spriteFx: true,
+        scanlines: true,
+        particleScale: 1,
+        particleCap: 420,
+        trailCap: 16,
+        glowAlphaScale: 1,
+        shadowBlurScale: 1,
+        backgroundStreams: 15,
+      };
+    }
+    return {
+      name: "lite",
+      lightWash: false,
+      spriteFx: false,
+      scanlines: false,
+      particleScale: 0.42,
+      particleCap: 150,
+      trailCap: 6,
+      glowAlphaScale: 0.22,
+      shadowBlurScale: 0.18,
+      backgroundStreams: 6,
+    };
+  }
+
   return {
     TUNING,
     clamp,
@@ -221,5 +251,6 @@
     addBombCharge,
     applySpecialCharge,
     shieldAuraLayers,
+    renderProfile,
   };
 });
