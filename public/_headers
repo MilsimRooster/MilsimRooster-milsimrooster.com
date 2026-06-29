@@ -42,5 +42,8 @@
 /apps/quotetron/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
+/apps/bug-strike/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
 /apps/gallery/*
   Cache-Control: no-cache, max-age=0, must-revalidate

@@ -28,6 +28,7 @@ for (const token of [
   "/apps/how-southern-are-you/*",
   "/apps/southern-translator/*",
   "/apps/quotetron/*",
+  "/apps/bug-strike/*",
   "/apps/gallery/*"
 ]) {
   assert.ok(headers.includes(token), `public/_headers should include ${token}`);

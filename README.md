@@ -118,3 +118,4 @@ npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
 - How Southern Are You?: `/apps/how-southern-are-you/`
 - Southern Translator: `/apps/southern-translator/`
 - Quotetron: `/apps/quotetron/`
+- Bug Strike: `/apps/bug-strike/`

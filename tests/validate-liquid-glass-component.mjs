@@ -18,6 +18,7 @@ const nonHomepagePages = [
   "public/apps/quotetron/about.html",
   "public/apps/quotetron/contact.html",
   "public/apps/quotetron/privacy.html",
+  "public/apps/bug-strike/index.html",
 ];
 
 for (const token of [

@@ -33,6 +33,7 @@ Wrangler is authenticated as `info@keithleague.com`.
 - FPS Visualizer: `https://milsimrooster.com/apps/fps-visualizer/`
 - Rooster Recipes: `https://milsimrooster.com/apps/recipes/`
 - Quotetron: `https://milsimrooster.com/apps/quotetron/`
+- Bug Strike: `https://milsimrooster.com/apps/bug-strike/`
 
 All four routes were checked live and returned HTTP `200` with the expected page titles.
 
@@ -40,8 +41,15 @@ All four routes were checked live and returned HTTP `200` with the expected page
 
 ### Home Page
 
-- Main page includes launch cards for Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, Southern Translator, and Quotetron.
+- Main page includes launch cards for Bug Strike, Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, Southern Translator, and Quotetron.
 - The apps launcher should feel like a clear "Games and Utilities" section for the MR.com app family.
+
+### Bug Strike
+
+- Hosted under `/apps/bug-strike/`.
+- Source repo: `C:\Users\KDLEA\OneDrive\Documents\Eagle Strike`.
+- Browser game assets live directly in the published app folder.
+- Two oversized background music WAVs are downsampled in the website copy so Cloudflare Pages Direct Upload stays under the per-file asset limit.
 
 ### Apostles Quest
 

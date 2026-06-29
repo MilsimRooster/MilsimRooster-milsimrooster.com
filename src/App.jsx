@@ -8,6 +8,12 @@ const navItems = [
 
 const featuredApps = [
   {
+    name: "Bug Strike",
+    href: "/apps/bug-strike/",
+    icon: "BS",
+    text: "Play the revived arcade shooter where a debugger ship blasts malware swarms, bosses, hostile packets, and powerups."
+  },
+  {
     name: "Apostles Quest",
     href: "/apps/apostles/",
     icon: "AQ",

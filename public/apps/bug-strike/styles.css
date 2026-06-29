@@ -1,0 +1,782 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  --cyan: #65f3ff;
+  --lime: #9cff57;
+  --gold: #ffd64d;
+  --red: #ff4747;
+  --violet: #bb72ff;
+  --panel-bg: rgba(2, 7, 13, 0.78);
+  --panel-edge: rgba(101, 243, 255, 0.34);
+  --glass: rgba(4, 13, 22, 0.66);
+  --dark: #02040a;
+  --frame: rgba(101, 243, 255, 0.24);
+  background: #050609;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --page-pad: clamp(4px, 1.2vw, 14px);
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: var(--page-pad);
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at top, rgba(101, 243, 255, 0.12), transparent 46%),
+    linear-gradient(135deg, rgba(7, 31, 37, 0.86), rgba(4, 5, 12, 0.96) 42%, rgba(24, 6, 28, 0.9)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.012) 0 1px, transparent 1px 12px),
+    repeating-linear-gradient(90deg, rgba(101, 243, 255, 0.012) 0 1px, transparent 1px 140px),
+    #050609;
+}
+
+.shell {
+  position: relative;
+  width: min(100vw, 1200px);
+  height: auto;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background:
+    linear-gradient(135deg, rgba(101, 243, 255, 0.08), transparent 18%, transparent 82%, rgba(255, 71, 71, 0.08)),
+    #000;
+  box-shadow:
+    0 0 0 1px rgba(101, 243, 255, 0.22),
+    0 0 0 6px rgba(2, 9, 16, 0.8),
+    0 0 46px rgba(101, 243, 255, 0.17),
+    0 22px 80px rgba(0, 0, 0, 0.68);
+  transition: box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.shell[data-state="playing"] {
+  border-color: rgba(156, 255, 87, 0.28);
+  box-shadow:
+    0 0 0 1px rgba(156, 255, 87, 0.2),
+    0 0 0 6px rgba(2, 9, 16, 0.8),
+    0 0 52px rgba(101, 243, 255, 0.2),
+    0 22px 80px rgba(0, 0, 0, 0.68);
+}
+
+.shell[data-state="menu"],
+.shell[data-state="settings"],
+.shell[data-state="leaderboard"],
+.shell[data-state="initials"] {
+  border-color: rgba(101, 243, 255, 0.34);
+  box-shadow:
+    0 0 0 1px rgba(101, 243, 255, 0.24),
+    0 0 0 6px rgba(2, 9, 16, 0.8),
+    0 0 56px rgba(101, 243, 255, 0.18),
+    0 22px 80px rgba(0, 0, 0, 0.7);
+}
+
+.shell[data-state="pause"] {
+  border-color: rgba(255, 214, 77, 0.38);
+  box-shadow:
+    0 0 0 1px rgba(255, 214, 77, 0.24),
+    0 0 0 6px rgba(2, 9, 16, 0.8),
+    0 0 58px rgba(255, 214, 77, 0.16),
+    0 22px 80px rgba(0, 0, 0, 0.72);
+}
+
+.shell[data-state="gameOver"] {
+  border-color: rgba(255, 71, 71, 0.38);
+  box-shadow:
+    0 0 0 1px rgba(255, 71, 71, 0.24),
+    0 0 0 6px rgba(2, 9, 16, 0.8),
+    0 0 62px rgba(255, 71, 71, 0.18),
+    0 22px 80px rgba(0, 0, 0, 0.74);
+}
+
+.shell::before,
+.shell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.shell::before {
+  background:
+    linear-gradient(90deg, var(--frame) 0 1px, transparent 1px calc(100% - 1px), var(--frame) calc(100% - 1px)),
+    linear-gradient(0deg, var(--frame) 0 1px, transparent 1px calc(100% - 1px), var(--frame) calc(100% - 1px)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 7px);
+  mix-blend-mode: screen;
+  opacity: 0.46;
+}
+
+.shell[data-state="playing"]::before {
+  background:
+    linear-gradient(90deg, var(--frame) 0 1px, transparent 1px calc(100% - 1px), var(--frame) calc(100% - 1px)),
+    linear-gradient(0deg, var(--frame) 0 1px, transparent 1px calc(100% - 1px), var(--frame) calc(100% - 1px)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.012), transparent 22%, transparent 78%, rgba(101, 243, 255, 0.012));
+  opacity: 0.26;
+}
+
+.shell::after {
+  inset: 8px;
+  border: 1px solid rgba(156, 255, 87, 0.16);
+  box-shadow:
+    inset 0 0 26px rgba(101, 243, 255, 0.08),
+    inset 0 0 80px rgba(0, 0, 0, 0.32);
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  image-rendering: auto;
+}
+
+.shell[data-state="playing"] canvas {
+  cursor: crosshair;
+}
+
+.panel {
+  position: absolute;
+  inset: 0;
+  display: none;
+  place-content: center;
+  justify-items: center;
+  gap: 18px;
+  padding: 32px;
+  text-align: center;
+  background:
+    linear-gradient(180deg, rgba(3, 8, 14, 0.82), rgba(0, 0, 0, 0.72)),
+    repeating-linear-gradient(0deg, rgba(101, 243, 255, 0.05) 0 1px, transparent 1px 7px);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 0 40%, rgba(101, 243, 255, 0.08) 48%, transparent 56%),
+    linear-gradient(90deg, transparent, rgba(156, 255, 87, 0.045), transparent);
+  mix-blend-mode: screen;
+  opacity: 0.42;
+  transform: translateY(-36%);
+  animation: panel-scan 4.8s linear infinite;
+}
+
+.panel.active {
+  display: grid;
+  animation: panel-in 180ms ease-out;
+}
+
+.panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+h1, h2, h3, p, ol, ul {
+  margin: 0;
+}
+
+h1 {
+  color: var(--gold);
+  font-size: clamp(40px, 7vw, 70px);
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--cyan);
+  font-size: clamp(32px, 5vw, 56px);
+  text-transform: uppercase;
+  text-shadow: 0 0 18px rgba(101, 243, 255, 0.62);
+}
+
+h3 {
+  color: var(--gold);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.panel-kicker {
+  position: relative;
+  min-width: min(360px, 70vw);
+  padding: 6px 14px;
+  border: 1px solid rgba(101, 243, 255, 0.2);
+  border-left-color: rgba(156, 255, 87, 0.48);
+  border-right-color: rgba(255, 71, 71, 0.32);
+  background:
+    linear-gradient(90deg, rgba(156, 255, 87, 0.1), transparent 44%, rgba(255, 71, 71, 0.08)),
+    rgba(2, 7, 13, 0.72);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 18px rgba(101, 243, 255, 0.05);
+}
+
+.panel-kicker::before,
+.panel-kicker::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border: 1px solid currentColor;
+  opacity: 0.8;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.panel-kicker::before {
+  left: -5px;
+}
+
+.panel-kicker::after {
+  right: -5px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#menu {
+  place-content: end center;
+  padding: min(52px, 7vh) 24px;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.08) 48%, rgba(0, 0, 0, 0.9) 100%),
+    linear-gradient(90deg, rgba(255, 71, 71, 0.18), transparent 22%, transparent 78%, rgba(187, 114, 255, 0.18)),
+    url("assets/start_menu.png") center top / contain no-repeat,
+    #050609;
+}
+
+.menu-actions {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  width: min(720px, 92vw);
+  padding: 14px;
+  border: 1px solid var(--panel-edge);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(4, 13, 22, 0.78), rgba(0, 0, 0, 0.56)),
+    repeating-linear-gradient(90deg, rgba(101, 243, 255, 0.04) 0 1px, transparent 1px 28px);
+  box-shadow:
+    inset 0 0 24px rgba(101, 243, 255, 0.08),
+    0 0 28px rgba(101, 243, 255, 0.18);
+  animation: console-breathe 2.6s ease-in-out infinite;
+  backdrop-filter: blur(4px);
+}
+
+.menu-actions::before,
+.menu-actions::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.menu-actions::before {
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent, rgba(101, 243, 255, 0.15), transparent),
+    repeating-linear-gradient(0deg, rgba(156, 255, 87, 0.04) 0 1px, transparent 1px 9px);
+  opacity: 0.62;
+  transform: translateX(-45%);
+  animation: command-sweep 4.4s linear infinite;
+}
+
+.menu-actions::after {
+  inset: 8px;
+  border-top: 1px solid rgba(156, 255, 87, 0.28);
+  border-bottom: 1px solid rgba(101, 243, 255, 0.18);
+  box-shadow:
+    inset 18px 0 0 rgba(156, 255, 87, 0.1),
+    inset -18px 0 0 rgba(255, 71, 71, 0.08);
+}
+
+.menu-actions button {
+  width: 100%;
+  min-width: 0;
+  font-size: clamp(16px, 2.8vw, 22px);
+}
+
+button {
+  position: relative;
+  overflow: hidden;
+  width: min(320px, 82vw);
+  min-height: 58px;
+  border: 2px solid rgba(255, 255, 255, 0.88);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(101, 243, 255, 0.18), transparent 48%),
+    linear-gradient(180deg, #384252, #111821);
+  color: #fff;
+  font-weight: 800;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.65);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 0 18px rgba(101, 243, 255, 0.12);
+  transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+button::before,
+button::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+button::before {
+  top: 10px;
+  bottom: 10px;
+  left: 9px;
+  width: 4px;
+  background: var(--cyan);
+  box-shadow: 0 0 13px rgba(101, 243, 255, 0.75);
+  opacity: 0.72;
+}
+
+button::after {
+  inset: 0;
+  background: linear-gradient(105deg, transparent 0 38%, rgba(255, 255, 255, 0.22) 46%, transparent 55%);
+  opacity: 0;
+  transform: translateX(-80%);
+  transition: opacity 120ms ease, transform 220ms ease;
+}
+
+button:hover,
+button:focus-visible {
+  background:
+    linear-gradient(180deg, rgba(156, 255, 87, 0.28), transparent 45%),
+    linear-gradient(180deg, #16828d, #0a2931);
+  outline: 3px solid rgba(101, 243, 255, 0.45);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.18),
+    0 0 26px rgba(156, 255, 87, 0.22);
+  transform: translateY(-1px);
+}
+
+button:hover::before,
+button:focus-visible::before {
+  background: var(--lime);
+  box-shadow: 0 0 16px rgba(156, 255, 87, 0.9);
+}
+
+button:hover::after,
+button:focus-visible::after {
+  opacity: 1;
+  transform: translateX(72%);
+}
+
+button:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.panel-actions {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  width: min(340px, 82vw);
+}
+
+#pause .panel-actions,
+#gameOver .panel-actions {
+  grid-template-columns: 1fr;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes console-breathe {
+  0%, 100% {
+    box-shadow:
+      inset 0 0 24px rgba(101, 243, 255, 0.08),
+      0 0 28px rgba(101, 243, 255, 0.18);
+  }
+  50% {
+    box-shadow:
+      inset 0 0 30px rgba(156, 255, 87, 0.1),
+      0 0 36px rgba(101, 243, 255, 0.24);
+  }
+}
+
+@keyframes command-sweep {
+  from {
+    transform: translateX(-55%);
+  }
+  to {
+    transform: translateX(55%);
+  }
+}
+
+@keyframes panel-scan {
+  from {
+    transform: translateY(-38%);
+  }
+  to {
+    transform: translateY(38%);
+  }
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  width: min(380px, 86vw);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+input[type="range"] {
+  width: 100%;
+  height: 18px;
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, var(--lime), var(--cyan)),
+    rgba(3, 7, 12, 0.86);
+  background-size: var(--fill, 50%) 100%, 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow:
+    inset 0 0 12px rgba(0, 0, 0, 0.62),
+    0 0 14px rgba(101, 243, 255, 0.12);
+}
+
+label:focus-within {
+  border-color: rgba(156, 255, 87, 0.5);
+  box-shadow:
+    inset 4px 0 0 rgba(156, 255, 87, 0.42),
+    0 0 20px rgba(156, 255, 87, 0.14);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 0 0 16px rgba(156, 255, 87, 0.72);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 0 0 16px rgba(156, 255, 87, 0.72);
+}
+
+#settings,
+#pause,
+#leaderboard,
+#initials,
+#gameOver {
+  background:
+    linear-gradient(180deg, rgba(4, 8, 15, 0.84), rgba(2, 4, 8, 0.9)),
+    rgba(0, 0, 0, 0.68);
+}
+
+#settings::before,
+#pause::before,
+#leaderboard::before,
+#initials::before,
+#gameOver::before {
+  content: "";
+  position: absolute;
+  width: min(620px, 92vw);
+  height: min(720px, 86vh);
+  border: 1px solid rgba(101, 243, 255, 0.22);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(101, 243, 255, 0.08), transparent 26%, transparent 74%, rgba(156, 255, 87, 0.05)),
+    linear-gradient(180deg, rgba(101, 243, 255, 0.08), rgba(156, 255, 87, 0.03)),
+    rgba(3, 8, 14, 0.46);
+  box-shadow:
+    inset 0 0 36px rgba(101, 243, 255, 0.08),
+    0 0 40px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#leaderboard::before {
+  width: min(760px, 94vw);
+  height: min(760px, 88vh);
+  background:
+    radial-gradient(ellipse at 50% 18%, rgba(101, 243, 255, 0.12), transparent 54%),
+    linear-gradient(90deg, rgba(101, 243, 255, 0.07), rgba(5, 12, 20, 0.18) 38%, rgba(5, 12, 20, 0.18) 62%, rgba(156, 255, 87, 0.055)),
+    rgba(3, 8, 14, 0.5);
+}
+
+#leaderboard {
+  gap: 14px;
+  padding: clamp(20px, 3vw, 32px);
+}
+
+#leaderboard h2 {
+  font-size: clamp(30px, 3.6vw, 42px);
+  letter-spacing: 0;
+}
+
+#leaderboard h3 {
+  margin-top: 8px;
+}
+
+#leaderboard #scores {
+  width: min(600px, 86vw);
+}
+
+#leaderboard #scores li {
+  min-height: 44px;
+  padding: 10px 14px;
+}
+
+#leaderboard #achievements {
+  width: min(640px, 88vw);
+}
+
+#leaderboard button {
+  margin-top: 6px;
+}
+
+#pause::before {
+  border-color: rgba(255, 214, 77, 0.26);
+  background:
+    linear-gradient(90deg, rgba(255, 214, 77, 0.08), transparent 44%, rgba(101, 243, 255, 0.05)),
+    linear-gradient(180deg, rgba(101, 243, 255, 0.06), rgba(255, 214, 77, 0.035)),
+    rgba(3, 8, 14, 0.5);
+}
+
+#gameOver::before {
+  border-color: rgba(255, 71, 71, 0.28);
+  background:
+    linear-gradient(90deg, rgba(255, 71, 71, 0.12), transparent 46%, rgba(187, 114, 255, 0.08)),
+    linear-gradient(180deg, rgba(255, 71, 71, 0.08), rgba(2, 4, 8, 0.58)),
+    rgba(3, 8, 14, 0.52);
+}
+
+#initials::before {
+  border-color: rgba(255, 214, 77, 0.32);
+  box-shadow:
+    inset 0 0 38px rgba(255, 214, 77, 0.08),
+    0 0 42px rgba(0, 0, 0, 0.52);
+}
+
+#settings > *,
+#pause > *,
+#leaderboard > *,
+#initials > *,
+#gameOver > * {
+  position: relative;
+  z-index: 1;
+}
+
+#settings label {
+  position: relative;
+  overflow: hidden;
+  padding: 14px;
+  border: 1px solid var(--panel-edge);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(101, 243, 255, 0.08), transparent 45%),
+    var(--panel-bg);
+  box-shadow: inset 4px 0 0 rgba(101, 243, 255, 0.28);
+}
+
+#settings label::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(101, 243, 255, 0.12), transparent);
+  opacity: 0.38;
+  transform: translateX(-65%);
+  transition: transform 260ms ease;
+}
+
+#settings label:hover::after,
+#settings label:focus-within::after {
+  transform: translateX(65%);
+}
+
+#initialsInput {
+  width: 150px;
+  height: 70px;
+  border: 2px solid #65f3ff;
+  border-radius: 8px;
+  background: #080c12;
+  color: #65f3ff;
+  font-size: 42px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 16px rgba(101, 243, 255, 0.7);
+  box-shadow: inset 0 0 22px rgba(101, 243, 255, 0.12);
+}
+
+#finalScore,
+#gameOverScore {
+  min-width: min(360px, 74vw);
+  padding: 12px 16px;
+  border: 1px solid rgba(101, 243, 255, 0.18);
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, rgba(101, 243, 255, 0.08), transparent 48%),
+    rgba(3, 9, 15, 0.72);
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  box-shadow: inset 4px 0 0 rgba(101, 243, 255, 0.3);
+}
+
+#gameOverScore {
+  border-color: rgba(255, 71, 71, 0.24);
+  box-shadow: inset 4px 0 0 rgba(255, 71, 71, 0.38);
+}
+
+@media (max-width: 720px) {
+  body {
+    padding: 0;
+  }
+
+  .menu-actions {
+    grid-template-columns: 1fr;
+    width: min(340px, 86vw);
+  }
+
+  button {
+    min-height: 50px;
+    font-size: 18px;
+  }
+
+  .panel-kicker {
+    min-width: min(300px, 78vw);
+  }
+
+  ol li,
+  ul li {
+    grid-template-columns: 34px 1fr;
+  }
+
+  ul li small {
+    grid-column: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel.active,
+  .menu-actions,
+  .menu-actions::before,
+  .panel::after {
+    animation: none;
+  }
+}
+
+.wide {
+  align-content: center;
+}
+
+ol, ul {
+  width: min(640px, 88vw);
+  padding-left: 0;
+  text-align: left;
+  line-height: 1.4;
+  list-style: none;
+}
+
+ol li,
+ul li {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 128px;
+  gap: 12px;
+  align-items: center;
+  min-height: 36px;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border: 1px solid rgba(101, 243, 255, 0.16);
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, rgba(101, 243, 255, 0.08), rgba(4, 13, 22, 0.58) 22%, rgba(4, 13, 22, 0.58) 78%, rgba(156, 255, 87, 0.045)),
+    rgba(4, 13, 22, 0.58);
+  box-shadow: inset 3px 0 0 rgba(101, 243, 255, 0.2);
+}
+
+ol li::after,
+ul li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(101, 243, 255, 0.08), transparent 34%, transparent 66%, rgba(156, 255, 87, 0.04)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 52%);
+  opacity: 0.3;
+}
+
+ol li:hover,
+ul li:hover {
+  border-color: rgba(101, 243, 255, 0.34);
+  box-shadow:
+    inset 3px 0 0 rgba(101, 243, 255, 0.38),
+    0 0 18px rgba(101, 243, 255, 0.1);
+}
+
+ul li {
+  grid-template-columns: 42px 170px minmax(0, 1fr);
+}
+
+li .rank {
+  color: var(--cyan);
+  font-weight: 900;
+  text-shadow: 0 0 10px rgba(101, 243, 255, 0.7);
+}
+
+li strong {
+  color: var(--gold);
+  justify-self: end;
+  min-width: 118px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+li small {
+  color: rgba(255, 255, 255, 0.72);
+  min-width: 0;
+}
+
+li.locked {
+  opacity: 0.58;
+  box-shadow: inset 3px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+li.unlocked {
+  border-color: rgba(156, 255, 87, 0.28);
+  box-shadow: inset 3px 0 0 rgba(156, 255, 87, 0.34);
+}
