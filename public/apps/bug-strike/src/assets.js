@@ -6,7 +6,7 @@
   }
 })(typeof globalThis !== "undefined" ? globalThis : window, function createAssets() {
   const image = (key, file, width, height, group) => ({ key, file, width, height, group });
-  const sound = (key, file, group) => ({ key, file, group });
+  const sound = (key, file, group, preload = group === "music" ? "none" : "auto") => ({ key, file, group, preload });
 
   const ASSET_MANIFEST = {
     basePath: "assets/",
@@ -130,9 +130,9 @@
     const assets = [...manifest.audio.sfx, ...manifest.audio.music];
     assets.forEach((asset) => {
       const audio = new Audio(`${manifest.audioPath}${asset.file}`);
-      audio.preload = "auto";
+      audio.preload = asset.preload ?? "auto";
       loaded.set(asset.key, audio);
-      audio.load();
+      if (audio.preload !== "none") audio.load();
     });
     return Promise.resolve(loaded);
   }
