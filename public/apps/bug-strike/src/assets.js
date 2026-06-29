@@ -96,17 +96,17 @@
     ],
     audio: {
       sfx: [
-        sound("player.shoot.0", "player_shoot1.wav", "player"),
-        sound("player.shoot.1", "player_shoot2.wav", "player"),
-        sound("player.hit.0", "player_hit1.wav", "player"),
-        sound("player.hit.1", "player_hit2.wav", "player"),
-        sound("explosion.0", "explosion1.wav", "combat"),
-        sound("explosion.1", "explosion2.wav", "combat"),
-        sound("boost", "boost.wav", "player"),
-        sound("special.bugStrike", "Eagle_strike_activation.wav", "player"),
-        ...Array.from({ length: 6 }, (_, i) => sound(`pickup.${i}`, `power_up${i + 1}.wav`, "powerups")),
+        sound("player.shoot.0", "player_shoot1.mp3", "player"),
+        sound("player.shoot.1", "player_shoot2.mp3", "player"),
+        sound("player.hit.0", "player_hit1.mp3", "player"),
+        sound("player.hit.1", "player_hit2.mp3", "player"),
+        sound("explosion.0", "explosion1.mp3", "combat"),
+        sound("explosion.1", "explosion2.mp3", "combat"),
+        sound("boost", "boost.mp3", "player"),
+        sound("special.bugStrike", "Eagle_strike_activation.mp3", "player"),
+        ...Array.from({ length: 6 }, (_, i) => sound(`pickup.${i}`, `power_up${i + 1}.mp3`, "powerups")),
       ],
-      music: Array.from({ length: 6 }, (_, i) => sound(`music.${i}`, `background_music${i + 1}.wav`, "music")),
+      music: Array.from({ length: 6 }, (_, i) => sound(`music.${i}`, `background_music${i + 1}.mp3`, "music")),
     },
   };
 

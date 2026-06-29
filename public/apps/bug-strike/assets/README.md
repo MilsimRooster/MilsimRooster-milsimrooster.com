@@ -27,4 +27,4 @@ Drop clean cropped transparent PNGs in this folder. Files here are loaded direct
 
 `start_menu.png` is used as the main menu art.
 
-Audio lives in `assets/audio/`: `player_shoot1.wav`, `player_shoot2.wav`, `player_hit1.wav`, `player_hit2.wav`, `explosion1.wav`, `explosion2.wav`, `boost.wav`, `Eagle_strike_activation.wav`, `power_up1.wav` through `power_up6.wav`, and `background_music1.wav` through `background_music6.wav`.
+Audio lives in `assets/audio/`: `player_shoot1.mp3`, `player_shoot2.mp3`, `player_hit1.mp3`, `player_hit2.mp3`, `explosion1.mp3`, `explosion2.mp3`, `boost.mp3`, `Eagle_strike_activation.mp3`, `power_up1.mp3` through `power_up6.mp3`, and `background_music1.mp3` through `background_music6.mp3`.
