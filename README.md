@@ -35,6 +35,20 @@ npm run build
 npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
 ```
 
+Or use the guarded release helper:
+
+```powershell
+.\scripts\release-mrcom.ps1
+```
+
+For local validation only:
+
+```powershell
+.\scripts\release-mrcom.ps1 -SkipDeploy -SkipLiveCheck
+```
+
+See `docs/RELEASE_CHECKLIST.md`.
+
 Live domains:
 
 - `https://milsimrooster.com`
