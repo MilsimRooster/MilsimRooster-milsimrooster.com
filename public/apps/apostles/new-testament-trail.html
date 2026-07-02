@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Testament Trail</title>
+  <link rel="stylesheet" href="nt-styles.css?v=20260625-mobile-compact-1">
+</head>
+<body>
+  <main class="nt-shell">
+    <section class="nt-game" aria-label="New Testament Trail game">
+      <header class="nt-topbar">
+        <div>
+          <p class="eyebrow">New Testament Bible Game</p>
+          <h1>New Testament Trail</h1>
+        </div>
+        <div class="top-actions">
+          <button id="soundToggle" class="icon-button" type="button" aria-label="Toggle sound" title="Toggle sound">S</button>
+          <button id="setupButton" class="ghost-button" type="button">Setup</button>
+          <button id="resetButton" class="ghost-button" type="button">Reset</button>
+          <a class="ghost-button top-link" href="index.html">Apostles Quest</a>
+        </div>
+      </header>
+
+      <section id="setupView" class="setup-view" aria-label="Game setup">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="setup-copy">
+          <p class="eyebrow">Gospels, Acts, Letters, Revelation</p>
+          <h2>Choose a game mode to begin.</h2>
+          <p class="quiet">Start with a solo or team question round, or practice with matching, book order, and flashcards.</p>
+        </div>
+        <div class="setup-controls">
+          <section class="setup-panel" aria-label="Round length">
+            <h3>Round Length</h3>
+            <div class="segmented" id="roundSettings">
+              <button class="segment active" type="button" data-round="8">8</button>
+              <button class="segment" type="button" data-round="12">12</button>
+              <button class="segment" type="button" data-round="20">20</button>
+            </div>
+          </section>
+          <section class="setup-panel" aria-label="Class teams">
+            <h3>Teams</h3>
+            <label>Team 1<input id="teamOneName" type="text" maxlength="18" value="Team Lamp"></label>
+            <label>Team 2<input id="teamTwoName" type="text" maxlength="18" value="Team Anchor"></label>
+          </section>
+        </div>
+        <section class="mode-select" aria-label="Choose a game mode">
+          <button id="startSolo" class="mode-choice primary-choice" type="button">
+            <span>Solo Round</span>
+            <strong>Start Solo Round</strong>
+            <em>Answer New Testament questions at your own pace.</em>
+          </button>
+          <button id="startTeams" class="mode-choice primary-choice" type="button">
+            <span>Team Round</span>
+            <strong>Start Team Round</strong>
+            <em>Two teams take turns answering the same question deck.</em>
+          </button>
+          <button id="openMatch" class="mode-choice" type="button">
+            <span>Practice</span>
+            <strong>Matching</strong>
+            <em>Match people, places, books, and stories to clues.</em>
+          </button>
+          <button id="openBooks" class="mode-choice" type="button">
+            <span>Practice</span>
+            <strong>Book Order</strong>
+            <em>Tap the New Testament books in order from Matthew to Revelation.</em>
+          </button>
+          <button id="openCards" class="mode-choice" type="button">
+            <span>Study</span>
+            <strong>Flashcards</strong>
+            <em>Read one card, then flip it for the teaching point.</em>
+          </button>
+        </section>
+      </section>
+
+      <section id="finishView" class="finish-view" aria-label="Round results" hidden>
+        <div class="finish-card">
+          <p class="eyebrow">Trail Complete</p>
+          <h2 id="finishTitle">Great work</h2>
+          <p id="finishSummary"></p>
+          <div id="finishScores" class="finish-scores"></div>
+          <div class="start-actions">
+            <button id="playAgain" class="primary-button big-button" type="button">Play Again</button>
+            <button id="backToSetup" class="ghost-button big-button" type="button">Back to Mode Selection</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="gameContent" class="game-content" hidden>
+        <nav class="mode-tabs" aria-label="Game modes">
+          <button class="tab active" type="button" data-mode="quest">Quest</button>
+          <button class="tab" type="button" data-mode="teams">Teams</button>
+          <button class="tab" type="button" data-mode="match">Match</button>
+          <button class="tab" type="button" data-mode="books">Books</button>
+          <button class="tab" type="button" data-mode="cards">Flashcards</button>
+        </nav>
+
+        <section id="scoreboard" class="scoreboard" aria-label="Scoreboard"></section>
+
+        <section id="questView" class="view active" aria-label="Question game">
+          <section class="trail-map" aria-label="New Testament journey">
+            <div id="trailStops" class="trail-stops"></div>
+            <div id="trailNote" class="trail-note"></div>
+          </section>
+          <div class="play-layout" id="playLayout">
+            <section class="question-card">
+              <div class="question-meta">
+                <span id="roundLabel">Question 1</span>
+                <span id="categoryLabel">Gospels</span>
+              </div>
+              <h2 id="questionText"></h2>
+              <div id="answerGrid" class="answer-grid"></div>
+              <div id="feedback" class="feedback" aria-live="polite"></div>
+              <div class="question-actions">
+                <button id="hintButton" class="ghost-button" type="button">Show Hint</button>
+                <button id="nextButton" class="primary-button" type="button">Next Question</button>
+              </div>
+            </section>
+            <aside id="studyCard" class="study-card" hidden></aside>
+          </div>
+        </section>
+
+        <section id="matchView" class="view" aria-label="Matching game">
+          <div class="match-board">
+            <div>
+              <h2>Pick a Card</h2>
+              <p class="quiet">Choose a New Testament person, place, book, or story.</p>
+              <div id="matchNames" class="match-list"></div>
+            </div>
+            <div>
+              <h2>Find the Clue</h2>
+              <p class="quiet">Matched pairs turn green.</p>
+              <div id="matchClues" class="match-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="booksView" class="view" aria-label="New Testament books game">
+          <div class="books-panel">
+            <div>
+              <p class="eyebrow">Book Order</p>
+              <h2>Tap the next New Testament book.</h2>
+              <p id="bookPrompt" class="quiet"></p>
+            </div>
+            <div id="bookChoices" class="book-choices"></div>
+            <div id="bookProgress" class="book-progress"></div>
+            <div id="bookCompleteActions" class="book-complete-actions" hidden>
+              <button id="bookBackToSetup" class="primary-button big-button" type="button">Back to Mode Selection</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="cardsView" class="view" aria-label="Story cards">
+          <div class="flashcard-panel">
+            <div class="flashcard-controls">
+              <div>
+                <p class="eyebrow">Study Deck</p>
+                <h2>Read one card, then flip it for the teaching point.</h2>
+              </div>
+              <div class="deck-actions">
+                <button id="prevCard" class="ghost-button" type="button">Previous</button>
+                <button id="flipCard" class="primary-button" type="button">Flip Card</button>
+                <button id="nextCard" class="ghost-button" type="button">Next</button>
+              </div>
+            </div>
+            <div id="cardDeck" class="card-deck"></div>
+            <div id="cardCounter" class="card-counter"></div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="nt-game.js?v=20260625-mobile-compact-1"></script>
+</body>
+</html>

@@ -113,6 +113,7 @@ npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
 ## Hosted Apps
 
 - Apostles Quest: `/apps/apostles/`
+- New Testament Trail: `/apps/apostles/new-testament-trail.html`
 - FPS Visualizer: `/apps/fps-visualizer/`
 - Rooster Recipes: `/apps/recipes/`
 - How Southern Are You?: `/apps/how-southern-are-you/`

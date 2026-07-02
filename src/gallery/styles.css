@@ -299,6 +299,8 @@ a {
   place-items: center;
   padding: 88px 24px 28px;
   pointer-events: none;
+  overscroll-behavior: contain;
+  touch-action: none;
   background: rgba(0, 0, 0, 0);
   opacity: 0;
 }
@@ -375,6 +377,7 @@ a {
     0 0 56px rgba(92, 139, 154, 0.1);
   backdrop-filter: blur(24px);
   overflow: auto;
+  touch-action: none;
   transform: scale(0.86);
 }
 
@@ -393,9 +396,19 @@ a {
   object-fit: contain;
   border-radius: 6px;
   background: #050606;
+  cursor: zoom-in;
+  touch-action: none;
+  transform-origin: center center;
+  user-select: none;
+  -webkit-user-drag: none;
+  will-change: transform;
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.09),
     0 18px 60px rgba(0, 0, 0, 0.46);
+}
+
+#expanded-image[data-zoom="active"] {
+  cursor: grab;
 }
 
 .expand-view.is-media-only .expand-card {

@@ -1,0 +1,865 @@
+:root {
+  color-scheme: light;
+  --ink: #14202a;
+  --muted: #5f6f77;
+  --paper: #f2ecd9;
+  --panel: #fffaf0;
+  --line: #d5c49d;
+  --gold: #d49a28;
+  --sea: #1f6f78;
+  --leaf: #47743f;
+  --berry: #8f314f;
+  --sky: #7cb4c5;
+  --success: #28734d;
+  --danger: #a73434;
+  --shadow: 0 18px 42px rgba(24, 30, 24, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:
+    linear-gradient(145deg, rgba(31, 111, 120, 0.16), rgba(212, 154, 40, 0.12)),
+    var(--paper);
+  color: var(--ink);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.nt-shell {
+  width: min(1200px, calc(100vw - 28px));
+  margin: 18px auto;
+}
+
+.nt-game {
+  min-height: calc(100vh - 36px);
+  overflow: hidden;
+  border: 1px solid rgba(110, 86, 39, 0.28);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.nt-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 24px clamp(18px, 4vw, 38px);
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(20, 32, 42, 0.94), rgba(31, 111, 120, 0.88)),
+    url("assets/storybook-galilee-hero.webp") center 48% / cover no-repeat;
+}
+
+.eyebrow {
+  margin: 0 0 5px;
+  color: #8a5d08;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nt-topbar .eyebrow {
+  color: #ffe18b;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+  letter-spacing: 0;
+}
+
+h2 {
+  letter-spacing: 0;
+}
+
+.quiet {
+  color: var(--muted);
+}
+
+.top-actions,
+.start-actions,
+.question-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.icon-button,
+.ghost-button,
+.primary-button,
+.tab,
+.answer-button,
+.match-item,
+.book-choice {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icon-button {
+  width: 46px;
+  background: #fff8df;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.ghost-button {
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+}
+
+.top-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.primary-button {
+  padding: 10px 18px;
+  border-color: var(--sea);
+  background: var(--sea);
+  color: white;
+  font-weight: 800;
+}
+
+.big-button {
+  min-height: 54px;
+  padding: 13px 20px;
+}
+
+.setup-view[hidden],
+.finish-view[hidden],
+.game-content[hidden] {
+  display: none;
+}
+
+.setup-view {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(280px, 0.9fr);
+  gap: 24px;
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.hero-art {
+  position: relative;
+  min-height: 420px;
+  overflow: hidden;
+  border: 1px solid rgba(144, 104, 44, 0.32);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(124, 180, 197, 0.55), rgba(247, 208, 121, 0.48) 48%, rgba(164, 116, 64, 0.58)),
+    url("assets/storybook-galilee-hero.webp") center / cover no-repeat;
+  box-shadow: inset 0 -80px 90px rgba(47, 32, 18, 0.32);
+}
+
+.hero-art::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(20, 32, 42, 0.36), transparent 44%),
+    linear-gradient(90deg, rgba(20, 32, 42, 0.18), transparent 50%);
+}
+
+.setup-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(10px, 2vw, 22px);
+}
+
+.setup-copy h2,
+.finish-card h2 {
+  margin-bottom: 14px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.06;
+}
+
+.setup-controls {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(260px, 0.7fr) 1fr;
+  gap: 14px;
+}
+
+.setup-panel,
+.finish-card,
+.question-card,
+.study-card,
+.books-panel,
+.mini-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.setup-panel {
+  padding: 18px;
+}
+
+.setup-panel h3 {
+  margin: 0 0 12px;
+}
+
+.segmented {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.segment {
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf0;
+  color: var(--ink);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.segment.active,
+.tab.active {
+  border-color: #9b6f1f;
+  background: var(--gold);
+}
+
+.setup-panel label {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.setup-panel input {
+  min-height: 44px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdf7;
+  color: var(--ink);
+}
+
+.start-actions,
+.mode-select {
+  grid-column: 1 / -1;
+}
+
+.mode-select {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.mode-choice {
+  display: grid;
+  gap: 7px;
+  min-height: 158px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  text-align: left;
+}
+
+.mode-choice span {
+  color: #8a5d08;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mode-choice strong {
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+
+.mode-choice em {
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.mode-choice.primary-choice {
+  border-color: rgba(31, 111, 120, 0.55);
+  background: #eef8f6;
+}
+
+.finish-view {
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.finish-card {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.finish-scores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.finish-score {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf0;
+}
+
+.finish-score strong {
+  display: block;
+  color: var(--sea);
+  font-size: 2rem;
+}
+
+.mode-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  padding: 14px clamp(14px, 3vw, 28px);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.tab {
+  background: white;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.scoreboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 16px clamp(14px, 3vw, 28px) 0;
+}
+
+.score-tile {
+  min-height: 82px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.score-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.score-tile strong {
+  display: block;
+  color: var(--sea);
+  font-size: 1.45rem;
+}
+
+.score-tile.active-team {
+  border-color: var(--gold);
+  box-shadow: inset 0 0 0 2px rgba(212, 154, 40, 0.28);
+}
+
+.view {
+  display: none;
+  padding: 24px clamp(14px, 3vw, 28px) 28px;
+}
+
+.view.active {
+  display: block;
+}
+
+.trail-map {
+  display: grid;
+  grid-template-columns: 1fr minmax(240px, 0.34fr);
+  gap: 14px;
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid rgba(144, 104, 44, 0.35);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(124, 180, 197, 0.38), rgba(252, 222, 152, 0.52)),
+    #e5bd75;
+}
+
+.trail-stops {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.trail-stop {
+  min-height: 82px;
+  padding: 8px;
+  border: 1px solid rgba(123, 93, 57, 0.25);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.68);
+  color: #3d2a16;
+}
+
+.trail-stop span {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(20, 32, 42, 0.12);
+  font-weight: 900;
+}
+
+.trail-stop strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.88rem;
+}
+
+.trail-stop.complete {
+  background: rgba(229, 246, 235, 0.9);
+}
+
+.trail-stop.current {
+  border-color: var(--berry);
+  background: rgba(255, 250, 240, 0.95);
+  box-shadow: inset 0 0 0 2px rgba(143, 49, 79, 0.18);
+}
+
+.trail-note {
+  display: grid;
+  align-content: center;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.86);
+}
+
+.trail-note strong {
+  color: var(--berry);
+}
+
+.play-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.play-layout.card-open {
+  grid-template-columns: 1fr minmax(240px, 330px);
+}
+
+.question-card {
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.question-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#questionText {
+  min-height: 92px;
+  margin: 18px 0;
+  font-size: clamp(1.65rem, 4vw, 2.75rem);
+  line-height: 1.15;
+}
+
+.answer-grid,
+.book-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.answer-button,
+.book-choice {
+  min-height: 82px;
+  padding: 12px 14px;
+  background: #fffdf7;
+  color: var(--ink);
+  font-weight: 900;
+  text-align: left;
+}
+
+.answer-button.correct,
+.book-choice.correct,
+.match-item.matched {
+  border-color: var(--success);
+  background: #e8f5ec;
+}
+
+.book-choice:disabled {
+  cursor: default;
+  opacity: 0.72;
+}
+
+.answer-button.wrong,
+.book-choice.wrong {
+  border-color: var(--danger);
+  background: #faeaea;
+}
+
+.feedback {
+  min-height: 78px;
+  margin: 18px 0;
+  padding: 14px;
+  border-left: 5px solid var(--gold);
+  border-radius: 6px;
+  background: #f5eddb;
+  color: #332818;
+}
+
+.feedback.good {
+  border-color: var(--success);
+}
+
+.feedback.bad {
+  border-color: var(--danger);
+}
+
+.study-card {
+  min-height: 440px;
+  padding: 18px;
+}
+
+.study-card[hidden] {
+  display: none;
+}
+
+.card-banner {
+  display: grid;
+  place-items: center;
+  min-height: 150px;
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.72), transparent 24%),
+    linear-gradient(135deg, rgba(31, 111, 120, 0.18), rgba(212, 154, 40, 0.24)),
+    #efe0bd;
+  color: var(--berry);
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.card-banner span {
+  padding: 8px 12px;
+  border: 1px solid rgba(143, 49, 79, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.72);
+}
+
+.reference {
+  color: var(--sea);
+  font-weight: 900;
+}
+
+.fact-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.fact-list div {
+  padding-top: 10px;
+  border-top: 1px solid #efe4ca;
+}
+
+.fact-list dt {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fact-list dd {
+  margin: 3px 0 0;
+}
+
+.match-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.match-list {
+  display: grid;
+  gap: 10px;
+}
+
+.match-item {
+  padding: 12px;
+  background: white;
+  color: var(--ink);
+  text-align: left;
+}
+
+.match-item.selected {
+  border-color: var(--sea);
+  box-shadow: inset 0 0 0 2px rgba(31, 111, 120, 0.2);
+}
+
+.books-panel {
+  display: grid;
+  gap: 18px;
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.book-progress {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.book-progress span {
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.book-progress span.complete {
+  background: #e8f5ec;
+  color: var(--success);
+}
+
+.book-progress span.current {
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.book-complete-actions {
+  margin-top: 4px;
+}
+
+.flashcard-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: end;
+}
+
+.deck-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-deck {
+  max-width: 680px;
+}
+
+.deck-card {
+  min-height: 380px;
+  padding: clamp(20px, 4vw, 34px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.deck-card h2 {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.06;
+}
+
+.deck-card p {
+  font-size: 1.15rem;
+}
+
+.card-counter {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+@media (max-width: 900px) {
+  .question-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .nt-topbar {
+    display: grid;
+    gap: 16px;
+    padding: 24px 22px;
+  }
+
+  h1 {
+    font-size: clamp(2.15rem, 10vw, 3rem);
+    line-height: 1.02;
+  }
+
+  .eyebrow {
+    font-size: 0.9rem;
+  }
+
+  .top-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .top-actions .ghost-button,
+  .top-actions .icon-button {
+    min-height: 40px;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+  }
+
+  .icon-button {
+    width: auto;
+  }
+
+  .setup-view,
+  .setup-controls,
+  .mode-select,
+  .trail-map,
+  .trail-stops,
+  .play-layout.card-open,
+  .match-board,
+  .book-choices,
+  .finish-scores {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px 12px;
+    scroll-snap-type: x proximity;
+  }
+
+  .tab {
+    flex: 0 0 auto;
+    min-width: 92px;
+    min-height: 42px;
+    padding: 8px 12px;
+    scroll-snap-align: start;
+  }
+
+  .scoreboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px 12px 0;
+  }
+
+  .score-tile {
+    min-height: 58px;
+    padding: 8px 10px;
+  }
+
+  .score-tile span {
+    font-size: 0.82rem;
+  }
+
+  .score-tile strong {
+    font-size: 1.25rem;
+  }
+
+  .trail-map {
+    margin: 10px 12px;
+    padding: 12px;
+  }
+
+  .flashcard-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-art {
+    min-height: 330px;
+  }
+
+  .trail-stops {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .trail-stop {
+    min-width: 112px;
+  }
+
+  .study-card {
+    min-height: unset;
+  }
+
+  .question-card {
+    margin: 0 12px;
+    padding: 18px;
+  }
+
+  .question-meta {
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+
+  #questionText {
+    min-height: 0;
+    margin: 14px 0;
+    font-size: clamp(1.45rem, 7vw, 2rem);
+    line-height: 1.08;
+  }
+
+  .answer-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .answer-button,
+  .book-choice {
+    min-height: 58px;
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
+
+  .feedback {
+    padding: 10px 12px;
+  }
+
+  .finish-card {
+    padding: 18px;
+  }
+
+  .finish-card h2 {
+    font-size: clamp(2rem, 10vw, 2.7rem);
+  }
+}

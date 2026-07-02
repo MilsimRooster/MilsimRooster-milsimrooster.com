@@ -812,32 +812,91 @@ h2 {
 }
 
 @media (max-width: 850px) {
-  .topbar,
   .question-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .app-shell {
+    width: min(100vw - 16px, 680px);
+    margin: 8px auto;
+  }
+
+  .topbar {
+    display: grid;
+    gap: 16px;
+    padding: 24px 22px;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 11vw, 3.15rem);
+    line-height: 1.02;
+  }
+
+  .eyebrow {
+    font-size: 0.9rem;
   }
 
   .top-actions {
     align-items: stretch;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .top-actions .ghost-button,
+  .top-actions .icon-button {
+    min-height: 40px;
+    padding: 8px 10px;
+    font-size: 0.95rem;
   }
 
   .icon-button {
     width: auto;
   }
 
-  .mode-tabs,
-  .scoreboard,
   .question-layout,
   .match-board,
   .card-grid,
-  .answer-grid,
   .title-view,
   .setup-grid,
   .final-scores {
     grid-template-columns: 1fr;
+  }
+
+  .mode-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px 12px;
+    scroll-snap-type: x proximity;
+  }
+
+  .tab {
+    flex: 0 0 auto;
+    min-width: 92px;
+    min-height: 42px;
+    padding: 8px 12px;
+    scroll-snap-align: start;
+  }
+
+  .scoreboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px 12px 0;
+  }
+
+  .score-tile {
+    min-height: 58px;
+    padding: 8px 10px;
+  }
+
+  .score-tile span {
+    font-size: 0.82rem;
+  }
+
+  .score-tile strong {
+    font-size: 1.25rem;
   }
 
   .apostle-card {
@@ -850,13 +909,14 @@ h2 {
   }
 
   .journey-map {
-    min-height: 250px;
+    min-height: 184px;
+    margin: 10px 12px;
     overflow: hidden;
     padding: 10px;
   }
 
   .journey-map.compact-map {
-    min-height: 228px;
+    min-height: 174px;
   }
 
   .map-callout {
@@ -907,6 +967,46 @@ h2 {
   .map-stop.current .stop-dot {
     width: 28px;
     height: 28px;
+  }
+
+  .question-card {
+    margin: 0 12px;
+    padding: 18px;
+  }
+
+  .question-meta {
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+
+  #questionText {
+    min-height: 0;
+    margin: 14px 0;
+    font-size: clamp(1.45rem, 7vw, 2rem);
+    line-height: 1.08;
+  }
+
+  .answer-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .answer-button {
+    min-height: 58px;
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
+
+  .feedback {
+    padding: 10px 12px;
+  }
+
+  .finish-card {
+    padding: 18px;
+  }
+
+  .finish-card h2 {
+    font-size: clamp(2rem, 10vw, 2.7rem);
   }
 
 }

@@ -41,7 +41,7 @@ const apostles = [
     reference: "John 19:26-27",
     fact: "Jesus entrusted Mary to his care at the cross.",
     lesson: "Love shows up with faithfulness.",
-    clue: "Tradition connects him with the Gospel of John."
+    clue: "Many Christians connect him with the Gospel of John."
   },
   {
     name: "Philip",
@@ -56,12 +56,12 @@ const apostles = [
   },
   {
     name: "Bartholomew",
-    also: "Often identified with Nathanael",
+    also: "Often linked with Nathanael",
     symbol: "Fig Tree",
     image: "assets/apostle-bartholomew-storybook.webp",
     color: "#2f855a",
     reference: "John 1:47-49",
-    fact: "Jesus described Nathanael as a man without deceit.",
+    fact: "Jesus described Nathanael as an honest man.",
     lesson: "God sees honest hearts.",
     clue: "Often linked with Nathanael, who sat under a fig tree."
   },
@@ -93,8 +93,8 @@ const apostles = [
     symbol: "Lamp",
     image: "assets/apostle-james-the-less-storybook.webp",
     color: "#805ad5",
-    reference: "Mark 15:40",
-    fact: "He is listed among the Twelve and is often distinguished from James son of Zebedee.",
+    reference: "Matthew 10:3",
+    fact: "He is listed among the Twelve as James son of Alphaeus.",
     lesson: "Faithfulness matters even when the spotlight is small.",
     clue: "He is the other James among the Twelve."
   },
@@ -162,7 +162,7 @@ const extraFigures = [
     symbol: "Lot",
     color: "#7a5a2f",
     reference: "Acts 1:23",
-    fact: "He was considered along with Matthias before Matthias was chosen.",
+    fact: "He was one of the two men named before Matthias was chosen.",
     lesson: "Faithfulness still matters when another person is selected.",
     clue: "He was considered with Matthias in Acts 1."
   },
@@ -204,7 +204,7 @@ const extraFigures = [
     reference: "Acts 6-7",
     fact: "He served the church and spoke boldly about Jesus.",
     lesson: "Courage and service belong together.",
-    clue: "He was one of the first deacons and a bold witness."
+    clue: "He was one of seven chosen to serve and became a bold witness."
   },
   {
     name: "Luke",
@@ -248,12 +248,12 @@ const questions = [
   q("Who is remembered for saying he needed to see Jesus' wounds?", "Thomas", ["Philip", "Peter", "Judas Iscariot"], "Resurrection", "Thomas later confessed Jesus as Lord and God."),
   q("Who betrayed Jesus for silver?", "Judas Iscariot", ["Thaddaeus", "Matthias", "Simon Peter"], "Warnings", "Judas Iscariot betrayed Jesus to the chief priests."),
   q("Who was chosen to replace Judas Iscariot in Acts 1?", "Matthias", ["Paul", "Barnabas", "Stephen"], "Acts", "Matthias was selected by lot after prayer."),
-  q("Which apostle asked Jesus to show them the Father?", "Philip", ["Andrew", "John", "Simon the Zealot"], "Teaching", "Philip asks this in John 14."),
-  q("Which apostle is often identified with Nathanael?", "Bartholomew", ["Matthew", "James the Less", "Thaddaeus"], "Names", "Many traditions connect Bartholomew with Nathanael."),
+  q("Who asked Jesus, 'Show us the Father'?", "Philip", ["Andrew", "John", "Simon the Zealot"], "Teaching", "Philip asked this in John 14."),
+  q("Which apostle is often linked with Nathanael?", "Bartholomew", ["Matthew", "James the Less", "Thaddaeus"], "Names", "Many teachers connect Bartholomew with Nathanael."),
   q("Who was called the Zealot?", "Simon", ["Peter", "Andrew", "James"], "Names", "Luke lists Simon called the Zealot."),
   q("Who did Jesus restore with the question, 'Do you love me?'", "Peter", ["Thomas", "Matthew", "Philip"], "Restoration", "John 21 records Jesus restoring Peter."),
-  q("Which apostle was not one of the original Twelve but is often called an apostle?", "Paul", ["Mark", "Luke", "Timothy"], "Bonus", "Paul was called by the risen Christ and sent to the nations."),
-  q("Which apostle's other name was Levi?", "Matthew", ["John", "Thomas", "Andrew"], "Names", "Mark and Luke call him Levi in the calling story."),
+  q("Who met Jesus on the road to Damascus?", "Paul", ["Mark", "Luke", "Timothy"], "Bonus", "Paul was called by the risen Jesus."),
+  q("Which apostle was also named Levi?", "Matthew", ["John", "Thomas", "Andrew"], "Names", "Mark and Luke call Matthew Levi."),
   q("Who was John's brother?", "James", ["Peter", "Philip", "Bartholomew"], "Families", "James and John were sons of Zebedee."),
   q("Which apostle is also called Judas son of James?", "Thaddaeus", ["Judas Iscariot", "Matthias", "Simon"], "Names", "Luke and Acts use the name Judas son of James.")
 ];
@@ -266,110 +266,110 @@ questions.push(
   q("Who cut off the servant's ear when Jesus was arrested?", "Peter", ["Simon the Zealot", "James", "Thomas"], "Gethsemane", "John 18 identifies Peter as the one who used the sword."),
   q("Which apostle denied knowing Jesus three times?", "Peter", ["Judas Iscariot", "Thomas", "Matthew"], "Passion Week", "Peter denied Jesus before the rooster crowed."),
   q("Which apostle was at the tax booth when Jesus called him?", "Matthew", ["Philip", "Andrew", "Bartholomew"], "Callings", "Matthew immediately followed Jesus from the tax booth."),
-  q("Which apostle's calling included the words 'Follow me' at a tax booth?", "Matthew", ["Peter", "John", "Thomas"], "Callings", "Matthew 9:9 records Jesus calling Matthew."),
+  q("Who did Jesus call from a tax booth?", "Matthew", ["Peter", "John", "Thomas"], "Callings", "Matthew left the tax booth to follow Jesus."),
   q("Which apostle is remembered for bringing people to Jesus?", "Andrew", ["Judas Iscariot", "James the Less", "Simon the Zealot"], "Stories", "Andrew brought Peter and later helped bring others to Jesus."),
   q("Which apostle told Nathanael, 'Come and see'?", "Philip", ["Andrew", "Matthew", "Peter"], "Witness", "Philip invited Nathanael to meet Jesus."),
-  q("Which apostle was skeptical and asked, 'Can anything good come out of Nazareth?'", "Nathanael", ["Thomas", "Peter", "Matthew"], "Witness", "Nathanael is often identified with Bartholomew."),
-  q("Which apostle is often paired with Philip in lists and stories?", "Bartholomew", ["Judas Iscariot", "James", "Simon Peter"], "Names", "Philip and Bartholomew are commonly paired in apostle lists."),
-  q("Which apostle asked, 'Lord, show us the Father'?", "Philip", ["Thomas", "John", "Andrew"], "Teaching", "Jesus answered Philip by teaching that seeing Him is seeing the Father."),
-  q("Which apostle asked, 'Lord, how is it that you will manifest yourself to us?'?", "Thaddaeus", ["Judas Iscariot", "Peter", "James"], "Teaching", "John 14:22 identifies this question as from Judas, not Iscariot."),
+  q("Who asked, 'Can anything good come out of Nazareth?'", "Nathanael", ["Thomas", "Peter", "Matthew"], "Witness", "Nathanael is often linked with Bartholomew."),
+  q("Which apostle is often listed with Philip?", "Bartholomew", ["Judas Iscariot", "James", "Simon Peter"], "Names", "Philip and Bartholomew are often named near each other."),
+  q("Who asked Jesus, 'Show us the Father'?", "Philip", ["Thomas", "John", "Andrew"], "Teaching", "Jesus answered Philip in John 14."),
+  q("Who asked Jesus a question in John 14 and was not Judas Iscariot?", "Thaddaeus", ["Judas Iscariot", "Peter", "James"], "Teaching", "Thaddaeus is also called Judas son of James."),
   q("Which apostle was also known as Didymus?", "Thomas", ["Matthew", "Philip", "Andrew"], "Names", "Didymus means twin."),
   q("Which apostle was also called Levi?", "Matthew", ["Peter", "John", "James"], "Names", "Matthew is called Levi in Mark and Luke."),
   q("Which apostle was also called Simon before Jesus gave him another name?", "Peter", ["Matthew", "Thomas", "Philip"], "Names", "Simon Peter is also called Cephas or Peter."),
-  q("Which apostle shares a first name with the brother of John?", "James the Less", ["Andrew", "Thomas", "Philip"], "Names", "There are two apostles named James."),
-  q("Which apostle was the son of Alphaeus?", "James the Less", ["John", "Peter", "Andrew"], "Names", "James son of Alphaeus is often called James the Less."),
-  q("Which apostle's title may point to strong political or religious zeal?", "Simon the Zealot", ["Matthew", "Philip", "Bartholomew"], "Names", "Simon is called the Zealot in Luke and Acts."),
+  q("Which apostle was the other James?", "James the Less", ["Andrew", "Thomas", "Philip"], "Names", "There were two apostles named James."),
+  q("Which apostle was James son of Alphaeus?", "James the Less", ["John", "Peter", "Andrew"], "Names", "James son of Alphaeus is often called James the Less."),
+  q("Which apostle was called the Zealot?", "Simon the Zealot", ["Matthew", "Philip", "Bartholomew"], "Names", "Luke and Acts call him Simon the Zealot."),
   q("Which apostle was trusted with the money bag but betrayed Jesus?", "Judas Iscariot", ["Matthew", "Thomas", "Andrew"], "Warnings", "John mentions Judas keeping the money bag."),
   q("Which apostle betrayed Jesus with a kiss?", "Judas Iscariot", ["Peter", "Thaddaeus", "Simon the Zealot"], "Passion Week", "The betrayal in Gethsemane identified Jesus to the crowd."),
-  q("Which apostle was replaced after his betrayal and death?", "Judas Iscariot", ["Thomas", "Philip", "Bartholomew"], "Acts", "Acts 1 tells why another witness was chosen."),
-  q("Who was chosen to complete the Twelve after Judas?", "Matthias", ["Paul", "Luke", "Mark"], "Acts", "Matthias was chosen in Acts 1."),
-  q("Who was considered along with Matthias before Matthias was chosen?", "Joseph called Barsabbas", ["Barnabas", "Silas", "Timothy"], "Acts", "Acts 1 names Joseph called Barsabbas and Matthias as candidates."),
+  q("Who was replaced after betraying Jesus?", "Judas Iscariot", ["Thomas", "Philip", "Bartholomew"], "Acts", "Acts 1 tells why another witness was chosen."),
+  q("Who replaced Judas among the Twelve?", "Matthias", ["Paul", "Luke", "Mark"], "Acts", "Matthias was chosen in Acts 1."),
+  q("Who was named with Matthias in Acts 1?", "Joseph called Barsabbas", ["Barnabas", "Silas", "Timothy"], "Acts", "Acts 1 names Joseph and Matthias."),
   q("Which book tells about Matthias being chosen?", "Acts", ["Romans", "Genesis", "Revelation"], "Bible Books", "Acts begins with the apostles after Jesus' resurrection."),
   q("Which apostle preached at Pentecost?", "Peter", ["Matthew", "Thomas", "Andrew"], "Acts", "Peter preached and many believed in Acts 2."),
   q("About how many were added after Peter's Pentecost sermon?", "About 3,000", ["About 12", "About 40", "About 500"], "Acts", "Acts 2 says about three thousand were added."),
   q("Which apostles healed a lame man at the temple gate?", "Peter and John", ["James and Andrew", "Philip and Thomas", "Matthew and Simon"], "Acts", "Acts 3 tells of Peter and John at the Beautiful Gate."),
-  q("Which apostles told leaders, 'We cannot but speak of what we have seen and heard'?", "Peter and John", ["Matthew and Thomas", "James and Philip", "Andrew and Simon"], "Acts", "Peter and John spoke boldly after being warned."),
+  q("Which two apostles said they must keep talking about Jesus?", "Peter and John", ["Matthew and Thomas", "James and Philip", "Andrew and Simon"], "Acts", "Peter and John spoke boldly after being warned."),
   q("Which apostle was the brother of Andrew?", "Peter", ["John", "James", "Philip"], "Families", "Andrew brought his brother Simon Peter to Jesus."),
   q("Which apostle was the brother of Peter?", "Andrew", ["James", "John", "Matthew"], "Families", "Andrew and Peter were brothers."),
   q("Which apostle was the brother of James son of Zebedee?", "John", ["Peter", "Andrew", "Thomas"], "Families", "James and John were brothers."),
-  q("Which apostle leaned close to Jesus at the Last Supper in John's Gospel?", "John", ["Matthew", "Philip", "Simon the Zealot"], "Gospel Moments", "John's Gospel describes the beloved disciple near Jesus."),
-  q("Which apostle was entrusted with caring for Mary at the cross?", "John", ["Peter", "Andrew", "James the Less"], "Passion Week", "Jesus spoke to Mary and the beloved disciple in John 19."),
-  q("Which apostle saw Jesus transfigured along with James and John?", "Peter", ["Matthew", "Thomas", "Philip"], "Gospel Moments", "Peter, James, and John were present at the transfiguration."),
-  q("Which three apostles were with Jesus at the transfiguration?", "Peter, James, and John", ["Andrew, Philip, and Matthew", "Thomas, Simon, and Thaddaeus", "Matthias, Paul, and Barnabas"], "Gospel Moments", "Peter, James, and John often saw moments up close."),
-  q("Which three apostles were asked to watch and pray near Jesus in Gethsemane?", "Peter, James, and John", ["Matthew, Thomas, and Philip", "Andrew, Simon, and Thaddaeus", "Bartholomew, Matthias, and Paul"], "Passion Week", "Jesus took Peter, James, and John further into the garden."),
-  q("Which apostle said, 'Lord, to whom shall we go? You have the words of eternal life'?", "Peter", ["John", "Thomas", "Philip"], "Confession", "Peter confessed faith when many turned away."),
-  q("Which apostle said Jesus was 'the Christ, the Son of the living God'?", "Peter", ["Andrew", "Matthew", "Bartholomew"], "Confession", "Peter's confession appears in Matthew 16."),
-  q("Which apostle wanted to build three tents at the transfiguration?", "Peter", ["James", "John", "Thomas"], "Gospel Moments", "Peter spoke when he saw Jesus with Moses and Elijah."),
-  q("Which apostle asked Jesus, 'How can we know the way?'", "Thomas", ["Philip", "Peter", "John"], "Teaching", "Jesus answered, 'I am the way, and the truth, and the life.'"),
-  q("Which apostle was absent when Jesus first appeared to the gathered disciples?", "Thomas", ["Peter", "John", "Matthew"], "Resurrection", "Thomas was not with them in John 20."),
+  q("Which apostle was close to Jesus at the Last Supper?", "John", ["Matthew", "Philip", "Simon the Zealot"], "Gospel Moments", "John's Gospel describes the beloved disciple near Jesus."),
+  q("Which apostle did Jesus ask to care for Mary?", "John", ["Peter", "Andrew", "James the Less"], "Passion Week", "Jesus spoke to Mary and the beloved disciple in John 19."),
+  q("Who saw Jesus shine in glory with James and John?", "Peter", ["Matthew", "Thomas", "Philip"], "Gospel Moments", "Peter, James, and John were present at the transfiguration."),
+  q("Which three apostles saw Jesus shine in glory?", "Peter, James, and John", ["Andrew, Philip, and Matthew", "Thomas, Simon, and Thaddaeus", "Matthias, Paul, and Barnabas"], "Gospel Moments", "This moment is called the transfiguration."),
+  q("Who watched and prayed with Jesus in Gethsemane?", "Peter, James, and John", ["Matthew, Thomas, and Philip", "Andrew, Simon, and Thaddaeus", "Bartholomew, Matthias, and Paul"], "Passion Week", "Jesus took Peter, James, and John further into the garden."),
+  q("Who said Jesus has the words of eternal life?", "Peter", ["John", "Thomas", "Philip"], "Confession", "Peter confessed faith when many turned away."),
+  q("Who said Jesus is the Christ, the Son of God?", "Peter", ["Andrew", "Matthew", "Bartholomew"], "Confession", "Peter said this in Matthew 16."),
+  q("Who wanted to build three tents when Jesus shone in glory?", "Peter", ["James", "John", "Thomas"], "Gospel Moments", "Peter spoke during the transfiguration."),
+  q("Who asked Jesus, 'How can we know the way?'", "Thomas", ["Philip", "Peter", "John"], "Teaching", "Jesus answered Thomas in John 14."),
+  q("Who missed Jesus' first visit to the disciples after the resurrection?", "Thomas", ["Peter", "John", "Matthew"], "Resurrection", "Thomas was not with them in John 20."),
   q("Which apostle went to tell his brother about Jesus?", "Andrew", ["Thomas", "Matthew", "Judas Iscariot"], "Witness", "Andrew first found his brother Simon."),
-  q("Which apostle was from Bethsaida like Andrew and Peter?", "Philip", ["Matthew", "Thomas", "Simon the Zealot"], "Places", "John 1 says Philip was from Bethsaida."),
-  q("Which city was connected with Philip, Andrew, and Peter?", "Bethsaida", ["Bethlehem", "Jericho", "Emmaus"], "Places", "Bethsaida is named in John 1:44."),
-  q("Which apostle did Jesus see under the fig tree, according to John 1?", "Nathanael", ["Matthew", "Peter", "James"], "Witness", "Nathanael is often identified with Bartholomew."),
-  q("Which apostle was praised as an Israelite without deceit?", "Nathanael", ["Judas Iscariot", "Thomas", "Matthew"], "Character", "Jesus said this about Nathanael in John 1."),
-  q("Which apostle is often identified with Nathanael in church tradition?", "Bartholomew", ["James the Less", "Thaddaeus", "Simon Peter"], "Names", "Bartholomew is commonly linked with Nathanael."),
-  q("Which apostle's name means 'gift of God'?", "Matthew", ["Peter", "Andrew", "Thomas"], "Names", "Matthew's name is often understood as gift of God."),
-  q("Which apostle's name means 'rock'?", "Peter", ["Andrew", "John", "Philip"], "Names", "Peter comes from a word meaning rock."),
-  q("Which apostle's name means 'manly' or 'brave'?", "Andrew", ["Matthew", "Thomas", "Judas"], "Names", "Andrew's name is often connected with manliness or courage."),
-  q("Which apostle's name is connected with 'twin'?", "Thomas", ["John", "James", "Philip"], "Names", "Thomas is also called Didymus, meaning twin."),
-  q("Which apostle is listed first in most lists of the Twelve?", "Peter", ["Judas Iscariot", "Matthew", "John"], "Lists", "Peter is usually named first in apostle lists."),
-  q("Which apostle is listed last in lists because he betrayed Jesus?", "Judas Iscariot", ["Matthias", "Thomas", "Andrew"], "Lists", "The lists usually mark Judas as the betrayer."),
+  q("Which apostle was from Bethsaida?", "Philip", ["Matthew", "Thomas", "Simon the Zealot"], "Places", "John 1 says Philip was from Bethsaida."),
+  q("Which city was home for Philip, Andrew, and Peter?", "Bethsaida", ["Bethlehem", "Jericho", "Emmaus"], "Places", "John 1 names Bethsaida."),
+  q("Who did Jesus see under a fig tree?", "Nathanael", ["Matthew", "Peter", "James"], "Witness", "Nathanael is often linked with Bartholomew."),
+  q("Who did Jesus call an honest man?", "Nathanael", ["Judas Iscariot", "Thomas", "Matthew"], "Character", "Jesus said this about Nathanael in John 1."),
+  q("Which apostle is often linked with Nathanael?", "Bartholomew", ["James the Less", "Thaddaeus", "Simon Peter"], "Names", "Many teachers connect Bartholomew with Nathanael."),
+  q("Which apostle left a tax booth to follow Jesus?", "Matthew", ["Peter", "Andrew", "Thomas"], "Callings", "Matthew had been a tax collector."),
+  q("Which apostle was nicknamed the rock?", "Peter", ["Andrew", "John", "Philip"], "Names", "Peter's name is connected with rock."),
+  q("Which apostle brought his brother to Jesus?", "Andrew", ["Matthew", "Thomas", "Judas"], "Witness", "Andrew brought Simon Peter to Jesus."),
+  q("Which apostle was also called the twin?", "Thomas", ["John", "James", "Philip"], "Names", "Thomas is also called Didymus, meaning twin."),
+  q("Which apostle is usually named first?", "Peter", ["Judas Iscariot", "Matthew", "John"], "Lists", "Peter is usually named first in apostle lists."),
+  q("Which apostle is remembered for betraying Jesus?", "Judas Iscariot", ["Matthias", "Thomas", "Andrew"], "Warnings", "Judas Iscariot betrayed Jesus."),
   q("How many apostles were in the original group Jesus chose?", "Twelve", ["Seven", "Ten", "Seventy"], "Basics", "Jesus chose twelve apostles."),
   q("What does the word apostle mean?", "One who is sent", ["One who sings", "One who builds", "One who rules a city"], "Basics", "An apostle is a sent messenger."),
-  q("Which Gospel contains the calling of Matthew from the tax booth?", "Matthew", ["Acts", "Romans", "Hebrews"], "Bible Books", "Matthew 9:9 tells this calling story."),
-  q("Which Gospel records Thomas saying, 'My Lord and my God'?", "John", ["Matthew", "Mark", "Luke"], "Bible Books", "John 20 records Thomas's confession."),
-  q("Which Gospel records Andrew bringing Peter to Jesus?", "John", ["Matthew", "Mark", "Luke"], "Bible Books", "John 1 records Andrew bringing Simon."),
+  q("Which Gospel tells about Matthew at the tax booth?", "Matthew", ["Acts", "Romans", "Hebrews"], "Bible Books", "Matthew 9:9 tells this story."),
+  q("Which Gospel tells about Thomas saying, 'My Lord and my God'?", "John", ["Matthew", "Mark", "Luke"], "Bible Books", "John 20 records Thomas's confession."),
+  q("Which Gospel tells about Andrew bringing Peter to Jesus?", "John", ["Matthew", "Mark", "Luke"], "Bible Books", "John 1 records Andrew bringing Simon."),
   q("Which book records Peter and John healing at the temple?", "Acts", ["John", "Romans", "James"], "Bible Books", "Acts 3 records the healing at the temple gate."),
   q("Which apostle wrote letters to churches after meeting Jesus on the Damascus road?", "Paul", ["Peter", "Andrew", "Philip"], "Bonus", "Paul wrote many New Testament letters."),
   q("What was Paul's name before he was also known as Paul?", "Saul", ["Silas", "Stephen", "Simon"], "Bonus", "Acts introduces him as Saul."),
   q("Where was Paul going when Jesus appeared to him?", "Damascus", ["Jerusalem", "Bethlehem", "Rome"], "Bonus", "Acts 9 tells of the road to Damascus."),
-  q("Who was sent by God to pray for Saul after his Damascus road encounter?", "Ananias", ["Matthias", "Andrew", "Philip"], "Bonus", "Ananias obeyed God and went to Saul."),
-  q("Which apostle was known as the apostle to the Gentiles?", "Paul", ["Peter", "John", "Matthew"], "Bonus", "Paul's mission focused especially on Gentiles."),
-  q("Which apostle preached to Cornelius's household in Acts 10?", "Peter", ["Paul", "Matthew", "Thomas"], "Acts", "Peter preached as Gentiles received the Holy Spirit."),
-  q("Which apostle had a vision of a sheet with animals in Acts 10?", "Peter", ["John", "Philip", "James"], "Acts", "The vision prepared Peter to go to Cornelius."),
+  q("Who prayed for Saul after he met Jesus?", "Ananias", ["Matthias", "Andrew", "Philip"], "Bonus", "Ananias obeyed God and went to Saul."),
+  q("Which apostle preached especially to Gentiles?", "Paul", ["Peter", "John", "Matthew"], "Bonus", "Gentiles are people from the nations outside Israel."),
+  q("Who preached to Cornelius's family?", "Peter", ["Paul", "Matthew", "Thomas"], "Acts", "Peter preached to Cornelius in Acts 10."),
+  q("Who saw a vision of a sheet with animals?", "Peter", ["John", "Philip", "James"], "Acts", "The vision prepared Peter to visit Cornelius."),
   q("Which apostle was imprisoned and then freed by an angel in Acts 12?", "Peter", ["Matthew", "Thomas", "Simon the Zealot"], "Acts", "Acts 12 tells of Peter's rescue from prison."),
-  q("Which apostle was killed by Herod in Acts 12?", "James son of Zebedee", ["James the Less", "John", "Andrew"], "Acts", "Acts 12 records the death of James, brother of John."),
-  q("Which apostle was John's brother and the first of the Twelve recorded as martyred?", "James son of Zebedee", ["Peter", "Andrew", "Thomas"], "Acts", "Herod killed James with the sword in Acts 12."),
-  q("Which apostle ran to the empty tomb with Peter in John's Gospel?", "John", ["Matthew", "Thomas", "Philip"], "Resurrection", "John describes Peter and the beloved disciple running to the tomb."),
-  q("Which apostle entered the empty tomb after another disciple arrived first?", "Peter", ["Andrew", "Matthew", "Philip"], "Resurrection", "Peter went into the tomb in John 20."),
-  q("Which apostle recognized the risen Jesus by the Sea of Tiberias and said, 'It is the Lord'?", "John", ["Peter", "Thomas", "Matthew"], "Resurrection", "The beloved disciple recognized Jesus in John 21."),
-  q("Which apostle jumped into the sea when he heard it was the Lord?", "Peter", ["John", "Thomas", "Andrew"], "Resurrection", "Peter hurried toward Jesus in John 21."),
-  q("Which apostle asked about forgiving someone seventy-seven times?", "Peter", ["Andrew", "Matthew", "John"], "Teaching", "Peter asked Jesus about forgiveness in Matthew 18."),
-  q("Which apostle asked Jesus about the reward for leaving everything?", "Peter", ["Thomas", "Philip", "Matthew"], "Teaching", "Peter asked what the disciples would have after leaving all."),
-  q("Which apostle's former job would make him familiar with money records?", "Matthew", ["Andrew", "John", "James"], "Callings", "Matthew had been a tax collector."),
-  q("Which apostle's former work involved nets and boats?", "Andrew", ["Matthew", "Thaddaeus", "James the Less"], "Callings", "Andrew was a fisherman."),
+  q("Which apostle was killed by Herod in Acts 12?", "James son of Zebedee", ["James the Less", "John", "Andrew"], "Acts", "James was John's brother."),
+  q("Which apostle was John's brother?", "James son of Zebedee", ["Peter", "Andrew", "Thomas"], "Families", "James and John were brothers."),
+  q("Who ran to the empty tomb with Peter?", "John", ["Matthew", "Thomas", "Philip"], "Resurrection", "John tells about Peter and the beloved disciple running to the tomb."),
+  q("Who went inside the empty tomb?", "Peter", ["Andrew", "Matthew", "Philip"], "Resurrection", "Peter went into the tomb in John 20."),
+  q("Who said, 'It is the Lord' by the sea?", "John", ["Peter", "Thomas", "Matthew"], "Resurrection", "John recognized Jesus in John 21."),
+  q("Who jumped into the sea to get to Jesus?", "Peter", ["John", "Thomas", "Andrew"], "Resurrection", "Peter hurried toward Jesus in John 21."),
+  q("Who asked Jesus how many times to forgive?", "Peter", ["Andrew", "Matthew", "John"], "Teaching", "Peter asked Jesus about forgiveness."),
+  q("Who asked Jesus about the reward for leaving everything?", "Peter", ["Thomas", "Philip", "Matthew"], "Teaching", "Peter asked what the disciples would have after leaving all."),
+  q("Which apostle used to collect taxes?", "Matthew", ["Andrew", "John", "James"], "Callings", "Matthew had been a tax collector."),
+  q("Which apostle worked with nets and boats?", "Andrew", ["Matthew", "Thaddaeus", "James the Less"], "Callings", "Andrew was a fisherman."),
   q("Which two sets of brothers were among the Twelve?", "Peter and Andrew, James and John", ["Matthew and Thomas, Philip and Paul", "Simon and Judas, Matthias and Mark", "Bartholomew and James, Luke and John"], "Families", "The Twelve included two brother pairs."),
-  q("Which apostle's mother asked Jesus for places of honor for her sons?", "James and John", ["Peter and Andrew", "Matthew and Thomas", "Philip and Bartholomew"], "Teaching", "The mother of the sons of Zebedee asked this in Matthew 20."),
-  q("Which apostles wanted to call down fire in Luke 9?", "James and John", ["Peter and Andrew", "Matthew and Philip", "Thomas and Thaddaeus"], "Character", "Their zeal fits the nickname Sons of Thunder."),
-  q("Which apostle is sometimes called Jude to avoid confusion with Judas Iscariot?", "Thaddaeus", ["Thomas", "Matthew", "Simon Peter"], "Names", "Thaddaeus is also called Jude or Judas son of James."),
-  q("Which apostle was not Judas Iscariot but also had the name Judas?", "Thaddaeus", ["Peter", "Andrew", "Matthew"], "Names", "John 14:22 says Judas, not Iscariot."),
-  q("Which apostle's story gives a warning about betrayal from inside the group?", "Judas Iscariot", ["John", "Andrew", "James the Less"], "Warnings", "Judas was close to Jesus but betrayed Him."),
-  q("Which apostle's restoration shows that failure does not have to be the end?", "Peter", ["Judas Iscariot", "Matthew", "Philip"], "Restoration", "Jesus restored Peter after Peter's denial."),
-  q("Which apostle's questions can help students see that doubt can become faith?", "Thomas", ["Judas Iscariot", "Simon the Zealot", "Matthew"], "Application", "Thomas asked honestly and then confessed Jesus as Lord."),
-  q("Which apostle's invitation reminds us to invite family to Jesus?", "Andrew", ["James the Less", "Judas Iscariot", "Simon the Zealot"], "Application", "Andrew brought his brother to Jesus."),
-  q("Which apostle's call reminds us Jesus can use people with unpopular jobs?", "Matthew", ["John", "Andrew", "James"], "Application", "Tax collectors were often disliked, yet Jesus called Matthew."),
-  q("Which apostle's title reminds us Jesus can redirect passion?", "Simon the Zealot", ["Matthew", "Thomas", "Bartholomew"], "Application", "Zeal can be reshaped by Jesus for God's kingdom."),
-  q("Which apostle's quiet listing reminds us that unseen faithfulness still matters?", "James the Less", ["Peter", "John", "Paul"], "Application", "James son of Alphaeus is less prominent but still chosen by Jesus."),
-  q("Which apostle's replacement reminds us God's mission continues?", "Matthias", ["Judas Iscariot", "Thomas", "Philip"], "Application", "Matthias joined the apostolic witness in Acts 1."),
-  q("Which apostle's conversion reminds us Jesus can transform enemies?", "Paul", ["Andrew", "John", "Matthew"], "Application", "Paul went from persecuting believers to preaching Christ."),
-  q("Which apostle is connected with writing Revelation in church tradition?", "John", ["Matthew", "Peter", "Thomas"], "Tradition", "Many Christian traditions connect John with Revelation."),
-  q("Which apostle is traditionally connected with a Gospel that begins with genealogy?", "Matthew", ["Andrew", "Thomas", "Philip"], "Tradition", "The Gospel of Matthew begins with Jesus' genealogy."),
-  q("Which apostle is traditionally connected with letters called 1 Peter and 2 Peter?", "Peter", ["Paul", "John", "James"], "Tradition", "The New Testament includes letters bearing Peter's name."),
-  q("Which apostle is traditionally connected with 1 John, 2 John, and 3 John?", "John", ["Peter", "Matthew", "Andrew"], "Tradition", "These letters are traditionally connected with John."),
-  q("Which apostle is not one of the Twelve but wrote many New Testament letters?", "Paul", ["Matthias", "Bartholomew", "Simon the Zealot"], "Bonus", "Paul is a major apostolic voice in the New Testament."),
-  q("Which apostle asked Jesus about the signs of His coming on the Mount of Olives along with others?", "Peter", ["Matthew", "Thomas", "Judas Iscariot"], "Teaching", "Mark 13 names Peter, James, John, and Andrew asking privately."),
-  q("Which four apostles asked Jesus privately about the temple and coming events in Mark 13?", "Peter, James, John, and Andrew", ["Matthew, Thomas, Philip, and Simon", "Paul, Matthias, Barnabas, and Mark", "Bartholomew, Thaddaeus, Judas, and Matthew"], "Teaching", "Mark 13 names these four disciples."),
-  q("Which apostle is named with Peter, James, and John in Mark 13's private question?", "Andrew", ["Matthew", "Thomas", "Philip"], "Teaching", "Andrew joins Peter, James, and John in asking Jesus privately."),
-  q("Which apostle was told, 'Feed my sheep'?", "Peter", ["John", "Andrew", "Matthew"], "Restoration", "Jesus told Peter to feed His sheep in John 21."),
-  q("Which apostle asked, 'Lord, what about this man?' about the beloved disciple?", "Peter", ["Thomas", "Philip", "Matthew"], "Resurrection", "Peter asked Jesus about John's future in John 21."),
-  q("Which apostle's name appears in every list of the Twelve?", "Peter", ["Paul", "Matthias", "Barnabas"], "Lists", "Peter appears in the apostle lists and is usually first."),
-  q("Which person was added later to restore the number of the Twelve?", "Matthias", ["Paul", "Luke", "Stephen"], "Acts", "Matthias replaced Judas Iscariot."),
-  q("Which person was called by the risen Jesus after the resurrection and ascension?", "Paul", ["Matthew", "Andrew", "Bartholomew"], "Bonus", "Paul met the risen Jesus on the Damascus road."),
-  q("Which apostle should students connect with honest questions?", "Thomas", ["Judas Iscariot", "Simon the Zealot", "James the Less"], "Application", "Thomas's story is a helpful example of honest doubt brought to Jesus."),
-  q("Which apostle should students connect with inviting a sibling or friend?", "Andrew", ["Peter", "Judas Iscariot", "Matthew"], "Application", "Andrew brought Peter to Jesus."),
-  q("Which apostle should students connect with second chances?", "Peter", ["Judas Iscariot", "Philip", "Bartholomew"], "Application", "Peter denied Jesus but was restored and sent to serve."),
-  q("Which apostle should students connect with leaving behind an old life?", "Matthew", ["John", "James", "Andrew"], "Application", "Matthew left the tax booth when Jesus called."),
-  q("Which apostle should students connect with being known by Jesus before speaking?", "Nathanael", ["Matthew", "Simon Peter", "Judas Iscariot"], "Application", "Jesus saw Nathanael before Philip called him.")
+  q("Whose mother asked Jesus for special seats for her sons?", "James and John", ["Peter and Andrew", "Matthew and Thomas", "Philip and Bartholomew"], "Teaching", "Their mother asked this in Matthew 20."),
+  q("Which brothers were called Sons of Thunder?", "James and John", ["Peter and Andrew", "Matthew and Philip", "Thomas and Thaddaeus"], "Character", "James and John had this nickname."),
+  q("Which apostle is also called Jude?", "Thaddaeus", ["Thomas", "Matthew", "Simon Peter"], "Names", "Thaddaeus is also called Jude or Judas son of James."),
+  q("Which apostle was named Judas but was not the betrayer?", "Thaddaeus", ["Peter", "Andrew", "Matthew"], "Names", "This was Judas son of James, not Judas Iscariot."),
+  q("Who betrayed Jesus even though he was in the group?", "Judas Iscariot", ["John", "Andrew", "James the Less"], "Warnings", "Judas was close to Jesus but betrayed Him."),
+  q("Who got a second chance after denying Jesus?", "Peter", ["Judas Iscariot", "Matthew", "Philip"], "Restoration", "Jesus restored Peter after Peter's denial."),
+  q("Who had honest questions and then believed?", "Thomas", ["Judas Iscariot", "Simon the Zealot", "Matthew"], "Application", "Thomas asked honestly and then confessed Jesus as Lord."),
+  q("Who invited his brother to meet Jesus?", "Andrew", ["James the Less", "Judas Iscariot", "Simon the Zealot"], "Application", "Andrew brought his brother Peter to Jesus."),
+  q("Who left an unpopular job to follow Jesus?", "Matthew", ["John", "Andrew", "James"], "Application", "Matthew had been a tax collector."),
+  q("Whose title was the Zealot?", "Simon the Zealot", ["Matthew", "Thomas", "Bartholomew"], "Names", "Simon is called the Zealot in Luke and Acts."),
+  q("Which apostle is easy to miss because little is said about him?", "James the Less", ["Peter", "John", "Paul"], "Application", "James son of Alphaeus is listed with the Twelve."),
+  q("Who was chosen after Judas was gone?", "Matthias", ["Judas Iscariot", "Thomas", "Philip"], "Acts", "Matthias joined the Twelve in Acts 1."),
+  q("Whose life changed on the road to Damascus?", "Paul", ["Andrew", "John", "Matthew"], "Application", "Paul went from fighting the church to preaching Christ."),
+  q("Which apostle is often linked with Revelation?", "John", ["Matthew", "Peter", "Thomas"], "Bible Books", "Many Christians connect John with Revelation."),
+  q("Which Gospel begins with Jesus' family line?", "Matthew", ["Andrew", "Thomas", "Philip"], "Bible Books", "Matthew begins with Jesus' genealogy."),
+  q("Which apostle has letters called First and Second?", "Peter", ["Paul", "John", "James"], "Bible Books", "The New Testament includes 1 Peter and 2 Peter."),
+  q("Which apostle has three short letters named for him?", "John", ["Peter", "Matthew", "Andrew"], "Bible Books", "The New Testament includes 1 John, 2 John, and 3 John."),
+  q("Who wrote many letters in the New Testament?", "Paul", ["Matthias", "Bartholomew", "Simon the Zealot"], "Bonus", "Paul wrote many New Testament letters."),
+  q("Who asked Jesus about future signs on the Mount of Olives?", "Peter", ["Matthew", "Thomas", "Judas Iscariot"], "Teaching", "Mark 13 names Peter, James, John, and Andrew."),
+  q("Which four apostles asked Jesus a private question in Mark 13?", "Peter, James, John, and Andrew", ["Matthew, Thomas, Philip, and Simon", "Paul, Matthias, Barnabas, and Mark", "Bartholomew, Thaddaeus, Judas, and Matthew"], "Teaching", "Mark 13 names these four."),
+  q("Which apostle joined Peter, James, and John in Mark 13?", "Andrew", ["Matthew", "Thomas", "Philip"], "Teaching", "Andrew asked with Peter, James, and John."),
+  q("Who did Jesus tell, 'Feed my sheep'?", "Peter", ["John", "Andrew", "Matthew"], "Restoration", "Jesus told Peter to feed His sheep in John 21."),
+  q("Who asked Jesus about John's future?", "Peter", ["Thomas", "Philip", "Matthew"], "Resurrection", "Peter asked Jesus about John in John 21."),
+  q("Which apostle is named in every list of the Twelve?", "Peter", ["Paul", "Matthias", "Barnabas"], "Lists", "Peter appears in the apostle lists and is usually first."),
+  q("Who was added to the Twelve after Judas?", "Matthias", ["Paul", "Luke", "Stephen"], "Acts", "Matthias replaced Judas Iscariot."),
+  q("Who was called by the risen Jesus after the resurrection?", "Paul", ["Matthew", "Andrew", "Bartholomew"], "Bonus", "Paul met the risen Jesus on the Damascus road."),
+  q("Which apostle reminds us to bring questions to Jesus?", "Thomas", ["Judas Iscariot", "Simon the Zealot", "James the Less"], "Application", "Thomas brought his questions to Jesus."),
+  q("Which apostle reminds us to invite family or friends?", "Andrew", ["Peter", "Judas Iscariot", "Matthew"], "Application", "Andrew brought Peter to Jesus."),
+  q("Which apostle reminds us Jesus gives second chances?", "Peter", ["Judas Iscariot", "Philip", "Bartholomew"], "Application", "Peter denied Jesus but was restored."),
+  q("Which apostle reminds us Jesus can call anyone?", "Matthew", ["John", "James", "Andrew"], "Application", "Matthew left the tax booth when Jesus called."),
+  q("Who was known by Jesus before Philip called him?", "Nathanael", ["Matthew", "Simon Peter", "Judas Iscariot"], "Application", "Jesus saw Nathanael before Philip called him.")
 );
 
 const state = {
@@ -378,6 +378,7 @@ const state = {
   current: 0,
   roundLength: 10,
   questionOrder: [],
+  recentQuestionOrder: [],
   mapStep: 0,
   score: 0,
   streak: 0,
@@ -433,11 +434,32 @@ function q(text, answer, wrong, category, hint) {
 }
 
 function shuffle(items) {
-  return [...items].sort(() => Math.random() - 0.5);
+  const result = [...items];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
+  }
+  return result;
+}
+
+function buildRoundOrder(totalCount, roundLength, recentOrder) {
+  const allIndexes = [...Array(totalCount).keys()];
+  const recent = new Set(recentOrder);
+  const freshIndexes = allIndexes.filter(index => !recent.has(index));
+  const preferredPool = freshIndexes.length >= roundLength ? freshIndexes : allIndexes;
+  const order = shuffle(preferredPool).slice(0, roundLength);
+
+  if (order.length < roundLength) {
+    const chosen = new Set(order);
+    order.push(...shuffle(allIndexes.filter(index => !chosen.has(index))).slice(0, roundLength - order.length));
+  }
+
+  return order;
 }
 
 function reshuffleQuestions() {
-  state.questionOrder = shuffle([...questions.keys()]);
+  state.questionOrder = buildRoundOrder(questions.length, state.roundLength, state.recentQuestionOrder);
+  state.recentQuestionOrder = [...state.questionOrder];
 }
 
 const mapPositions = [
@@ -581,10 +603,10 @@ function cardTemplate(apostle, compact = false) {
 }
 
 function currentQuestion() {
-  if (state.questionOrder.length !== questions.length) {
+  if (state.questionOrder.length !== state.roundLength) {
     reshuffleQuestions();
   }
-  return questions[state.questionOrder[state.current % questions.length]];
+  return questions[state.questionOrder[state.current]];
 }
 
 function normalizeAnswer(value) {
@@ -761,9 +783,6 @@ function nextQuestion() {
     return;
   }
   state.current += 1;
-  if (state.current % questions.length === 0) {
-    reshuffleQuestions();
-  }
   renderQuestion();
 }
 

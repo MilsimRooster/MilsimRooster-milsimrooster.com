@@ -10,6 +10,7 @@ const app = await readFile(new URL("../src/App.jsx", import.meta.url), "utf8");
 const assetVersion = "?v=20260607-glass-standard-4";
 const nonHomepagePages = [
   "public/apps/apostles/index.html",
+  "public/apps/apostles/new-testament-trail.html",
   "public/apps/fps-visualizer/index.html",
   "public/apps/how-southern-are-you/index.html",
   "public/apps/recipes/index.html",

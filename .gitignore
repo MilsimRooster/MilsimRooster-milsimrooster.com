@@ -5,3 +5,4 @@ dist/
 npm-debug.log*
 media-source/
 .superpowers/
+output/

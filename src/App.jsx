@@ -20,6 +20,12 @@ const featuredApps = [
     text: "Open the classroom review game for apostles, Acts, teams, cards, and quick quiz rounds."
   },
   {
+    name: "New Testament Trail",
+    href: "/apps/apostles/new-testament-trail.html",
+    icon: "NT",
+    text: "Open the kid-friendly New Testament flashcard game for Gospels, Acts, letters, book order, teams, and matching."
+  },
+  {
     name: "FPS Visualizer",
     href: "/apps/fps-visualizer/",
     icon: "FPS",

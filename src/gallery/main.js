@@ -134,6 +134,18 @@ let isThemePlaying = false;
 let isDepthMode = false;
 let wantsTheme = true;
 let lastInteractionTime = performance.now();
+const modalPointers = new Map();
+const modalZoomState = {
+  scale: 1,
+  x: 0,
+  y: 0,
+  startScale: 1,
+  startX: 0,
+  startY: 0,
+  startDistance: 0,
+  startCenterX: 0,
+  startCenterY: 0
+};
 const visitedStorageKey = "milsim-rooster-gallery-visited";
 const visitedItems = new Set(loadVisitedItems());
 
@@ -458,6 +470,12 @@ function setSoundButtonState(pressed) {
   soundButton.dataset.playing = String(isThemePlaying);
 }
 
+function syncThemePlaybackState() {
+  if (!themeAudio) return;
+  isThemePlaying = !themeAudio.paused && !themeAudio.ended;
+  setSoundButtonState(wantsTheme);
+}
+
 function setDepthModeButtonState() {
   if (!depthModeToggle) return;
   depthModeToggle.textContent = isDepthMode ? "Surface Archive" : "Dive Deeper";
@@ -519,25 +537,22 @@ function toggleDepthMode() {
 async function startTheme() {
   if (!themeAudio) return;
   wantsTheme = true;
-  setSoundButtonState(true);
+  themeAudio.volume = 0.38;
+  setSoundButtonState(wantsTheme);
 
   try {
-    themeAudio.volume = 0.38;
     await themeAudio.play();
-    isThemePlaying = true;
-    setSoundButtonState(true);
   } catch {
     isThemePlaying = false;
-    setSoundButtonState(true);
   }
+  syncThemePlaybackState();
 }
 
 function stopTheme() {
   if (!themeAudio) return;
   wantsTheme = false;
   themeAudio.pause();
-  isThemePlaying = false;
-  setSoundButtonState(false);
+  syncThemePlaybackState();
 }
 
 async function toggleTheme() {
@@ -549,9 +564,23 @@ async function toggleTheme() {
 }
 
 function unlockTheme() {
-  if (wantsTheme && !isThemePlaying) {
-    startTheme();
-  }
+  if (wantsTheme) ensureThemePlayback();
+}
+
+function ensureThemePlayback() {
+  if (!themeAudio || !wantsTheme) return;
+  void startTheme();
+}
+
+function bindThemeAudioLifecycle() {
+  if (!themeAudio) return;
+
+  themeAudio.addEventListener("playing", syncThemePlaybackState);
+  themeAudio.addEventListener("play", syncThemePlaybackState);
+  themeAudio.addEventListener("pause", syncThemePlaybackState);
+  themeAudio.addEventListener("ended", syncThemePlaybackState);
+  themeAudio.addEventListener("stalled", syncThemePlaybackState);
+  themeAudio.addEventListener("waiting", syncThemePlaybackState);
 }
 
 function getDisplayTitle(item) {
@@ -607,6 +636,114 @@ function markInteraction() {
   lastInteractionTime = performance.now();
 }
 
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function getModalPointerList() {
+  return [...modalPointers.values()];
+}
+
+function getModalPointerCenter() {
+  const pointers = getModalPointerList();
+  if (!pointers.length) return { x: 0, y: 0 };
+  const total = pointers.reduce((sum, pointerItem) => ({
+    x: sum.x + pointerItem.x,
+    y: sum.y + pointerItem.y
+  }), { x: 0, y: 0 });
+  return {
+    x: total.x / pointers.length,
+    y: total.y / pointers.length
+  };
+}
+
+function getModalPointerDistance() {
+  const pointers = getModalPointerList();
+  if (pointers.length < 2) return 0;
+  return Math.hypot(pointers[0].x - pointers[1].x, pointers[0].y - pointers[1].y);
+}
+
+function storeModalGestureStart() {
+  const center = getModalPointerCenter();
+  modalZoomState.startScale = modalZoomState.scale;
+  modalZoomState.startX = modalZoomState.x;
+  modalZoomState.startY = modalZoomState.y;
+  modalZoomState.startDistance = getModalPointerDistance();
+  modalZoomState.startCenterX = center.x;
+  modalZoomState.startCenterY = center.y;
+}
+
+function resetExpandedImageZoom() {
+  modalPointers.clear();
+  modalZoomState.scale = 1;
+  modalZoomState.x = 0;
+  modalZoomState.y = 0;
+  storeModalGestureStart();
+  applyExpandedImageZoom();
+}
+
+function applyExpandedImageZoom() {
+  const scale = clamp(modalZoomState.scale, 1, 4);
+  const maxX = scale <= 1 ? 0 : expandedImage.clientWidth * (scale - 1) * 0.5;
+  const maxY = scale <= 1 ? 0 : expandedImage.clientHeight * (scale - 1) * 0.5;
+  modalZoomState.scale = scale;
+  modalZoomState.x = clamp(modalZoomState.x, -maxX, maxX);
+  modalZoomState.y = clamp(modalZoomState.y, -maxY, maxY);
+  expandedImage.style.transform = `translate3d(${modalZoomState.x}px, ${modalZoomState.y}px, 0) scale(${scale})`;
+  expandedImage.dataset.zoom = scale > 1.01 ? "active" : "idle";
+}
+
+function onExpandedPointerDown(event) {
+  if (!isModalOpen) return;
+  event.preventDefault();
+  event.stopPropagation();
+  markInteraction();
+  expandedImage.setPointerCapture?.(event.pointerId);
+  modalPointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+  storeModalGestureStart();
+}
+
+function onExpandedPointerMove(event) {
+  if (!modalPointers.has(event.pointerId)) return;
+  event.preventDefault();
+  event.stopPropagation();
+  markInteraction();
+  modalPointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+  const center = getModalPointerCenter();
+
+  if (modalPointers.size > 1 && modalZoomState.startDistance > 0) {
+    modalZoomState.scale = modalZoomState.startScale * (getModalPointerDistance() / modalZoomState.startDistance);
+  }
+
+  if (modalPointers.size > 1 || modalZoomState.scale > 1) {
+    modalZoomState.x = modalZoomState.startX + center.x - modalZoomState.startCenterX;
+    modalZoomState.y = modalZoomState.startY + center.y - modalZoomState.startCenterY;
+  }
+
+  applyExpandedImageZoom();
+}
+
+function onExpandedPointerUp(event) {
+  if (!modalPointers.has(event.pointerId)) return;
+  event.preventDefault();
+  event.stopPropagation();
+  expandedImage.releasePointerCapture?.(event.pointerId);
+  modalPointers.delete(event.pointerId);
+
+  if (modalZoomState.scale < 1.02) {
+    resetExpandedImageZoom();
+    return;
+  }
+
+  storeModalGestureStart();
+}
+
+function preventExpandedNativeGesture(event) {
+  if (isModalOpen && event.cancelable && (event.touches?.length > 1 || event.type.startsWith("gesture"))) {
+    event.preventDefault();
+  }
+}
+
 function pickCard(event) {
   updatePointer(event);
   raycaster.setFromCamera(pointer, camera);
@@ -643,6 +780,7 @@ function openItem(item) {
   activeModalItem = item;
   markVisited(item);
   setHud(item);
+  resetExpandedImageZoom();
   expandedImage.src = item.src;
   expandedImage.alt = item.title;
   expanded.classList.toggle("is-media-only", isDepthLayerItem(item));
@@ -671,6 +809,9 @@ function stepModal(direction) {
 }
 
 function closeItem() {
+  markInteraction();
+  ensureThemePlayback();
+  resetExpandedImageZoom();
   isModalOpen = false;
   activeModalItem = null;
   gsap.killTweensOf([expanded, ".expand-card"]);
@@ -865,6 +1006,14 @@ closeExpand.addEventListener("click", closeItem);
 expanded.addEventListener("click", (event) => {
   if (event.target === expanded) closeItem();
 });
+expanded.addEventListener("touchmove", preventExpandedNativeGesture, { passive: false });
+expanded.addEventListener("gesturestart", preventExpandedNativeGesture, { passive: false });
+expanded.addEventListener("gesturechange", preventExpandedNativeGesture, { passive: false });
+expandedImage.addEventListener("pointerdown", onExpandedPointerDown);
+expandedImage.addEventListener("pointermove", onExpandedPointerMove);
+expandedImage.addEventListener("pointerup", onExpandedPointerUp);
+expandedImage.addEventListener("pointercancel", onExpandedPointerUp);
+expandedImage.addEventListener("lostpointercapture", onExpandedPointerUp);
 previousItemButton.addEventListener("click", (event) => {
   event.stopPropagation();
   markInteraction();
@@ -909,6 +1058,7 @@ window.addEventListener("keydown", (event) => {
 });
 soundButton.addEventListener("click", toggleTheme);
 depthModeToggle.addEventListener("click", toggleDepthMode);
+bindThemeAudioLifecycle();
 setSoundButtonState(true);
 setDepthModeButtonState();
 updateProgressHud();
