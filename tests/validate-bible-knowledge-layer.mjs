@@ -76,7 +76,12 @@ assert.ok(lessonLoader.includes("loadBibleGraph"), "lesson loader should expose 
 assert.ok(lessonLoader.includes("recommendLessonsFor"), "lesson loader should expose lesson recommendations");
 assert.ok(lessonApp.includes("Connections"), "lesson detail UI should render a Connections section");
 assert.ok(lessonApp.includes("People to Know"), "lesson detail UI should show people in kid-friendly language");
+assert.ok(lessonApp.includes("Big Ideas"), "lesson detail UI should show a kid-friendly theme label");
 assert.ok(lessonApp.includes("Try Next"), "lesson detail UI should show suggested next lessons");
+assert.ok(lessonApp.includes("recommendLessonsFor(lesson, state.lessonSummaries, state.bibleGraph, 3)"), "lesson detail UI should cap kid-facing next lessons at three");
+assert.ok(!lessonApp.includes('renderConnectionGroup("Places"'), "lesson detail UI should keep place graph details out of kid-facing Connections");
+assert.ok(!lessonApp.includes('renderConnectionGroup("Big Themes"'), "lesson detail UI should avoid graph-heavy theme wording");
+assert.ok(!lessonApp.includes("Open the Bible Explorer"), "lesson detail Connections should not expose the full graph explorer");
 assert.ok(lessonPage.includes('href="/bible/explorer/"'), "lesson page should link to Bible Explorer");
 
 assert.ok(explorerPage.includes("Bible Explorer"), "Bible Explorer should have a clear title");

@@ -186,7 +186,12 @@ assert.ok(app.includes("lessonListToggle"), "lesson app should wire the mobile l
 assert.ok(app.includes("scrollIntoView"), "lesson app should return mobile users to the lesson after choosing from the library");
 assert.ok(app.includes("Connections"), "lesson app should render a graph connections section");
 assert.ok(app.includes("People to Know"), "lesson app should render kid-friendly people connections");
+assert.ok(app.includes("Big Ideas"), "lesson app should label themes as kid-friendly big ideas");
 assert.ok(app.includes("Try Next"), "lesson app should render recommended lessons");
+assert.ok(app.includes("recommendLessonsFor(lesson, state.lessonSummaries, state.bibleGraph, 3)"), "lesson app should limit kid-facing recommendations to three");
+assert.ok(!app.includes('renderConnectionGroup("Places"'), "lesson app should not expose place graph metadata in kid-facing Connections");
+assert.ok(!app.includes('renderConnectionGroup("Big Themes"'), "lesson app should avoid graph-heavy theme wording");
+assert.ok(!app.includes("Open the Bible Explorer"), "lesson Connections section should not push kids into the full graph explorer");
 assert.ok(app.includes("bookFilter"), "lesson app should support Bible book filtering");
 assert.ok(app.includes("testamentFilter"), "lesson app should support testament filtering");
 assert.ok(app.includes("topicFilter"), "lesson app should support topic filtering");

@@ -224,10 +224,9 @@ function renderLessonDetail(lesson) {
 }
 
 function renderConnectionsSection(lesson) {
-  const people = graphNodesFor("people", lesson.people).slice(0, 4);
-  const places = graphNodesFor("places", lesson.places).slice(0, 3);
-  const themes = graphNodesFor("themes", lesson.themes).slice(0, 5);
-  const recommendations = recommendLessonsFor(lesson, state.lessonSummaries, state.bibleGraph, 4);
+  const people = selectKidPeople(lesson);
+  const themes = selectKidThemes(lesson);
+  const recommendations = recommendLessonsFor(lesson, state.lessonSummaries, state.bibleGraph, 3);
 
   return `
     <section class="connections-panel" aria-label="Lesson connections">
@@ -237,8 +236,7 @@ function renderConnectionsSection(lesson) {
       </div>
       <div class="connections-grid">
         ${renderConnectionGroup("People to Know", people, "person")}
-        ${renderConnectionGroup("Places", places, "place")}
-        ${renderConnectionGroup("Big Themes", themes, "theme")}
+        ${renderConnectionGroup("Big Ideas", themes, "theme")}
         <article class="connection-group try-next">
           <h4>Try Next</h4>
           <div class="connection-links">
@@ -253,7 +251,6 @@ function renderConnectionsSection(lesson) {
           </div>
         </article>
       </div>
-      <a class="explorer-link" href="/bible/explorer/">Open the Bible Explorer</a>
     </section>
   `;
 }
@@ -262,6 +259,51 @@ function graphNodesFor(folder, ids = []) {
   return ids
     .map((id) => graphNode(state.bibleGraph, folder, id))
     .filter(Boolean);
+}
+
+function selectKidPeople(lesson) {
+  const people = graphNodesFor("people", lesson.people);
+  return people
+    .map((node, index) => ({
+      node,
+      score: connectionPriority(node, lesson.title, index),
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 2)
+    .map((entry) => entry.node);
+}
+
+function selectKidThemes(lesson) {
+  const themeIds = (lesson.tags || lesson.themes || []).map(slugifyGraphId);
+  const orderedThemes = graphNodesFor("themes", themeIds);
+  const fallbackThemes = graphNodesFor("themes", lesson.themes);
+  return uniqueNodes([...orderedThemes, ...fallbackThemes]).slice(0, 3);
+}
+
+function connectionPriority(node, title, index) {
+  const titleText = String(title || "").toLowerCase();
+  const nodeName = String(node.name || "").toLowerCase();
+  const titleMatch = titleText.includes(nodeName) ? 100 : 0;
+  const jesusPriority = node.id === "jesus" ? 90 : 0;
+  return titleMatch + jesusPriority - index;
+}
+
+function slugifyGraphId(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replaceAll("'", "")
+    .replaceAll("’", "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function uniqueNodes(nodes) {
+  const seen = new Set();
+  return nodes.filter((node) => {
+    if (!node || seen.has(node.id)) return false;
+    seen.add(node.id);
+    return true;
+  });
 }
 
 function renderConnectionGroup(title, nodes, type) {
