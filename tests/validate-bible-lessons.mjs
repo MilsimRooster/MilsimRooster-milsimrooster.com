@@ -156,8 +156,9 @@ assert.ok(!page.includes('<p class="eyebrow">Bible Lessons</p>'), "lesson hero s
 assert.ok(!page.includes("Short lessons that move from reading"), "lesson hero should avoid stacking a subtitle under the page title");
 assert.ok(page.includes("Read It") && page.includes("Tell It") && page.includes("Understand It"), "lesson detail should include ladder tab labels");
 assert.ok(page.includes("Live It") && page.includes("Play It") && page.includes("Teacher Notes"), "lesson detail should include play and teacher tabs");
-assert.ok(page.includes('src="app.js?v=20260706-lessons-7"'), "lesson page should cache-bust its app script");
-assert.ok(page.includes('href="styles.css?v=20260706-lessons-7"'), "lesson page should cache-bust its stylesheet");
+assert.ok(page.includes('src="app.js?v=20260706-lessons-8"'), "lesson page should cache-bust its app script");
+assert.ok(page.includes('href="styles.css?v=20260706-lessons-8"'), "lesson page should cache-bust its stylesheet");
+assert.ok(app.includes('./lesson-loader.js?v=20260706-lessons-8'), "lesson app should cache-bust its loader module import");
 assert.ok(page.includes('href="/bible/explorer/"'), "lesson page should link to the Bible Explorer");
 
 assert.ok(css.includes(".lesson-shell"), "lesson CSS should style the lesson app shell");

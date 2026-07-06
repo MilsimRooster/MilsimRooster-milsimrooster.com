@@ -18,7 +18,16 @@
 /bible/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
+/bible/lessons/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
 /data/bible_lessons/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/data/bible_lessons/library/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/data/bible_graph/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
 /assets/*

@@ -1,4 +1,4 @@
-import { graphNode, loadBibleGraph, loadLesson, loadLessonIndex, recommendLessonsFor } from "./lesson-loader.js";
+import { graphNode, loadBibleGraph, loadLesson, loadLessonIndex, recommendLessonsFor } from "./lesson-loader.js?v=20260706-lessons-8";
 
 const ageLabels = {
   age_5_7: "Ages 5-7",
