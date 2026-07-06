@@ -8,60 +8,61 @@
   "category": "Exile",
   "collection": "leaders-kings-prophets",
   "sort_order": 43,
-  "summary": "Faithfulness starts with small choices to honor God. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Daniel Chooses Faithfulness is a short lesson with one main thread: Faithfulness starts with small choices to honor God. When everyone else is doing what is expected, Daniel shows kids how quiet conviction can still honor God.",
   "read_it": {
     "reference": "Daniel 1:8-17",
-    "prompt": "Read Daniel 1:8-17 and look for how this passage teaches: Faithfulness starts with small choices to honor God."
+    "prompt": "Read Daniel 1:8-17. Notice one detail that would help a kid explain Daniel Chooses Faithfulness to someone else."
   },
-  "tell_it": "Daniel and his friends were far from home, but Daniel resolved not to defile himself. God helped them.",
-  "understand_it": "Faithfulness starts with small choices to honor God. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Daniel chose faithfulness in a new and pressured place. Daniel and his friends were far from home, but Daniel resolved not to defile himself. God helped them.",
+  "understand_it": "Kids can understand Daniel Chooses Faithfulness by asking what was at stake, what God revealed, and what response was faithful. Faithfulness starts with small choices to honor God.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Daniel Chooses Faithfulness reminds us that God is good and we can trust Him. Faithfulness matters.",
-  "age_8_11_explanation": "Daniel Chooses Faithfulness shows that following God is not only knowing the story. It means learning this truth: Faithfulness starts with small choices to honor God.",
-  "teen_explanation": "Daniel Chooses Faithfulness gives older students room to think about faith under pressure. The passage teaches that faithfulness starts with small choices to honor God. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Daniel chose faithfulness in a new and pressured place.",
+  "age_8_11_explanation": "Daniel and his friends were far from home, but Daniel resolved not to defile himself. God helped them. Kids can notice faithfulness in the choices people make, not only in the famous part of the story. Faithfulness starts with small choices to honor God.",
+  "teen_explanation": "Faithfulness starts with small choices to honor God. When everyone else is doing what is expected, Daniel shows kids how quiet conviction can still honor God. Teens can also notice the tension in the passage: faith is not always easy, immediate, or admired by everyone nearby.",
   "key_truths": [
     "Faithfulness starts with small choices to honor God.",
-    "God is faithful and His people can trust Him."
+    "Daniel Chooses Faithfulness shows faithfulness through a real Bible moment, not a slogan.",
+    "When everyone else is doing what is expected, Daniel shows kids how quiet conviction can still honor God."
   ],
-  "life_application": "A kid can practice this when faithfulness is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When everyone else is doing what is expected, Daniel shows kids how quiet conviction can still honor God.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did Daniel resolve to do?",
+      "question": "Which answer belongs to Daniel Chooses Faithfulness?",
       "choices": [
         "Honor God",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Daniel forgot Jerusalem",
+        "Daniel worshiped the king",
+        "Daniel became a Babylonian idol maker"
       ],
       "answer": "Honor God",
-      "explanation": "The passage points us back to this answer: Honor God. It helps kids remember the main event and the truth it teaches."
+      "explanation": "Honor God is the correct answer. The detail matters because it keeps the lesson tied to Daniel 1:8-17, not just a general idea."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that faithfulness starts with small choices to honor God.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "reflection_check",
+      "question": "What is one wise response to Daniel Chooses Faithfulness?",
+      "answer": "When everyone else is doing what is expected, Daniel shows kids how quiet conviction can still honor God.",
+      "explanation": "The lesson should move from hearing to response. Faithfulness starts with small choices to honor God."
     }
   ],
   "memory_verse": {
     "reference": "Daniel 1:8",
-    "prompt": "Remember Daniel 1:8 as a short anchor for this lesson."
+    "prompt": "Memorize or repeat Daniel 1:8 as the Bible handle for this lesson."
   },
   "discussion_questions": [
-    "What happened in Daniel Chooses Faithfulness?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What happened first in Daniel Chooses Faithfulness, and what changed by the end?",
+    "Where do you see faithfulness in Daniel Chooses Faithfulness?",
+    "What is one small choice Daniel Chooses Faithfulness could shape this week?"
   ],
   "activity": {
-    "title": "Faithful Choice Plate",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Faithfulness starts with small choices to honor God."
+    "title": "Faithful Plate Plan",
+    "instructions": "Draw two plates, pressure and faithfulness, and choose what belongs on each."
   },
-  "prayer_prompt": "Lord, help me learn from Daniel Chooses Faithfulness. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Father, help me see what Daniel Chooses Faithfulness teaches and practice faithfulness in a real choice this week.",
   "tags": [
     "Faithfulness",
     "Choices",

@@ -8,61 +8,67 @@
   "category": "Jesus",
   "collection": "jesus-life-teaching",
   "sort_order": 47,
-  "summary": "Jesus came humbly as the Savior God promised. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Jesus Is Born follows a real Bible moment about Jesus. Jesus came humbly as the Savior God promised. When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise.",
   "read_it": {
     "reference": "Luke 2:1-20",
-    "prompt": "Read Luke 2:1-20 and look for how this passage teaches: Jesus came humbly as the Savior God promised."
+    "prompt": "Read Luke 2:1-20 slowly and listen for the choice, promise, warning, or rescue in the story."
   },
-  "tell_it": "Jesus was born in Bethlehem, and shepherds heard the good news from angels. They went to see Him and praised God.",
-  "understand_it": "Jesus came humbly as the Savior God promised. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus was born in Bethlehem, and shepherds heard the good news from angels. They went to see Him and praised God. Kids can retell it by naming what happened, who responded, and what God showed.",
+  "understand_it": "Jesus came humbly as the Savior God promised. Jesus Is Born also keeps the focus on who Jesus is and how people respond to Him.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Jesus Is Born reminds us that God is good and we can trust Him. Jesus is the Savior.",
-  "age_8_11_explanation": "Jesus Is Born shows that following God is not only knowing the story. It means learning this truth: Jesus came humbly as the Savior God promised.",
-  "teen_explanation": "Jesus Is Born gives older students room to think about faith under pressure. The passage teaches that jesus came humbly as the Savior God promised. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus was born humbly, just as God had promised.",
+  "age_8_11_explanation": "Jesus came humbly as the Savior God promised. The lesson helps older kids compare the story's wise path with the easier path people may have wanted.",
+  "teen_explanation": "When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise. Jesus came humbly as the Savior God promised. The story leaves room to talk about courage, humility, repentance, or hope without pretending the hard part is small.",
   "key_truths": [
     "Jesus came humbly as the Savior God promised.",
-    "Jesus is the promised Savior.",
-    "God is faithful and His people can trust Him."
+    "Jesus Is Born shows Jesus through a real Bible moment, not a slogan.",
+    "When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise."
   ],
-  "life_application": "A kid can practice this when jesus is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
       "question": "Where was Jesus born?",
       "choices": [
+        "The angels announced Caesar",
         "Bethlehem",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Jesus was born in Rome's palace",
+        "Shepherds were too important to visit"
       ],
       "answer": "Bethlehem",
-      "explanation": "The passage points us back to this answer: Bethlehem. It helps kids remember the main event and the truth it teaches."
+      "explanation": "This answer keeps the focus where the Bible puts it: Bethlehem. Jesus came humbly as the Savior God promised."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that jesus came humbly as the Savior God promised.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in Jesus Is Born is not hard.",
+        "Use Jesus Is Born only to win a trivia point.",
+        "Ignore what God shows in Jesus Is Born.",
+        "When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise."
+      ],
+      "answer": "When important things look small, Jesus' birth reminds kids that God's rescue can arrive without spotlight or noise.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. Jesus came humbly as the Savior God promised."
     }
   ],
   "memory_verse": {
     "reference": "Luke 2:11",
-    "prompt": "Remember Luke 2:11 as a short anchor for this lesson."
+    "prompt": "Practice Luke 2:11 and listen for how it supports the lesson's Jesus theme."
   },
   "discussion_questions": [
-    "What happened in Jesus Is Born?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What surprised you in Jesus Is Born?",
+    "Why does Jesus matter in Jesus Is Born?",
+    "What would change if someone actually lived out the Jesus lesson in Jesus Is Born?"
   ],
   "activity": {
-    "title": "Good News Shepherds",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus came humbly as the Savior God promised."
+    "title": "Nativity Promise Scene",
+    "instructions": "Build a simple manger scene and label the quiet ways God kept His promise."
   },
-  "prayer_prompt": "Lord, help me learn from Jesus Is Born. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Jesus, help me remember the truth in Jesus Is Born and live it with people around me.",
   "tags": [
     "Jesus",
     "Joy",

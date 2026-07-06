@@ -8,60 +8,67 @@
   "category": "Wilderness",
   "collection": "exodus-wilderness",
   "sort_order": 21,
-  "summary": "God's commands show His holiness and teach His people how to love Him and others. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "The Ten Commandments follows a real Bible moment about obedience. God's commands show His holiness and teach His people how to love Him and others. When rules feel like a wall, this lesson shows that God's commands guide free people toward love and worship.",
   "read_it": {
     "reference": "Exodus 20:1-17",
-    "prompt": "Read Exodus 20:1-17 and look for how this passage teaches: God's commands show His holiness and teach His people how to love Him and others."
+    "prompt": "Read Exodus 20:1-17 slowly and listen for the choice, promise, warning, or rescue in the story."
   },
-  "tell_it": "God gave commandments to Israel after rescuing them. His law showed how His people should live with Him and one another.",
-  "understand_it": "God's commands show His holiness and teach His people how to love Him and others. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "God gave commands to teach His rescued people how to live with Him. God gave commandments to Israel after rescuing them. His law showed how His people should live with Him and one another. The pressure in the scene helps the lesson feel real.",
+  "understand_it": "God's commands show His holiness and teach His people how to love Him and others. The Ten Commandments also shows that obedience has a shape in real life, not only in Bible vocabulary.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Ten Commandments reminds us that God is good and we can trust Him. Obedience matters.",
-  "age_8_11_explanation": "The Ten Commandments shows that following God is not only knowing the story. It means learning this truth: God's commands show His holiness and teach His people how to love Him and others.",
-  "teen_explanation": "The Ten Commandments gives older students room to think about faith under pressure. The passage teaches that god's commands show His holiness and teach His people how to love Him and others. It also asks how belief becomes action.",
+  "age_5_7_explanation": "God gave commands to teach His rescued people how to live with Him.",
+  "age_8_11_explanation": "God gave commandments to Israel after rescuing them. His law showed how His people should live with Him and one another. Kids can practice retelling it with the beginning, hard moment, and God-centered ending.",
+  "teen_explanation": "God's commands show His holiness and teach His people how to love Him and others. A teen discussion can press into why the story mattered then and how the same truth can reshape choices now.",
   "key_truths": [
     "God's commands show His holiness and teach His people how to love Him and others.",
-    "God is faithful and His people can trust Him."
+    "The Ten Commandments shows obedience through a real Bible moment, not a slogan.",
+    "When rules feel like a wall, this lesson shows that God's commands guide free people toward love and worship."
   ],
-  "life_application": "A kid can practice this when obedience is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When rules feel like a wall, this lesson shows that God's commands guide free people toward love and worship.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Who gave the Ten Commandments?",
+      "question": "Which answer keeps The Ten Commandments connected to the actual passage?",
       "choices": [
+        "The people invented the commands",
         "God",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The commands came from Pharaoh",
+        "There were no words from God"
       ],
       "answer": "God",
-      "explanation": "The passage points us back to this answer: God. It helps kids remember the main event and the truth it teaches."
+      "explanation": "God is the story detail to remember. The bigger lesson grows out of that detail instead of floating away from the passage."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god's commands show His holiness and teach His people how to love Him and others.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in The Ten Commandments is not hard.",
+        "Use The Ten Commandments only to win a trivia point.",
+        "Ignore what God shows in The Ten Commandments.",
+        "When rules feel like a wall, this lesson shows that God's commands guide free people toward love and worship."
+      ],
+      "answer": "When rules feel like a wall, this lesson shows that God's commands guide free people toward love and worship.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. God's commands show His holiness and teach His people how to love Him and others."
     }
   ],
   "memory_verse": {
     "reference": "Exodus 20:1",
-    "prompt": "Remember Exodus 20:1 as a short anchor for this lesson."
+    "prompt": "Practice Exodus 20:1 and listen for how it supports the lesson's obedience theme."
   },
   "discussion_questions": [
-    "What happened in The Ten Commandments?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Who needed help, courage, correction, or mercy in The Ten Commandments?",
+    "What truth should a kid remember after reading The Ten Commandments?",
+    "How can the group pray about The Ten Commandments without using pretend-perfect answers?"
   ],
   "activity": {
-    "title": "Commandment Match",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God's commands show His holiness and teach His people how to love Him and others."
+    "title": "Commandment Road Signs",
+    "instructions": "Make road signs for loving God and loving people, then place them along a paper path."
   },
-  "prayer_prompt": "Lord, help me learn from The Ten Commandments. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, use The Ten Commandments to teach my heart, not just my memory. Help me take one faithful next step after reading The Ten Commandments.",
   "tags": [
     "Obedience",
     "Holiness",

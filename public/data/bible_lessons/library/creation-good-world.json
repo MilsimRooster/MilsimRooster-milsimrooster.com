@@ -8,61 +8,61 @@
   "category": "Beginnings",
   "collection": "beginnings-promises",
   "sort_order": 1,
-  "summary": "God made the world good and made people to know Him and care for His creation. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "God made the world good and made people to know Him and care for His creation. God made the world bright, full, and good. When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use.",
   "read_it": {
     "reference": "Genesis 1:1-2:3",
-    "prompt": "Read Genesis 1:1-2:3 and look for how this passage teaches: God made the world good and made people to know Him and care for His creation."
+    "prompt": "Read Genesis 1:1-2:3. Watch for what the story shows about creation."
   },
-  "tell_it": "God created light, sky, land, plants, animals, and people. Everything God made showed His power and goodness.",
-  "understand_it": "God made the world good and made people to know Him and care for His creation. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "God made the world bright, full, and good. God created light, sky, land, plants, animals, and people. Everything God made showed His power and goodness.",
+  "understand_it": "The point is not that creation is impressive by itself. God made the world good and made people to know Him and care for His creation. When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Creation: God's Good World reminds us that God is good and we can trust Him. Creation matters.",
-  "age_8_11_explanation": "Creation: God's Good World shows that following God is not only knowing the story. It means learning this truth: God made the world good and made people to know Him and care for His creation.",
-  "teen_explanation": "Creation: God's Good World gives older students room to think about faith under pressure. The passage teaches that god made the world good and made people to know Him and care for His creation. It also asks how belief becomes action.",
+  "age_5_7_explanation": "God made the world bright, full, and good.",
+  "age_8_11_explanation": "God created light, sky, land, plants, animals, and people. Everything God made showed His power and goodness. Kids can notice creation in the choices people make, not only in the famous part of the story. God made the world good and made people to know Him and care for His creation.",
+  "teen_explanation": "God made the world good and made people to know Him and care for His creation. When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use. Teens can also notice the tension in the passage: faith is not always easy, immediate, or admired by everyone nearby.",
   "key_truths": [
     "God made the world good and made people to know Him and care for His creation.",
-    "God made the world and it belongs to Him.",
-    "God is faithful and His people can trust Him."
+    "Creation: God's Good World shows creation through a real Bible moment, not a slogan.",
+    "When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use."
   ],
-  "life_application": "A kid can practice this when creation is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Who made the heavens and the earth?",
+      "question": "Which answer belongs to Creation: God's Good World?",
       "choices": [
         "God",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The world made itself",
+        "A storm",
+        "A pretend God"
       ],
       "answer": "God",
-      "explanation": "The passage points us back to this answer: God. It helps kids remember the main event and the truth it teaches."
+      "explanation": "God is the correct answer. The detail matters because it keeps the lesson tied to Genesis 1:1-2:3, not just a general idea."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god made the world good and made people to know Him and care for His creation.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "reflection_check",
+      "question": "What is one wise response to Creation: God's Good World?",
+      "answer": "When you see trash outside or someone being careless, remember that God's world is a gift to care for, not just a place to use.",
+      "explanation": "The lesson should move from hearing to response. God made the world good and made people to know Him and care for His creation."
     }
   ],
   "memory_verse": {
     "reference": "Genesis 1:1",
-    "prompt": "Remember Genesis 1:1 as a short anchor for this lesson."
+    "prompt": "Use Genesis 1:1 as the verse anchor for Creation: God's Good World."
   },
   "discussion_questions": [
-    "What happened in Creation: God's Good World?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What happened first in Creation: God's Good World, and what changed by the end?",
+    "Where do you see creation in Creation: God's Good World?",
+    "What is one small choice Creation: God's Good World could shape this week?"
   ],
   "activity": {
-    "title": "Creation Days Wheel",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God made the world good and made people to know Him and care for His creation."
+    "title": "Good World Gallery",
+    "instructions": "Draw six small boxes for creation days, then add one way people can care for God's world this week."
   },
-  "prayer_prompt": "Lord, help me learn from Creation: God's Good World. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Father, help me see what Creation: God's Good World teaches and practice creation in a real choice this week.",
   "tags": [
     "Creation",
     "God's Power",

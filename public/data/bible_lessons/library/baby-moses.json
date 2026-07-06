@@ -8,61 +8,61 @@
   "category": "Rescue",
   "collection": "exodus-wilderness",
   "sort_order": 16,
-  "summary": "God can protect His people through brave and caring choices. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "God can protect His people through brave and caring choices. Baby Moses Is Protected gives kids a concrete picture of courage instead of only a word to memorize. Moses was protected when his family had to be brave.",
   "read_it": {
     "reference": "Exodus 2:1-10",
-    "prompt": "Read Exodus 2:1-10 and look for how this passage teaches: God can protect His people through brave and caring choices."
+    "prompt": "Read Exodus 2:1-10. Look for what God does and how people respond."
   },
-  "tell_it": "Moses' family hid him, placed him in a basket, and trusted God. Pharaoh's daughter found him and cared for him.",
-  "understand_it": "God can protect His people through brave and caring choices. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Moses was protected when his family had to be brave. Moses' family hid him, placed him in a basket, and trusted God. Pharaoh's daughter found him and cared for him. The pressure in the scene helps the lesson feel real.",
+  "understand_it": "Baby Moses Is Protected teaches through a concrete moment: a person chooses, God acts, and the result shows what matters. God can protect His people through brave and caring choices.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Baby Moses Is Protected reminds us that God is good and we can trust Him. God helps us be brave.",
-  "age_8_11_explanation": "Baby Moses Is Protected shows that following God is not only knowing the story. It means learning this truth: God can protect His people through brave and caring choices.",
-  "teen_explanation": "Baby Moses Is Protected gives older students room to think about faith under pressure. The passage teaches that god can protect His people through brave and caring choices. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Moses was protected when his family had to be brave.",
+  "age_8_11_explanation": "Moses' family hid him, placed him in a basket, and trusted God. Pharaoh's daughter found him and cared for him. Kids can practice retelling it with the beginning, hard moment, and God-centered ending.",
+  "teen_explanation": "God can protect His people through brave and caring choices. A teen discussion can press into why the story mattered then and how the same truth can reshape choices now.",
   "key_truths": [
     "God can protect His people through brave and caring choices.",
-    "Courage grows when we remember God is with His people.",
-    "God is faithful and His people can trust Him."
+    "Baby Moses Is Protected shows courage through a real Bible moment, not a slogan.",
+    "When doing the right thing feels risky, this story shows that small faithful actions can matter in a dangerous world."
   ],
-  "life_application": "A kid can practice this when courage is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When doing the right thing feels risky, this story shows that small faithful actions can matter in a dangerous world.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Where was baby Moses placed?",
+      "question": "Which answer keeps Baby Moses Is Protected connected to the actual passage?",
       "choices": [
+        "Pharaoh protected every baby",
+        "Miriam crossed the sea alone",
         "In a basket",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Moses was born in Babylon"
       ],
       "answer": "In a basket",
-      "explanation": "The passage points us back to this answer: In a basket. It helps kids remember the main event and the truth it teaches."
+      "explanation": "In a basket is the story detail to remember. The bigger lesson grows out of that detail instead of floating away from the passage."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god can protect His people through brave and caring choices.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in Baby Moses Is Protected.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Exodus 2:3",
-    "prompt": "Remember Exodus 2:3 as a short anchor for this lesson."
+    "prompt": "Let Exodus 2:3 be the short line kids can carry after the activity is over."
   },
   "discussion_questions": [
-    "What happened in Baby Moses Is Protected?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Who needed help, courage, correction, or mercy in Baby Moses Is Protected?",
+    "What truth should a kid remember after reading Baby Moses Is Protected?",
+    "How can the group pray about Baby Moses Is Protected without using pretend-perfect answers?"
   ],
   "activity": {
-    "title": "Basket Rescue",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can protect His people through brave and caring choices."
+    "title": "Basket of Courage",
+    "instructions": "Fold a paper basket and place inside it three brave choices Moses' family made."
   },
-  "prayer_prompt": "Lord, help me learn from Baby Moses Is Protected. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, use Baby Moses Is Protected to teach my heart, not just my memory. Help me take one faithful next step after reading Baby Moses Is Protected.",
   "tags": [
     "Courage",
     "Protection",

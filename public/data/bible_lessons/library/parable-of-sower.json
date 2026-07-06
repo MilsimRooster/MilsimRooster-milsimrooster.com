@@ -8,61 +8,61 @@
   "category": "Parables",
   "collection": "jesus-life-teaching",
   "sort_order": 58,
-  "summary": "God's Word should be received with a heart that listens and grows. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "God's Word should be received with a heart that listens and grows. Jesus compared hearts to different kinds of soil. When God's Word is heard, this parable helps kids ask what kind of room they are making for it.",
   "read_it": {
     "reference": "Matthew 13:1-23",
-    "prompt": "Read Matthew 13:1-23 and look for how this passage teaches: God's Word should be received with a heart that listens and grows."
+    "prompt": "Read Matthew 13:1-23. Watch for what the story shows about God's Word."
   },
-  "tell_it": "Jesus told about seed falling on different soils. The good soil pictures a heart that receives God's Word.",
-  "understand_it": "God's Word should be received with a heart that listens and grows. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus compared hearts to different kinds of soil. Jesus told about seed falling on different soils. The good soil pictures a heart that receives God's Word. The pressure in the scene helps the lesson feel real.",
+  "understand_it": "The point is not that parable of the Sower is impressive by itself. God's Word should be received with a heart that listens and grows. When God's Word is heard, this parable helps kids ask what kind of room they are making for it.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Parable of the Sower reminds us that God is good and we can trust Him. God's Word matters.",
-  "age_8_11_explanation": "The Parable of the Sower shows that following God is not only knowing the story. It means learning this truth: God's Word should be received with a heart that listens and grows.",
-  "teen_explanation": "The Parable of the Sower gives older students room to think about faith under pressure. The passage teaches that god's Word should be received with a heart that listens and grows. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus compared hearts to different kinds of soil.",
+  "age_8_11_explanation": "Jesus told about seed falling on different soils. The good soil pictures a heart that receives God's Word. Kids can practice retelling it with the beginning, hard moment, and God-centered ending.",
+  "teen_explanation": "God's Word should be received with a heart that listens and grows. A teen discussion can press into why the story mattered then and how the same truth can reshape choices now.",
   "key_truths": [
     "God's Word should be received with a heart that listens and grows.",
-    "God's Word teaches truth and calls for response.",
-    "God is faithful and His people can trust Him."
+    "The Parable of the Sower shows God's Word through a real Bible moment, not a slogan.",
+    "When God's Word is heard, this parable helps kids ask what kind of room they are making for it."
   ],
-  "life_application": "A kid can practice this when god's word is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When God's Word is heard, this parable helps kids ask what kind of room they are making for it.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did the seed picture?",
+      "question": "Which answer keeps The Parable of the Sower connected to the actual passage?",
       "choices": [
+        "Only farmers can understand Jesus",
+        "The birds were disciples",
         "God's Word",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The seed was bad"
       ],
       "answer": "God's Word",
-      "explanation": "The passage points us back to this answer: God's Word. It helps kids remember the main event and the truth it teaches."
+      "explanation": "God's Word is the story detail to remember. The bigger lesson grows out of that detail instead of floating away from the passage."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god's Word should be received with a heart that listens and grows.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in The Parable of the Sower.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Matthew 13:23",
-    "prompt": "Remember Matthew 13:23 as a short anchor for this lesson."
+    "prompt": "Use Matthew 13:23 as the verse anchor for The Parable of the Sower."
   },
   "discussion_questions": [
-    "What happened in The Parable of the Sower?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Who needed help, courage, correction, or mercy in The Parable of the Sower?",
+    "What truth should a kid remember after reading The Parable of the Sower?",
+    "How can the group pray about The Parable of the Sower without using pretend-perfect answers?"
   ],
   "activity": {
-    "title": "Soil Sort",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God's Word should be received with a heart that listens and grows."
+    "title": "Heart Soil Cups",
+    "instructions": "Label four cups path, rocks, thorns, and good soil, then place paper seeds in each."
   },
-  "prayer_prompt": "Lord, help me learn from The Parable of the Sower. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, use The Parable of the Sower to teach my heart, not just my memory. Help me take one faithful next step after reading The Parable of the Sower.",
   "tags": [
     "God's Word",
     "Listening",

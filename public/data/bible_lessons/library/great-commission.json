@@ -8,61 +8,67 @@
   "category": "Mission",
   "collection": "church-letters-hope",
   "sort_order": 67,
-  "summary": "Jesus sends His followers to make disciples and promises to be with them. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Jesus sent His followers to make disciples of all nations. Jesus sends His followers to make disciples and promises to be with them. When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared.",
   "read_it": {
     "reference": "Matthew 28:16-20",
-    "prompt": "Read Matthew 28:16-20 and look for how this passage teaches: Jesus sends His followers to make disciples and promises to be with them."
+    "prompt": "Read Matthew 28:16-20 like a scene you could retell: who is there, what happens, and what changes?"
   },
-  "tell_it": "After rising from the dead, Jesus sent His disciples to teach and baptize all nations. He promised His presence.",
-  "understand_it": "Jesus sends His followers to make disciples and promises to be with them. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "After rising from the dead, Jesus sent His disciples to teach and baptize all nations. He promised His presence. Kids can retell it by naming what happened, who responded, and what God showed.",
+  "understand_it": "The Great Commission should not be flattened into a slogan. Jesus sends His followers to make disciples and promises to be with them. When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Great Commission reminds us that God is good and we can trust Him. Mission matters.",
-  "age_8_11_explanation": "The Great Commission shows that following God is not only knowing the story. It means learning this truth: Jesus sends His followers to make disciples and promises to be with them.",
-  "teen_explanation": "The Great Commission gives older students room to think about faith under pressure. The passage teaches that jesus sends His followers to make disciples and promises to be with them. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus sent His followers to make disciples of all nations.",
+  "age_8_11_explanation": "Jesus sends His followers to make disciples and promises to be with them. The lesson helps older kids compare the story's wise path with the easier path people may have wanted.",
+  "teen_explanation": "When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared. Jesus sends His followers to make disciples and promises to be with them. The story leaves room to talk about courage, humility, repentance, or hope without pretending the hard part is small.",
   "key_truths": [
     "Jesus sends His followers to make disciples and promises to be with them.",
-    "God sends His people to share good news.",
-    "God is faithful and His people can trust Him."
+    "The Great Commission shows mission through a real Bible moment, not a slogan.",
+    "When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared."
   ],
-  "life_application": "A kid can practice this when mission is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
       "question": "What did Jesus promise His disciples?",
       "choices": [
+        "The mission was only for one town",
         "I am with you always",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Jesus said stay silent forever",
+        "Only angels can teach"
       ],
       "answer": "I am with you always",
-      "explanation": "The passage points us back to this answer: I am with you always. It helps kids remember the main event and the truth it teaches."
+      "explanation": "This answer keeps the focus where the Bible puts it: I am with you always. Jesus sends His followers to make disciples and promises to be with them."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that jesus sends His followers to make disciples and promises to be with them.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in The Great Commission is not hard.",
+        "Use The Great Commission only to win a trivia point.",
+        "Ignore what God shows in The Great Commission.",
+        "When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared."
+      ],
+      "answer": "When kids wonder if faith is only private, the Great Commission shows that good news is meant to be shared.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. Jesus sends His followers to make disciples and promises to be with them."
     }
   ],
   "memory_verse": {
     "reference": "Matthew 28:20",
-    "prompt": "Remember Matthew 28:20 as a short anchor for this lesson."
+    "prompt": "Read Matthew 28:20 again after the lesson and connect it to the story's main choice or promise."
   },
   "discussion_questions": [
-    "What happened in The Great Commission?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What surprised you in The Great Commission?",
+    "Why does mission matter in The Great Commission?",
+    "What would change if someone actually lived out the mission lesson in The Great Commission?"
   ],
   "activity": {
-    "title": "Go Map",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus sends His followers to make disciples and promises to be with them."
+    "title": "World Mission Map",
+    "instructions": "Draw a map or globe and mark three places where people need to hear about Jesus."
   },
-  "prayer_prompt": "Lord, help me learn from The Great Commission. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Jesus, help me remember the truth in The Great Commission and live it with people around me.",
   "tags": [
     "Mission",
     "Discipleship",

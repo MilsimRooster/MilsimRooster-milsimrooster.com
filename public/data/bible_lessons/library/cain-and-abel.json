@@ -8,60 +8,67 @@
   "category": "Beginnings",
   "collection": "beginnings-promises",
   "sort_order": 4,
-  "summary": "Anger must be brought to God before it grows into sin. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Cain's anger grew into a terrible choice. Anger must be brought to God before it grows into sin. When jealousy shows up, name it early before it turns into words or actions that hurt someone.",
   "read_it": {
     "reference": "Genesis 4:1-16",
-    "prompt": "Read Genesis 4:1-16 and look for how this passage teaches: Anger must be brought to God before it grows into sin."
+    "prompt": "Read Genesis 4:1-16 like a scene you could retell: who is there, what happens, and what changes?"
   },
-  "tell_it": "Cain became angry when his offering was not accepted. God warned him, but Cain chose jealousy and hurt his brother.",
-  "understand_it": "Anger must be brought to God before it grows into sin. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Cain became angry when his offering was not accepted. God warned him, but Cain chose jealousy and hurt his brother. Kids can retell it by naming what happened, who responded, and what God showed.",
+  "understand_it": "Cain and Abel should not be flattened into a slogan. Anger must be brought to God before it grows into sin. When jealousy shows up, name it early before it turns into words or actions that hurt someone.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Cain and Abel reminds us that God is good and we can trust Him. Anger matters.",
-  "age_8_11_explanation": "Cain and Abel shows that following God is not only knowing the story. It means learning this truth: Anger must be brought to God before it grows into sin.",
-  "teen_explanation": "Cain and Abel gives older students room to think about faith under pressure. The passage teaches that anger must be brought to God before it grows into sin. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Cain's anger grew into a terrible choice.",
+  "age_8_11_explanation": "Anger must be brought to God before it grows into sin. The lesson helps older kids compare the story's wise path with the easier path people may have wanted.",
+  "teen_explanation": "When jealousy shows up, name it early before it turns into words or actions that hurt someone. Anger must be brought to God before it grows into sin. The story leaves room to talk about courage, humility, repentance, or hope without pretending the hard part is small.",
   "key_truths": [
     "Anger must be brought to God before it grows into sin.",
-    "God is faithful and His people can trust Him."
+    "Cain and Abel shows anger through a real Bible moment, not a slogan.",
+    "When jealousy shows up, name it early before it turns into words or actions that hurt someone."
   ],
-  "life_application": "A kid can practice this when anger is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When jealousy shows up, name it early before it turns into words or actions that hurt someone.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
       "question": "What did God warn Cain about?",
       "choices": [
+        "Noah planted a garden",
         "Sin was crouching at the door",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Cain shared kindly",
+        "Abel built a tower"
       ],
       "answer": "Sin was crouching at the door",
-      "explanation": "The passage points us back to this answer: Sin was crouching at the door. It helps kids remember the main event and the truth it teaches."
+      "explanation": "This answer keeps the focus where the Bible puts it: Sin was crouching at the door. Anger must be brought to God before it grows into sin."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that anger must be brought to God before it grows into sin.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in Cain and Abel is not hard.",
+        "Use Cain and Abel only to win a trivia point.",
+        "Ignore what God shows in Cain and Abel.",
+        "When jealousy shows up, name it early before it turns into words or actions that hurt someone."
+      ],
+      "answer": "When jealousy shows up, name it early before it turns into words or actions that hurt someone.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. Anger must be brought to God before it grows into sin."
     }
   ],
   "memory_verse": {
     "reference": "Genesis 4:7",
-    "prompt": "Remember Genesis 4:7 as a short anchor for this lesson."
+    "prompt": "Read Genesis 4:7 again after the lesson and connect it to the story's main choice or promise."
   },
   "discussion_questions": [
-    "What happened in Cain and Abel?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What surprised you in Cain and Abel?",
+    "Why does anger matter in Cain and Abel?",
+    "What would change if someone actually lived out the anger lesson in Cain and Abel?"
   ],
   "activity": {
-    "title": "Anger Thermometer",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Anger must be brought to God before it grows into sin."
+    "title": "Anger Warning Lights",
+    "instructions": "Make three warning signs for anger: stop, pray, and choose a better next step."
   },
-  "prayer_prompt": "Lord, help me learn from Cain and Abel. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Jesus, help me remember the truth in Cain and Abel and live it with people around me.",
   "tags": [
     "Anger",
     "Sin",

@@ -8,62 +8,61 @@
   "category": "Prayer",
   "collection": "jesus-life-teaching",
   "sort_order": 53,
-  "summary": "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "The Lord's Prayer follows a real Bible moment about prayer. Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. When prayer feels confusing, the Lord's Prayer gives kids a simple shape: worship, needs, forgiveness, and help.",
   "read_it": {
     "reference": "Matthew 6:5-13",
-    "prompt": "Read Matthew 6:5-13 and look for how this passage teaches: Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help."
+    "prompt": "Read Matthew 6:5-13 slowly and listen for the choice, promise, warning, or rescue in the story."
   },
-  "tell_it": "Jesus taught His followers how to pray. The prayer begins with honoring the Father and asks for daily needs and forgiveness.",
-  "understand_it": "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus taught His followers to pray to the Father. Jesus taught His followers how to pray. The prayer begins with honoring the Father and asks for daily needs and forgiveness. The pressure in the scene helps the lesson feel real.",
+  "understand_it": "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. The Lord's Prayer also shows that prayer has a shape in real life, not only in Bible vocabulary.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Lord's Prayer reminds us that God is good and we can trust Him. we can talk to God.",
-  "age_8_11_explanation": "The Lord's Prayer shows that following God is not only knowing the story. It means learning this truth: Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help.",
-  "teen_explanation": "The Lord's Prayer gives older students room to think about faith under pressure. The passage teaches that jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus taught His followers to pray to the Father.",
+  "age_8_11_explanation": "Jesus taught His followers how to pray. The prayer begins with honoring the Father and asks for daily needs and forgiveness. Kids can practice retelling it with the beginning, hard moment, and God-centered ending.",
+  "teen_explanation": "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. A teen discussion can press into why the story mattered then and how the same truth can reshape choices now.",
   "key_truths": [
     "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help.",
-    "God's people can bring real needs and feelings to Him.",
-    "Mercy is stronger than revenge.",
-    "God is faithful and His people can trust Him."
+    "The Lord's Prayer shows prayer through a real Bible moment, not a slogan.",
+    "When prayer feels confusing, the Lord's Prayer gives kids a simple shape: worship, needs, forgiveness, and help."
   ],
-  "life_application": "A kid can practice this when prayer is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When prayer feels confusing, the Lord's Prayer gives kids a simple shape: worship, needs, forgiveness, and help.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Who taught this prayer?",
+      "question": "Which answer keeps The Lord's Prayer connected to the actual passage?",
       "choices": [
-        "Jesus",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Jesus said not to pray at all",
+        "The prayer is only for priests",
+        "Prayer is only asking for things",
+        "Jesus"
       ],
       "answer": "Jesus",
-      "explanation": "The passage points us back to this answer: Jesus. It helps kids remember the main event and the truth it teaches."
+      "explanation": "Jesus is the story detail to remember. The bigger lesson grows out of that detail instead of floating away from the passage."
     },
     {
       "type": "true_false",
-      "question": "This lesson teaches that jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help.",
+      "question": "The Lord's Prayer is mainly about prayer without ignoring the actual Bible story.",
       "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "explanation": "The theme matters because it grows out of Matthew 6:5-13, not from a random moral pasted onto the end."
     }
   ],
   "memory_verse": {
     "reference": "Matthew 6:9",
-    "prompt": "Remember Matthew 6:9 as a short anchor for this lesson."
+    "prompt": "Practice Matthew 6:9 and listen for how it supports the lesson's prayer theme."
   },
   "discussion_questions": [
-    "What happened in The Lord's Prayer?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Who needed help, courage, correction, or mercy in The Lord's Prayer?",
+    "What truth should a kid remember after reading The Lord's Prayer?",
+    "How can the group pray about The Lord's Prayer without using pretend-perfect answers?"
   ],
   "activity": {
-    "title": "Prayer Ladder",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help."
+    "title": "Prayer Pattern Hands",
+    "instructions": "Trace a hand and label each finger with one part of the prayer Jesus taught."
   },
-  "prayer_prompt": "Lord, help me learn from The Lord's Prayer. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, use The Lord's Prayer to teach my heart, not just my memory. Help me take one faithful next step after reading The Lord's Prayer.",
   "tags": [
     "Prayer",
     "Trust",

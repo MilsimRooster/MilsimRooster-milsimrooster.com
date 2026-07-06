@@ -8,61 +8,61 @@
   "category": "Parables",
   "collection": "jesus-life-teaching",
   "sort_order": 57,
-  "summary": "God welcomes repentant sinners with mercy and joy. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "In The Prodigal Son, kids slow down long enough to see the choice, pressure, or promise inside the passage. God welcomes repentant sinners with mercy and joy. Jesus told of a father who welcomed his lost son home.",
   "read_it": {
     "reference": "Luke 15:11-32",
-    "prompt": "Read Luke 15:11-32 and look for how this passage teaches: God welcomes repentant sinners with mercy and joy."
+    "prompt": "Read Luke 15:11-32 and underline the part that best shows forgiveness."
   },
-  "tell_it": "A son wasted what he had and came home ashamed. His father ran to welcome him back.",
-  "understand_it": "God welcomes repentant sinners with mercy and joy. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "A son wasted what he had and came home ashamed. His father ran to welcome him back. Kids can retell it by naming what happened, who responded, and what God showed.",
+  "understand_it": "God welcomes repentant sinners with mercy and joy. The Prodigal Son gives children a way to connect the Bible event to choices they actually face.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Prodigal Son reminds us that God is good and we can trust Him. God teaches mercy.",
-  "age_8_11_explanation": "The Prodigal Son shows that following God is not only knowing the story. It means learning this truth: God welcomes repentant sinners with mercy and joy.",
-  "teen_explanation": "The Prodigal Son gives older students room to think about faith under pressure. The passage teaches that god welcomes repentant sinners with mercy and joy. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus told of a father who welcomed his lost son home.",
+  "age_8_11_explanation": "God welcomes repentant sinners with mercy and joy. The lesson helps older kids compare the story's wise path with the easier path people may have wanted.",
+  "teen_explanation": "When kids feel ashamed after a wrong choice, this parable shows repentance, mercy, and the Father's joy. God welcomes repentant sinners with mercy and joy. The story leaves room to talk about courage, humility, repentance, or hope without pretending the hard part is small.",
   "key_truths": [
     "God welcomes repentant sinners with mercy and joy.",
-    "Mercy is stronger than revenge.",
-    "God is faithful and His people can trust Him."
+    "The Prodigal Son shows forgiveness through a real Bible moment, not a slogan.",
+    "When kids feel ashamed after a wrong choice, this parable shows repentance, mercy, and the Father's joy."
   ],
-  "life_application": "A kid can practice this when forgiveness is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When kids feel ashamed after a wrong choice, this parable shows repentance, mercy, and the Father's joy.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
       "question": "What did the father do when the son returned?",
       "choices": [
-        "He welcomed him",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The older brother threw the party",
+        "The father refused to listen",
+        "The son earned his place back",
+        "He welcomed him"
       ],
       "answer": "He welcomed him",
-      "explanation": "The passage points us back to this answer: He welcomed him. It helps kids remember the main event and the truth it teaches."
+      "explanation": "This answer keeps the focus where the Bible puts it: He welcomed him. God welcomes repentant sinners with mercy and joy."
     },
     {
       "type": "true_false",
-      "question": "This lesson teaches that god welcomes repentant sinners with mercy and joy.",
+      "question": "The Prodigal Son is mainly about forgiveness without ignoring the actual Bible story.",
       "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "explanation": "The theme matters because it grows out of Luke 15:11-32, not from a random moral pasted onto the end."
     }
   ],
   "memory_verse": {
     "reference": "Luke 15:20",
-    "prompt": "Remember Luke 15:20 as a short anchor for this lesson."
+    "prompt": "Luke 15:20 gives this lesson a short Scripture anchor to remember."
   },
   "discussion_questions": [
-    "What happened in The Prodigal Son?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What surprised you in The Prodigal Son?",
+    "Why does forgiveness matter in The Prodigal Son?",
+    "What would change if someone actually lived out the forgiveness lesson in The Prodigal Son?"
   ],
   "activity": {
-    "title": "Welcome Home",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God welcomes repentant sinners with mercy and joy."
+    "title": "Homecoming Door",
+    "instructions": "Draw an open door and write what the son expected versus what the father gave."
   },
-  "prayer_prompt": "Lord, help me learn from The Prodigal Son. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Jesus, help me remember the truth in The Prodigal Son and live it with people around me.",
   "tags": [
     "Forgiveness",
     "Mercy",

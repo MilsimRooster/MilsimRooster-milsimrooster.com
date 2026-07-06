@@ -8,61 +8,67 @@
   "category": "Promises",
   "collection": "beginnings-promises",
   "sort_order": 9,
-  "summary": "God keeps promises even when they seem impossible to us. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "God Promises Abraham follows a real Bible moment about promise. God keeps promises even when they seem impossible to us. When waiting feels like nothing is happening, Abraham's night sky reminds you that God's promises do not get weaker with time.",
   "read_it": {
     "reference": "Genesis 15:1-6",
-    "prompt": "Read Genesis 15:1-6 and look for how this passage teaches: God keeps promises even when they seem impossible to us."
+    "prompt": "Read Genesis 15:1-6 slowly and listen for the choice, promise, warning, or rescue in the story."
   },
-  "tell_it": "Abram wondered how God's promise would happen. God showed him the stars and Abram believed the Lord.",
-  "understand_it": "God keeps promises even when they seem impossible to us. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "God promised Abraham a family as many as the stars. In the story, Abram wondered how God's promise would happen. God showed him the stars and Abram believed the Lord.",
+  "understand_it": "God keeps promises even when they seem impossible to us. God Promises Abraham also shows that promise has a shape in real life, not only in Bible vocabulary.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "God Promises Abraham reminds us that God is good and we can trust Him. Promise matters.",
-  "age_8_11_explanation": "God Promises Abraham shows that following God is not only knowing the story. It means learning this truth: God keeps promises even when they seem impossible to us.",
-  "teen_explanation": "God Promises Abraham gives older students room to think about faith under pressure. The passage teaches that god keeps promises even when they seem impossible to us. It also asks how belief becomes action.",
+  "age_5_7_explanation": "God promised Abraham a family as many as the stars.",
+  "age_8_11_explanation": "Abram wondered how God's promise would happen. God showed him the stars and Abram believed the Lord. Ages 8-11 can name the Bible detail in God Promises Abraham and the takeaway: God keeps promises even when they seem impossible to us.",
+  "teen_explanation": "God keeps promises even when they seem impossible to us. For teens, the lesson is worth discussing honestly because it connects belief with public choices, private motives, and costly obedience.",
   "key_truths": [
     "God keeps promises even when they seem impossible to us.",
-    "Faith means trusting God enough to respond.",
-    "God is faithful and His people can trust Him."
+    "God Promises Abraham shows promise through a real Bible moment, not a slogan.",
+    "When waiting feels like nothing is happening, Abraham's night sky reminds you that God's promises do not get weaker with time."
   ],
-  "life_application": "A kid can practice this when promise is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When waiting feels like nothing is happening, Abraham's night sky reminds you that God's promises do not get weaker with time.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did God show Abram?",
+      "question": "In this lesson about promise, which answer matches the Bible story?",
       "choices": [
+        "Lot made the promise",
         "The stars",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Abraham counted coins",
+        "Sarah built a boat"
       ],
       "answer": "The stars",
-      "explanation": "The passage points us back to this answer: The stars. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The stars fits the actual event in God Promises Abraham. The wrong answers may sound possible in another story, but not this one."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god keeps promises even when they seem impossible to us.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in God Promises Abraham is not hard.",
+        "Use God Promises Abraham only to win a trivia point.",
+        "Ignore what God shows in God Promises Abraham.",
+        "When waiting feels like nothing is happening, Abraham's night sky reminds you that God's promises do not get weaker with time."
+      ],
+      "answer": "When waiting feels like nothing is happening, Abraham's night sky reminds you that God's promises do not get weaker with time.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. God keeps promises even when they seem impossible to us."
     }
   ],
   "memory_verse": {
     "reference": "Genesis 15:5",
-    "prompt": "Remember Genesis 15:5 as a short anchor for this lesson."
+    "prompt": "Practice Genesis 15:5 and listen for how it supports the lesson's promise theme."
   },
   "discussion_questions": [
-    "What happened in God Promises Abraham?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Retell God Promises Abraham in three beats: setup, hard moment, and response.",
+    "Which detail keeps God Promises Abraham from becoming just a generic moral?",
+    "Where might God Promises Abraham help at home, school, church, or with friends?"
   ],
   "activity": {
-    "title": "Star Promise Count",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God keeps promises even when they seem impossible to us."
+    "title": "Stars of Promise",
+    "instructions": "Draw stars and write one promise from God that helps people wait with hope."
   },
-  "prayer_prompt": "Lord, help me learn from God Promises Abraham. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "God, show me where God Promises Abraham touches my own life, and help me respond with honesty, courage, and obedience.",
   "tags": [
     "Promise",
     "Faith",

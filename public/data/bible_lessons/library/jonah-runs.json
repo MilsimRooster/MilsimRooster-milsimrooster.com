@@ -8,60 +8,61 @@
   "category": "Prophets",
   "collection": "leaders-kings-prophets",
   "sort_order": 41,
-  "summary": "Running from God does not hide us from His care or His command. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Running from God does not hide us from His care or His command. Jonah Runs from God gives kids a concrete picture of obedience instead of only a word to memorize. Jonah ran away when God sent him to Nineveh.",
   "read_it": {
     "reference": "Jonah 1:1-17",
-    "prompt": "Read Jonah 1:1-17 and look for how this passage teaches: Running from God does not hide us from His care or His command."
+    "prompt": "Read Jonah 1:1-17. Look for what God does and how people respond."
   },
-  "tell_it": "God told Jonah to go to Nineveh, but Jonah ran the other way. God sent a storm and a great fish.",
-  "understand_it": "Running from God does not hide us from His care or His command. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "God told Jonah to go to Nineveh, but Jonah ran the other way. God sent a storm and a great fish. Kids can retell it by naming what happened, who responded, and what God showed.",
+  "understand_it": "Jonah Runs from God teaches through a concrete moment: a person chooses, God acts, and the result shows what matters. Running from God does not hide us from His care or His command.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Jonah Runs from God reminds us that God is good and we can trust Him. Obedience matters.",
-  "age_8_11_explanation": "Jonah Runs from God shows that following God is not only knowing the story. It means learning this truth: Running from God does not hide us from His care or His command.",
-  "teen_explanation": "Jonah Runs from God gives older students room to think about faith under pressure. The passage teaches that running from God does not hide us from His care or His command. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jonah ran away when God sent him to Nineveh.",
+  "age_8_11_explanation": "Running from God does not hide us from His care or His command. The lesson helps older kids compare the story's wise path with the easier path people may have wanted.",
+  "teen_explanation": "When you do not want to obey because you dislike someone, Jonah warns that running from God does not fix the heart. Running from God does not hide us from His care or His command. The story leaves room to talk about courage, humility, repentance, or hope without pretending the hard part is small.",
   "key_truths": [
     "Running from God does not hide us from His care or His command.",
-    "God is faithful and His people can trust Him."
+    "Jonah Runs from God shows obedience through a real Bible moment, not a slogan.",
+    "When you do not want to obey because you dislike someone, Jonah warns that running from God does not fix the heart."
   ],
-  "life_application": "A kid can practice this when obedience is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When you do not want to obey because you dislike someone, Jonah warns that running from God does not fix the heart.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
       "question": "Where did God tell Jonah to go?",
       "choices": [
+        "The fish chased the boat first",
+        "Nineveh sent Jonah away",
         "Nineveh",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Jonah ran to Bethlehem"
       ],
       "answer": "Nineveh",
-      "explanation": "The passage points us back to this answer: Nineveh. It helps kids remember the main event and the truth it teaches."
+      "explanation": "This answer keeps the focus where the Bible puts it: Nineveh. Running from God does not hide us from His care or His command."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that running from God does not hide us from His care or His command.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in Jonah Runs from God.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Jonah 1:2",
-    "prompt": "Remember Jonah 1:2 as a short anchor for this lesson."
+    "prompt": "Let Jonah 1:2 be the short line kids can carry after the activity is over."
   },
   "discussion_questions": [
-    "What happened in Jonah Runs from God?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What surprised you in Jonah Runs from God?",
+    "Why does obedience matter in Jonah Runs from God?",
+    "What would change if someone actually lived out the obedience lesson in Jonah Runs from God?"
   ],
   "activity": {
-    "title": "Which Way Jonah",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Running from God does not hide us from His care or His command."
+    "title": "Runaway Route Map",
+    "instructions": "Draw Jonah's route away from Nineveh, then draw the obedient route God wanted."
   },
-  "prayer_prompt": "Lord, help me learn from Jonah Runs from God. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Jesus, help me remember the truth in Jonah Runs from God and live it with people around me.",
   "tags": [
     "Obedience",
     "Mercy",

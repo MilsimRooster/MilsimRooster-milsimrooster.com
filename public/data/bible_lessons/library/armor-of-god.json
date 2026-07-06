@@ -8,62 +8,67 @@
   "category": "Christian Life",
   "collection": "church-letters-hope",
   "sort_order": 75,
-  "summary": "God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "In The Armor of God, kids slow down long enough to see the choice, pressure, or promise inside the passage. God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. God gives His people armor to stand firm against evil.",
   "read_it": {
     "reference": "Ephesians 6:10-18",
-    "prompt": "Read Ephesians 6:10-18 and look for how this passage teaches: God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength."
+    "prompt": "Read Ephesians 6:10-18 and underline the part that best shows faith."
   },
-  "tell_it": "Paul pictured God's help like armor. Believers stand strong by depending on the Lord.",
-  "understand_it": "God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Paul pictured God's help like armor. Believers stand strong by depending on the Lord. That is why The Armor of God is more than a fact to remember; it is a story with a choice to notice.",
+  "understand_it": "God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. The Armor of God gives children a way to connect the Bible event to choices they actually face.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Armor of God reminds us that God is good and we can trust Him. Faith matters.",
-  "age_8_11_explanation": "The Armor of God shows that following God is not only knowing the story. It means learning this truth: God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength.",
-  "teen_explanation": "The Armor of God gives older students room to think about faith under pressure. The passage teaches that god gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. It also asks how belief becomes action.",
+  "age_5_7_explanation": "God gives His people armor to stand firm against evil.",
+  "age_8_11_explanation": "God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. Ages 8-11 can follow the story by asking what pressure was present and what faithful response looked like.",
+  "teen_explanation": "The Armor of God gives teens more than a simple moral. God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength. The passage asks what faithful action looks like when emotions, pressure, or consequences are real.",
   "key_truths": [
     "God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength.",
-    "Faith means trusting God enough to respond.",
-    "God's people can bring real needs and feelings to Him.",
-    "God's Word teaches truth and calls for response."
+    "The Armor of God shows faith through a real Bible moment, not a slogan.",
+    "When temptation or fear hits, the armor picture helps kids remember truth, faith, salvation, and God's Word."
   ],
-  "life_application": "A kid can practice this when faith is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When temptation or fear hits, the armor picture helps kids remember truth, faith, salvation, and God's Word.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What sword is named in the armor of God?",
+      "question": "What detail should you remember from The Armor of God?",
       "choices": [
+        "Paul says stand with no help",
         "The word of God",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The armor is for fighting people",
+        "The shield is money"
       ],
       "answer": "The word of God",
-      "explanation": "The passage points us back to this answer: The word of God. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The passage points to The word of God. Remembering that answer helps the story teach faith with a real Bible detail."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in The Armor of God is not hard.",
+        "Use The Armor of God only to win a trivia point.",
+        "Ignore what God shows in The Armor of God.",
+        "When temptation or fear hits, the armor picture helps kids remember truth, faith, salvation, and God's Word."
+      ],
+      "answer": "When temptation or fear hits, the armor picture helps kids remember truth, faith, salvation, and God's Word.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength."
     }
   ],
   "memory_verse": {
     "reference": "Ephesians 6:17",
-    "prompt": "Remember Ephesians 6:17 as a short anchor for this lesson."
+    "prompt": "Ephesians 6:17 gives this lesson a short Scripture anchor to remember."
   },
   "discussion_questions": [
-    "What happened in The Armor of God?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Which person in The Armor of God had a hard choice to make?",
+    "What does The Armor of God show about God, people, or faithful living?",
+    "What part of The Armor of God would be hardest for someone your age?"
   ],
   "activity": {
-    "title": "Armor Match",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength."
+    "title": "Armor Match-Up",
+    "instructions": "Draw armor pieces and match each one to the truth Paul names."
   },
-  "prayer_prompt": "Lord, help me learn from The Armor of God. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, thank You for The Armor of God. Make the faith lesson in The Armor of God more than a word I know; help it shape what I do.",
   "tags": [
     "Faith",
     "Prayer",

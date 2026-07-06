@@ -8,62 +8,61 @@
   "category": "Prayer",
   "collection": "leaders-kings-prophets",
   "sort_order": 28,
-  "summary": "Prayer is bringing real sadness and hope to God. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Prayer is bringing real sadness and hope to God. Hannah Prays for a Son gives kids a concrete picture of prayer instead of only a word to memorize. Hannah prayed honestly when her heart was hurting.",
   "read_it": {
     "reference": "1 Samuel 1:9-20",
-    "prompt": "Read 1 Samuel 1:9-20 and look for how this passage teaches: Prayer is bringing real sadness and hope to God."
+    "prompt": "Read 1 Samuel 1:9-20. Look for what God does and how people respond."
   },
-  "tell_it": "Hannah was deeply sad and prayed to the Lord. God heard her, and she later had a son named Samuel.",
-  "understand_it": "Prayer is bringing real sadness and hope to God. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Hannah was deeply sad and prayed to the Lord. God heard her, and she later had a son named Samuel. That is why Hannah Prays for a Son is more than a fact to remember; it is a story with a choice to notice.",
+  "understand_it": "Hannah Prays for a Son teaches through a concrete moment: a person chooses, God acts, and the result shows what matters. Prayer is bringing real sadness and hope to God.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Hannah Prays for a Son reminds us that God is good and we can trust Him. we can talk to God.",
-  "age_8_11_explanation": "Hannah Prays for a Son shows that following God is not only knowing the story. It means learning this truth: Prayer is bringing real sadness and hope to God.",
-  "teen_explanation": "Hannah Prays for a Son gives older students room to think about faith under pressure. The passage teaches that prayer is bringing real sadness and hope to God. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Hannah prayed honestly when her heart was hurting.",
+  "age_8_11_explanation": "Prayer is bringing real sadness and hope to God. Ages 8-11 can follow the story by asking what pressure was present and what faithful response looked like.",
+  "teen_explanation": "Hannah Prays for a Son gives teens more than a simple moral. Prayer is bringing real sadness and hope to God. The passage asks what faithful action looks like when emotions, pressure, or consequences are real.",
   "key_truths": [
     "Prayer is bringing real sadness and hope to God.",
-    "God's people can bring real needs and feelings to Him.",
-    "God keeps His promises and gives His people future hope.",
-    "God is faithful and His people can trust Him."
+    "Hannah Prays for a Son shows prayer through a real Bible moment, not a slogan.",
+    "When sadness is too heavy to explain, Hannah shows kids they can bring real feelings to God."
   ],
-  "life_application": "A kid can practice this when prayer is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When sadness is too heavy to explain, Hannah shows kids they can bring real feelings to God.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did Hannah do with her sadness?",
+      "question": "What detail should you remember from Hannah Prays for a Son?",
       "choices": [
+        "Eli ignored the temple",
+        "Hannah prayed to an idol",
         "She prayed",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Hannah yelled at Samuel"
       ],
       "answer": "She prayed",
-      "explanation": "The passage points us back to this answer: She prayed. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The passage points to She prayed. Remembering that answer helps the story teach prayer with a real Bible detail."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that prayer is bringing real sadness and hope to God.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in Hannah Prays for a Son.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "1 Samuel 1:10",
-    "prompt": "Remember 1 Samuel 1:10 as a short anchor for this lesson."
+    "prompt": "Let 1 Samuel 1:10 be the short line kids can carry after the activity is over."
   },
   "discussion_questions": [
-    "What happened in Hannah Prays for a Son?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Which person in Hannah Prays for a Son had a hard choice to make?",
+    "What does Hannah Prays for a Son show about God, people, or faithful living?",
+    "What part of Hannah Prays for a Son would be hardest for someone your age?"
   ],
   "activity": {
-    "title": "Prayer Bowl",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Prayer is bringing real sadness and hope to God."
+    "title": "Prayer Tears and Hope",
+    "instructions": "Draw a tear on one side and hope on the other, then write a prayer God can hear."
   },
-  "prayer_prompt": "Lord, help me learn from Hannah Prays for a Son. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, thank You for Hannah Prays for a Son. Make prayer more than a word I know; help it shape what I do.",
   "tags": [
     "Prayer",
     "Hope",

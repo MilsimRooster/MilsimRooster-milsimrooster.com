@@ -8,61 +8,61 @@
   "category": "Rescue",
   "collection": "exodus-wilderness",
   "sort_order": 19,
-  "summary": "God can make a way when His people cannot see one. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "In Crossing the Red Sea, kids slow down long enough to see the choice, pressure, or promise inside the passage. God can make a way when His people cannot see one. God made a way through the sea when His people were trapped.",
   "read_it": {
     "reference": "Exodus 14:10-31",
-    "prompt": "Read Exodus 14:10-31 and look for how this passage teaches: God can make a way when His people cannot see one."
+    "prompt": "Read Exodus 14:10-31 and underline the part that best shows faith."
   },
-  "tell_it": "Israel was trapped between Pharaoh's army and the sea. God opened the sea, and His people crossed on dry ground.",
-  "understand_it": "God can make a way when His people cannot see one. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "God made a way through the sea when His people were trapped. In the story, Israel was trapped between Pharaoh's army and the sea. God opened the sea, and His people crossed on dry ground.",
+  "understand_it": "God can make a way when His people cannot see one. Crossing the Red Sea gives children a way to connect the Bible event to choices they actually face.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Crossing the Red Sea reminds us that God is good and we can trust Him. Faith matters.",
-  "age_8_11_explanation": "Crossing the Red Sea shows that following God is not only knowing the story. It means learning this truth: God can make a way when His people cannot see one.",
-  "teen_explanation": "Crossing the Red Sea gives older students room to think about faith under pressure. The passage teaches that god can make a way when His people cannot see one. It also asks how belief becomes action.",
+  "age_5_7_explanation": "God made a way through the sea when His people were trapped.",
+  "age_8_11_explanation": "Israel was trapped between Pharaoh's army and the sea. God opened the sea, and His people crossed on dry ground. Ages 8-11 can name the Bible detail in Crossing the Red Sea and the takeaway: God can make a way when His people cannot see one.",
+  "teen_explanation": "God can make a way when His people cannot see one. For teens, the lesson is worth discussing honestly because it connects belief with public choices, private motives, and costly obedience.",
   "key_truths": [
     "God can make a way when His people cannot see one.",
-    "Faith means trusting God enough to respond.",
-    "God is faithful and His people can trust Him."
+    "Crossing the Red Sea shows faith through a real Bible moment, not a slogan.",
+    "When there seems to be no good way forward, this story teaches kids to remember God's power before panic gets the loudest voice."
   ],
-  "life_application": "A kid can practice this when faith is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When there seems to be no good way forward, this story teaches kids to remember God's power before panic gets the loudest voice.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did God open for Israel?",
+      "question": "In this lesson about faith, which answer matches the Bible story?",
       "choices": [
-        "The Red Sea",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Moses built a bridge",
+        "The people swam all night",
+        "Pharaoh led worship",
+        "The Red Sea"
       ],
       "answer": "The Red Sea",
-      "explanation": "The passage points us back to this answer: The Red Sea. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The Red Sea fits the actual event in Crossing the Red Sea. The wrong answers may sound possible in another story, but not this one."
     },
     {
       "type": "true_false",
-      "question": "This lesson teaches that god can make a way when His people cannot see one.",
+      "question": "Crossing the Red Sea is mainly about faith without ignoring the actual Bible story.",
       "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "explanation": "The theme matters because it grows out of Exodus 14:10-31, not from a random moral pasted onto the end."
     }
   ],
   "memory_verse": {
     "reference": "Exodus 14:21",
-    "prompt": "Remember Exodus 14:21 as a short anchor for this lesson."
+    "prompt": "Exodus 14:21 gives this lesson a short Scripture anchor to remember."
   },
   "discussion_questions": [
-    "What happened in Crossing the Red Sea?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Retell Crossing the Red Sea in three beats: setup, hard moment, and response.",
+    "Which detail keeps Crossing the Red Sea from becoming just a generic moral?",
+    "Where might Crossing the Red Sea help at home, school, church, or with friends?"
   ],
   "activity": {
-    "title": "Path Through Water",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can make a way when His people cannot see one."
+    "title": "Sea Path Relay",
+    "instructions": "Lay blue paper on both sides of a path and walk through naming fears God can help with."
   },
-  "prayer_prompt": "Lord, help me learn from Crossing the Red Sea. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "God, show me where Crossing the Red Sea touches my own life, and help me respond with honesty, courage, and obedience.",
   "tags": [
     "Faith",
     "Rescue",

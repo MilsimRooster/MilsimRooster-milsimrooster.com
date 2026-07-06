@@ -8,61 +8,67 @@
   "category": "Family Lessons",
   "collection": "beginnings-promises",
   "sort_order": 13,
-  "summary": "God can change people and give them a new way to walk. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "In Jacob Wrestles with God, kids slow down long enough to see the choice, pressure, or promise inside the passage. God can change people and give them a new way to walk. Jacob wrestled through the night and received a new name.",
   "read_it": {
     "reference": "Genesis 32:22-32",
-    "prompt": "Read Genesis 32:22-32 and look for how this passage teaches: God can change people and give them a new way to walk."
+    "prompt": "Read Genesis 32:22-32 and underline the part that best shows change."
   },
-  "tell_it": "Jacob wrestled through the night and received a new name, Israel. He learned that blessing comes from God.",
-  "understand_it": "God can change people and give them a new way to walk. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jacob wrestled through the night and received a new name, Israel. He learned that blessing comes from God. That is why Jacob Wrestles with God is more than a fact to remember; it is a story with a choice to notice.",
+  "understand_it": "God can change people and give them a new way to walk. Jacob Wrestles with God gives children a way to connect the Bible event to choices they actually face.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Jacob Wrestles with God reminds us that God is good and we can trust Him. Change matters.",
-  "age_8_11_explanation": "Jacob Wrestles with God shows that following God is not only knowing the story. It means learning this truth: God can change people and give them a new way to walk.",
-  "teen_explanation": "Jacob Wrestles with God gives older students room to think about faith under pressure. The passage teaches that god can change people and give them a new way to walk. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jacob wrestled through the night and received a new name.",
+  "age_8_11_explanation": "God can change people and give them a new way to walk. Ages 8-11 can follow the story by asking what pressure was present and what faithful response looked like.",
+  "teen_explanation": "Jacob Wrestles with God gives teens more than a simple moral. God can change people and give them a new way to walk. The passage asks what faithful action looks like when emotions, pressure, or consequences are real.",
   "key_truths": [
     "God can change people and give them a new way to walk.",
-    "God's people can bring real needs and feelings to Him.",
-    "God is faithful and His people can trust Him."
+    "Jacob Wrestles with God shows change through a real Bible moment, not a slogan.",
+    "When you feel stuck between old habits and a new start, Jacob's limp shows that meeting God can change how you walk forward."
   ],
-  "life_application": "A kid can practice this when change is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When you feel stuck between old habits and a new start, Jacob's limp shows that meeting God can change how you walk forward.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What new name was Jacob given?",
+      "question": "What detail should you remember from Jacob Wrestles with God?",
       "choices": [
+        "Jacob became invisible",
         "Israel",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Jacob built an ark",
+        "Esau became Pharaoh"
       ],
       "answer": "Israel",
-      "explanation": "The passage points us back to this answer: Israel. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The passage points to Israel. Remembering that answer helps the story teach change with a real Bible detail."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god can change people and give them a new way to walk.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in Jacob Wrestles with God is not hard.",
+        "Use Jacob Wrestles with God only to win a trivia point.",
+        "Ignore what God shows in Jacob Wrestles with God.",
+        "When you feel stuck between old habits and a new start, Jacob's limp shows that meeting God can change how you walk forward."
+      ],
+      "answer": "When you feel stuck between old habits and a new start, Jacob's limp shows that meeting God can change how you walk forward.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. God can change people and give them a new way to walk."
     }
   ],
   "memory_verse": {
     "reference": "Genesis 32:28",
-    "prompt": "Remember Genesis 32:28 as a short anchor for this lesson."
+    "prompt": "Genesis 32:28 gives this lesson a short Scripture anchor to remember."
   },
   "discussion_questions": [
-    "What happened in Jacob Wrestles with God?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Which person in Jacob Wrestles with God had a hard choice to make?",
+    "What does Jacob Wrestles with God show about God, people, or faithful living?",
+    "What part of Jacob Wrestles with God would be hardest for someone your age?"
   ],
   "activity": {
-    "title": "New Name Card",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can change people and give them a new way to walk."
+    "title": "New Name Stone",
+    "instructions": "Write Jacob's old name and new name on paper stones, then add one way God can change a person."
   },
-  "prayer_prompt": "Lord, help me learn from Jacob Wrestles with God. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, thank You for Jacob Wrestles with God. Make change more than a word I know; help it shape what I do.",
   "tags": [
     "Change",
     "Prayer",

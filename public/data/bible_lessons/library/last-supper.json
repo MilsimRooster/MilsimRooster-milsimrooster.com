@@ -8,61 +8,67 @@
   "category": "Passion Week",
   "collection": "jesus-life-teaching",
   "sort_order": 63,
-  "summary": "Jesus gave His followers a meal to remember His saving death. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "In The Last Supper, kids slow down long enough to see the choice, pressure, or promise inside the passage. Jesus gave His followers a meal to remember His saving death. Jesus shared the Last Supper and pointed His disciples to His sacrifice.",
   "read_it": {
     "reference": "Luke 22:14-20",
-    "prompt": "Read Luke 22:14-20 and look for how this passage teaches: Jesus gave His followers a meal to remember His saving death."
+    "prompt": "Read Luke 22:14-20 and underline the part that best shows Jesus."
   },
-  "tell_it": "Jesus shared bread and cup with His disciples and told them to remember Him.",
-  "understand_it": "Jesus gave His followers a meal to remember His saving death. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus shared the Last Supper and pointed His disciples to His sacrifice. Jesus shared bread and cup with His disciples and told them to remember Him. The pressure in the scene helps the lesson feel real.",
+  "understand_it": "Jesus gave His followers a meal to remember His saving death. The Last Supper gives children a way to connect the Bible event to choices they actually face.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Last Supper reminds us that God is good and we can trust Him. Jesus is the Savior.",
-  "age_8_11_explanation": "The Last Supper shows that following God is not only knowing the story. It means learning this truth: Jesus gave His followers a meal to remember His saving death.",
-  "teen_explanation": "The Last Supper gives older students room to think about faith under pressure. The passage teaches that jesus gave His followers a meal to remember His saving death. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus shared the Last Supper and pointed His disciples to His sacrifice.",
+  "age_8_11_explanation": "Jesus shared bread and cup with His disciples and told them to remember Him. Kids can practice retelling it with the beginning, hard moment, and God-centered ending.",
+  "teen_explanation": "Jesus gave His followers a meal to remember His saving death. A teen discussion can press into why the story mattered then and how the same truth can reshape choices now.",
   "key_truths": [
     "Jesus gave His followers a meal to remember His saving death.",
-    "Jesus is the promised Savior.",
-    "God is faithful and His people can trust Him."
+    "The Last Supper shows Jesus through a real Bible moment, not a slogan.",
+    "When kids take communion or hear about it, this story helps them connect the meal to Jesus' love and rescue."
   ],
-  "life_application": "A kid can practice this when jesus is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When kids take communion or hear about it, this story helps them connect the meal to Jesus' love and rescue.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Who told His disciples to remember Him?",
+      "question": "Which answer keeps The Last Supper connected to the actual passage?",
       "choices": [
+        "The meal celebrated Rome",
         "Jesus",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The disciples served the crowd leftovers",
+        "Judas washed everyone's feet"
       ],
       "answer": "Jesus",
-      "explanation": "The passage points us back to this answer: Jesus. It helps kids remember the main event and the truth it teaches."
+      "explanation": "Jesus is the story detail to remember. The bigger lesson grows out of that detail instead of floating away from the passage."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that jesus gave His followers a meal to remember His saving death.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "classroom_choice",
+      "question": "Which response best fits the lesson's point?",
+      "choices": [
+        "Pretend the hard part in The Last Supper is not hard.",
+        "Use The Last Supper only to win a trivia point.",
+        "Ignore what God shows in The Last Supper.",
+        "When kids take communion or hear about it, this story helps them connect the meal to Jesus' love and rescue."
+      ],
+      "answer": "When kids take communion or hear about it, this story helps them connect the meal to Jesus' love and rescue.",
+      "explanation": "A useful Bible lesson changes how we see a real choice. Jesus gave His followers a meal to remember His saving death."
     }
   ],
   "memory_verse": {
     "reference": "Luke 22:19",
-    "prompt": "Remember Luke 22:19 as a short anchor for this lesson."
+    "prompt": "Luke 22:19 gives this lesson a short Scripture anchor to remember."
   },
   "discussion_questions": [
-    "What happened in The Last Supper?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Who needed help, courage, correction, or mercy in The Last Supper?",
+    "What truth should a kid remember after reading The Last Supper?",
+    "How can the group pray about The Last Supper without using pretend-perfect answers?"
   ],
   "activity": {
-    "title": "Remember Table",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus gave His followers a meal to remember His saving death."
+    "title": "Remembering Meal Symbols",
+    "instructions": "Draw bread and cup symbols, then write what Jesus told His friends to remember."
   },
-  "prayer_prompt": "Lord, help me learn from The Last Supper. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, use The Last Supper to teach my heart, not just my memory. Help me take one faithful next step after reading The Last Supper.",
   "tags": [
     "Jesus",
     "Remember",

@@ -8,62 +8,61 @@
   "category": "Return",
   "collection": "leaders-kings-prophets",
   "sort_order": 46,
-  "summary": "God's work often takes prayer, planning, courage, and teamwork. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "God's work often takes prayer, planning, courage, and teamwork. Nehemiah helped rebuild Jerusalem's wall with prayer and courage. When a big Job feels impossible, Nehemiah shows that prayer, planning, and teamwork belong together.",
   "read_it": {
     "reference": "Nehemiah 2:11-20",
-    "prompt": "Read Nehemiah 2:11-20 and look for how this passage teaches: God's work often takes prayer, planning, courage, and teamwork."
+    "prompt": "Read Nehemiah 2:11-20. Watch for what the story shows about prayer."
   },
-  "tell_it": "Nehemiah saw Jerusalem's broken walls and called the people to rebuild. He trusted God's good hand.",
-  "understand_it": "God's work often takes prayer, planning, courage, and teamwork. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Nehemiah helped rebuild Jerusalem's wall with prayer and courage. In the story, Nehemiah saw Jerusalem's broken walls and called the people to rebuild. He trusted God's good hand.",
+  "understand_it": "The point is not that Nehemiah Rebuilds the Wall is impressive by itself. God's work often takes prayer, planning, courage, and teamwork. When a big Job feels impossible, Nehemiah shows that prayer, planning, and teamwork belong together.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Nehemiah Rebuilds the Wall reminds us that God is good and we can trust Him. we can talk to God.",
-  "age_8_11_explanation": "Nehemiah Rebuilds the Wall shows that following God is not only knowing the story. It means learning this truth: God's work often takes prayer, planning, courage, and teamwork.",
-  "teen_explanation": "Nehemiah Rebuilds the Wall gives older students room to think about faith under pressure. The passage teaches that god's work often takes prayer, planning, courage, and teamwork. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Nehemiah helped rebuild Jerusalem's wall with prayer and courage.",
+  "age_8_11_explanation": "Nehemiah saw Jerusalem's broken walls and called the people to rebuild. He trusted God's good hand. Ages 8-11 can name the Bible detail in Nehemiah Rebuilds the Wall and the takeaway: God's work often takes prayer, planning, courage, and teamwork.",
+  "teen_explanation": "God's work often takes prayer, planning, courage, and teamwork. For teens, the lesson is worth discussing honestly because it connects belief with public choices, private motives, and costly obedience.",
   "key_truths": [
     "God's work often takes prayer, planning, courage, and teamwork.",
-    "God's people can bring real needs and feelings to Him.",
-    "Courage grows when we remember God is with His people.",
-    "God is faithful and His people can trust Him."
+    "Nehemiah Rebuilds the Wall shows prayer through a real Bible moment, not a slogan.",
+    "When a big Job feels impossible, Nehemiah shows that prayer, planning, and teamwork belong together."
   ],
-  "life_application": "A kid can practice this when prayer is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When a big Job feels impossible, Nehemiah shows that prayer, planning, and teamwork belong together.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What did Nehemiah help rebuild?",
+      "question": "In this lesson about prayer, which answer matches the Bible story?",
       "choices": [
+        "The wall was made of gold",
+        "The enemies carried the stones",
         "Jerusalem's wall",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "Nehemiah rebuilt alone"
       ],
       "answer": "Jerusalem's wall",
-      "explanation": "The passage points us back to this answer: Jerusalem's wall. It helps kids remember the main event and the truth it teaches."
+      "explanation": "Jerusalem's wall fits the actual event in Nehemiah Rebuilds the Wall. The wrong answers may sound possible in another story, but not this one."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that god's work often takes prayer, planning, courage, and teamwork.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in Nehemiah Rebuilds the Wall.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Nehemiah 2:18",
-    "prompt": "Remember Nehemiah 2:18 as a short anchor for this lesson."
+    "prompt": "Use Nehemiah 2:18 as the verse anchor for Nehemiah Rebuilds the Wall."
   },
   "discussion_questions": [
-    "What happened in Nehemiah Rebuilds the Wall?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Retell Nehemiah Rebuilds the Wall in three beats: setup, hard moment, and response.",
+    "Which detail keeps Nehemiah Rebuilds the Wall from becoming just a generic moral?",
+    "Where might Nehemiah Rebuilds the Wall help at home, school, church, or with friends?"
   ],
   "activity": {
-    "title": "Rebuild Together",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God's work often takes prayer, planning, courage, and teamwork."
+    "title": "Wall Builder Team",
+    "instructions": "Use blocks or paper bricks; write one helpful Job on each brick before building the wall."
   },
-  "prayer_prompt": "Lord, help me learn from Nehemiah Rebuilds the Wall. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "God, show me where Nehemiah Rebuilds the Wall touches my own life, and help me respond with honesty, courage, and obedience.",
   "tags": [
     "Prayer",
     "Teamwork",

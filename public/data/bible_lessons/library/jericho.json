@@ -8,61 +8,61 @@
   "category": "Courage",
   "collection": "leaders-kings-prophets",
   "sort_order": 24,
-  "summary": "Obedience can look strange, but God's people can trust His instructions. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "The Walls of Jericho is a short lesson with one main thread: Obedience can look strange, but God's people can trust His instructions. When God's way seems strange, Jericho teaches kids that obedience is not only for plans we would have chosen.",
   "read_it": {
     "reference": "Joshua 6:1-20",
-    "prompt": "Read Joshua 6:1-20 and look for how this passage teaches: Obedience can look strange, but God's people can trust His instructions."
+    "prompt": "Read Joshua 6:1-20. Notice one detail that would help a kid explain The Walls of Jericho to someone else."
   },
-  "tell_it": "God told Israel to march around Jericho. When they obeyed, the walls fell and God gave the city into their hands.",
-  "understand_it": "Obedience can look strange, but God's people can trust His instructions. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jericho fell after Israel obeyed God's unusual command. In the story, God told Israel to march around Jericho. When they obeyed, the walls fell and God gave the city into their hands.",
+  "understand_it": "Kids can understand The Walls of Jericho by asking what was at stake, what God revealed, and what response was faithful. Obedience can look strange, but God's people can trust His instructions.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "The Walls of Jericho reminds us that God is good and we can trust Him. Obedience matters.",
-  "age_8_11_explanation": "The Walls of Jericho shows that following God is not only knowing the story. It means learning this truth: Obedience can look strange, but God's people can trust His instructions.",
-  "teen_explanation": "The Walls of Jericho gives older students room to think about faith under pressure. The passage teaches that obedience can look strange, but God's people can trust His instructions. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jericho fell after Israel obeyed God's unusual command.",
+  "age_8_11_explanation": "God told Israel to march around Jericho. When they obeyed, the walls fell and God gave the city into their hands. Ages 8-11 can name the Bible detail in The Walls of Jericho and the takeaway: obedience can look strange, but God's people can trust His instructions.",
+  "teen_explanation": "Obedience can look strange, but God's people can trust His instructions. For teens, the lesson is worth discussing honestly because it connects belief with public choices, private motives, and costly obedience.",
   "key_truths": [
     "Obedience can look strange, but God's people can trust His instructions.",
-    "Faith means trusting God enough to respond.",
-    "God is faithful and His people can trust Him."
+    "The Walls of Jericho shows obedience through a real Bible moment, not a slogan.",
+    "When God's way seems strange, Jericho teaches kids that obedience is not only for plans we would have chosen."
   ],
-  "life_application": "A kid can practice this when obedience is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When God's way seems strange, Jericho teaches kids that obedience is not only for plans we would have chosen.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "What happened to Jericho's walls?",
+      "question": "In this lesson about obedience, which answer matches the Bible story?",
       "choices": [
+        "Rahab built the wall",
+        "Israel used a giant ladder",
         "They fell",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The wall fell by hammers"
       ],
       "answer": "They fell",
-      "explanation": "The passage points us back to this answer: They fell. It helps kids remember the main event and the truth it teaches."
+      "explanation": "They fell fits the actual event in The Walls of Jericho. The wrong answers may sound possible in another story, but not this one."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that obedience can look strange, but God's people can trust His instructions.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in The Walls of Jericho.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Joshua 6:20",
-    "prompt": "Remember Joshua 6:20 as a short anchor for this lesson."
+    "prompt": "Memorize or repeat Joshua 6:20 as the Bible handle for this lesson."
   },
   "discussion_questions": [
-    "What happened in The Walls of Jericho?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Retell The Walls of Jericho in three beats: setup, hard moment, and response.",
+    "Which detail keeps The Walls of Jericho from becoming just a generic moral?",
+    "Where might The Walls of Jericho help at home, school, church, or with friends?"
   ],
   "activity": {
-    "title": "Marching Map",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Obedience can look strange, but God's people can trust His instructions."
+    "title": "Quiet March Challenge",
+    "instructions": "Walk silently around a pretend wall, then shout the truth that God is powerful."
   },
-  "prayer_prompt": "Lord, help me learn from The Walls of Jericho. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "God, show me where The Walls of Jericho touches my own life, and help me respond with honesty, courage, and obedience.",
   "tags": [
     "Obedience",
     "Faith",

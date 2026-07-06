@@ -8,62 +8,61 @@
   "category": "Passion Week",
   "collection": "jesus-life-teaching",
   "sort_order": 65,
-  "summary": "Jesus gave His life to save sinners. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Jesus Dies on the Cross follows a real Bible moment about Jesus' saving love. Jesus gave His life to save sinners. When kids hear about the cross, this lesson keeps the focus on Jesus' love, sacrifice, and forgiveness.",
   "read_it": {
     "reference": "Luke 23:33-49",
-    "prompt": "Read Luke 23:33-49 and look for how this passage teaches: Jesus gave His life to save sinners."
+    "prompt": "Read Luke 23:33-49 slowly and listen for the choice, promise, warning, or rescue in the story."
   },
-  "tell_it": "Jesus was crucified between criminals. Even while suffering, He showed mercy and trusted the Father.",
-  "understand_it": "Jesus gave His life to save sinners. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus was crucified between criminals. Even while suffering, He showed mercy and trusted the Father. That is why Jesus Dies on the Cross is more than a fact to remember; it is a story with a choice to notice.",
+  "understand_it": "Jesus gave His life to save sinners. Jesus Dies on the Cross also shows that Jesus' saving love changes real life, not only Bible vocabulary.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Jesus Dies on the Cross reminds us that God is good and we can trust Him. Jesus is the Savior.",
-  "age_8_11_explanation": "Jesus Dies on the Cross shows that following God is not only knowing the story. It means learning this truth: Jesus gave His life to save sinners.",
-  "teen_explanation": "Jesus Dies on the Cross gives older students room to think about faith under pressure. The passage teaches that jesus gave His life to save sinners. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus died on the cross to save sinners.",
+  "age_8_11_explanation": "Jesus gave His life to save sinners. Ages 8-11 can follow the story by asking what pressure was present and what faithful response looked like.",
+  "teen_explanation": "Jesus Dies on the Cross gives teens more than a simple moral. Jesus gave His life to save sinners. The passage asks what faithful action looks like when emotions, pressure, or consequences are real.",
   "key_truths": [
     "Jesus gave His life to save sinners.",
-    "Jesus gave Himself to save sinners.",
-    "Mercy is stronger than revenge.",
-    "God is faithful and His people can trust Him."
+    "Jesus Dies on the Cross shows Jesus' saving love through a real Bible moment, not a slogan.",
+    "When kids hear about the cross, this lesson keeps the focus on Jesus' love, sacrifice, and forgiveness."
   ],
-  "life_application": "A kid can practice this when jesus saves is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When kids hear about the cross, this lesson keeps the focus on Jesus' love, sacrifice, and forgiveness.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Where did Jesus die?",
+      "question": "What detail should you remember from Jesus Dies on the Cross?",
       "choices": [
-        "On the cross",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The soldiers saved Jesus",
+        "Jesus died because He had no power",
+        "The disciples planned the cross",
+        "On the cross"
       ],
       "answer": "On the cross",
-      "explanation": "The passage points us back to this answer: On the cross. It helps kids remember the main event and the truth it teaches."
+      "explanation": "The passage points to On the cross. Remembering that answer helps the story teach salvation through Jesus with a real Bible detail."
     },
     {
       "type": "true_false",
-      "question": "This lesson teaches that jesus gave His life to save sinners.",
+      "question": "Jesus Dies on the Cross is mainly about Jesus' saving love without ignoring the actual Bible story.",
       "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "explanation": "The theme matters because it grows out of Luke 23:33-49, not from a random moral pasted onto the end."
     }
   ],
   "memory_verse": {
     "reference": "Luke 23:46",
-    "prompt": "Remember Luke 23:46 as a short anchor for this lesson."
+    "prompt": "Practice Luke 23:46 and listen for how it supports the lesson's salvation theme."
   },
   "discussion_questions": [
-    "What happened in Jesus Dies on the Cross?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "Which person in Jesus Dies on the Cross had a hard choice to make?",
+    "What does Jesus Dies on the Cross show about God, people, or faithful living?",
+    "What part of Jesus Dies on the Cross would be hardest for someone your age?"
   ],
   "activity": {
-    "title": "Mercy at the Cross",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus gave His life to save sinners."
+    "title": "Cross and Forgiveness Card",
+    "instructions": "Draw a cross and write a short thank-you for Jesus' forgiveness."
   },
-  "prayer_prompt": "Lord, help me learn from Jesus Dies on the Cross. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Lord, thank You for Jesus Dies on the Cross. Make Jesus' saving love more than words I say; help it shape what I do.",
   "tags": [
     "Jesus Saves",
     "Forgiveness",

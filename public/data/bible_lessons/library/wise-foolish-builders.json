@@ -8,60 +8,61 @@
   "category": "Parables",
   "collection": "jesus-life-teaching",
   "sort_order": 54,
-  "summary": "Wisdom means hearing Jesus' words and putting them into practice. This short lesson helps kids read, understand, and play through the passage.",
+  "summary": "Wisdom means hearing Jesus' words and putting them into practice. Wise and Foolish Builders gives kids a concrete picture of obedience instead of only a word to memorize. Jesus said hearing and doing His words is like building on rock.",
   "read_it": {
     "reference": "Matthew 7:24-27",
-    "prompt": "Read Matthew 7:24-27 and look for how this passage teaches: Wisdom means hearing Jesus' words and putting them into practice."
+    "prompt": "Read Matthew 7:24-27. Look for what God does and how people respond."
   },
-  "tell_it": "Jesus compared obedient listeners to a wise builder on rock. Hearing without obeying is like building on sand.",
-  "understand_it": "Wisdom means hearing Jesus' words and putting them into practice. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "tell_it": "Jesus said hearing and doing His words is like building on rock. Jesus compared obedient listeners to a wise builder on rock. Hearing without obeying is like building on sand.",
+  "understand_it": "Wise and Foolish Builders teaches through a concrete moment: a person chooses, God acts, and the result shows what matters. Wisdom means hearing Jesus' words and putting them into practice.",
   "age_modes": [
     "age_5_7",
     "age_8_11",
     "teens"
   ],
-  "age_5_7_explanation": "Wise and Foolish Builders reminds us that God is good and we can trust Him. Obedience matters.",
-  "age_8_11_explanation": "Wise and Foolish Builders shows that following God is not only knowing the story. It means learning this truth: Wisdom means hearing Jesus' words and putting them into practice.",
-  "teen_explanation": "Wise and Foolish Builders gives older students room to think about faith under pressure. The passage teaches that wisdom means hearing Jesus' words and putting them into practice. It also asks how belief becomes action.",
+  "age_5_7_explanation": "Jesus said hearing and doing His words is like building on rock.",
+  "age_8_11_explanation": "Jesus compared obedient listeners to a wise builder on rock. Hearing without obeying is like building on sand. Kids can notice obedience in the choices people make, not only in the famous part of the story. Wisdom means hearing Jesus' words and putting them into practice.",
+  "teen_explanation": "Wisdom means hearing Jesus' words and putting them into practice. When kids know the right answer but do not act on it, this parable says the foundation matters. Teens can also notice the tension in the passage: faith is not always easy, immediate, or admired by everyone nearby.",
   "key_truths": [
     "Wisdom means hearing Jesus' words and putting them into practice.",
-    "God is faithful and His people can trust Him."
+    "Wise and Foolish Builders shows obedience through a real Bible moment, not a slogan.",
+    "When kids know the right answer but do not act on it, this parable says the foundation matters."
   ],
-  "life_application": "A kid can practice this when obedience is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "life_application": "When kids know the right answer but do not act on it, this parable says the foundation matters.",
   "quiz_questions": [
     {
       "type": "multiple_choice",
-      "question": "Where did the wise builder build?",
+      "question": "Which answer belongs to Wise and Foolish Builders?",
       "choices": [
+        "The foolish house stood forever",
+        "The storm never came",
         "On the rock",
-        "To make themselves look important",
-        "Because God forgot His people",
-        "Because obeying never matters"
+        "The wise man built on clouds"
       ],
       "answer": "On the rock",
-      "explanation": "The passage points us back to this answer: On the rock. It helps kids remember the main event and the truth it teaches."
+      "explanation": "On the rock is the correct answer. The detail matters because it keeps the lesson tied to Matthew 7:24-27, not just a general idea."
     },
     {
-      "type": "true_false",
-      "question": "This lesson teaches that wisdom means hearing Jesus' words and putting them into practice.",
-      "answer": "True",
-      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+      "type": "short_answer",
+      "question": "Name the pressure, problem, or need in Wise and Foolish Builders.",
+      "answer": "Answers should name the story's real challenge and connect it to God's response.",
+      "explanation": "Good retelling notices what was hard before jumping straight to the takeaway."
     }
   ],
   "memory_verse": {
     "reference": "Matthew 7:24",
-    "prompt": "Remember Matthew 7:24 as a short anchor for this lesson."
+    "prompt": "Let Matthew 7:24 be the short line kids can carry after the activity is over."
   },
   "discussion_questions": [
-    "What happened in Wise and Foolish Builders?",
-    "What does this passage teach us about God or following Him?",
-    "Where could this lesson help you at home, school, church, or with friends?"
+    "What happened first in Wise and Foolish Builders, and what changed by the end?",
+    "Where do you see obedience in Wise and Foolish Builders?",
+    "What is one small choice Wise and Foolish Builders could shape this week?"
   ],
   "activity": {
-    "title": "Rock or Sand",
-    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Wisdom means hearing Jesus' words and putting them into practice."
+    "title": "Rock and Sand Test",
+    "instructions": "Build two small paper houses, one on rock and one on sand, then talk about obedience."
   },
-  "prayer_prompt": "Lord, help me learn from Wise and Foolish Builders. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "prayer_prompt": "Father, help me see what Wise and Foolish Builders teaches and practice obedience in a real choice this week.",
   "tags": [
     "Obedience",
     "Wisdom",
