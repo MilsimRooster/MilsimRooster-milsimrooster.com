@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "josephs-dreams",
+  "title": "Joseph's Dreams",
+  "bible_book": "Genesis",
+  "passage": "Genesis 37:1-11",
+  "testament": "Old Testament",
+  "category": "Family Lessons",
+  "collection": "beginnings-promises",
+  "sort_order": 14,
+  "summary": "God can be at work even when family life is messy and painful. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Genesis 37:1-11",
+    "prompt": "Read Genesis 37:1-11 and look for how this passage teaches: God can be at work even when family life is messy and painful."
+  },
+  "tell_it": "Joseph had dreams that made his brothers angry. Their jealousy grew, but God was not finished with Joseph.",
+  "understand_it": "God can be at work even when family life is messy and painful. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Joseph's Dreams reminds us that God is good and we can trust Him. Jealousy matters.",
+  "age_8_11_explanation": "Joseph's Dreams shows that following God is not only knowing the story. It means learning this truth: God can be at work even when family life is messy and painful.",
+  "teen_explanation": "Joseph's Dreams gives older students room to think about faith under pressure. The passage teaches that god can be at work even when family life is messy and painful. It also asks how belief becomes action.",
+  "key_truths": [
+    "God can be at work even when family life is messy and painful.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when jealousy is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who became angry about Joseph's dreams?",
+      "choices": [
+        "His brothers",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "His brothers",
+      "explanation": "The passage points us back to this answer: His brothers. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god can be at work even when family life is messy and painful.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Genesis 37:11",
+    "prompt": "Remember Genesis 37:11 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Joseph's Dreams?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Dream Scene Sort",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can be at work even when family life is messy and painful."
+  },
+  "prayer_prompt": "Lord, help me learn from Joseph's Dreams. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Jealousy",
+    "Family",
+    "God's Plan"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 14,
+  "related_lessons": [
+    "jacob-wrestles",
+    "joseph-forgives"
+  ]
+}

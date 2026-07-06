@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bible Study Arcade on Milsim Rooster: quick Bible learning games for church families, small groups, and casual adults.">
+  <title>Bible Study Arcade</title>
+  <link rel="stylesheet" href="styles.css?v=20260702-bible-arcade-3">
+</head>
+<body>
+  <main class="arcade-shell">
+    <section class="arcade-stage" aria-label="Bible Study Arcade">
+      <header class="arcade-topbar">
+        <div>
+          <h1>Bible Study Arcade</h1>
+        </div>
+        <figure class="arcade-art">
+          <img src="assets/bible-arcade-board.svg" alt="Bible Study Arcade game board with quiz cards and route markers">
+        </figure>
+      </header>
+
+      <section class="play-surface" aria-label="Playable Bible games">
+        <aside class="game-menu" aria-label="Choose a Bible game">
+          <div class="game-menu-heading">
+            <div>
+              <p class="eyebrow">Pick a round</p>
+              <h2>Quick games</h2>
+            </div>
+            <p id="gameScrollHint" class="scroll-hint">Swipe for more <span aria-hidden="true">&rarr;</span></p>
+          </div>
+          <div id="gameTabs" class="game-tabs" aria-describedby="gameScrollHint"></div>
+          <div class="launch-block">
+            <p class="eyebrow">More Bible games</p>
+            <div id="launchGrid" class="launch-grid"></div>
+            <noscript>
+              <p class="fallback-links">
+                <a href="../apostles/">Apostles Quest</a>
+                <a href="../apostles/new-testament-trail.html">New Testament Trail</a>
+              </p>
+            </noscript>
+          </div>
+        </aside>
+
+        <section class="round-panel" aria-label="Current Bible game">
+          <div class="round-head">
+            <div>
+              <p id="packEyebrow" class="eyebrow">Quote Context</p>
+              <h2 id="packTitle">Who Said It?</h2>
+              <p id="packSummary" class="quiet"></p>
+            </div>
+            <div class="round-meter">
+              <span id="roundCounter">1 / 8</span>
+              <strong id="scoreCounter">0 correct</strong>
+            </div>
+          </div>
+
+          <div id="routePanel" class="route-panel" hidden>
+            <div class="route-title">
+              <span>Acts route</span>
+              <strong id="routePlace">Damascus Road</strong>
+            </div>
+            <div id="routeStops" class="route-stops"></div>
+          </div>
+
+          <article class="question-card">
+            <div class="question-meta">
+              <span id="conceptBadge">Concept</span>
+              <span id="difficultyBadge">Easy</span>
+            </div>
+            <h3 id="questionPrompt"></h3>
+            <div id="answerGrid" class="answer-grid"></div>
+          </article>
+
+          <section id="feedbackPanel" class="feedback-panel" aria-live="polite" hidden>
+            <p id="feedbackTitle" class="feedback-title"></p>
+            <p id="feedbackCopy"></p>
+            <dl>
+              <div>
+                <dt>Reference</dt>
+                <dd id="referenceText"></dd>
+              </div>
+              <div>
+                <dt>Read the passage</dt>
+                <dd id="scriptureLinks" class="scripture-links"></dd>
+              </div>
+              <div>
+                <dt>Remember</dt>
+                <dd id="teachingPoint"></dd>
+              </div>
+            </dl>
+          </section>
+
+          <section id="roundSummary" class="round-summary" hidden>
+            <p class="eyebrow">Round complete</p>
+            <h3 id="roundSummaryText"></h3>
+          </section>
+
+          <div class="round-actions">
+            <button id="nextButton" class="primary-button" type="button">Next card</button>
+            <button id="restartButton" class="ghost-button" type="button">New round</button>
+          </div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="app.mjs?v=20260702-bible-arcade-3"></script>
+</body>
+</html>

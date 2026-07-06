@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kid-friendly Bible lessons on Milsim Rooster with reading prompts, simple explanations, activities, quizzes, and teacher notes.">
+  <title>Kids Bible Lessons | Milsim Rooster</title>
+  <link rel="stylesheet" href="styles.css?v=20260706-lessons-6">
+  <script type="module" src="app.js?v=20260706-lessons-6"></script>
+</head>
+<body>
+  <header class="site-top">
+    <a class="brand-link" href="/about/">Milsim Rooster</a>
+    <nav aria-label="Bible navigation">
+      <a class="quiet-link" href="/bible/">Digital Bible</a>
+      <a class="quiet-link" href="/about/#projects">Apps</a>
+    </nav>
+  </header>
+
+  <main class="lesson-shell">
+    <section class="lesson-hero" aria-labelledby="lessonTitle">
+      <h1 id="lessonTitle">Kids Bible Lessons</h1>
+    </section>
+
+    <section id="lessonFilters" class="lesson-filters" aria-label="Lesson filters">
+      <div class="primary-filters">
+        <label>
+          <span>Search lessons</span>
+          <input id="lessonSearch" type="search" autocomplete="off" placeholder="Search David, prayer, parables...">
+        </label>
+        <label>
+          <span>Age group</span>
+          <select id="ageFilter">
+            <option value="age_5_7">Ages 5-7</option>
+            <option value="age_8_11" selected>Ages 8-11</option>
+            <option value="teens">Teens</option>
+          </select>
+        </label>
+      </div>
+      <button id="filterAdvancedToggle" class="filter-advanced-toggle" type="button" aria-expanded="false" aria-controls="advancedFilterGrid">More filters</button>
+      <div id="advancedFilterGrid" class="filter-grid collapsed">
+        <label>
+          <span>Lesson pack</span>
+          <select id="collectionFilter"></select>
+        </label>
+        <label>
+          <span>Book</span>
+          <select id="bookFilter"></select>
+        </label>
+        <label>
+          <span>Testament</span>
+          <select id="testamentFilter"></select>
+        </label>
+        <label>
+          <span>Topic</span>
+          <select id="topicFilter"></select>
+        </label>
+        <label>
+          <span>Difficulty</span>
+          <select id="difficultyFilter"></select>
+        </label>
+      </div>
+    </section>
+
+    <section class="lesson-layout">
+      <article id="lessonDetail" class="lesson-detail" aria-live="polite">
+        <div class="detail-empty">
+          <h2>Loading lesson...</h2>
+          <div class="lesson-tabs" aria-hidden="true">
+            <button type="button" disabled>Read It</button>
+            <button type="button" disabled>Tell It</button>
+            <button type="button" disabled>Understand It</button>
+            <button type="button" disabled>Live It</button>
+            <button type="button" disabled>Play It</button>
+            <button type="button" disabled>Teacher Notes</button>
+          </div>
+        </div>
+      </article>
+
+      <aside class="lesson-list-panel collapsed" aria-label="Available lessons">
+        <div class="panel-head">
+          <div>
+            <h2>Choose a Lesson</h2>
+            <p id="lessonCount">Loading...</p>
+          </div>
+          <button id="lessonListToggle" class="lesson-list-toggle" type="button" aria-expanded="false" aria-controls="lessonLibraryBody">Browse lessons</button>
+        </div>
+        <div id="lessonLibraryBody" class="lesson-library-body">
+          <div id="lessonList" class="lesson-list"></div>
+          <button id="loadMoreLessons" class="load-more" type="button" hidden>Show more lessons</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

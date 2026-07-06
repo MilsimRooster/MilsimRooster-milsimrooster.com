@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "baby-moses",
+  "title": "Baby Moses Is Protected",
+  "bible_book": "Exodus",
+  "passage": "Exodus 2:1-10",
+  "testament": "Old Testament",
+  "category": "Rescue",
+  "collection": "exodus-wilderness",
+  "sort_order": 16,
+  "summary": "God can protect His people through brave and caring choices. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Exodus 2:1-10",
+    "prompt": "Read Exodus 2:1-10 and look for how this passage teaches: God can protect His people through brave and caring choices."
+  },
+  "tell_it": "Moses' family hid him, placed him in a basket, and trusted God. Pharaoh's daughter found him and cared for him.",
+  "understand_it": "God can protect His people through brave and caring choices. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Baby Moses Is Protected reminds us that God is good and we can trust Him. God helps us be brave.",
+  "age_8_11_explanation": "Baby Moses Is Protected shows that following God is not only knowing the story. It means learning this truth: God can protect His people through brave and caring choices.",
+  "teen_explanation": "Baby Moses Is Protected gives older students room to think about faith under pressure. The passage teaches that god can protect His people through brave and caring choices. It also asks how belief becomes action.",
+  "key_truths": [
+    "God can protect His people through brave and caring choices.",
+    "Courage grows when we remember God is with His people.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when courage is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Where was baby Moses placed?",
+      "choices": [
+        "In a basket",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "In a basket",
+      "explanation": "The passage points us back to this answer: In a basket. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god can protect His people through brave and caring choices.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Exodus 2:3",
+    "prompt": "Remember Exodus 2:3 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Baby Moses Is Protected?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Basket Rescue",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can protect His people through brave and caring choices."
+  },
+  "prayer_prompt": "Lord, help me learn from Baby Moses Is Protected. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Courage",
+    "Protection",
+    "Family"
+  ],
+  "difficulty": "easy",
+  "estimated_minutes": 12,
+  "related_lessons": [
+    "joseph-forgives",
+    "burning-bush"
+  ]
+}

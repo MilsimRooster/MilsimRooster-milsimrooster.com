@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "walking-on-water",
+  "title": "Jesus Walks on Water",
+  "bible_book": "Matthew",
+  "passage": "Matthew 14:22-33",
+  "testament": "New Testament",
+  "category": "Miracles",
+  "collection": "jesus-life-teaching",
+  "sort_order": 60,
+  "summary": "Faith looks to Jesus when fear feels bigger than courage. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Matthew 14:22-33",
+    "prompt": "Read Matthew 14:22-33 and look for how this passage teaches: Faith looks to Jesus when fear feels bigger than courage."
+  },
+  "tell_it": "The disciples saw Jesus walking on the water. Peter stepped out, became afraid, and Jesus rescued him.",
+  "understand_it": "Faith looks to Jesus when fear feels bigger than courage. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Jesus Walks on Water reminds us that God is good and we can trust Him. Faith matters.",
+  "age_8_11_explanation": "Jesus Walks on Water shows that following God is not only knowing the story. It means learning this truth: Faith looks to Jesus when fear feels bigger than courage.",
+  "teen_explanation": "Jesus Walks on Water gives older students room to think about faith under pressure. The passage teaches that faith looks to Jesus when fear feels bigger than courage. It also asks how belief becomes action.",
+  "key_truths": [
+    "Faith looks to Jesus when fear feels bigger than courage.",
+    "Faith means trusting God enough to respond.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when faith is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who rescued Peter?",
+      "choices": [
+        "Jesus",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "Jesus",
+      "explanation": "The passage points us back to this answer: Jesus. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that faith looks to Jesus when fear feels bigger than courage.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Matthew 14:31",
+    "prompt": "Remember Matthew 14:31 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Jesus Walks on Water?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Eyes on Jesus",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Faith looks to Jesus when fear feels bigger than courage."
+  },
+  "prayer_prompt": "Lord, help me learn from Jesus Walks on Water. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Faith",
+    "Fear",
+    "Rescue"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 15,
+  "related_lessons": [
+    "feeding-five-thousand",
+    "lazarus"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "esther-speaks",
+  "title": "Esther Speaks Up",
+  "bible_book": "Esther",
+  "passage": "Esther 4:10-16",
+  "testament": "Old Testament",
+  "category": "Courage",
+  "collection": "leaders-kings-prophets",
+  "sort_order": 38,
+  "summary": "Courage can mean using your place to help people in danger. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Esther 4:10-16",
+    "prompt": "Read Esther 4:10-16 and look for how this passage teaches: Courage can mean using your place to help people in danger."
+  },
+  "tell_it": "Esther was afraid to go to the king, but she chose courage to help her people. Mordecai reminded her that her moment mattered.",
+  "understand_it": "Courage can mean using your place to help people in danger. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Esther Speaks Up reminds us that God is good and we can trust Him. God helps us be brave.",
+  "age_8_11_explanation": "Esther Speaks Up shows that following God is not only knowing the story. It means learning this truth: Courage can mean using your place to help people in danger.",
+  "teen_explanation": "Esther Speaks Up gives older students room to think about faith under pressure. The passage teaches that courage can mean using your place to help people in danger. It also asks how belief becomes action.",
+  "key_truths": [
+    "Courage can mean using your place to help people in danger.",
+    "Courage grows when we remember God is with His people.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when courage is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who chose to speak up for her people?",
+      "choices": [
+        "Esther",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "Esther",
+      "explanation": "The passage points us back to this answer: Esther. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that courage can mean using your place to help people in danger.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Esther 4:14",
+    "prompt": "Remember Esther 4:14 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Esther Speaks Up?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Courage Moment",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Courage can mean using your place to help people in danger."
+  },
+  "prayer_prompt": "Lord, help me learn from Esther Speaks Up. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Courage",
+    "Leadership",
+    "Help"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 15,
+  "related_lessons": [
+    "josiah-finds-book",
+    "job-trusts"
+  ]
+}

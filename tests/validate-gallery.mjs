@@ -342,6 +342,14 @@ assert.ok(!homeSource.includes('className="app-launcher-title"'), "secondary pag
 assert.ok(!homeSource.includes('className="app-launcher"'), "secondary page should not include the old hero app launcher grid");
 assert.ok(!homeSource.includes("<h3>{video.title}</h3>"), "secondary page video cards should not show generic video labels");
 assert.ok(homeSource.includes('<Section id="projects" eyebrow="Apps" title="Apps and Utilities">'), "secondary page projects section should still hold the app tiles");
+assert.ok(!homeSource.includes('name: "Command Center"'), "Apps and Utilities should not include the dead Command Center tile");
+assert.ok(!homeSource.includes('name: "System Gauges"'), "Apps and Utilities should not include the dead System Gauges tile");
+assert.ok(!homeSource.includes('name: "Pomodoro Timer"'), "Apps and Utilities should not include the dead Pomodoro Timer tile");
+assert.ok(!homeSource.includes('name: "Milsim Rooster GitHub"'), "Apps and Utilities should not duplicate the GitHub link tile");
+assert.ok(!homeSource.includes('name: "FPS Visualizer"'), "Apps and Utilities should not include the retired FPS Visualizer tile");
+assert.ok(!homeSource.includes('name: "Rooster Recipes"'), "Apps and Utilities should not include the retired Rooster Recipes tile");
+assert.ok(!homeSource.includes('name: "Quotetron"'), "Apps and Utilities should not include the retired Quotetron tile");
+assert.ok(homeSource.includes('label: "GitHub"'), "Links section should keep the GitHub destination");
 assert.ok(!homeSource.includes("<Section id=\"photography\""), "old embedded photography gallery should be replaced");
 assert.ok(viteConfig.includes("apps/gallery/index.html"), "Vite should build the gallery page");
 assert.ok(viteConfig.includes("about/index.html"), "Vite should build the secondary page");

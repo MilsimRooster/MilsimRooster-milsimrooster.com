@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "ten-commandments",
+  "title": "The Ten Commandments",
+  "bible_book": "Exodus",
+  "passage": "Exodus 20:1-17",
+  "testament": "Old Testament",
+  "category": "Wilderness",
+  "collection": "exodus-wilderness",
+  "sort_order": 21,
+  "summary": "God's commands show His holiness and teach His people how to love Him and others. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Exodus 20:1-17",
+    "prompt": "Read Exodus 20:1-17 and look for how this passage teaches: God's commands show His holiness and teach His people how to love Him and others."
+  },
+  "tell_it": "God gave commandments to Israel after rescuing them. His law showed how His people should live with Him and one another.",
+  "understand_it": "God's commands show His holiness and teach His people how to love Him and others. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "The Ten Commandments reminds us that God is good and we can trust Him. Obedience matters.",
+  "age_8_11_explanation": "The Ten Commandments shows that following God is not only knowing the story. It means learning this truth: God's commands show His holiness and teach His people how to love Him and others.",
+  "teen_explanation": "The Ten Commandments gives older students room to think about faith under pressure. The passage teaches that god's commands show His holiness and teach His people how to love Him and others. It also asks how belief becomes action.",
+  "key_truths": [
+    "God's commands show His holiness and teach His people how to love Him and others.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when obedience is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who gave the Ten Commandments?",
+      "choices": [
+        "God",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "God",
+      "explanation": "The passage points us back to this answer: God. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god's commands show His holiness and teach His people how to love Him and others.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Exodus 20:1",
+    "prompt": "Remember Exodus 20:1 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in The Ten Commandments?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Commandment Match",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God's commands show His holiness and teach His people how to love Him and others."
+  },
+  "prayer_prompt": "Lord, help me learn from The Ten Commandments. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Obedience",
+    "Holiness",
+    "Love"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 18,
+  "related_lessons": [
+    "manna-in-wilderness",
+    "golden-calf"
+  ]
+}

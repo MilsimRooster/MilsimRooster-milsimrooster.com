@@ -1,0 +1,1420 @@
+{
+  "schema_version": "bible-lesson-index/v1",
+  "library_version": "2026-07-06-first-wave",
+  "lesson_count": 77,
+  "packs": [
+    {
+      "id": "beginnings-promises",
+      "name": "Beginnings and Promises",
+      "description": "Creation, the fall, early families, and God's promises in Genesis."
+    },
+    {
+      "id": "exodus-wilderness",
+      "name": "Exodus and Wilderness",
+      "description": "Moses, rescue, commandments, provision, and learning to trust God."
+    },
+    {
+      "id": "leaders-kings-prophets",
+      "name": "Leaders, Kings, and Prophets",
+      "description": "Judges, kings, prophets, courage, wisdom, worship, and return."
+    },
+    {
+      "id": "jesus-life-teaching",
+      "name": "Jesus' Life and Teaching",
+      "description": "The birth, words, miracles, death, and resurrection of Jesus."
+    },
+    {
+      "id": "church-letters-hope",
+      "name": "Church, Letters, and Hope",
+      "description": "Acts, Christian life, mission, and the hope God promises."
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "creation-good-world",
+      "title": "Creation: God's Good World",
+      "file": "library/creation-good-world.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 1:1-2:3",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Creation",
+        "God's Power",
+        "Worship"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 1
+    },
+    {
+      "lesson_id": "made-in-gods-image",
+      "title": "Made in God's Image",
+      "file": "library/made-in-gods-image.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 1:26-31",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Identity",
+        "Kindness",
+        "Creation"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 2
+    },
+    {
+      "lesson_id": "garden-first-choice",
+      "title": "The Garden and the First Choice",
+      "file": "library/garden-first-choice.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 2:15-3:24",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Sin",
+        "Obedience",
+        "Mercy"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 3
+    },
+    {
+      "lesson_id": "cain-and-abel",
+      "title": "Cain and Abel",
+      "file": "library/cain-and-abel.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 4:1-16",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Anger",
+        "Sin",
+        "Choices"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 4
+    },
+    {
+      "lesson_id": "noahs-ark",
+      "title": "Noah's Ark",
+      "file": "noahs-ark.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 6:9-9:17",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Obedience",
+        "Faith",
+        "Promise"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 18,
+      "sort_order": 5
+    },
+    {
+      "lesson_id": "tower-of-babel",
+      "title": "The Tower of Babel",
+      "file": "library/tower-of-babel.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 11:1-9",
+      "testament": "Old Testament",
+      "category": "Beginnings",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Pride",
+        "Humility",
+        "Nations"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 6
+    },
+    {
+      "lesson_id": "god-calls-abram",
+      "title": "God Calls Abram",
+      "file": "library/god-calls-abram.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 12:1-9",
+      "testament": "Old Testament",
+      "category": "Promises",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Faith",
+        "Trust",
+        "Promise"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 7
+    },
+    {
+      "lesson_id": "abraham-and-lot",
+      "title": "Abraham and Lot",
+      "file": "library/abraham-and-lot.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 13:1-18",
+      "testament": "Old Testament",
+      "category": "Promises",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Peace",
+        "Generosity",
+        "Trust"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 8
+    },
+    {
+      "lesson_id": "god-promises-abraham",
+      "title": "God Promises Abraham",
+      "file": "library/god-promises-abraham.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 15:1-6",
+      "testament": "Old Testament",
+      "category": "Promises",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Promise",
+        "Faith",
+        "Patience"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 9
+    },
+    {
+      "lesson_id": "isaac-is-born",
+      "title": "Isaac Is Born",
+      "file": "library/isaac-is-born.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 21:1-7",
+      "testament": "Old Testament",
+      "category": "Promises",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Promise",
+        "Joy",
+        "Patience"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 10
+    },
+    {
+      "lesson_id": "abraham-and-isaac",
+      "title": "Abraham and Isaac",
+      "file": "library/abraham-and-isaac.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 22:1-19",
+      "testament": "Old Testament",
+      "category": "Promises",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Trust",
+        "Obedience",
+        "Provision"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 11
+    },
+    {
+      "lesson_id": "jacob-and-esau",
+      "title": "Jacob and Esau",
+      "file": "library/jacob-and-esau.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 25:19-34",
+      "testament": "Old Testament",
+      "category": "Family Lessons",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Choices",
+        "Wisdom",
+        "Family"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 12
+    },
+    {
+      "lesson_id": "jacob-wrestles",
+      "title": "Jacob Wrestles with God",
+      "file": "library/jacob-wrestles.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 32:22-32",
+      "testament": "Old Testament",
+      "category": "Family Lessons",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Change",
+        "Prayer",
+        "Identity"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 13
+    },
+    {
+      "lesson_id": "josephs-dreams",
+      "title": "Joseph's Dreams",
+      "file": "library/josephs-dreams.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 37:1-11",
+      "testament": "Old Testament",
+      "category": "Family Lessons",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Jealousy",
+        "Family",
+        "God's Plan"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 14
+    },
+    {
+      "lesson_id": "joseph-forgives",
+      "title": "Joseph Forgives His Brothers",
+      "file": "library/joseph-forgives.json",
+      "bible_book": "Genesis",
+      "passage": "Genesis 45:1-15",
+      "testament": "Old Testament",
+      "category": "Family Lessons",
+      "collection": "beginnings-promises",
+      "tags": [
+        "Forgiveness",
+        "Mercy",
+        "God's Plan"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 15
+    },
+    {
+      "lesson_id": "baby-moses",
+      "title": "Baby Moses Is Protected",
+      "file": "library/baby-moses.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 2:1-10",
+      "testament": "Old Testament",
+      "category": "Rescue",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Courage",
+        "Protection",
+        "Family"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 16
+    },
+    {
+      "lesson_id": "burning-bush",
+      "title": "The Burning Bush",
+      "file": "library/burning-bush.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 3:1-12",
+      "testament": "Old Testament",
+      "category": "Rescue",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Calling",
+        "Prayer",
+        "Rescue"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 17
+    },
+    {
+      "lesson_id": "passover",
+      "title": "The Passover",
+      "file": "library/passover.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 12:1-14",
+      "testament": "Old Testament",
+      "category": "Rescue",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Rescue",
+        "Remember",
+        "Obedience"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 18
+    },
+    {
+      "lesson_id": "red-sea-crossing",
+      "title": "Crossing the Red Sea",
+      "file": "library/red-sea-crossing.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 14:10-31",
+      "testament": "Old Testament",
+      "category": "Rescue",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Faith",
+        "Rescue",
+        "Fear"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 19
+    },
+    {
+      "lesson_id": "manna-in-wilderness",
+      "title": "Manna in the Wilderness",
+      "file": "library/manna-in-wilderness.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 16:1-18",
+      "testament": "Old Testament",
+      "category": "Wilderness",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Provision",
+        "Trust",
+        "Gratitude"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 20
+    },
+    {
+      "lesson_id": "ten-commandments",
+      "title": "The Ten Commandments",
+      "file": "library/ten-commandments.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 20:1-17",
+      "testament": "Old Testament",
+      "category": "Wilderness",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Obedience",
+        "Holiness",
+        "Love"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 18,
+      "sort_order": 21
+    },
+    {
+      "lesson_id": "golden-calf",
+      "title": "The Golden Calf",
+      "file": "library/golden-calf.json",
+      "bible_book": "Exodus",
+      "passage": "Exodus 32:1-14",
+      "testament": "Old Testament",
+      "category": "Wilderness",
+      "collection": "exodus-wilderness",
+      "tags": [
+        "Idols",
+        "Sin",
+        "Worship"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 22
+    },
+    {
+      "lesson_id": "joshua-be-strong",
+      "title": "Joshua: Be Strong and Courageous",
+      "file": "library/joshua-be-strong.json",
+      "bible_book": "Joshua",
+      "passage": "Joshua 1:1-9",
+      "testament": "Old Testament",
+      "category": "Courage",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Courage",
+        "Leadership",
+        "God's Presence"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 23
+    },
+    {
+      "lesson_id": "jericho",
+      "title": "The Walls of Jericho",
+      "file": "library/jericho.json",
+      "bible_book": "Joshua",
+      "passage": "Joshua 6:1-20",
+      "testament": "Old Testament",
+      "category": "Courage",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Obedience",
+        "Faith",
+        "Victory"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 24
+    },
+    {
+      "lesson_id": "deborah",
+      "title": "Deborah Leads with Courage",
+      "file": "library/deborah.json",
+      "bible_book": "Judges",
+      "passage": "Judges 4:1-16",
+      "testament": "Old Testament",
+      "category": "Judges",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Leadership",
+        "Courage",
+        "Wisdom"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 25
+    },
+    {
+      "lesson_id": "gideon",
+      "title": "Gideon Learns to Trust",
+      "file": "library/gideon.json",
+      "bible_book": "Judges",
+      "passage": "Judges 6:11-16",
+      "testament": "Old Testament",
+      "category": "Judges",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Trust",
+        "Fear",
+        "Calling"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 26
+    },
+    {
+      "lesson_id": "ruth-stays",
+      "title": "Ruth Stays with Naomi",
+      "file": "library/ruth-stays.json",
+      "bible_book": "Ruth",
+      "passage": "Ruth 1:16-18",
+      "testament": "Old Testament",
+      "category": "Faithfulness",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Faithfulness",
+        "Love",
+        "Family"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 27
+    },
+    {
+      "lesson_id": "hannah-prays",
+      "title": "Hannah Prays for a Son",
+      "file": "library/hannah-prays.json",
+      "bible_book": "1 Samuel",
+      "passage": "1 Samuel 1:9-20",
+      "testament": "Old Testament",
+      "category": "Prayer",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Prayer",
+        "Hope",
+        "Trust"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 28
+    },
+    {
+      "lesson_id": "samuel-hears-god",
+      "title": "Samuel Hears God",
+      "file": "library/samuel-hears-god.json",
+      "bible_book": "1 Samuel",
+      "passage": "1 Samuel 3:1-10",
+      "testament": "Old Testament",
+      "category": "Prayer",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Listening",
+        "Obedience",
+        "Calling"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 29
+    },
+    {
+      "lesson_id": "david-anointed",
+      "title": "David Is Anointed",
+      "file": "library/david-anointed.json",
+      "bible_book": "1 Samuel",
+      "passage": "1 Samuel 16:1-13",
+      "testament": "Old Testament",
+      "category": "Bible Heroes",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Heart",
+        "Calling",
+        "Humility"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 30
+    },
+    {
+      "lesson_id": "david-and-goliath",
+      "title": "David and Goliath",
+      "file": "david-and-goliath.json",
+      "bible_book": "1 Samuel",
+      "passage": "1 Samuel 17:1-50",
+      "testament": "Old Testament",
+      "category": "Bible Heroes",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Faith",
+        "Courage",
+        "Trust"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 15,
+      "sort_order": 31
+    },
+    {
+      "lesson_id": "david-and-jonathan",
+      "title": "David and Jonathan",
+      "file": "library/david-and-jonathan.json",
+      "bible_book": "1 Samuel",
+      "passage": "1 Samuel 20:12-17",
+      "testament": "Old Testament",
+      "category": "Friendship",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Friendship",
+        "Loyalty",
+        "Courage"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 32
+    },
+    {
+      "lesson_id": "solomon-wisdom",
+      "title": "Solomon Asks for Wisdom",
+      "file": "library/solomon-wisdom.json",
+      "bible_book": "1 Kings",
+      "passage": "1 Kings 3:5-14",
+      "testament": "Old Testament",
+      "category": "Wisdom",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Wisdom",
+        "Leadership",
+        "Prayer"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 33
+    },
+    {
+      "lesson_id": "elijah-ravens",
+      "title": "Elijah and the Ravens",
+      "file": "library/elijah-ravens.json",
+      "bible_book": "1 Kings",
+      "passage": "1 Kings 17:1-16",
+      "testament": "Old Testament",
+      "category": "Prophets",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Provision",
+        "Trust",
+        "Prophets"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 34
+    },
+    {
+      "lesson_id": "mount-carmel",
+      "title": "Elijah at Mount Carmel",
+      "file": "library/mount-carmel.json",
+      "bible_book": "1 Kings",
+      "passage": "1 Kings 18:20-39",
+      "testament": "Old Testament",
+      "category": "Prophets",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Worship",
+        "Faith",
+        "God's Power"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 35
+    },
+    {
+      "lesson_id": "naaman",
+      "title": "Naaman Is Healed",
+      "file": "library/naaman.json",
+      "bible_book": "2 Kings",
+      "passage": "2 Kings 5:1-14",
+      "testament": "Old Testament",
+      "category": "Prophets",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Humility",
+        "Obedience",
+        "Healing"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 36
+    },
+    {
+      "lesson_id": "josiah-finds-book",
+      "title": "Josiah Finds God's Word",
+      "file": "library/josiah-finds-book.json",
+      "bible_book": "2 Kings",
+      "passage": "2 Kings 22:1-13",
+      "testament": "Old Testament",
+      "category": "Kings",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "God's Word",
+        "Repentance",
+        "Leadership"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 37
+    },
+    {
+      "lesson_id": "esther-speaks",
+      "title": "Esther Speaks Up",
+      "file": "library/esther-speaks.json",
+      "bible_book": "Esther",
+      "passage": "Esther 4:10-16",
+      "testament": "Old Testament",
+      "category": "Courage",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Courage",
+        "Leadership",
+        "Help"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 38
+    },
+    {
+      "lesson_id": "job-trusts",
+      "title": "Job Worships in Suffering",
+      "file": "library/job-trusts.json",
+      "bible_book": "Job",
+      "passage": "Job 1:20-22",
+      "testament": "Old Testament",
+      "category": "Wisdom",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Suffering",
+        "Trust",
+        "Worship"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 16,
+      "sort_order": 39
+    },
+    {
+      "lesson_id": "psalm-23",
+      "title": "The Lord Is My Shepherd",
+      "file": "library/psalm-23.json",
+      "bible_book": "Psalms",
+      "passage": "Psalms 23:1-6",
+      "testament": "Old Testament",
+      "category": "Psalms",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Comfort",
+        "Trust",
+        "God's Care"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 12,
+      "sort_order": 40
+    },
+    {
+      "lesson_id": "jonah-runs",
+      "title": "Jonah Runs from God",
+      "file": "library/jonah-runs.json",
+      "bible_book": "Jonah",
+      "passage": "Jonah 1:1-17",
+      "testament": "Old Testament",
+      "category": "Prophets",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Obedience",
+        "Mercy",
+        "Calling"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 41
+    },
+    {
+      "lesson_id": "jonah-prays",
+      "title": "Jonah Prays from the Fish",
+      "file": "library/jonah-prays.json",
+      "bible_book": "Jonah",
+      "passage": "Jonah 2:1-10",
+      "testament": "Old Testament",
+      "category": "Prophets",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Prayer",
+        "Rescue",
+        "Mercy"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 42
+    },
+    {
+      "lesson_id": "daniel-chooses-faithfulness",
+      "title": "Daniel Chooses Faithfulness",
+      "file": "library/daniel-chooses-faithfulness.json",
+      "bible_book": "Daniel",
+      "passage": "Daniel 1:8-17",
+      "testament": "Old Testament",
+      "category": "Exile",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Faithfulness",
+        "Choices",
+        "Wisdom"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 43
+    },
+    {
+      "lesson_id": "fiery-furnace",
+      "title": "The Fiery Furnace",
+      "file": "library/fiery-furnace.json",
+      "bible_book": "Daniel",
+      "passage": "Daniel 3:13-30",
+      "testament": "Old Testament",
+      "category": "Exile",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Faith",
+        "Courage",
+        "Worship"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 44
+    },
+    {
+      "lesson_id": "daniel-in-the-lions-den",
+      "title": "Daniel in the Lions' Den",
+      "file": "daniel-in-the-lions-den.json",
+      "bible_book": "Daniel",
+      "passage": "Daniel 6:1-28",
+      "testament": "Old Testament",
+      "category": "Exile",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Prayer",
+        "Courage",
+        "Faithfulness"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 45
+    },
+    {
+      "lesson_id": "nehemiah-rebuilds",
+      "title": "Nehemiah Rebuilds the Wall",
+      "file": "library/nehemiah-rebuilds.json",
+      "bible_book": "Nehemiah",
+      "passage": "Nehemiah 2:11-20",
+      "testament": "Old Testament",
+      "category": "Return",
+      "collection": "leaders-kings-prophets",
+      "tags": [
+        "Prayer",
+        "Teamwork",
+        "Courage"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 46
+    },
+    {
+      "lesson_id": "birth-of-jesus",
+      "title": "Jesus Is Born",
+      "file": "library/birth-of-jesus.json",
+      "bible_book": "Luke",
+      "passage": "Luke 2:1-20",
+      "testament": "New Testament",
+      "category": "Jesus",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Jesus",
+        "Joy",
+        "Good News"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 47
+    },
+    {
+      "lesson_id": "jesus-at-temple",
+      "title": "Jesus at the Temple",
+      "file": "library/jesus-at-temple.json",
+      "bible_book": "Luke",
+      "passage": "Luke 2:41-52",
+      "testament": "New Testament",
+      "category": "Jesus",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Wisdom",
+        "Jesus",
+        "Growth"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 48
+    },
+    {
+      "lesson_id": "jesus-baptized",
+      "title": "Jesus Is Baptized",
+      "file": "library/jesus-baptized.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 3:13-17",
+      "testament": "New Testament",
+      "category": "Jesus",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Jesus",
+        "Obedience",
+        "God's Son"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 14,
+      "sort_order": 49
+    },
+    {
+      "lesson_id": "jesus-tempted",
+      "title": "Jesus Is Tempted",
+      "file": "library/jesus-tempted.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 4:1-11",
+      "testament": "New Testament",
+      "category": "Jesus",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Temptation",
+        "God's Word",
+        "Faithfulness"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 50
+    },
+    {
+      "lesson_id": "jesus-calls-disciples",
+      "title": "Jesus Calls the First Disciples",
+      "file": "library/jesus-calls-disciples.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 4:18-22",
+      "testament": "New Testament",
+      "category": "Discipleship",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Following Jesus",
+        "Calling",
+        "Obedience"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 51
+    },
+    {
+      "lesson_id": "beatitudes",
+      "title": "The Beatitudes",
+      "file": "library/beatitudes.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 5:1-12",
+      "testament": "New Testament",
+      "category": "Teaching",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Kingdom",
+        "Humility",
+        "Mercy"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 52
+    },
+    {
+      "lesson_id": "lords-prayer",
+      "title": "The Lord's Prayer",
+      "file": "library/lords-prayer.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 6:5-13",
+      "testament": "New Testament",
+      "category": "Prayer",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Prayer",
+        "Trust",
+        "Forgiveness"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 15,
+      "sort_order": 53
+    },
+    {
+      "lesson_id": "wise-foolish-builders",
+      "title": "Wise and Foolish Builders",
+      "file": "library/wise-foolish-builders.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 7:24-27",
+      "testament": "New Testament",
+      "category": "Parables",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Obedience",
+        "Wisdom",
+        "Jesus' Words"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 54
+    },
+    {
+      "lesson_id": "jesus-calms-storm",
+      "title": "Jesus Calms the Storm",
+      "file": "library/jesus-calms-storm.json",
+      "bible_book": "Mark",
+      "passage": "Mark 4:35-41",
+      "testament": "New Testament",
+      "category": "Miracles",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Fear",
+        "Faith",
+        "Jesus' Power"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 13,
+      "sort_order": 55
+    },
+    {
+      "lesson_id": "good-samaritan",
+      "title": "The Good Samaritan",
+      "file": "library/good-samaritan.json",
+      "bible_book": "Luke",
+      "passage": "Luke 10:25-37",
+      "testament": "New Testament",
+      "category": "Parables",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Mercy",
+        "Love",
+        "Neighbor"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 15,
+      "sort_order": 56
+    },
+    {
+      "lesson_id": "prodigal-son",
+      "title": "The Prodigal Son",
+      "file": "library/prodigal-son.json",
+      "bible_book": "Luke",
+      "passage": "Luke 15:11-32",
+      "testament": "New Testament",
+      "category": "Parables",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Forgiveness",
+        "Mercy",
+        "Repentance"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 57
+    },
+    {
+      "lesson_id": "parable-of-sower",
+      "title": "The Parable of the Sower",
+      "file": "library/parable-of-sower.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 13:1-23",
+      "testament": "New Testament",
+      "category": "Parables",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "God's Word",
+        "Listening",
+        "Growth"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 58
+    },
+    {
+      "lesson_id": "feeding-five-thousand",
+      "title": "Jesus Feeds Five Thousand",
+      "file": "library/feeding-five-thousand.json",
+      "bible_book": "John",
+      "passage": "John 6:1-14",
+      "testament": "New Testament",
+      "category": "Miracles",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Provision",
+        "Generosity",
+        "Jesus' Power"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 59
+    },
+    {
+      "lesson_id": "walking-on-water",
+      "title": "Jesus Walks on Water",
+      "file": "library/walking-on-water.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 14:22-33",
+      "testament": "New Testament",
+      "category": "Miracles",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Faith",
+        "Fear",
+        "Rescue"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 60
+    },
+    {
+      "lesson_id": "lazarus",
+      "title": "Jesus Raises Lazarus",
+      "file": "library/lazarus.json",
+      "bible_book": "John",
+      "passage": "John 11:1-44",
+      "testament": "New Testament",
+      "category": "Miracles",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Jesus' Power",
+        "Grief",
+        "Hope"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 61
+    },
+    {
+      "lesson_id": "zacchaeus",
+      "title": "Zacchaeus Meets Jesus",
+      "file": "library/zacchaeus.json",
+      "bible_book": "Luke",
+      "passage": "Luke 19:1-10",
+      "testament": "New Testament",
+      "category": "Jesus",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Grace",
+        "Repentance",
+        "Jesus"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 62
+    },
+    {
+      "lesson_id": "last-supper",
+      "title": "The Last Supper",
+      "file": "library/last-supper.json",
+      "bible_book": "Luke",
+      "passage": "Luke 22:14-20",
+      "testament": "New Testament",
+      "category": "Passion Week",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Jesus",
+        "Remember",
+        "Salvation"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 15,
+      "sort_order": 63
+    },
+    {
+      "lesson_id": "gethsemane",
+      "title": "Jesus Prays in Gethsemane",
+      "file": "library/gethsemane.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 26:36-46",
+      "testament": "New Testament",
+      "category": "Passion Week",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Prayer",
+        "Obedience",
+        "Jesus"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 16,
+      "sort_order": 64
+    },
+    {
+      "lesson_id": "crucifixion",
+      "title": "Jesus Dies on the Cross",
+      "file": "library/crucifixion.json",
+      "bible_book": "Luke",
+      "passage": "Luke 23:33-49",
+      "testament": "New Testament",
+      "category": "Passion Week",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Jesus Saves",
+        "Forgiveness",
+        "Sacrifice"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 65
+    },
+    {
+      "lesson_id": "resurrection",
+      "title": "Jesus Is Risen",
+      "file": "library/resurrection.json",
+      "bible_book": "John",
+      "passage": "John 20:1-18",
+      "testament": "New Testament",
+      "category": "Resurrection",
+      "collection": "jesus-life-teaching",
+      "tags": [
+        "Resurrection",
+        "Hope",
+        "Joy"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 15,
+      "sort_order": 66
+    },
+    {
+      "lesson_id": "great-commission",
+      "title": "The Great Commission",
+      "file": "library/great-commission.json",
+      "bible_book": "Matthew",
+      "passage": "Matthew 28:16-20",
+      "testament": "New Testament",
+      "category": "Mission",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Mission",
+        "Discipleship",
+        "God's Presence"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 67
+    },
+    {
+      "lesson_id": "pentecost",
+      "title": "The Holy Spirit Comes at Pentecost",
+      "file": "library/pentecost.json",
+      "bible_book": "Acts",
+      "passage": "Acts 2:1-12",
+      "testament": "New Testament",
+      "category": "Church",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Holy Spirit",
+        "Church",
+        "Mission"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 68
+    },
+    {
+      "lesson_id": "peter-and-john-heal",
+      "title": "Peter and John Help a Lame Man",
+      "file": "library/peter-and-john-heal.json",
+      "bible_book": "Acts",
+      "passage": "Acts 3:1-10",
+      "testament": "New Testament",
+      "category": "Church",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Healing",
+        "Compassion",
+        "Jesus' Name"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 69
+    },
+    {
+      "lesson_id": "philip-and-ethiopian",
+      "title": "Philip and the Ethiopian Official",
+      "file": "library/philip-and-ethiopian.json",
+      "bible_book": "Acts",
+      "passage": "Acts 8:26-40",
+      "testament": "New Testament",
+      "category": "Mission",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Scripture",
+        "Mission",
+        "Good News"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 70
+    },
+    {
+      "lesson_id": "saul-converted",
+      "title": "Saul Meets Jesus",
+      "file": "library/saul-converted.json",
+      "bible_book": "Acts",
+      "passage": "Acts 9:1-19",
+      "testament": "New Testament",
+      "category": "Mission",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Grace",
+        "Change",
+        "Mission"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 71
+    },
+    {
+      "lesson_id": "peter-and-cornelius",
+      "title": "Peter and Cornelius",
+      "file": "library/peter-and-cornelius.json",
+      "bible_book": "Acts",
+      "passage": "Acts 10:1-48",
+      "testament": "New Testament",
+      "category": "Mission",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Good News",
+        "Nations",
+        "Welcome"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 72
+    },
+    {
+      "lesson_id": "paul-and-silas",
+      "title": "Paul and Silas in Prison",
+      "file": "library/paul-and-silas.json",
+      "bible_book": "Acts",
+      "passage": "Acts 16:16-34",
+      "testament": "New Testament",
+      "category": "Mission",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Prayer",
+        "Worship",
+        "Witness"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 73
+    },
+    {
+      "lesson_id": "fruit-of-spirit",
+      "title": "The Fruit of the Spirit",
+      "file": "library/fruit-of-spirit.json",
+      "bible_book": "Galatians",
+      "passage": "Galatians 5:22-23",
+      "testament": "New Testament",
+      "category": "Christian Life",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Holy Spirit",
+        "Character",
+        "Growth"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 14,
+      "sort_order": 74
+    },
+    {
+      "lesson_id": "armor-of-god",
+      "title": "The Armor of God",
+      "file": "library/armor-of-god.json",
+      "bible_book": "Ephesians",
+      "passage": "Ephesians 6:10-18",
+      "testament": "New Testament",
+      "category": "Christian Life",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Faith",
+        "Prayer",
+        "God's Word"
+      ],
+      "difficulty": "medium",
+      "estimated_minutes": 16,
+      "sort_order": 75
+    },
+    {
+      "lesson_id": "love-is-patient",
+      "title": "Love Is Patient and Kind",
+      "file": "library/love-is-patient.json",
+      "bible_book": "1 Corinthians",
+      "passage": "1 Corinthians 13:1-13",
+      "testament": "New Testament",
+      "category": "Christian Life",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Love",
+        "Patience",
+        "Kindness"
+      ],
+      "difficulty": "easy",
+      "estimated_minutes": 15,
+      "sort_order": 76
+    },
+    {
+      "lesson_id": "new-creation-hope",
+      "title": "God Makes All Things New",
+      "file": "library/new-creation-hope.json",
+      "bible_book": "Revelation",
+      "passage": "Revelation 21:1-5",
+      "testament": "New Testament",
+      "category": "Hope",
+      "collection": "church-letters-hope",
+      "tags": [
+        "Hope",
+        "God's Promise",
+        "New Creation"
+      ],
+      "difficulty": "hard",
+      "estimated_minutes": 18,
+      "sort_order": 77
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "job-trusts",
+  "title": "Job Worships in Suffering",
+  "bible_book": "Job",
+  "passage": "Job 1:20-22",
+  "testament": "Old Testament",
+  "category": "Wisdom",
+  "collection": "leaders-kings-prophets",
+  "sort_order": 39,
+  "summary": "God is worthy of trust and worship even when life hurts. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Job 1:20-22",
+    "prompt": "Read Job 1:20-22 and look for how this passage teaches: God is worthy of trust and worship even when life hurts."
+  },
+  "tell_it": "Job lost many things and grieved deeply. Even in pain, he did not accuse God of wrong.",
+  "understand_it": "God is worthy of trust and worship even when life hurts. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Job Worships in Suffering reminds us that God is good and we can trust Him. Suffering matters.",
+  "age_8_11_explanation": "Job Worships in Suffering shows that following God is not only knowing the story. It means learning this truth: God is worthy of trust and worship even when life hurts.",
+  "teen_explanation": "Job Worships in Suffering gives older students room to think about faith under pressure. The passage teaches that god is worthy of trust and worship even when life hurts. It also asks how belief becomes action.",
+  "key_truths": [
+    "God is worthy of trust and worship even when life hurts.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when suffering is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did Job do after terrible loss?",
+      "choices": [
+        "He worshiped",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "He worshiped",
+      "explanation": "The passage points us back to this answer: He worshiped. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god is worthy of trust and worship even when life hurts.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Job 1:20",
+    "prompt": "Remember Job 1:20 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Job Worships in Suffering?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Trust in Tears",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God is worthy of trust and worship even when life hurts."
+  },
+  "prayer_prompt": "Lord, help me learn from Job Worships in Suffering. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Suffering",
+    "Trust",
+    "Worship"
+  ],
+  "difficulty": "hard",
+  "estimated_minutes": 16,
+  "related_lessons": [
+    "esther-speaks",
+    "psalm-23"
+  ]
+}

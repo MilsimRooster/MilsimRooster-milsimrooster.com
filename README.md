@@ -98,6 +98,33 @@ Set the admin token used by `/apps/recipes/admin.html`:
 npx wrangler pages secret put ADMIN_TOKEN --project-name milsimrooster-com
 ```
 
+## Privacy-Safe Traffic Referrer Analytics
+
+The site records aggregate referral buckets through Pages Functions and D1 because Cloudflare HTTP analytics does not expose referrer dimensions to the current Wrangler OAuth session.
+
+Files:
+
+- `public/assets/js/referrer-analytics.js` - posts only the current path and `document.referrer`.
+- `functions/_middleware.js` - injects the local analytics script into successful HTML responses.
+- `functions/api/referrer.js` - reduces incoming data to day, referrer family, referrer host, and landing page group.
+- `functions/api/admin/referrers.js` - token-protected `GET /api/admin/referrers?days=7`.
+- `migrations/0002_traffic_referrer_daily.sql` - D1 table for aggregate page-load counts.
+
+The endpoint does not store IPs, user agents, cookies, full referrer URLs, names, or free-form query strings.
+
+## Passive Scanner Probe Analytics
+
+Obvious scanner paths are answered with `410 Gone` before the site routes run. Those hits are also counted in coarse D1 buckets so the admin view can show where the noise is coming from without storing raw visitor identifiers.
+
+Files:
+
+- `functions/_middleware.js` - recognizes junk scanner paths, records an aggregate probe bucket, and returns `410 Gone`.
+- `functions/_lib/scanner-analytics.js` - reduces scanner hits to country, ASN, ASN organization, method, path bucket, and user-agent family.
+- `functions/api/admin/scanner-probes.js` - token-protected `GET /api/admin/scanner-probes?days=7`.
+- `migrations/0003_scanner_probe_daily.sql` - D1 table for aggregate scanner-probe counts.
+
+The scanner logger does not store IPs, raw user agents, cookies, request bodies, or full probe paths.
+
 For Cloudflare dashboard setup, open Workers & Pages > `milsimrooster-com` > Settings > Bindings, add a D1 database binding named `DB`, and redeploy. The same project also needs an `ADMIN_TOKEN` secret/variable for the admin route.
 
 For local testing with Pages Functions:
@@ -126,6 +153,7 @@ npx wrangler pages deploy dist --project-name milsimrooster-com --branch main
 
 ## Hosted Apps
 
+- Bible Study Arcade: `/apps/bible-study/`
 - Apostles Quest: `/apps/apostles/`
 - New Testament Trail: `/apps/apostles/new-testament-trail.html`
 - FPS Visualizer: `/apps/fps-visualizer/`

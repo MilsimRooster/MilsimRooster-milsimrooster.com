@@ -8,6 +8,20 @@ const navItems = [
 
 const featuredApps = [
   {
+    name: "Digital Bible",
+    href: "/bible/",
+    icon: "KJV",
+    text: "Read the public-domain Berean Standard Bible and King James Version with searchable chapters.",
+    action: "Open reader"
+  },
+  {
+    name: "Kids Bible Lessons",
+    href: "/bible/lessons/",
+    icon: "KID",
+    text: "Open kid-friendly Bible lessons with age modes, activities, quizzes, and teacher notes.",
+    action: "Open lessons"
+  },
+  {
     name: "Bug Strike",
     href: "/apps/bug-strike/",
     icon: "BS",
@@ -26,18 +40,6 @@ const featuredApps = [
     text: "Open the kid-friendly New Testament flashcard game for Gospels, Acts, letters, book order, teams, and matching."
   },
   {
-    name: "FPS Visualizer",
-    href: "/apps/fps-visualizer/",
-    icon: "FPS",
-    text: "Launch the airsoft BB performance tool for energy, range, drop, and useful-distance estimates."
-  },
-  {
-    name: "Rooster Recipes",
-    href: "/apps/recipes/",
-    icon: "RR",
-    text: "Browse family recipes, scale servings, save favorites, and build a practical shopping list."
-  },
-  {
     name: "How Southern Are You?",
     href: "/apps/how-southern-are-you/",
     icon: "HS",
@@ -48,32 +50,11 @@ const featuredApps = [
     href: "/apps/southern-translator/",
     icon: "ST",
     text: "Translate Southern sayings, grandma warnings, weather talk, and church phrases into plain English."
-  },
-  {
-    name: "Quotetron",
-    href: "/apps/quotetron/",
-    icon: "QT",
-    text: "Price jobs, compare going rates, and decide when to take, negotiate, or pass before profit disappears."
   }
 ];
 
 const projects = [
-  ...featuredApps,
-  {
-    name: "Command Center",
-    icon: "CC",
-    text: "A compact Windows workflow hub for launching tools, opening folders, checking status, and keeping daily actions close."
-  },
-  {
-    name: "System Gauges",
-    icon: "SG",
-    text: "A desktop monitoring utility focused on quick system visibility, clean controls, and lightweight performance."
-  },
-  {
-    name: "Pomodoro Timer",
-    icon: "PT",
-    text: "A polished timer shell with media playback, visual backgrounds, and focused work-session controls."
-  }
+  ...featuredApps
 ];
 
 const links = [
@@ -172,12 +153,18 @@ function App() {
             <div className="card-grid">
               {projects.map((project) => (
                 project.href ? (
-                  <a className="project-card project-link-card" href={project.href} key={project.name}>
+                  <a
+                    className="project-card project-link-card"
+                    href={project.href}
+                    key={project.name}
+                    target={project.external ? "_blank" : undefined}
+                    rel={project.external ? "noreferrer" : undefined}
+                  >
                     <span className={`project-icon ${project.icon === "FPS" ? "project-icon-reticle" : ""}`}>{project.icon}</span>
                     <span className="project-card-copy">
                       <h3>{project.name}</h3>
                       <p>{project.text}</p>
-                      <strong>Open app</strong>
+                      <strong>{project.action || "Open app"}</strong>
                     </span>
                   </a>
                 ) : (

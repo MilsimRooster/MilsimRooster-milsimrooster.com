@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "lazarus",
+  "title": "Jesus Raises Lazarus",
+  "bible_book": "John",
+  "passage": "John 11:1-44",
+  "testament": "New Testament",
+  "category": "Miracles",
+  "collection": "jesus-life-teaching",
+  "sort_order": 61,
+  "summary": "Jesus has power over death and cares when people grieve. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "John 11:1-44",
+    "prompt": "Read John 11:1-44 and look for how this passage teaches: Jesus has power over death and cares when people grieve."
+  },
+  "tell_it": "Jesus wept with Mary and Martha, then called Lazarus from the tomb. Many saw His power and believed.",
+  "understand_it": "Jesus has power over death and cares when people grieve. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Jesus Raises Lazarus reminds us that God is good and we can trust Him. Jesus' Power matters.",
+  "age_8_11_explanation": "Jesus Raises Lazarus shows that following God is not only knowing the story. It means learning this truth: Jesus has power over death and cares when people grieve.",
+  "teen_explanation": "Jesus Raises Lazarus gives older students room to think about faith under pressure. The passage teaches that jesus has power over death and cares when people grieve. It also asks how belief becomes action.",
+  "key_truths": [
+    "Jesus has power over death and cares when people grieve.",
+    "God keeps His promises and gives His people future hope.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when jesus' power is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who did Jesus raise from the tomb?",
+      "choices": [
+        "Lazarus",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "Lazarus",
+      "explanation": "The passage points us back to this answer: Lazarus. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that jesus has power over death and cares when people grieve.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "John 11:25",
+    "prompt": "Remember John 11:25 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Jesus Raises Lazarus?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Hope at the Tomb",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus has power over death and cares when people grieve."
+  },
+  "prayer_prompt": "Lord, help me learn from Jesus Raises Lazarus. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Jesus' Power",
+    "Grief",
+    "Hope"
+  ],
+  "difficulty": "hard",
+  "estimated_minutes": 18,
+  "related_lessons": [
+    "walking-on-water",
+    "zacchaeus"
+  ]
+}

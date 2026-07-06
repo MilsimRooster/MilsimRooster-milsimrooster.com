@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "jesus-calms-storm",
+  "title": "Jesus Calms the Storm",
+  "bible_book": "Mark",
+  "passage": "Mark 4:35-41",
+  "testament": "New Testament",
+  "category": "Miracles",
+  "collection": "jesus-life-teaching",
+  "sort_order": 55,
+  "summary": "Jesus has authority over creation and cares for fearful disciples. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Mark 4:35-41",
+    "prompt": "Read Mark 4:35-41 and look for how this passage teaches: Jesus has authority over creation and cares for fearful disciples."
+  },
+  "tell_it": "A storm frightened the disciples while Jesus was in the boat. Jesus spoke, and the wind and sea became calm.",
+  "understand_it": "Jesus has authority over creation and cares for fearful disciples. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Jesus Calms the Storm reminds us that God is good and we can trust Him. Fear matters.",
+  "age_8_11_explanation": "Jesus Calms the Storm shows that following God is not only knowing the story. It means learning this truth: Jesus has authority over creation and cares for fearful disciples.",
+  "teen_explanation": "Jesus Calms the Storm gives older students room to think about faith under pressure. The passage teaches that jesus has authority over creation and cares for fearful disciples. It also asks how belief becomes action.",
+  "key_truths": [
+    "Jesus has authority over creation and cares for fearful disciples.",
+    "Faith means trusting God enough to respond.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when fear is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did Jesus calm?",
+      "choices": [
+        "The storm",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "The storm",
+      "explanation": "The passage points us back to this answer: The storm. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that jesus has authority over creation and cares for fearful disciples.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Mark 4:39",
+    "prompt": "Remember Mark 4:39 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Jesus Calms the Storm?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Storm to Peace",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus has authority over creation and cares for fearful disciples."
+  },
+  "prayer_prompt": "Lord, help me learn from Jesus Calms the Storm. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Fear",
+    "Faith",
+    "Jesus' Power"
+  ],
+  "difficulty": "easy",
+  "estimated_minutes": 13,
+  "related_lessons": [
+    "wise-foolish-builders",
+    "good-samaritan"
+  ]
+}

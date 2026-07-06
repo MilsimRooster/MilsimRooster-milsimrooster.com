@@ -1,0 +1,59 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "noahs-ark",
+  "title": "Noah's Ark",
+  "bible_book": "Genesis",
+  "passage": "Genesis 6:9-9:17",
+  "testament": "Old Testament",
+  "category": "Beginnings",
+  "summary": "Noah obeyed God by building the ark. God judged sin, saved Noah's family, and gave the rainbow as a sign of His promise.",
+  "read_it": {
+    "reference": "Genesis 6:9-9:17",
+    "prompt": "Read how Noah listened to God, built the ark, and saw God's promise after the flood."
+  },
+  "tell_it": "People had filled the earth with wrong and hurtful things. God told Noah to build a big ark. Noah obeyed God, and God kept Noah, his family, and the animals safe through the flood.",
+  "understand_it": "This passage teaches that sin matters, God is holy, and God keeps His promises. Noah did not save himself by being clever. He trusted and obeyed what God said.",
+  "age_modes": ["age_5_7", "age_8_11", "teens"],
+  "age_5_7_explanation": "Noah listened to God and built the ark. God kept Noah safe and gave a rainbow promise.",
+  "age_8_11_explanation": "Noah obeyed God even before the flood came. The ark shows that God judges sin, saves His people, and keeps His promises.",
+  "teen_explanation": "Noah's story holds judgment and mercy together. God takes evil seriously, yet He provides rescue and makes a covenant promise that He remembers.",
+  "key_truths": [
+    "God is holy and sin has consequences.",
+    "God saves and keeps His promises.",
+    "Obedience means listening to God even when others do not understand."
+  ],
+  "life_application": "If your friends laugh because you choose honesty, obedience can feel lonely. Noah reminds us that listening to God matters even when it is not popular.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did God tell Noah to build?",
+      "choices": ["A tower", "An ark", "A palace", "A wall"],
+      "answer": "An ark",
+      "explanation": "God told Noah to build an ark so Noah's family and the animals would be safe."
+    },
+    {
+      "type": "fill_blank",
+      "question": "The rainbow reminded Noah that God keeps His ____.",
+      "answer": "promise",
+      "explanation": "The rainbow was a sign of God's promise after the flood."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Genesis 9:13",
+    "prompt": "Remember the rainbow as a sign that God keeps His promise."
+  },
+  "discussion_questions": [
+    "Why might it have been hard for Noah to obey?",
+    "What does the rainbow help us remember?",
+    "What is one way you can obey God this week?"
+  ],
+  "activity": {
+    "title": "Promise Rainbow",
+    "instructions": "Draw a rainbow. Under it, write one promise of God you want to remember when you feel worried."
+  },
+  "prayer_prompt": "God, thank You for keeping Your promises. Help me obey You even when it is hard.",
+  "tags": ["Obedience", "Faith", "Promise", "Sin", "Mercy"],
+  "difficulty": "medium",
+  "estimated_minutes": 18,
+  "related_lessons": ["david-and-goliath"]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "hannah-prays",
+  "title": "Hannah Prays for a Son",
+  "bible_book": "1 Samuel",
+  "passage": "1 Samuel 1:9-20",
+  "testament": "Old Testament",
+  "category": "Prayer",
+  "collection": "leaders-kings-prophets",
+  "sort_order": 28,
+  "summary": "Prayer is bringing real sadness and hope to God. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "1 Samuel 1:9-20",
+    "prompt": "Read 1 Samuel 1:9-20 and look for how this passage teaches: Prayer is bringing real sadness and hope to God."
+  },
+  "tell_it": "Hannah was deeply sad and prayed to the Lord. God heard her, and she later had a son named Samuel.",
+  "understand_it": "Prayer is bringing real sadness and hope to God. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Hannah Prays for a Son reminds us that God is good and we can trust Him. we can talk to God.",
+  "age_8_11_explanation": "Hannah Prays for a Son shows that following God is not only knowing the story. It means learning this truth: Prayer is bringing real sadness and hope to God.",
+  "teen_explanation": "Hannah Prays for a Son gives older students room to think about faith under pressure. The passage teaches that prayer is bringing real sadness and hope to God. It also asks how belief becomes action.",
+  "key_truths": [
+    "Prayer is bringing real sadness and hope to God.",
+    "God's people can bring real needs and feelings to Him.",
+    "God keeps His promises and gives His people future hope.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when prayer is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did Hannah do with her sadness?",
+      "choices": [
+        "She prayed",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "She prayed",
+      "explanation": "The passage points us back to this answer: She prayed. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that prayer is bringing real sadness and hope to God.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "1 Samuel 1:10",
+    "prompt": "Remember 1 Samuel 1:10 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Hannah Prays for a Son?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Prayer Bowl",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Prayer is bringing real sadness and hope to God."
+  },
+  "prayer_prompt": "Lord, help me learn from Hannah Prays for a Son. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Prayer",
+    "Hope",
+    "Trust"
+  ],
+  "difficulty": "easy",
+  "estimated_minutes": 14,
+  "related_lessons": [
+    "ruth-stays",
+    "samuel-hears-god"
+  ]
+}

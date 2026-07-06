@@ -42,6 +42,7 @@ if (-not $SkipLiveCheck) {
     $routes = @(
         "https://milsimrooster.com/",
         "https://milsimrooster.com/apps/gallery/",
+        "https://milsimrooster.com/apps/bible-study/",
         "https://milsimrooster.com/apps/apostles/",
         "https://milsimrooster.com/apps/apostles/new-testament-trail.html",
         "https://milsimrooster.com/apps/bug-strike/",

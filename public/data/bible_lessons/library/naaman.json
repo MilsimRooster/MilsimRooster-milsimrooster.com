@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "naaman",
+  "title": "Naaman Is Healed",
+  "bible_book": "2 Kings",
+  "passage": "2 Kings 5:1-14",
+  "testament": "Old Testament",
+  "category": "Prophets",
+  "collection": "leaders-kings-prophets",
+  "sort_order": 36,
+  "summary": "Humility means receiving God's help God's way. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "2 Kings 5:1-14",
+    "prompt": "Read 2 Kings 5:1-14 and look for how this passage teaches: Humility means receiving God's help God's way."
+  },
+  "tell_it": "Naaman wanted a grand cure, but Elisha told him to wash in the Jordan. When Naaman humbled himself, God healed him.",
+  "understand_it": "Humility means receiving God's help God's way. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Naaman Is Healed reminds us that God is good and we can trust Him. Humility matters.",
+  "age_8_11_explanation": "Naaman Is Healed shows that following God is not only knowing the story. It means learning this truth: Humility means receiving God's help God's way.",
+  "teen_explanation": "Naaman Is Healed gives older students room to think about faith under pressure. The passage teaches that humility means receiving God's help God's way. It also asks how belief becomes action.",
+  "key_truths": [
+    "Humility means receiving God's help God's way.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when humility is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Where did Naaman wash?",
+      "choices": [
+        "The Jordan River",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "The Jordan River",
+      "explanation": "The passage points us back to this answer: The Jordan River. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that humility means receiving God's help God's way.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "2 Kings 5:14",
+    "prompt": "Remember 2 Kings 5:14 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Naaman Is Healed?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Humble Steps",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Humility means receiving God's help God's way."
+  },
+  "prayer_prompt": "Lord, help me learn from Naaman Is Healed. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Humility",
+    "Obedience",
+    "Healing"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 15,
+  "related_lessons": [
+    "mount-carmel",
+    "josiah-finds-book"
+  ]
+}

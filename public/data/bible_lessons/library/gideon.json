@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "gideon",
+  "title": "Gideon Learns to Trust",
+  "bible_book": "Judges",
+  "passage": "Judges 6:11-16",
+  "testament": "Old Testament",
+  "category": "Judges",
+  "collection": "leaders-kings-prophets",
+  "sort_order": 26,
+  "summary": "God sees what He can do through us even when we feel weak. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Judges 6:11-16",
+    "prompt": "Read Judges 6:11-16 and look for how this passage teaches: God sees what He can do through us even when we feel weak."
+  },
+  "tell_it": "Gideon felt small and afraid. God called him a mighty man of valor and promised to be with him.",
+  "understand_it": "God sees what He can do through us even when we feel weak. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Gideon Learns to Trust reminds us that God is good and we can trust Him. Trust matters.",
+  "age_8_11_explanation": "Gideon Learns to Trust shows that following God is not only knowing the story. It means learning this truth: God sees what He can do through us even when we feel weak.",
+  "teen_explanation": "Gideon Learns to Trust gives older students room to think about faith under pressure. The passage teaches that god sees what He can do through us even when we feel weak. It also asks how belief becomes action.",
+  "key_truths": [
+    "God sees what He can do through us even when we feel weak.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when trust is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did God promise Gideon?",
+      "choices": [
+        "I will be with you",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "I will be with you",
+      "explanation": "The passage points us back to this answer: I will be with you. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god sees what He can do through us even when we feel weak.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Judges 6:16",
+    "prompt": "Remember Judges 6:16 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Gideon Learns to Trust?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Strength You Have",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God sees what He can do through us even when we feel weak."
+  },
+  "prayer_prompt": "Lord, help me learn from Gideon Learns to Trust. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Trust",
+    "Fear",
+    "Calling"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 14,
+  "related_lessons": [
+    "deborah",
+    "ruth-stays"
+  ]
+}

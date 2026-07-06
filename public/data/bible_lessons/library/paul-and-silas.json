@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "paul-and-silas",
+  "title": "Paul and Silas in Prison",
+  "bible_book": "Acts",
+  "passage": "Acts 16:16-34",
+  "testament": "New Testament",
+  "category": "Mission",
+  "collection": "church-letters-hope",
+  "sort_order": 73,
+  "summary": "God can bring worship and witness even in hard places. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Acts 16:16-34",
+    "prompt": "Read Acts 16:16-34 and look for how this passage teaches: God can bring worship and witness even in hard places."
+  },
+  "tell_it": "Paul and Silas prayed and sang in prison. God opened doors, and the jailer heard about Jesus.",
+  "understand_it": "God can bring worship and witness even in hard places. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Paul and Silas in Prison reminds us that God is good and we can trust Him. we can talk to God.",
+  "age_8_11_explanation": "Paul and Silas in Prison shows that following God is not only knowing the story. It means learning this truth: God can bring worship and witness even in hard places.",
+  "teen_explanation": "Paul and Silas in Prison gives older students room to think about faith under pressure. The passage teaches that god can bring worship and witness even in hard places. It also asks how belief becomes action.",
+  "key_truths": [
+    "God can bring worship and witness even in hard places.",
+    "God's people can bring real needs and feelings to Him.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when prayer is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did Paul and Silas do in prison?",
+      "choices": [
+        "They prayed and sang",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "They prayed and sang",
+      "explanation": "The passage points us back to this answer: They prayed and sang. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god can bring worship and witness even in hard places.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Acts 16:25",
+    "prompt": "Remember Acts 16:25 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Paul and Silas in Prison?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Midnight Praise",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God can bring worship and witness even in hard places."
+  },
+  "prayer_prompt": "Lord, help me learn from Paul and Silas in Prison. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Prayer",
+    "Worship",
+    "Witness"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 16,
+  "related_lessons": [
+    "peter-and-cornelius",
+    "fruit-of-spirit"
+  ]
+}

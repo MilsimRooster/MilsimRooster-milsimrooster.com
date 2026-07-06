@@ -1,0 +1,78 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "pentecost",
+  "title": "The Holy Spirit Comes at Pentecost",
+  "bible_book": "Acts",
+  "passage": "Acts 2:1-12",
+  "testament": "New Testament",
+  "category": "Church",
+  "collection": "church-letters-hope",
+  "sort_order": 68,
+  "summary": "God gives the Holy Spirit and gathers people from many nations. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Acts 2:1-12",
+    "prompt": "Read Acts 2:1-12 and look for how this passage teaches: God gives the Holy Spirit and gathers people from many nations."
+  },
+  "tell_it": "The Holy Spirit came upon the believers at Pentecost. People from many places heard the mighty works of God.",
+  "understand_it": "God gives the Holy Spirit and gathers people from many nations. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "The Holy Spirit Comes at Pentecost reminds us that God is good and we can trust Him. Holy Spirit matters.",
+  "age_8_11_explanation": "The Holy Spirit Comes at Pentecost shows that following God is not only knowing the story. It means learning this truth: God gives the Holy Spirit and gathers people from many nations.",
+  "teen_explanation": "The Holy Spirit Comes at Pentecost gives older students room to think about faith under pressure. The passage teaches that god gives the Holy Spirit and gathers people from many nations. It also asks how belief becomes action.",
+  "key_truths": [
+    "God gives the Holy Spirit and gathers people from many nations.",
+    "The Holy Spirit helps God's people live for Him.",
+    "God sends His people to share good news.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when holy spirit is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Who came at Pentecost?",
+      "choices": [
+        "The Holy Spirit",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "The Holy Spirit",
+      "explanation": "The passage points us back to this answer: The Holy Spirit. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that god gives the Holy Spirit and gathers people from many nations.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Acts 2:4",
+    "prompt": "Remember Acts 2:4 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in The Holy Spirit Comes at Pentecost?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Many Languages",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: God gives the Holy Spirit and gathers people from many nations."
+  },
+  "prayer_prompt": "Lord, help me learn from The Holy Spirit Comes at Pentecost. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Holy Spirit",
+    "Church",
+    "Mission"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 16,
+  "related_lessons": [
+    "great-commission",
+    "peter-and-john-heal"
+  ]
+}

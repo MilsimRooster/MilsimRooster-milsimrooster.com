@@ -1,0 +1,76 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "love-is-patient",
+  "title": "Love Is Patient and Kind",
+  "bible_book": "1 Corinthians",
+  "passage": "1 Corinthians 13:1-13",
+  "testament": "New Testament",
+  "category": "Christian Life",
+  "collection": "church-letters-hope",
+  "sort_order": 76,
+  "summary": "Love matters because God calls His people to patient, humble, faithful care. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "1 Corinthians 13:1-13",
+    "prompt": "Read 1 Corinthians 13:1-13 and look for how this passage teaches: Love matters because God calls His people to patient, humble, faithful care."
+  },
+  "tell_it": "Paul taught that impressive gifts are empty without love. Real love is patient, kind, humble, and lasting.",
+  "understand_it": "Love matters because God calls His people to patient, humble, faithful care. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Love Is Patient and Kind reminds us that God is good and we can trust Him. Love matters.",
+  "age_8_11_explanation": "Love Is Patient and Kind shows that following God is not only knowing the story. It means learning this truth: Love matters because God calls His people to patient, humble, faithful care.",
+  "teen_explanation": "Love Is Patient and Kind gives older students room to think about faith under pressure. The passage teaches that love matters because God calls His people to patient, humble, faithful care. It also asks how belief becomes action.",
+  "key_truths": [
+    "Love matters because God calls His people to patient, humble, faithful care.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when love is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What does Paul say love is?",
+      "choices": [
+        "Patient and kind",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "Patient and kind",
+      "explanation": "The passage points us back to this answer: Patient and kind. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that love matters because God calls His people to patient, humble, faithful care.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "1 Corinthians 13:4",
+    "prompt": "Remember 1 Corinthians 13:4 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Love Is Patient and Kind?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Love Looks Like",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Love matters because God calls His people to patient, humble, faithful care."
+  },
+  "prayer_prompt": "Lord, help me learn from Love Is Patient and Kind. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Love",
+    "Patience",
+    "Kindness"
+  ],
+  "difficulty": "easy",
+  "estimated_minutes": 15,
+  "related_lessons": [
+    "armor-of-god",
+    "new-creation-hope"
+  ]
+}

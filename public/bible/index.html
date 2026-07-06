@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Read public-domain Bible translations on Milsim Rooster, including the Berean Standard Bible and King James Version.">
+  <title>Digital Bible | Milsim Rooster</title>
+  <link rel="stylesheet" href="styles.css?v=20260705-bottom-nav-1">
+  <script src="app.js?v=20260705-bottom-nav-1" defer></script>
+</head>
+<body>
+  <header class="site-top">
+    <a class="brand-link" href="/about/">Milsim Rooster</a>
+    <nav aria-label="Bible navigation">
+      <a class="quiet-link" href="/bible/lessons/">Kids Lessons</a>
+      <a class="quiet-link" href="/about/#projects">Apps and Utilities</a>
+    </nav>
+  </header>
+
+  <main class="reader-shell">
+    <section class="reader-head" aria-labelledby="readerTitle">
+      <h1 id="readerTitle">Digital Bible</h1>
+      <p class="reader-subtitle">Berean Standard Bible with King James Version available.</p>
+    </section>
+
+    <section class="reader-controls" aria-label="Bible reader controls">
+      <label class="control-field" for="versionSelect">
+        <span>Version</span>
+        <select id="versionSelect">
+          <option value="bsb" selected>Berean Standard Bible</option>
+          <option value="kjv">King James Version</option>
+        </select>
+      </label>
+      <label class="control-field" for="bookSelect">
+        <span>Book</span>
+        <select id="bookSelect"></select>
+      </label>
+      <label class="control-field" for="chapterSelect">
+        <span>Chapter</span>
+        <select id="chapterSelect"></select>
+      </label>
+      <label class="control-field search-field" for="searchInput">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="faith, grace, John 3:16" autocomplete="off">
+      </label>
+    </section>
+
+    <section class="reader-grid">
+      <article class="scripture-panel" aria-live="polite">
+        <header class="chapter-head">
+          <p id="referenceLine">King James Version</p>
+          <h2 id="chapterTitle">Loading...</h2>
+        </header>
+        <div id="scriptureText" class="scripture-text"></div>
+        <nav id="chapterBottomNav" class="chapter-bottom-nav" aria-label="Chapter navigation">
+          <button id="previousChapterButton" class="chapter-nav-button secondary" type="button">Previous chapter</button>
+          <button id="nextChapterButton" class="chapter-nav-button primary" type="button">Next chapter</button>
+        </nav>
+      </article>
+
+      <aside class="search-panel" aria-label="Search results">
+        <div class="search-head">
+          <h2>Search</h2>
+          <p id="searchCount">Ready</p>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="source-note">
+    <span>BSB source: Berean Standard Bible Text, public domain.</span>
+    <span>KJV source: Project Gutenberg ebook #10, public domain in the United States.</span>
+  </footer>
+</body>
+</html>

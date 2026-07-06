@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "jesus-tempted",
+  "title": "Jesus Is Tempted",
+  "bible_book": "Matthew",
+  "passage": "Matthew 4:1-11",
+  "testament": "New Testament",
+  "category": "Jesus",
+  "collection": "jesus-life-teaching",
+  "sort_order": 50,
+  "summary": "Jesus answered temptation with God's Word and remained faithful. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Matthew 4:1-11",
+    "prompt": "Read Matthew 4:1-11 and look for how this passage teaches: Jesus answered temptation with God's Word and remained faithful."
+  },
+  "tell_it": "Jesus was tempted in the wilderness, but He did not sin. He answered each temptation with Scripture.",
+  "understand_it": "Jesus answered temptation with God's Word and remained faithful. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Jesus Is Tempted reminds us that God is good and we can trust Him. Temptation matters.",
+  "age_8_11_explanation": "Jesus Is Tempted shows that following God is not only knowing the story. It means learning this truth: Jesus answered temptation with God's Word and remained faithful.",
+  "teen_explanation": "Jesus Is Tempted gives older students room to think about faith under pressure. The passage teaches that jesus answered temptation with God's Word and remained faithful. It also asks how belief becomes action.",
+  "key_truths": [
+    "Jesus answered temptation with God's Word and remained faithful.",
+    "God's Word teaches truth and calls for response.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when temptation is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What did Jesus use to answer temptation?",
+      "choices": [
+        "God's Word",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "God's Word",
+      "explanation": "The passage points us back to this answer: God's Word. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that jesus answered temptation with God's Word and remained faithful.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Matthew 4:4",
+    "prompt": "Remember Matthew 4:4 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Jesus Is Tempted?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Scripture Shield",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus answered temptation with God's Word and remained faithful."
+  },
+  "prayer_prompt": "Lord, help me learn from Jesus Is Tempted. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Temptation",
+    "God's Word",
+    "Faithfulness"
+  ],
+  "difficulty": "medium",
+  "estimated_minutes": 16,
+  "related_lessons": [
+    "jesus-baptized",
+    "jesus-calls-disciples"
+  ]
+}

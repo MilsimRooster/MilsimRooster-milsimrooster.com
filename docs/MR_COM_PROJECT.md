@@ -29,6 +29,7 @@ Wrangler is authenticated as `info@keithleague.com`.
 ## Live Routes
 
 - Home: `https://milsimrooster.com/`
+- Bible Study Arcade: `https://milsimrooster.com/apps/bible-study/`
 - Apostles Quest: `https://milsimrooster.com/apps/apostles/`
 - FPS Visualizer: `https://milsimrooster.com/apps/fps-visualizer/`
 - Rooster Recipes: `https://milsimrooster.com/apps/recipes/`
@@ -41,8 +42,17 @@ All four routes were checked live and returned HTTP `200` with the expected page
 
 ### Home Page
 
-- Main page includes launch cards for Bug Strike, Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, Southern Translator, and Quotetron.
+- Main page includes launch cards for Bible Study Arcade, Bug Strike, Apostles Quest, FPS Visualizer, Rooster Recipes, How Southern Are You?, Southern Translator, and Quotetron.
 - The apps launcher should feel like a clear "Games and Utilities" section for the MR.com app family.
+
+### Bible Study Arcade
+
+- Hosted under `/apps/bible-study/`.
+- Static browser app with a shared quiz engine, structured Bible question data, and a mobile-first hub.
+- Includes seven playable rounds: Who Said It?, Match the Miracle, Paul's Journey Map, Parables Quiz, Book Order Challenge, Character Guess Who, and Verse Context Challenge.
+- Current content bank has 78 challenges; Parables Quiz has been expanded to 20 for better repeat play.
+- Also links to the existing Apostles Quest and New Testament Trail games.
+- Validation lives in `tests/validate-bible-study-arcade.mjs`.
 
 ### Bug Strike
 

@@ -1,0 +1,77 @@
+{
+  "schema_version": "bible-lesson/v1",
+  "lesson_id": "zacchaeus",
+  "title": "Zacchaeus Meets Jesus",
+  "bible_book": "Luke",
+  "passage": "Luke 19:1-10",
+  "testament": "New Testament",
+  "category": "Jesus",
+  "collection": "jesus-life-teaching",
+  "sort_order": 62,
+  "summary": "Jesus seeks and saves lost people, and His grace changes lives. This short lesson helps kids read, understand, and play through the passage.",
+  "read_it": {
+    "reference": "Luke 19:1-10",
+    "prompt": "Read Luke 19:1-10 and look for how this passage teaches: Jesus seeks and saves lost people, and His grace changes lives."
+  },
+  "tell_it": "Zacchaeus climbed a tree to see Jesus. Jesus came to his house, and Zacchaeus chose to make wrong things right.",
+  "understand_it": "Jesus seeks and saves lost people, and His grace changes lives. This lesson keeps the main point simple: God is faithful, His Word is true, and His people can respond with faith and obedience.",
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
+  "age_5_7_explanation": "Zacchaeus Meets Jesus reminds us that God is good and we can trust Him. Grace matters.",
+  "age_8_11_explanation": "Zacchaeus Meets Jesus shows that following God is not only knowing the story. It means learning this truth: Jesus seeks and saves lost people, and His grace changes lives.",
+  "teen_explanation": "Zacchaeus Meets Jesus gives older students room to think about faith under pressure. The passage teaches that jesus seeks and saves lost people, and His grace changes lives. It also asks how belief becomes action.",
+  "key_truths": [
+    "Jesus seeks and saves lost people, and His grace changes lives.",
+    "Jesus is the promised Savior.",
+    "God is faithful and His people can trust Him."
+  ],
+  "life_application": "A kid can practice this when grace is needed: at school, with siblings, during disappointment, or when choosing between an easy wrong thing and a harder right thing.",
+  "quiz_questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Why did Zacchaeus climb a tree?",
+      "choices": [
+        "To see Jesus",
+        "To make themselves look important",
+        "Because God forgot His people",
+        "Because obeying never matters"
+      ],
+      "answer": "To see Jesus",
+      "explanation": "The passage points us back to this answer: To see Jesus. It helps kids remember the main event and the truth it teaches."
+    },
+    {
+      "type": "true_false",
+      "question": "This lesson teaches that jesus seeks and saves lost people, and His grace changes lives.",
+      "answer": "True",
+      "explanation": "That is the plain lesson focus for this passage, stated in kid-friendly language."
+    }
+  ],
+  "memory_verse": {
+    "reference": "Luke 19:10",
+    "prompt": "Remember Luke 19:10 as a short anchor for this lesson."
+  },
+  "discussion_questions": [
+    "What happened in Zacchaeus Meets Jesus?",
+    "What does this passage teach us about God or following Him?",
+    "Where could this lesson help you at home, school, church, or with friends?"
+  ],
+  "activity": {
+    "title": "Tree View",
+    "instructions": "Draw or act out the lesson scene, then name the one clear truth: Jesus seeks and saves lost people, and His grace changes lives."
+  },
+  "prayer_prompt": "Lord, help me learn from Zacchaeus Meets Jesus. Teach me to trust You, listen to Your Word, and live this truth this week.",
+  "tags": [
+    "Grace",
+    "Repentance",
+    "Jesus"
+  ],
+  "difficulty": "easy",
+  "estimated_minutes": 14,
+  "related_lessons": [
+    "lazarus",
+    "last-supper"
+  ]
+}
