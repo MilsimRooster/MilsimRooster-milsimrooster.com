@@ -1,0 +1,21 @@
+{
+  "id": "great-commission",
+  "name": "The Great Commission",
+  "passage": "Matthew 28:16-20",
+  "summary": "Jesus commanded His followers to make disciples.",
+  "kid_summary": "Jesus commanded His followers to make disciples.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "evangelism",
+    "discipleship"
+  ],
+  "related_lessons": [
+    "great-commission"
+  ],
+  "type": "command"
+}

@@ -71,7 +71,39 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
-    "resurrection",
-    "pentecost"
+    "gethsemane",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "pentecost",
+    "resurrection"
+  ],
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "discipleship",
+    "gods-presence",
+    "mission"
+  ],
+  "events": [
+    "great-commission"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:galilee",
+    "theme:discipleship",
+    "theme:gods-presence",
+    "theme:mission",
+    "event:great-commission"
   ]
 }

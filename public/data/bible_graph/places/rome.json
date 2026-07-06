@@ -1,0 +1,22 @@
+{
+  "id": "rome",
+  "name": "Rome",
+  "type": "place",
+  "summary": "Rome was the capital city of the empire during the New Testament.",
+  "kid_summary": "Rome was a powerful city in Paul's world.",
+  "lessons": [
+    "paul-and-silas"
+  ],
+  "related_people": [
+    "paul",
+    "silas"
+  ],
+  "related_events": [
+    "paul-and-silas"
+  ],
+  "themes": [
+    "prayer",
+    "witness",
+    "worship"
+  ]
+}

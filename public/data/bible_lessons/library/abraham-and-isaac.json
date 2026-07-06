@@ -71,6 +71,31 @@
   "estimated_minutes": 18,
   "related_lessons": [
     "isaac-is-born",
-    "jacob-and-esau"
+    "abraham-and-lot",
+    "god-calls-abram",
+    "jacob-and-esau",
+    "elijah-ravens",
+    "god-promises-abraham"
+  ],
+  "people": [
+    "abraham",
+    "isaac"
+  ],
+  "places": [],
+  "themes": [
+    "obedience",
+    "provision",
+    "trust"
+  ],
+  "events": [
+    "abraham-and-isaac"
+  ],
+  "related_graph_nodes": [
+    "person:abraham",
+    "person:isaac",
+    "theme:obedience",
+    "theme:provision",
+    "theme:trust",
+    "event:abraham-and-isaac"
   ]
 }

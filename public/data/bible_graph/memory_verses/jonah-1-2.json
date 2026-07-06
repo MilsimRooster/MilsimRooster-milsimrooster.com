@@ -1,0 +1,17 @@
+{
+  "id": "jonah-1-2",
+  "name": "Jonah 1:2",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to Jonah Runs from God.",
+  "kid_summary": "Remember Jonah 1:2 as a short anchor for this lesson.",
+  "reference": "Jonah 1:2",
+  "prompt": "Remember Jonah 1:2 as a short anchor for this lesson.",
+  "themes": [
+    "calling",
+    "mercy",
+    "obedience"
+  ],
+  "related_lessons": [
+    "jonah-runs"
+  ]
+}

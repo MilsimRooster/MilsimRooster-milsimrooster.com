@@ -1,0 +1,57 @@
+{
+  "id": "david",
+  "name": "David",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Samuel",
+    "2 Samuel",
+    "Psalms"
+  ],
+  "roles": [
+    "king",
+    "shepherd"
+  ],
+  "summary": "David was a shepherd, king, and psalm writer who trusted God.",
+  "kid_summary": "David trusted God when he faced Goliath.",
+  "lessons": [
+    "david-and-goliath",
+    "david-and-jonathan",
+    "david-anointed",
+    "psalm-23"
+  ],
+  "major_events": [
+    "david-and-goliath",
+    "david-and-jonathan",
+    "david-anointed",
+    "psalm-23"
+  ],
+  "related_places": [],
+  "themes": [
+    "calling",
+    "comfort",
+    "courage",
+    "faith",
+    "fear",
+    "friendship",
+    "gods-care",
+    "heart",
+    "humility",
+    "loyalty",
+    "obedience",
+    "trust"
+  ],
+  "memory_verses": [
+    "1-samuel-16-7",
+    "1-samuel-17-47",
+    "1-samuel-20-17",
+    "psalms-23-1"
+  ],
+  "related_people": [
+    "jonathan",
+    "samuel",
+    "saul"
+  ],
+  "questions": [],
+  "notes": []
+}

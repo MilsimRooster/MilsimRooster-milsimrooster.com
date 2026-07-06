@@ -1,0 +1,20 @@
+{
+  "id": "rainbow",
+  "name": "Rainbow",
+  "passage": "Genesis 9:13",
+  "summary": "The rainbow was a sign of God's promise after the flood.",
+  "kid_summary": "The rainbow was a sign of God's promise after the flood.",
+  "people": [
+    "noah"
+  ],
+  "places": [
+    "wilderness"
+  ],
+  "themes": [
+    "promise"
+  ],
+  "related_lessons": [
+    "noahs-ark"
+  ],
+  "type": "object"
+}

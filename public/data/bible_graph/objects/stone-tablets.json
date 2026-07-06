@@ -1,0 +1,21 @@
+{
+  "id": "stone-tablets",
+  "name": "Stone Tablets",
+  "passage": "Exodus 31:18",
+  "summary": "The stone tablets held the commandments God gave Israel.",
+  "kid_summary": "The stone tablets held the commandments God gave Israel.",
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "sinai"
+  ],
+  "themes": [
+    "obedience",
+    "worship"
+  ],
+  "related_lessons": [
+    "ten-commandments"
+  ],
+  "type": "object"
+}

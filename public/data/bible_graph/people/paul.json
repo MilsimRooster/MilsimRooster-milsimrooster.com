@@ -1,0 +1,63 @@
+{
+  "id": "paul",
+  "name": "Paul",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts",
+    "Romans"
+  ],
+  "roles": [
+    "apostle",
+    "missionary"
+  ],
+  "summary": "Paul met the risen Jesus and became a missionary and teacher.",
+  "kid_summary": "Paul changed from hurting Christians to telling people about Jesus.",
+  "lessons": [
+    "armor-of-god",
+    "fruit-of-spirit",
+    "love-is-patient",
+    "paul-and-silas",
+    "saul-converted"
+  ],
+  "major_events": [
+    "armor-of-god",
+    "conversion-of-paul",
+    "fruit-of-spirit",
+    "love-is-patient",
+    "paul-and-silas"
+  ],
+  "related_places": [
+    "judea",
+    "rome"
+  ],
+  "themes": [
+    "change",
+    "character",
+    "faith",
+    "gods-word",
+    "grace",
+    "growth",
+    "holy-spirit",
+    "kindness",
+    "love",
+    "mission",
+    "patience",
+    "prayer",
+    "witness",
+    "worship"
+  ],
+  "memory_verses": [
+    "1-corinthians-13-4",
+    "acts-16-25",
+    "acts-9-5",
+    "ephesians-6-17",
+    "galatians-5-22"
+  ],
+  "related_people": [
+    "jesus",
+    "silas"
+  ],
+  "questions": [],
+  "notes": []
+}

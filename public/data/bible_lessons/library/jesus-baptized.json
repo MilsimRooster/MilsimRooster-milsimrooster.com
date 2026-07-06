@@ -71,7 +71,37 @@
   "difficulty": "medium",
   "estimated_minutes": 14,
   "related_lessons": [
+    "gethsemane",
     "jesus-at-temple",
+    "birth-of-jesus",
+    "jesus-calls-disciples",
+    "last-supper",
     "jesus-tempted"
+  ],
+  "people": [
+    "jesus",
+    "john-the-baptist"
+  ],
+  "places": [
+    "jordan-river",
+    "judea"
+  ],
+  "themes": [
+    "gods-son",
+    "jesus",
+    "obedience"
+  ],
+  "events": [
+    "baptism-of-jesus"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:john-the-baptist",
+    "place:jordan-river",
+    "place:judea",
+    "theme:gods-son",
+    "theme:jesus",
+    "theme:obedience",
+    "event:baptism-of-jesus"
   ]
 }

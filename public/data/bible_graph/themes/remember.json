@@ -1,0 +1,24 @@
+{
+  "id": "remember",
+  "name": "Remember",
+  "type": "theme",
+  "summary": "Remember is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Remember helps us see what this story teaches.",
+  "related_lessons": [
+    "last-supper",
+    "passover"
+  ],
+  "related_people": [
+    "aaron",
+    "james",
+    "jesus",
+    "john",
+    "moses",
+    "peter"
+  ],
+  "related_verses": [
+    "exodus-12-14",
+    "luke-22-19"
+  ],
+  "questions": []
+}

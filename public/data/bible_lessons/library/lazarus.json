@@ -71,7 +71,32 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
+    "feeding-five-thousand",
+    "jesus-calms-storm",
+    "new-creation-hope",
+    "resurrection",
     "walking-on-water",
     "zacchaeus"
+  ],
+  "people": [
+    "jesus",
+    "lazarus"
+  ],
+  "places": [],
+  "themes": [
+    "grief",
+    "hope",
+    "jesus-power"
+  ],
+  "events": [
+    "lazarus"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:lazarus",
+    "theme:grief",
+    "theme:hope",
+    "theme:jesus-power",
+    "event:lazarus"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "jesus-calls-disciples",
+  "name": "Jesus Calls the First Disciples",
+  "type": "event",
+  "passage": "Matthew 4:18-22",
+  "summary": "Following Jesus means listening when He calls and learning His way. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus called fishermen to follow Him. They left their nets and became His disciples.",
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "calling",
+    "following-jesus",
+    "obedience"
+  ],
+  "related_lessons": [
+    "jesus-calls-disciples"
+  ],
+  "timeline_order": 51
+}

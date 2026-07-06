@@ -1,0 +1,49 @@
+{
+  "id": "judea",
+  "name": "Judea",
+  "type": "place",
+  "summary": "Judea was a region that included Jerusalem and many events in Jesus' life.",
+  "kid_summary": "Judea was part of the land where Jesus lived and taught.",
+  "lessons": [
+    "good-samaritan",
+    "jesus-baptized",
+    "jesus-tempted",
+    "peter-and-cornelius",
+    "philip-and-ethiopian",
+    "saul-converted"
+  ],
+  "related_people": [
+    "cornelius",
+    "jesus",
+    "john-the-baptist",
+    "paul",
+    "peter",
+    "philip"
+  ],
+  "related_events": [
+    "baptism-of-jesus",
+    "conversion-of-paul",
+    "good-samaritan",
+    "peter-and-cornelius",
+    "philip-and-ethiopian",
+    "temptation-of-jesus"
+  ],
+  "themes": [
+    "change",
+    "faithfulness",
+    "gods-son",
+    "gods-word",
+    "good-news",
+    "grace",
+    "jesus",
+    "love",
+    "mercy",
+    "mission",
+    "nations",
+    "neighbor",
+    "obedience",
+    "scripture",
+    "temptation",
+    "welcome"
+  ]
+}

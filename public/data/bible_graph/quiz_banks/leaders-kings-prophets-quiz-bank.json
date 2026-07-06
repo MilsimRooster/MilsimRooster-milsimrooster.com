@@ -1,0 +1,323 @@
+{
+  "id": "leaders-kings-prophets-quiz-bank",
+  "name": "Leaders, Kings, and Prophets Quiz Bank",
+  "type": "quiz_bank",
+  "summary": "Reusable quiz questions from the Leaders, Kings, and Prophets lesson pack.",
+  "kid_summary": "Questions from Leaders, Kings, and Prophets.",
+  "lesson_ids": [
+    "joshua-be-strong",
+    "jericho",
+    "deborah",
+    "gideon",
+    "ruth-stays",
+    "hannah-prays",
+    "samuel-hears-god",
+    "david-anointed",
+    "david-and-goliath",
+    "david-and-jonathan",
+    "solomon-wisdom",
+    "elijah-ravens",
+    "mount-carmel",
+    "naaman",
+    "josiah-finds-book",
+    "esther-speaks",
+    "job-trusts",
+    "psalm-23",
+    "jonah-runs",
+    "jonah-prays",
+    "daniel-chooses-faithfulness",
+    "fiery-furnace",
+    "daniel-in-the-lions-den",
+    "nehemiah-rebuilds"
+  ],
+  "questions": [
+    {
+      "lesson_id": "joshua-be-strong",
+      "question": "What did God tell Joshua to be?",
+      "answer": "Strong and courageous",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "joshua-be-strong",
+      "question": "This lesson teaches that god's presence gives courage for new responsibilities.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jericho",
+      "question": "What happened to Jericho's walls?",
+      "answer": "They fell",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jericho",
+      "question": "This lesson teaches that obedience can look strange, but God's people can trust His instructions.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "deborah",
+      "question": "Who was the judge who helped Barak?",
+      "answer": "Deborah",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "deborah",
+      "question": "This lesson teaches that god can give wisdom and courage to lead others toward what is right.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "gideon",
+      "question": "What did God promise Gideon?",
+      "answer": "I will be with you",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "gideon",
+      "question": "This lesson teaches that god sees what He can do through us even when we feel weak.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "ruth-stays",
+      "question": "Who did Ruth stay with?",
+      "answer": "Naomi",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "ruth-stays",
+      "question": "This lesson teaches that faithful love stays near and serves when life is hard.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "hannah-prays",
+      "question": "What did Hannah do with her sadness?",
+      "answer": "She prayed",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "hannah-prays",
+      "question": "This lesson teaches that prayer is bringing real sadness and hope to God.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "samuel-hears-god",
+      "question": "What did Samuel say to the Lord?",
+      "answer": "Speak, for Your servant is listening",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "samuel-hears-god",
+      "question": "This lesson teaches that listening to God matters, and even young people can respond to Him.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "david-anointed",
+      "question": "What does the Lord look at?",
+      "answer": "The heart",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "david-anointed",
+      "question": "This lesson teaches that god sees the heart, not just what people look like outside.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "david-and-goliath",
+      "question": "Why was David brave enough to face Goliath?",
+      "answer": "He trusted the Lord",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "david-and-goliath",
+      "question": "David defeated Goliath by trusting God, not by copying Saul's armor.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "david-and-jonathan",
+      "question": "Who was David's loyal friend?",
+      "answer": "Jonathan",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "david-and-jonathan",
+      "question": "This lesson teaches that true friendship is loyal, truthful, and willing to protect another person.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "solomon-wisdom",
+      "question": "What did Solomon ask God for?",
+      "answer": "Wisdom",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "solomon-wisdom",
+      "question": "This lesson teaches that wisdom is better than showing off because it helps us honor God and serve people.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "elijah-ravens",
+      "question": "What birds brought food to Elijah?",
+      "answer": "Ravens",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "elijah-ravens",
+      "question": "This lesson teaches that god can provide in surprising ways when His servants depend on Him.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "mount-carmel",
+      "question": "Who answered by fire?",
+      "answer": "The Lord",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "mount-carmel",
+      "question": "This lesson teaches that the Lord alone is God, and worship belongs to Him.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "naaman",
+      "question": "Where did Naaman wash?",
+      "answer": "The Jordan River",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "naaman",
+      "question": "This lesson teaches that humility means receiving God's help God's way.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "josiah-finds-book",
+      "question": "What did Josiah hear read?",
+      "answer": "The Book of the Law",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "josiah-finds-book",
+      "question": "This lesson teaches that god's Word can wake up hearts and call people back to Him.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "esther-speaks",
+      "question": "Who chose to speak up for her people?",
+      "answer": "Esther",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "esther-speaks",
+      "question": "This lesson teaches that courage can mean using your place to help people in danger.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "job-trusts",
+      "question": "What did Job do after terrible loss?",
+      "answer": "He worshiped",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "job-trusts",
+      "question": "This lesson teaches that god is worthy of trust and worship even when life hurts.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "psalm-23",
+      "question": "Who is pictured as the shepherd?",
+      "answer": "The Lord",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "psalm-23",
+      "question": "This lesson teaches that god cares for His people like a shepherd cares for sheep.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jonah-runs",
+      "question": "Where did God tell Jonah to go?",
+      "answer": "Nineveh",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jonah-runs",
+      "question": "This lesson teaches that running from God does not hide us from His care or His command.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jonah-prays",
+      "question": "Where did Jonah pray from?",
+      "answer": "Inside the fish",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jonah-prays",
+      "question": "This lesson teaches that we can pray to God from the deepest trouble.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "daniel-chooses-faithfulness",
+      "question": "What did Daniel resolve to do?",
+      "answer": "Honor God",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "daniel-chooses-faithfulness",
+      "question": "This lesson teaches that faithfulness starts with small choices to honor God.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "fiery-furnace",
+      "question": "Who was with the men in the fire?",
+      "answer": "God was with them",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "fiery-furnace",
+      "question": "This lesson teaches that god is able to rescue, and His people can stay faithful even before they know the outcome.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "daniel-in-the-lions-den",
+      "question": "What did Daniel keep doing even after the new law?",
+      "answer": "Praying to God",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "daniel-in-the-lions-den",
+      "question": "God protected Daniel in the lions' den.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "nehemiah-rebuilds",
+      "question": "What did Nehemiah help rebuild?",
+      "answer": "Jerusalem's wall",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "nehemiah-rebuilds",
+      "question": "This lesson teaches that god's work often takes prayer, planning, courage, and teamwork.",
+      "answer": "True",
+      "type": "true_false"
+    }
+  ]
+}

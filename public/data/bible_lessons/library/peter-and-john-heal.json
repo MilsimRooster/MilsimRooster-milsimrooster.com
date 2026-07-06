@@ -71,6 +71,34 @@
   "estimated_minutes": 14,
   "related_lessons": [
     "pentecost",
-    "philip-and-ethiopian"
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm"
+  ],
+  "people": [
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "compassion",
+    "healing",
+    "jesus-name"
+  ],
+  "events": [
+    "peter-and-john-heal"
+  ],
+  "related_graph_nodes": [
+    "person:john",
+    "person:peter",
+    "place:jerusalem",
+    "theme:compassion",
+    "theme:healing",
+    "theme:jesus-name",
+    "event:peter-and-john-heal"
   ]
 }

@@ -59,6 +59,11 @@ const requiredFields = [
   "difficulty",
   "estimated_minutes",
   "related_lessons",
+  "people",
+  "places",
+  "themes",
+  "events",
+  "related_graph_nodes",
 ];
 
 assert.equal(schema.schema_version, "bible-lesson/v1", "schema should identify bible-lesson/v1");
@@ -116,6 +121,11 @@ for (const entry of index.lessons) {
   assert.ok(validDifficulties.has(lesson.difficulty), `${lesson.lesson_id} should include valid difficulty`);
   assert.ok(Number.isInteger(lesson.estimated_minutes) && lesson.estimated_minutes >= 5, `${lesson.lesson_id} should include estimated minutes`);
   assert.ok(Array.isArray(lesson.related_lessons), `${lesson.lesson_id} should include related lessons`);
+  assert.ok(Array.isArray(lesson.people), `${lesson.lesson_id} should include people graph links`);
+  assert.ok(Array.isArray(lesson.places), `${lesson.lesson_id} should include places graph links`);
+  assert.ok(Array.isArray(lesson.themes) && lesson.themes.length >= 1, `${lesson.lesson_id} should include theme graph links`);
+  assert.ok(Array.isArray(lesson.events) && lesson.events.length >= 1, `${lesson.lesson_id} should include event graph links`);
+  assert.ok(Array.isArray(lesson.related_graph_nodes), `${lesson.lesson_id} should include related graph node links`);
   assert.ok(lesson.age_modes.every((mode) => validAgeModes.has(mode)), `${lesson.lesson_id} should expose valid age modes`);
 
   for (const question of lesson.quiz_questions) {
@@ -146,8 +156,9 @@ assert.ok(!page.includes('<p class="eyebrow">Bible Lessons</p>'), "lesson hero s
 assert.ok(!page.includes("Short lessons that move from reading"), "lesson hero should avoid stacking a subtitle under the page title");
 assert.ok(page.includes("Read It") && page.includes("Tell It") && page.includes("Understand It"), "lesson detail should include ladder tab labels");
 assert.ok(page.includes("Live It") && page.includes("Play It") && page.includes("Teacher Notes"), "lesson detail should include play and teacher tabs");
-assert.ok(page.includes('src="app.js?v=20260706-lessons-6"'), "lesson page should cache-bust its app script");
-assert.ok(page.includes('href="styles.css?v=20260706-lessons-6"'), "lesson page should cache-bust its stylesheet");
+assert.ok(page.includes('src="app.js?v=20260706-lessons-7"'), "lesson page should cache-bust its app script");
+assert.ok(page.includes('href="styles.css?v=20260706-lessons-7"'), "lesson page should cache-bust its stylesheet");
+assert.ok(page.includes('href="/bible/explorer/"'), "lesson page should link to the Bible Explorer");
 
 assert.ok(css.includes(".lesson-shell"), "lesson CSS should style the lesson app shell");
 assert.ok(css.includes(".filter-grid"), "lesson CSS should style filters");
@@ -173,6 +184,9 @@ assert.ok(app.includes("filterAdvancedToggle"), "lesson app should wire the comp
 assert.ok(app.includes("collectionFilter"), "lesson app should support pack filtering");
 assert.ok(app.includes("lessonListToggle"), "lesson app should wire the mobile lesson-list toggle");
 assert.ok(app.includes("scrollIntoView"), "lesson app should return mobile users to the lesson after choosing from the library");
+assert.ok(app.includes("Connections"), "lesson app should render a graph connections section");
+assert.ok(app.includes("People to Know"), "lesson app should render kid-friendly people connections");
+assert.ok(app.includes("Try Next"), "lesson app should render recommended lessons");
 assert.ok(app.includes("bookFilter"), "lesson app should support Bible book filtering");
 assert.ok(app.includes("testamentFilter"), "lesson app should support testament filtering");
 assert.ok(app.includes("topicFilter"), "lesson app should support topic filtering");

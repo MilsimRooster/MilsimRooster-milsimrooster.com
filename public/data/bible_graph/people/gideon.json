@@ -1,0 +1,32 @@
+{
+  "id": "gideon",
+  "name": "Gideon",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Judges"
+  ],
+  "roles": [
+    "judge"
+  ],
+  "summary": "Gideon learned to trust God when he felt weak.",
+  "kid_summary": "Gideon felt small, but God promised to be with him.",
+  "lessons": [
+    "gideon"
+  ],
+  "major_events": [
+    "gideon"
+  ],
+  "related_places": [],
+  "themes": [
+    "calling",
+    "fear",
+    "trust"
+  ],
+  "memory_verses": [
+    "judges-6-16"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

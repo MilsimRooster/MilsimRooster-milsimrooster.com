@@ -1,0 +1,17 @@
+{
+  "id": "jonah-2-1",
+  "name": "Jonah 2:1",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to Jonah Prays from the Fish.",
+  "kid_summary": "Remember Jonah 2:1 as a short anchor for this lesson.",
+  "reference": "Jonah 2:1",
+  "prompt": "Remember Jonah 2:1 as a short anchor for this lesson.",
+  "themes": [
+    "mercy",
+    "prayer",
+    "rescue"
+  ],
+  "related_lessons": [
+    "jonah-prays"
+  ]
+}

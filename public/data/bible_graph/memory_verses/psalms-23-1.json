@@ -1,0 +1,17 @@
+{
+  "id": "psalms-23-1",
+  "name": "Psalms 23:1",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to The Lord Is My Shepherd.",
+  "kid_summary": "Remember Psalms 23:1 as a short anchor for this lesson.",
+  "reference": "Psalms 23:1",
+  "prompt": "Remember Psalms 23:1 as a short anchor for this lesson.",
+  "themes": [
+    "comfort",
+    "gods-care",
+    "trust"
+  ],
+  "related_lessons": [
+    "psalm-23"
+  ]
+}

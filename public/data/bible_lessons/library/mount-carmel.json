@@ -72,6 +72,32 @@
   "estimated_minutes": 18,
   "related_lessons": [
     "elijah-ravens",
+    "creation-good-world",
+    "fiery-furnace",
+    "armor-of-god",
+    "david-and-goliath",
     "naaman"
+  ],
+  "people": [
+    "elijah"
+  ],
+  "places": [
+    "mount-carmel"
+  ],
+  "themes": [
+    "faith",
+    "gods-power",
+    "worship"
+  ],
+  "events": [
+    "elijah-on-mount-carmel"
+  ],
+  "related_graph_nodes": [
+    "person:elijah",
+    "place:mount-carmel",
+    "theme:faith",
+    "theme:gods-power",
+    "theme:worship",
+    "event:elijah-on-mount-carmel"
   ]
 }

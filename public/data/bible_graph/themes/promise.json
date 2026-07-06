@@ -1,0 +1,26 @@
+{
+  "id": "promise",
+  "name": "Promise",
+  "type": "theme",
+  "summary": "Promise points to God's faithful word and His commitment to keep it.",
+  "kid_summary": "Promise points to God's faithful word and His commitment to keep it.",
+  "related_lessons": [
+    "god-calls-abram",
+    "god-promises-abraham",
+    "isaac-is-born",
+    "noahs-ark"
+  ],
+  "related_people": [
+    "abraham",
+    "isaac",
+    "noah",
+    "sarah"
+  ],
+  "related_verses": [
+    "genesis-12-4",
+    "genesis-15-5",
+    "genesis-21-3",
+    "genesis-9-13"
+  ],
+  "questions": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "isaac",
+  "name": "Isaac",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "patriarch"
+  ],
+  "summary": "Isaac was the promised son of Abraham and Sarah.",
+  "kid_summary": "Isaac was the son God promised to Abraham and Sarah.",
+  "lessons": [
+    "abraham-and-isaac",
+    "isaac-is-born",
+    "jacob-and-esau"
+  ],
+  "major_events": [
+    "abraham-and-isaac",
+    "isaac-is-born",
+    "jacob-and-esau"
+  ],
+  "related_places": [],
+  "themes": [
+    "choices",
+    "family",
+    "joy",
+    "obedience",
+    "patience",
+    "promise",
+    "provision",
+    "trust",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "genesis-21-3",
+    "genesis-22-14",
+    "genesis-25-34"
+  ],
+  "related_people": [
+    "abraham",
+    "esau",
+    "jacob",
+    "sarah"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cornelius",
+  "name": "Cornelius",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts"
+  ],
+  "roles": [
+    "centurion"
+  ],
+  "summary": "Cornelius was a Gentile who heard the good news through Peter.",
+  "kid_summary": "Cornelius learned that the good news is for every nation.",
+  "lessons": [
+    "peter-and-cornelius"
+  ],
+  "major_events": [
+    "peter-and-cornelius"
+  ],
+  "related_places": [
+    "capernaum",
+    "judea"
+  ],
+  "themes": [
+    "good-news",
+    "nations",
+    "welcome"
+  ],
+  "memory_verses": [
+    "acts-10-34"
+  ],
+  "related_people": [
+    "peter"
+  ],
+  "questions": [],
+  "notes": []
+}

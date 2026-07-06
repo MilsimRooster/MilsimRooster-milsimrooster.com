@@ -71,6 +71,35 @@
   "difficulty": "easy",
   "estimated_minutes": 12,
   "related_lessons": [
-    "made-in-gods-image"
+    "made-in-gods-image",
+    "cain-and-abel",
+    "garden-first-choice",
+    "mount-carmel",
+    "fiery-furnace",
+    "golden-calf"
+  ],
+  "people": [
+    "adam",
+    "eve"
+  ],
+  "places": [
+    "eden"
+  ],
+  "themes": [
+    "creation",
+    "gods-power",
+    "worship"
+  ],
+  "events": [
+    "creation"
+  ],
+  "related_graph_nodes": [
+    "person:adam",
+    "person:eve",
+    "place:eden",
+    "theme:creation",
+    "theme:gods-power",
+    "theme:worship",
+    "event:creation"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "crucifixion",
+  "name": "Jesus Dies on the Cross",
+  "type": "event",
+  "passage": "Luke 23:33-49",
+  "summary": "Jesus gave His life to save sinners. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus was crucified between criminals. Even while suffering, He showed mercy and trusted the Father.",
+  "people": [
+    "jesus",
+    "john",
+    "mary"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "forgiveness",
+    "jesus-saves",
+    "sacrifice"
+  ],
+  "related_lessons": [
+    "crucifixion"
+  ],
+  "timeline_order": 65
+}

@@ -1,0 +1,24 @@
+{
+  "id": "timothy",
+  "name": "Timothy",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts",
+    "1 Timothy",
+    "2 Timothy"
+  ],
+  "roles": [
+    "young leader"
+  ],
+  "summary": "Timothy was a young church leader encouraged by Paul.",
+  "kid_summary": "Timothy learned to serve Jesus as a young leader.",
+  "major_events": [],
+  "related_people": [],
+  "related_places": [],
+  "themes": [],
+  "lessons": [],
+  "memory_verses": [],
+  "questions": [],
+  "notes": []
+}

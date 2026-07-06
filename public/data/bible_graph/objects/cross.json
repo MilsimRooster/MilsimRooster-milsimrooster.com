@@ -1,0 +1,21 @@
+{
+  "id": "cross",
+  "name": "The Cross",
+  "passage": "Luke 23:33",
+  "summary": "Jesus died on the cross to save sinners.",
+  "kid_summary": "Jesus died on the cross to save sinners.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "sacrifice",
+    "salvation"
+  ],
+  "related_lessons": [
+    "crucifixion"
+  ],
+  "type": "object"
+}

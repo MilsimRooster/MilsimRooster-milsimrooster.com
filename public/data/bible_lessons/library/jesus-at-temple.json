@@ -72,6 +72,36 @@
   "estimated_minutes": 13,
   "related_lessons": [
     "birth-of-jesus",
-    "jesus-baptized"
+    "crucifixion",
+    "resurrection",
+    "jesus-baptized",
+    "gethsemane",
+    "last-supper"
+  ],
+  "people": [
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "growth",
+    "jesus",
+    "wisdom"
+  ],
+  "events": [
+    "jesus-at-temple"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:joseph-husband-of-mary",
+    "person:mary",
+    "place:jerusalem",
+    "theme:growth",
+    "theme:jesus",
+    "theme:wisdom",
+    "event:jesus-at-temple"
   ]
 }

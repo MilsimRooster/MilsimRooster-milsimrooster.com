@@ -1,0 +1,23 @@
+{
+  "id": "ten-commandments",
+  "name": "The Ten Commandments",
+  "type": "event",
+  "passage": "Exodus 20:1-17",
+  "summary": "God's commands show His holiness and teach His people how to love Him and others. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "God gave commandments to Israel after rescuing them. His law showed how His people should live with Him and one another.",
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "sinai"
+  ],
+  "themes": [
+    "holiness",
+    "love",
+    "obedience"
+  ],
+  "related_lessons": [
+    "ten-commandments"
+  ],
+  "timeline_order": 21
+}

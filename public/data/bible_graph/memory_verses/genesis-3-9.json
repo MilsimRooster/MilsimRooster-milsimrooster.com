@@ -1,0 +1,17 @@
+{
+  "id": "genesis-3-9",
+  "name": "Genesis 3:9",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to The Garden and the First Choice.",
+  "kid_summary": "Remember Genesis 3:9 as a short anchor for this lesson.",
+  "reference": "Genesis 3:9",
+  "prompt": "Remember Genesis 3:9 as a short anchor for this lesson.",
+  "themes": [
+    "mercy",
+    "obedience",
+    "sin"
+  ],
+  "related_lessons": [
+    "garden-first-choice"
+  ]
+}

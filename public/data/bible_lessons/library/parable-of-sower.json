@@ -71,7 +71,30 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
+    "jesus-at-temple",
+    "jesus-tempted",
+    "feeding-five-thousand",
     "prodigal-son",
-    "feeding-five-thousand"
+    "beatitudes",
+    "birth-of-jesus"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [],
+  "themes": [
+    "gods-word",
+    "growth",
+    "listening"
+  ],
+  "events": [
+    "parable-of-sower"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "theme:gods-word",
+    "theme:growth",
+    "theme:listening",
+    "event:parable-of-sower"
   ]
 }

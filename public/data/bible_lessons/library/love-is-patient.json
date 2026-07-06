@@ -71,6 +71,29 @@
   "estimated_minutes": 15,
   "related_lessons": [
     "armor-of-god",
+    "fruit-of-spirit",
+    "paul-and-silas",
+    "saul-converted",
+    "god-promises-abraham",
     "new-creation-hope"
+  ],
+  "people": [
+    "paul"
+  ],
+  "places": [],
+  "themes": [
+    "kindness",
+    "love",
+    "patience"
+  ],
+  "events": [
+    "love-is-patient"
+  ],
+  "related_graph_nodes": [
+    "person:paul",
+    "theme:kindness",
+    "theme:love",
+    "theme:patience",
+    "event:love-is-patient"
   ]
 }

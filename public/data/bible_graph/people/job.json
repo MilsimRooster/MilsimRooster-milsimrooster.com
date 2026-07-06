@@ -1,0 +1,32 @@
+{
+  "id": "job",
+  "name": "Job",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Job"
+  ],
+  "roles": [
+    "sufferer"
+  ],
+  "summary": "Job trusted and worshiped God while suffering deeply.",
+  "kid_summary": "Job worshiped God even when life hurt.",
+  "lessons": [
+    "job-trusts"
+  ],
+  "major_events": [
+    "job-trusts"
+  ],
+  "related_places": [],
+  "themes": [
+    "suffering",
+    "trust",
+    "worship"
+  ],
+  "memory_verses": [
+    "job-1-20"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

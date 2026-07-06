@@ -1,0 +1,37 @@
+{
+  "id": "mercy",
+  "name": "Mercy",
+  "type": "theme",
+  "summary": "Mercy is compassion shown to people in need or guilt.",
+  "kid_summary": "Mercy is compassion shown to people in need or guilt.",
+  "related_lessons": [
+    "beatitudes",
+    "garden-first-choice",
+    "good-samaritan",
+    "jonah-prays",
+    "jonah-runs",
+    "joseph-forgives",
+    "noahs-ark",
+    "prodigal-son"
+  ],
+  "related_people": [
+    "adam",
+    "eve",
+    "jacob",
+    "jesus",
+    "jonah",
+    "joseph",
+    "noah"
+  ],
+  "related_verses": [
+    "genesis-3-9",
+    "genesis-45-5",
+    "genesis-9-13",
+    "jonah-1-2",
+    "jonah-2-1",
+    "luke-10-37",
+    "luke-15-20",
+    "matthew-5-3"
+  ],
+  "questions": []
+}

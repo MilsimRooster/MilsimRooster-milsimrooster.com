@@ -72,6 +72,29 @@
   "estimated_minutes": 15,
   "related_lessons": [
     "jacob-and-esau",
-    "josephs-dreams"
+    "josephs-dreams",
+    "joseph-forgives",
+    "armor-of-god",
+    "burning-bush",
+    "daniel-in-the-lions-den"
+  ],
+  "people": [
+    "jacob"
+  ],
+  "places": [],
+  "themes": [
+    "change",
+    "identity",
+    "prayer"
+  ],
+  "events": [
+    "jacob-wrestles"
+  ],
+  "related_graph_nodes": [
+    "person:jacob",
+    "theme:change",
+    "theme:identity",
+    "theme:prayer",
+    "event:jacob-wrestles"
   ]
 }

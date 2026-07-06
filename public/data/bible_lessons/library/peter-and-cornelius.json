@@ -70,7 +70,37 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
-    "saul-converted",
-    "paul-and-silas"
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "paul-and-silas",
+    "saul-converted"
+  ],
+  "people": [
+    "cornelius",
+    "peter"
+  ],
+  "places": [
+    "capernaum",
+    "judea"
+  ],
+  "themes": [
+    "good-news",
+    "nations",
+    "welcome"
+  ],
+  "events": [
+    "peter-and-cornelius"
+  ],
+  "related_graph_nodes": [
+    "person:cornelius",
+    "person:peter",
+    "place:capernaum",
+    "place:judea",
+    "theme:good-news",
+    "theme:nations",
+    "theme:welcome",
+    "event:peter-and-cornelius"
   ]
 }

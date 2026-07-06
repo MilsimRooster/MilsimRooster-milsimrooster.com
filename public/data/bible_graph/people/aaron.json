@@ -1,0 +1,50 @@
+{
+  "id": "aaron",
+  "name": "Aaron",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Exodus"
+  ],
+  "roles": [
+    "priest"
+  ],
+  "summary": "Aaron was Moses' brother and Israel's first high priest.",
+  "kid_summary": "Aaron helped Moses lead God's people.",
+  "lessons": [
+    "golden-calf",
+    "manna-in-wilderness",
+    "passover"
+  ],
+  "major_events": [
+    "golden-calf",
+    "manna-in-wilderness",
+    "passover"
+  ],
+  "related_places": [
+    "egypt",
+    "sinai",
+    "wilderness"
+  ],
+  "themes": [
+    "gratitude",
+    "idols",
+    "obedience",
+    "provision",
+    "remember",
+    "rescue",
+    "sin",
+    "trust",
+    "worship"
+  ],
+  "memory_verses": [
+    "exodus-12-14",
+    "exodus-16-15",
+    "exodus-32-4"
+  ],
+  "related_people": [
+    "moses"
+  ],
+  "questions": [],
+  "notes": []
+}

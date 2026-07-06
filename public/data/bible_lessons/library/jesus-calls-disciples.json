@@ -70,7 +70,39 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
-    "jesus-tempted",
-    "beatitudes"
+    "gethsemane",
+    "great-commission",
+    "jesus-calms-storm",
+    "last-supper",
+    "feeding-five-thousand",
+    "pentecost"
+  ],
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "calling",
+    "following-jesus",
+    "obedience"
+  ],
+  "events": [
+    "jesus-calls-disciples"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:galilee",
+    "theme:calling",
+    "theme:following-jesus",
+    "theme:obedience",
+    "event:jesus-calls-disciples"
   ]
 }

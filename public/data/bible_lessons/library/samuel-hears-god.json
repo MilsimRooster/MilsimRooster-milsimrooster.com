@@ -70,7 +70,30 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
+    "david-anointed",
     "hannah-prays",
-    "david-anointed"
+    "jesus-calls-disciples",
+    "jonah-runs",
+    "abraham-and-isaac",
+    "burning-bush"
+  ],
+  "people": [
+    "samuel"
+  ],
+  "places": [],
+  "themes": [
+    "calling",
+    "listening",
+    "obedience"
+  ],
+  "events": [
+    "samuel-hears-god"
+  ],
+  "related_graph_nodes": [
+    "person:samuel",
+    "theme:calling",
+    "theme:listening",
+    "theme:obedience",
+    "event:samuel-hears-god"
   ]
 }

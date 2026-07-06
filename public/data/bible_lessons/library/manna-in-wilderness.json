@@ -70,7 +70,35 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
+    "golden-calf",
+    "passover",
     "red-sea-crossing",
-    "ten-commandments"
+    "ten-commandments",
+    "abraham-and-isaac",
+    "baby-moses"
+  ],
+  "people": [
+    "aaron",
+    "moses"
+  ],
+  "places": [
+    "wilderness"
+  ],
+  "themes": [
+    "gratitude",
+    "provision",
+    "trust"
+  ],
+  "events": [
+    "manna-in-wilderness"
+  ],
+  "related_graph_nodes": [
+    "person:aaron",
+    "person:moses",
+    "place:wilderness",
+    "theme:gratitude",
+    "theme:provision",
+    "theme:trust",
+    "event:manna-in-wilderness"
   ]
 }

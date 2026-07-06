@@ -1,0 +1,154 @@
+{
+  "id": "church-letters-hope-quiz-bank",
+  "name": "Church, Letters, and Hope Quiz Bank",
+  "type": "quiz_bank",
+  "summary": "Reusable quiz questions from the Church, Letters, and Hope lesson pack.",
+  "kid_summary": "Questions from Church, Letters, and Hope.",
+  "lesson_ids": [
+    "great-commission",
+    "pentecost",
+    "peter-and-john-heal",
+    "philip-and-ethiopian",
+    "saul-converted",
+    "peter-and-cornelius",
+    "paul-and-silas",
+    "fruit-of-spirit",
+    "armor-of-god",
+    "love-is-patient",
+    "new-creation-hope"
+  ],
+  "questions": [
+    {
+      "lesson_id": "great-commission",
+      "question": "What did Jesus promise His disciples?",
+      "answer": "I am with you always",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "great-commission",
+      "question": "This lesson teaches that jesus sends His followers to make disciples and promises to be with them.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "pentecost",
+      "question": "Who came at Pentecost?",
+      "answer": "The Holy Spirit",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "pentecost",
+      "question": "This lesson teaches that god gives the Holy Spirit and gathers people from many nations.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "peter-and-john-heal",
+      "question": "In whose name was the man healed?",
+      "answer": "Jesus' name",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "peter-and-john-heal",
+      "question": "This lesson teaches that jesus' name brings hope, and God's people can notice those in need.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "philip-and-ethiopian",
+      "question": "Who explained Scripture to the Ethiopian official?",
+      "answer": "Philip",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "philip-and-ethiopian",
+      "question": "This lesson teaches that god can guide His people to help others understand Scripture and Jesus.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "saul-converted",
+      "question": "Who met Saul on the road?",
+      "answer": "Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "saul-converted",
+      "question": "This lesson teaches that jesus can change even the hardest heart and give a new mission.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "peter-and-cornelius",
+      "question": "Who did Peter visit?",
+      "answer": "Cornelius",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "peter-and-cornelius",
+      "question": "This lesson teaches that the good news of Jesus is for every nation and people group.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "paul-and-silas",
+      "question": "What did Paul and Silas do in prison?",
+      "answer": "They prayed and sang",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "paul-and-silas",
+      "question": "This lesson teaches that god can bring worship and witness even in hard places.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "fruit-of-spirit",
+      "question": "Who grows this fruit in God's people?",
+      "answer": "The Holy Spirit",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "fruit-of-spirit",
+      "question": "This lesson teaches that the Holy Spirit grows Christlike character in God's people.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "armor-of-god",
+      "question": "What sword is named in the armor of God?",
+      "answer": "The word of God",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "armor-of-god",
+      "question": "This lesson teaches that god gives His people truth, faith, salvation, Scripture, and prayer for spiritual strength.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "love-is-patient",
+      "question": "What does Paul say love is?",
+      "answer": "Patient and kind",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "love-is-patient",
+      "question": "This lesson teaches that love matters because God calls His people to patient, humble, faithful care.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "new-creation-hope",
+      "question": "What does God promise to make new?",
+      "answer": "All things",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "new-creation-hope",
+      "question": "This lesson teaches that god promises a future where He dwells with His people and wipes away every tear.",
+      "answer": "True",
+      "type": "true_false"
+    }
+  ]
+}

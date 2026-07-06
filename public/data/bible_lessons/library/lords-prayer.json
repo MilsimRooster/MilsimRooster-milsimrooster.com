@@ -72,7 +72,33 @@
   "difficulty": "easy",
   "estimated_minutes": 15,
   "related_lessons": [
+    "crucifixion",
+    "gethsemane",
+    "prodigal-son",
     "beatitudes",
-    "wise-foolish-builders"
+    "wise-foolish-builders",
+    "birth-of-jesus"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "forgiveness",
+    "prayer",
+    "trust"
+  ],
+  "events": [
+    "lords-prayer"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "place:galilee",
+    "theme:forgiveness",
+    "theme:prayer",
+    "theme:trust",
+    "event:lords-prayer"
   ]
 }

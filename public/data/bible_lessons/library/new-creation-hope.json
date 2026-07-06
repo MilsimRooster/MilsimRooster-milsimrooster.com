@@ -71,6 +71,35 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
-    "love-is-patient"
+    "resurrection",
+    "crucifixion",
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples"
+  ],
+  "people": [
+    "jesus",
+    "john"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "gods-promise",
+    "hope",
+    "new-creation"
+  ],
+  "events": [
+    "new-creation-hope"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:john",
+    "place:jerusalem",
+    "theme:gods-promise",
+    "theme:hope",
+    "theme:new-creation",
+    "event:new-creation-hope"
   ]
 }

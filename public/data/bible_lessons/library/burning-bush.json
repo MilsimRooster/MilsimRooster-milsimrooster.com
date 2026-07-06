@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
+    "passover",
+    "red-sea-crossing",
     "baby-moses",
-    "passover"
+    "golden-calf",
+    "jonah-prays",
+    "joshua-be-strong"
+  ],
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "sinai",
+    "wilderness"
+  ],
+  "themes": [
+    "calling",
+    "prayer",
+    "rescue"
+  ],
+  "events": [
+    "burning-bush"
+  ],
+  "related_graph_nodes": [
+    "person:moses",
+    "place:sinai",
+    "place:wilderness",
+    "theme:calling",
+    "theme:prayer",
+    "theme:rescue",
+    "event:burning-bush"
   ]
 }

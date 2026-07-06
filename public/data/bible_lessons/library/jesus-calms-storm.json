@@ -71,7 +71,39 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
-    "wise-foolish-builders",
-    "good-samaritan"
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "last-supper",
+    "feeding-five-thousand",
+    "pentecost"
+  ],
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "jesus-power"
+  ],
+  "events": [
+    "jesus-calms-storm"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:galilee",
+    "theme:faith",
+    "theme:fear",
+    "theme:jesus-power",
+    "event:jesus-calms-storm"
   ]
 }

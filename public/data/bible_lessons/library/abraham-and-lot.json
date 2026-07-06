@@ -71,6 +71,29 @@
   "estimated_minutes": 13,
   "related_lessons": [
     "god-calls-abram",
-    "god-promises-abraham"
+    "abraham-and-isaac",
+    "god-promises-abraham",
+    "isaac-is-born",
+    "david-and-goliath",
+    "elijah-ravens"
+  ],
+  "people": [
+    "abraham"
+  ],
+  "places": [],
+  "themes": [
+    "generosity",
+    "peace",
+    "trust"
+  ],
+  "events": [
+    "abraham-and-lot"
+  ],
+  "related_graph_nodes": [
+    "person:abraham",
+    "theme:generosity",
+    "theme:peace",
+    "theme:trust",
+    "event:abraham-and-lot"
   ]
 }

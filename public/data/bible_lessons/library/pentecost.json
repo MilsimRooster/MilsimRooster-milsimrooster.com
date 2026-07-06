@@ -73,6 +73,36 @@
   "estimated_minutes": 16,
   "related_lessons": [
     "great-commission",
+    "gethsemane",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
     "peter-and-john-heal"
+  ],
+  "people": [
+    "james",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "church",
+    "holy-spirit",
+    "mission"
+  ],
+  "events": [
+    "pentecost"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:john",
+    "person:peter",
+    "place:jerusalem",
+    "theme:church",
+    "theme:holy-spirit",
+    "theme:mission",
+    "event:pentecost"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "exodus",
+  "name": "Exodus",
+  "type": "event",
+  "passage": "Exodus 14:10-31",
+  "summary": "God can make a way when His people cannot see one. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Israel was trapped between Pharaoh's army and the sea. God opened the sea, and His people crossed on dry ground.",
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "egypt",
+    "red-sea"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "rescue"
+  ],
+  "related_lessons": [
+    "red-sea-crossing"
+  ],
+  "timeline_order": 19
+}

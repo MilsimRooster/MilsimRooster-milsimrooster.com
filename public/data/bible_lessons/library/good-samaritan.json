@@ -70,7 +70,35 @@
   "difficulty": "easy",
   "estimated_minutes": 15,
   "related_lessons": [
+    "prodigal-son",
+    "beatitudes",
     "jesus-calms-storm",
-    "prodigal-son"
+    "birth-of-jesus",
+    "crucifixion",
+    "feeding-five-thousand"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "judea",
+    "samaria"
+  ],
+  "themes": [
+    "love",
+    "mercy",
+    "neighbor"
+  ],
+  "events": [
+    "good-samaritan"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "place:judea",
+    "place:samaria",
+    "theme:love",
+    "theme:mercy",
+    "theme:neighbor",
+    "event:good-samaritan"
   ]
 }

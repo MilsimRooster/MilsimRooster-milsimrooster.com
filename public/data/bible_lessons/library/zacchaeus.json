@@ -71,7 +71,35 @@
   "difficulty": "easy",
   "estimated_minutes": 14,
   "related_lessons": [
-    "lazarus",
-    "last-supper"
+    "last-supper",
+    "birth-of-jesus",
+    "gethsemane",
+    "jesus-at-temple",
+    "jesus-baptized",
+    "lazarus"
+  ],
+  "people": [
+    "jesus",
+    "zacchaeus"
+  ],
+  "places": [
+    "jericho"
+  ],
+  "themes": [
+    "grace",
+    "jesus",
+    "repentance"
+  ],
+  "events": [
+    "zacchaeus"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:zacchaeus",
+    "place:jericho",
+    "theme:grace",
+    "theme:jesus",
+    "theme:repentance",
+    "event:zacchaeus"
   ]
 }

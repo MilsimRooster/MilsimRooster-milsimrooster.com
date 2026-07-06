@@ -1,0 +1,99 @@
+{
+  "id": "peter",
+  "name": "Peter",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Matthew",
+    "Acts"
+  ],
+  "roles": [
+    "apostle"
+  ],
+  "summary": "Peter was one of Jesus' apostles and a leader in the early church.",
+  "kid_summary": "Peter followed Jesus and told people about Him.",
+  "lessons": [
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "pentecost",
+    "peter-and-cornelius",
+    "peter-and-john-heal",
+    "resurrection",
+    "walking-on-water"
+  ],
+  "major_events": [
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "pentecost",
+    "peter-and-cornelius",
+    "peter-and-john-heal",
+    "resurrection",
+    "walking-on-water"
+  ],
+  "related_places": [
+    "capernaum",
+    "galilee",
+    "gethsemane",
+    "jerusalem",
+    "judea"
+  ],
+  "themes": [
+    "calling",
+    "church",
+    "compassion",
+    "discipleship",
+    "faith",
+    "fear",
+    "following-jesus",
+    "generosity",
+    "gods-presence",
+    "good-news",
+    "healing",
+    "holy-spirit",
+    "hope",
+    "jesus",
+    "jesus-name",
+    "jesus-power",
+    "joy",
+    "mission",
+    "nations",
+    "obedience",
+    "prayer",
+    "provision",
+    "remember",
+    "rescue",
+    "resurrection",
+    "salvation",
+    "welcome"
+  ],
+  "memory_verses": [
+    "acts-10-34",
+    "acts-2-4",
+    "acts-3-6",
+    "john-20-18",
+    "john-6-9",
+    "luke-22-19",
+    "mark-4-39",
+    "matthew-14-31",
+    "matthew-26-39",
+    "matthew-28-20",
+    "matthew-4-19"
+  ],
+  "related_people": [
+    "cornelius",
+    "james",
+    "jesus",
+    "john",
+    "mary"
+  ],
+  "questions": [],
+  "notes": []
+}

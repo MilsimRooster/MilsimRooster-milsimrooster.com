@@ -1,0 +1,25 @@
+{
+  "id": "baptism-of-jesus",
+  "name": "Baptism of Jesus",
+  "type": "event",
+  "passage": "Matthew 3:13-17",
+  "summary": "Jesus obeyed the Father and was publicly shown as God's beloved Son. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "John baptized Jesus in the Jordan River. The Spirit descended, and the Father's voice spoke from heaven.",
+  "people": [
+    "jesus",
+    "john-the-baptist"
+  ],
+  "places": [
+    "jordan-river",
+    "judea"
+  ],
+  "themes": [
+    "gods-son",
+    "jesus",
+    "obedience"
+  ],
+  "related_lessons": [
+    "jesus-baptized"
+  ],
+  "timeline_order": 49
+}

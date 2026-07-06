@@ -1,0 +1,34 @@
+{
+  "id": "naomi",
+  "name": "Naomi",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Ruth"
+  ],
+  "roles": [
+    "Ruth's mother-in-law"
+  ],
+  "summary": "Naomi was Ruth's mother-in-law who returned to Bethlehem in sorrow.",
+  "kid_summary": "Naomi learned that God could still show kindness.",
+  "lessons": [
+    "ruth-stays"
+  ],
+  "major_events": [
+    "ruth-stays"
+  ],
+  "related_places": [],
+  "themes": [
+    "faithfulness",
+    "family",
+    "love"
+  ],
+  "memory_verses": [
+    "ruth-1-16"
+  ],
+  "related_people": [
+    "ruth"
+  ],
+  "questions": [],
+  "notes": []
+}

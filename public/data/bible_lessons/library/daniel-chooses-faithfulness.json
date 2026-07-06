@@ -70,7 +70,41 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "jonah-prays",
-    "fiery-furnace"
+    "fiery-furnace",
+    "daniel-in-the-lions-den",
+    "jacob-and-esau",
+    "cain-and-abel",
+    "deborah",
+    "jonah-prays"
+  ],
+  "people": [
+    "abednego",
+    "daniel",
+    "meshach",
+    "nebuchadnezzar",
+    "shadrach"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "choices",
+    "faithfulness",
+    "wisdom"
+  ],
+  "events": [
+    "daniel-chooses-faithfulness"
+  ],
+  "related_graph_nodes": [
+    "person:abednego",
+    "person:daniel",
+    "person:meshach",
+    "person:nebuchadnezzar",
+    "person:shadrach",
+    "place:babylon",
+    "theme:choices",
+    "theme:faithfulness",
+    "theme:wisdom",
+    "event:daniel-chooses-faithfulness"
   ]
 }

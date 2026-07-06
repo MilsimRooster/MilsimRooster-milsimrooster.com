@@ -1,0 +1,20 @@
+{
+  "id": "gods-plan",
+  "name": "Gods Plan",
+  "type": "theme",
+  "summary": "Gods Plan is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Plan helps us see what this story teaches.",
+  "related_lessons": [
+    "joseph-forgives",
+    "josephs-dreams"
+  ],
+  "related_people": [
+    "jacob",
+    "joseph"
+  ],
+  "related_verses": [
+    "genesis-37-11",
+    "genesis-45-5"
+  ],
+  "questions": []
+}

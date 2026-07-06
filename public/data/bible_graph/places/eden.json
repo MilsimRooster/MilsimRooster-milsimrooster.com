@@ -1,0 +1,31 @@
+{
+  "id": "eden",
+  "name": "Eden",
+  "type": "place",
+  "summary": "The garden where Adam and Eve first lived with God.",
+  "kid_summary": "Eden was the garden home God made for Adam and Eve.",
+  "lessons": [
+    "creation-good-world",
+    "garden-first-choice",
+    "made-in-gods-image"
+  ],
+  "related_people": [
+    "adam",
+    "eve"
+  ],
+  "related_events": [
+    "creation",
+    "fall",
+    "made-in-gods-image"
+  ],
+  "themes": [
+    "creation",
+    "gods-power",
+    "identity",
+    "kindness",
+    "mercy",
+    "obedience",
+    "sin",
+    "worship"
+  ]
+}

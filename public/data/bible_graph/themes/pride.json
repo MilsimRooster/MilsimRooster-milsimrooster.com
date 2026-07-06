@@ -1,0 +1,15 @@
+{
+  "id": "pride",
+  "name": "Pride",
+  "type": "theme",
+  "summary": "Pride is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Pride helps us see what this story teaches.",
+  "related_lessons": [
+    "tower-of-babel"
+  ],
+  "related_people": [],
+  "related_verses": [
+    "genesis-11-4"
+  ],
+  "questions": []
+}

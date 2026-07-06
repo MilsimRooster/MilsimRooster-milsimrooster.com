@@ -1,0 +1,21 @@
+{
+  "id": "good-samaritan",
+  "name": "The Good Samaritan",
+  "passage": "Luke 10:25-37",
+  "summary": "Jesus taught that neighbor love shows mercy in action.",
+  "kid_summary": "Jesus taught that neighbor love shows mercy in action.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "samaria"
+  ],
+  "themes": [
+    "mercy",
+    "love"
+  ],
+  "related_lessons": [
+    "good-samaritan"
+  ],
+  "type": "parable"
+}

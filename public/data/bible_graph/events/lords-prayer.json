@@ -1,0 +1,23 @@
+{
+  "id": "lords-prayer",
+  "name": "The Lord's Prayer",
+  "type": "event",
+  "passage": "Matthew 6:5-13",
+  "summary": "Jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus taught His followers how to pray. The prayer begins with honoring the Father and asks for daily needs and forgiveness.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "forgiveness",
+    "prayer",
+    "trust"
+  ],
+  "related_lessons": [
+    "lords-prayer"
+  ],
+  "timeline_order": 53
+}

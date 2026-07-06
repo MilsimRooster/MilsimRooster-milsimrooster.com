@@ -1,0 +1,271 @@
+{
+  "id": "jesus-life-teaching-quiz-bank",
+  "name": "Jesus' Life and Teaching Quiz Bank",
+  "type": "quiz_bank",
+  "summary": "Reusable quiz questions from the Jesus' Life and Teaching lesson pack.",
+  "kid_summary": "Questions from Jesus' Life and Teaching.",
+  "lesson_ids": [
+    "birth-of-jesus",
+    "jesus-at-temple",
+    "jesus-baptized",
+    "jesus-tempted",
+    "jesus-calls-disciples",
+    "beatitudes",
+    "lords-prayer",
+    "wise-foolish-builders",
+    "jesus-calms-storm",
+    "good-samaritan",
+    "prodigal-son",
+    "parable-of-sower",
+    "feeding-five-thousand",
+    "walking-on-water",
+    "lazarus",
+    "zacchaeus",
+    "last-supper",
+    "gethsemane",
+    "crucifixion",
+    "resurrection"
+  ],
+  "questions": [
+    {
+      "lesson_id": "birth-of-jesus",
+      "question": "Where was Jesus born?",
+      "answer": "Bethlehem",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "birth-of-jesus",
+      "question": "This lesson teaches that jesus came humbly as the Savior God promised.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jesus-at-temple",
+      "question": "Where did Mary and Joseph find Jesus?",
+      "answer": "In the temple",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jesus-at-temple",
+      "question": "This lesson teaches that jesus grew in wisdom and knew He belonged to His Father's work.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jesus-baptized",
+      "question": "Who baptized Jesus?",
+      "answer": "John",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jesus-baptized",
+      "question": "This lesson teaches that jesus obeyed the Father and was publicly shown as God's beloved Son.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jesus-tempted",
+      "question": "What did Jesus use to answer temptation?",
+      "answer": "God's Word",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jesus-tempted",
+      "question": "This lesson teaches that jesus answered temptation with God's Word and remained faithful.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jesus-calls-disciples",
+      "question": "What did Jesus say to the fishermen?",
+      "answer": "Follow Me",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jesus-calls-disciples",
+      "question": "This lesson teaches that following Jesus means listening when He calls and learning His way.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "beatitudes",
+      "question": "Who taught the Beatitudes?",
+      "answer": "Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "beatitudes",
+      "question": "This lesson teaches that jesus teaches that God's kingdom values humility, mercy, purity, and peace.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "lords-prayer",
+      "question": "Who taught this prayer?",
+      "answer": "Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "lords-prayer",
+      "question": "This lesson teaches that jesus teaches us to pray with trust, worship, daily dependence, forgiveness, and help.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "wise-foolish-builders",
+      "question": "Where did the wise builder build?",
+      "answer": "On the rock",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "wise-foolish-builders",
+      "question": "This lesson teaches that wisdom means hearing Jesus' words and putting them into practice.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jesus-calms-storm",
+      "question": "What did Jesus calm?",
+      "answer": "The storm",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jesus-calms-storm",
+      "question": "This lesson teaches that jesus has authority over creation and cares for fearful disciples.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "good-samaritan",
+      "question": "Who helped the hurt man?",
+      "answer": "The Samaritan",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "good-samaritan",
+      "question": "This lesson teaches that love for our neighbor shows mercy in action.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "prodigal-son",
+      "question": "What did the father do when the son returned?",
+      "answer": "He welcomed him",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "prodigal-son",
+      "question": "This lesson teaches that god welcomes repentant sinners with mercy and joy.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "parable-of-sower",
+      "question": "What did the seed picture?",
+      "answer": "God's Word",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "parable-of-sower",
+      "question": "This lesson teaches that god's Word should be received with a heart that listens and grows.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "feeding-five-thousand",
+      "question": "What food did the boy have?",
+      "answer": "Five loaves and two fish",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "feeding-five-thousand",
+      "question": "This lesson teaches that jesus can use small gifts and provide more than enough.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "walking-on-water",
+      "question": "Who rescued Peter?",
+      "answer": "Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "walking-on-water",
+      "question": "This lesson teaches that faith looks to Jesus when fear feels bigger than courage.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "lazarus",
+      "question": "Who did Jesus raise from the tomb?",
+      "answer": "Lazarus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "lazarus",
+      "question": "This lesson teaches that jesus has power over death and cares when people grieve.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "zacchaeus",
+      "question": "Why did Zacchaeus climb a tree?",
+      "answer": "To see Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "zacchaeus",
+      "question": "This lesson teaches that jesus seeks and saves lost people, and His grace changes lives.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "last-supper",
+      "question": "Who told His disciples to remember Him?",
+      "answer": "Jesus",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "last-supper",
+      "question": "This lesson teaches that jesus gave His followers a meal to remember His saving death.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "gethsemane",
+      "question": "Where did Jesus pray before the cross?",
+      "answer": "Gethsemane",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "gethsemane",
+      "question": "This lesson teaches that jesus obeyed the Father even when the path was painful.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "crucifixion",
+      "question": "Where did Jesus die?",
+      "answer": "On the cross",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "crucifixion",
+      "question": "This lesson teaches that jesus gave His life to save sinners.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "resurrection",
+      "question": "What did Mary find at the tomb?",
+      "answer": "It was empty",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "resurrection",
+      "question": "This lesson teaches that jesus rose from the dead, giving His people hope and joy.",
+      "answer": "True",
+      "type": "true_false"
+    }
+  ]
+}

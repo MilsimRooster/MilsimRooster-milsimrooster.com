@@ -1,0 +1,21 @@
+{
+  "id": "pray-like-this",
+  "name": "Pray Like This",
+  "passage": "Matthew 6:9-13",
+  "summary": "Jesus taught His disciples how to pray.",
+  "kid_summary": "Jesus taught His disciples how to pray.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "prayer",
+    "trust"
+  ],
+  "related_lessons": [
+    "lords-prayer"
+  ],
+  "type": "command"
+}

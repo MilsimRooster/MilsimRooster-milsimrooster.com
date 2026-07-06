@@ -1,0 +1,36 @@
+{
+  "id": "mordecai",
+  "name": "Mordecai",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Esther"
+  ],
+  "roles": [
+    "advisor"
+  ],
+  "summary": "Mordecai encouraged Esther to act with courage.",
+  "kid_summary": "Mordecai helped Esther understand her moment.",
+  "lessons": [
+    "esther-speaks"
+  ],
+  "major_events": [
+    "esther-saves-her-people"
+  ],
+  "related_places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "help",
+    "leadership"
+  ],
+  "memory_verses": [
+    "esther-4-14"
+  ],
+  "related_people": [
+    "esther"
+  ],
+  "questions": [],
+  "notes": []
+}

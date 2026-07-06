@@ -1,0 +1,102 @@
+{
+  "id": "exodus-wilderness-quiz-bank",
+  "name": "Exodus and Wilderness Quiz Bank",
+  "type": "quiz_bank",
+  "summary": "Reusable quiz questions from the Exodus and Wilderness lesson pack.",
+  "kid_summary": "Questions from Exodus and Wilderness.",
+  "lesson_ids": [
+    "baby-moses",
+    "burning-bush",
+    "passover",
+    "red-sea-crossing",
+    "manna-in-wilderness",
+    "ten-commandments",
+    "golden-calf"
+  ],
+  "questions": [
+    {
+      "lesson_id": "baby-moses",
+      "question": "Where was baby Moses placed?",
+      "answer": "In a basket",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "baby-moses",
+      "question": "This lesson teaches that god can protect His people through brave and caring choices.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "burning-bush",
+      "question": "What did God say He had heard?",
+      "answer": "The cries of His people",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "burning-bush",
+      "question": "This lesson teaches that god hears His people and calls servants to join His rescue work.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "passover",
+      "question": "What were God's people told to remember?",
+      "answer": "God's rescue",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "passover",
+      "question": "This lesson teaches that god makes a way of rescue and teaches His people to remember.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "red-sea-crossing",
+      "question": "What did God open for Israel?",
+      "answer": "The Red Sea",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "red-sea-crossing",
+      "question": "This lesson teaches that god can make a way when His people cannot see one.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "manna-in-wilderness",
+      "question": "What food did God give in the wilderness?",
+      "answer": "Manna",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "manna-in-wilderness",
+      "question": "This lesson teaches that god provides daily help and teaches His people to trust Him one day at a time.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "ten-commandments",
+      "question": "Who gave the Ten Commandments?",
+      "answer": "God",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "ten-commandments",
+      "question": "This lesson teaches that god's commands show His holiness and teach His people how to love Him and others.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "golden-calf",
+      "question": "What did the people make?",
+      "answer": "A golden calf",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "golden-calf",
+      "question": "This lesson teaches that idols are false helps that pull hearts away from the living God.",
+      "answer": "True",
+      "type": "true_false"
+    }
+  ]
+}

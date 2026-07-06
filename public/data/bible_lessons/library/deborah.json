@@ -71,7 +71,30 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "jericho",
-    "gideon"
+    "esther-speaks",
+    "joshua-be-strong",
+    "solomon-wisdom",
+    "baby-moses",
+    "gideon",
+    "jericho"
+  ],
+  "people": [
+    "deborah"
+  ],
+  "places": [],
+  "themes": [
+    "courage",
+    "leadership",
+    "wisdom"
+  ],
+  "events": [
+    "deborah"
+  ],
+  "related_graph_nodes": [
+    "person:deborah",
+    "theme:courage",
+    "theme:leadership",
+    "theme:wisdom",
+    "event:deborah"
   ]
 }

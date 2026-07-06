@@ -1,0 +1,17 @@
+{
+  "id": "genesis-1-1",
+  "name": "Genesis 1:1",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to Creation: God's Good World.",
+  "kid_summary": "Remember Genesis 1:1 as a short anchor for this lesson.",
+  "reference": "Genesis 1:1",
+  "prompt": "Remember Genesis 1:1 as a short anchor for this lesson.",
+  "themes": [
+    "creation",
+    "gods-power",
+    "worship"
+  ],
+  "related_lessons": [
+    "creation-good-world"
+  ]
+}

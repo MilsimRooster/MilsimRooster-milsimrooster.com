@@ -1,0 +1,18 @@
+{
+  "id": "jesus-name",
+  "name": "Jesus Name",
+  "type": "theme",
+  "summary": "Jesus Name is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Jesus Name helps us see what this story teaches.",
+  "related_lessons": [
+    "peter-and-john-heal"
+  ],
+  "related_people": [
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "acts-3-6"
+  ],
+  "questions": []
+}

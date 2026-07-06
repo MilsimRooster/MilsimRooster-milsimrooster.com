@@ -72,7 +72,30 @@
   "difficulty": "easy",
   "estimated_minutes": 14,
   "related_lessons": [
-    "ruth-stays",
-    "samuel-hears-god"
+    "samuel-hears-god",
+    "david-anointed",
+    "lords-prayer",
+    "abraham-and-isaac",
+    "abraham-and-lot",
+    "ruth-stays"
+  ],
+  "people": [
+    "samuel"
+  ],
+  "places": [],
+  "themes": [
+    "hope",
+    "prayer",
+    "trust"
+  ],
+  "events": [
+    "hannah-prays"
+  ],
+  "related_graph_nodes": [
+    "person:samuel",
+    "theme:hope",
+    "theme:prayer",
+    "theme:trust",
+    "event:hannah-prays"
   ]
 }

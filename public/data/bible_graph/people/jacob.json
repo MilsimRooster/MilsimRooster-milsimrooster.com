@@ -1,0 +1,52 @@
+{
+  "id": "jacob",
+  "name": "Jacob",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "patriarch"
+  ],
+  "summary": "Jacob became Israel, and God continued His covenant through his family.",
+  "kid_summary": "Jacob learned that blessing comes from God.",
+  "lessons": [
+    "jacob-and-esau",
+    "jacob-wrestles",
+    "joseph-forgives",
+    "josephs-dreams"
+  ],
+  "major_events": [
+    "jacob-and-esau",
+    "jacob-wrestles",
+    "joseph-forgives",
+    "josephs-dreams"
+  ],
+  "related_places": [],
+  "themes": [
+    "change",
+    "choices",
+    "family",
+    "forgiveness",
+    "gods-plan",
+    "identity",
+    "jealousy",
+    "mercy",
+    "prayer",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "genesis-25-34",
+    "genesis-32-28",
+    "genesis-37-11",
+    "genesis-45-5"
+  ],
+  "related_people": [
+    "esau",
+    "isaac",
+    "joseph"
+  ],
+  "questions": [],
+  "notes": []
+}

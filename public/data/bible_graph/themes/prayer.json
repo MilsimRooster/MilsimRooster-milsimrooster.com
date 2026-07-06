@@ -1,0 +1,50 @@
+{
+  "id": "prayer",
+  "name": "Prayer",
+  "type": "theme",
+  "summary": "Prayer is talking to God with trust, honesty, praise, and need.",
+  "kid_summary": "Prayer is talking to God with trust, honesty, praise, and need.",
+  "related_lessons": [
+    "armor-of-god",
+    "burning-bush",
+    "daniel-in-the-lions-den",
+    "gethsemane",
+    "hannah-prays",
+    "jacob-wrestles",
+    "jonah-prays",
+    "lords-prayer",
+    "nehemiah-rebuilds",
+    "paul-and-silas",
+    "solomon-wisdom"
+  ],
+  "related_people": [
+    "daniel",
+    "darius",
+    "jacob",
+    "james",
+    "jesus",
+    "john",
+    "jonah",
+    "moses",
+    "nehemiah",
+    "paul",
+    "peter",
+    "samuel",
+    "silas",
+    "solomon"
+  ],
+  "related_verses": [
+    "1-kings-3-9",
+    "1-samuel-1-10",
+    "acts-16-25",
+    "daniel-6-22",
+    "ephesians-6-17",
+    "exodus-3-7",
+    "genesis-32-28",
+    "jonah-2-1",
+    "matthew-26-39",
+    "matthew-6-9",
+    "nehemiah-2-18"
+  ],
+  "questions": []
+}

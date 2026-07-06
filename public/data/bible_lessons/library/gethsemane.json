@@ -73,6 +73,40 @@
   "estimated_minutes": 16,
   "related_lessons": [
     "last-supper",
+    "jesus-calls-disciples",
+    "great-commission",
+    "jesus-calms-storm",
+    "feeding-five-thousand",
     "crucifixion"
+  ],
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "gethsemane",
+    "jerusalem"
+  ],
+  "themes": [
+    "jesus",
+    "obedience",
+    "prayer"
+  ],
+  "events": [
+    "gethsemane"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:gethsemane",
+    "place:jerusalem",
+    "theme:jesus",
+    "theme:obedience",
+    "theme:prayer",
+    "event:gethsemane"
   ]
 }

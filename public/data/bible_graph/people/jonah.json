@@ -1,0 +1,39 @@
+{
+  "id": "jonah",
+  "name": "Jonah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Jonah"
+  ],
+  "roles": [
+    "prophet"
+  ],
+  "summary": "Jonah ran from God's command but learned about mercy.",
+  "kid_summary": "Jonah learned that he could not run away from God.",
+  "lessons": [
+    "jonah-prays",
+    "jonah-runs"
+  ],
+  "major_events": [
+    "jonah-prays",
+    "jonah-runs"
+  ],
+  "related_places": [
+    "nineveh"
+  ],
+  "themes": [
+    "calling",
+    "mercy",
+    "obedience",
+    "prayer",
+    "rescue"
+  ],
+  "memory_verses": [
+    "jonah-1-2",
+    "jonah-2-1"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

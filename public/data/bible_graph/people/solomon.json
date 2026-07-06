@@ -1,0 +1,33 @@
+{
+  "id": "solomon",
+  "name": "Solomon",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Kings",
+    "Proverbs"
+  ],
+  "roles": [
+    "king"
+  ],
+  "summary": "Solomon was David's son who asked God for wisdom.",
+  "kid_summary": "Solomon asked God for wisdom.",
+  "lessons": [
+    "solomon-wisdom"
+  ],
+  "major_events": [
+    "solomon-wisdom"
+  ],
+  "related_places": [],
+  "themes": [
+    "leadership",
+    "prayer",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "1-kings-3-9"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

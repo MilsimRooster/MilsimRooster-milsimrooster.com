@@ -1,0 +1,18 @@
+{
+  "id": "witness",
+  "name": "Witness",
+  "type": "theme",
+  "summary": "Witness is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Witness helps us see what this story teaches.",
+  "related_lessons": [
+    "paul-and-silas"
+  ],
+  "related_people": [
+    "paul",
+    "silas"
+  ],
+  "related_verses": [
+    "acts-16-25"
+  ],
+  "questions": []
+}

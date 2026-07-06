@@ -1,0 +1,49 @@
+{
+  "id": "wilderness",
+  "name": "Wilderness",
+  "type": "place",
+  "summary": "The wilderness was where Israel learned to depend on God's daily care.",
+  "kid_summary": "The wilderness was a hard place where God provided.",
+  "lessons": [
+    "burning-bush",
+    "elijah-ravens",
+    "golden-calf",
+    "jesus-tempted",
+    "manna-in-wilderness",
+    "noahs-ark"
+  ],
+  "related_people": [
+    "aaron",
+    "elijah",
+    "jesus",
+    "moses",
+    "noah"
+  ],
+  "related_events": [
+    "burning-bush",
+    "elijah-ravens",
+    "flood",
+    "golden-calf",
+    "manna-in-wilderness",
+    "temptation-of-jesus"
+  ],
+  "themes": [
+    "calling",
+    "faith",
+    "faithfulness",
+    "gods-word",
+    "gratitude",
+    "idols",
+    "mercy",
+    "obedience",
+    "prayer",
+    "promise",
+    "prophets",
+    "provision",
+    "rescue",
+    "sin",
+    "temptation",
+    "trust",
+    "worship"
+  ]
+}

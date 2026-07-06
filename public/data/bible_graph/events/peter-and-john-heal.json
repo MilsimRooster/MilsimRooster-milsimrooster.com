@@ -1,0 +1,24 @@
+{
+  "id": "peter-and-john-heal",
+  "name": "Peter and John Help a Lame Man",
+  "type": "event",
+  "passage": "Acts 3:1-10",
+  "summary": "Jesus' name brings hope, and God's people can notice those in need. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Peter and John saw a man who could not walk. In Jesus' name, he was healed and began praising God.",
+  "people": [
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "compassion",
+    "healing",
+    "jesus-name"
+  ],
+  "related_lessons": [
+    "peter-and-john-heal"
+  ],
+  "timeline_order": 69
+}

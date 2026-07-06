@@ -1,0 +1,21 @@
+{
+  "id": "nineveh",
+  "name": "Nineveh",
+  "type": "place",
+  "summary": "Nineveh was the city God sent Jonah to warn.",
+  "kid_summary": "Nineveh was the city Jonah did not want to visit.",
+  "lessons": [
+    "jonah-runs"
+  ],
+  "related_people": [
+    "jonah"
+  ],
+  "related_events": [
+    "jonah-runs"
+  ],
+  "themes": [
+    "calling",
+    "mercy",
+    "obedience"
+  ]
+}

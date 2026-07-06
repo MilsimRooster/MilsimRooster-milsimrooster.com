@@ -1,0 +1,32 @@
+{
+  "id": "josiah",
+  "name": "Josiah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "2 Kings"
+  ],
+  "roles": [
+    "king"
+  ],
+  "summary": "Josiah was a king who listened when God's Word was found.",
+  "kid_summary": "Josiah wanted God's people to listen to God's Word.",
+  "lessons": [
+    "josiah-finds-book"
+  ],
+  "major_events": [
+    "josiah-finds-book"
+  ],
+  "related_places": [],
+  "themes": [
+    "gods-word",
+    "leadership",
+    "repentance"
+  ],
+  "memory_verses": [
+    "2-kings-22-11"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

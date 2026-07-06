@@ -1,0 +1,24 @@
+{
+  "id": "empty-tomb",
+  "name": "The Empty Tomb",
+  "passage": "John 20:1-18",
+  "summary": "The empty tomb shows that Jesus is risen.",
+  "kid_summary": "The empty tomb shows that Jesus is risen.",
+  "people": [
+    "jesus",
+    "mary",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "resurrection",
+    "hope"
+  ],
+  "related_lessons": [
+    "resurrection"
+  ],
+  "type": "object"
+}

@@ -72,6 +72,29 @@
   "estimated_minutes": 14,
   "related_lessons": [
     "jonah-runs",
+    "burning-bush",
+    "armor-of-god",
+    "beatitudes",
+    "daniel-in-the-lions-den",
     "daniel-chooses-faithfulness"
+  ],
+  "people": [
+    "jonah"
+  ],
+  "places": [],
+  "themes": [
+    "mercy",
+    "prayer",
+    "rescue"
+  ],
+  "events": [
+    "jonah-prays"
+  ],
+  "related_graph_nodes": [
+    "person:jonah",
+    "theme:mercy",
+    "theme:prayer",
+    "theme:rescue",
+    "event:jonah-prays"
   ]
 }

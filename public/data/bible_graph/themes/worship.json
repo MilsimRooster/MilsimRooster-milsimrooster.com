@@ -1,0 +1,39 @@
+{
+  "id": "worship",
+  "name": "Worship",
+  "type": "theme",
+  "summary": "Worship is giving God the honor, trust, and praise He deserves.",
+  "kid_summary": "Worship is giving God the honor, trust, and praise He deserves.",
+  "related_lessons": [
+    "creation-good-world",
+    "fiery-furnace",
+    "golden-calf",
+    "job-trusts",
+    "mount-carmel",
+    "paul-and-silas"
+  ],
+  "related_people": [
+    "aaron",
+    "abednego",
+    "adam",
+    "daniel",
+    "elijah",
+    "eve",
+    "job",
+    "meshach",
+    "moses",
+    "nebuchadnezzar",
+    "paul",
+    "shadrach",
+    "silas"
+  ],
+  "related_verses": [
+    "1-kings-18-39",
+    "acts-16-25",
+    "daniel-3-17",
+    "exodus-32-4",
+    "genesis-1-1",
+    "job-1-20"
+  ],
+  "questions": []
+}

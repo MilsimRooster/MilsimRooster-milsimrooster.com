@@ -73,6 +73,40 @@
   "estimated_minutes": 16,
   "related_lessons": [
     "daniel-chooses-faithfulness",
-    "daniel-in-the-lions-den"
+    "daniel-in-the-lions-den",
+    "david-and-goliath",
+    "mount-carmel",
+    "armor-of-god",
+    "baby-moses"
+  ],
+  "people": [
+    "abednego",
+    "daniel",
+    "meshach",
+    "nebuchadnezzar",
+    "shadrach"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "faith",
+    "worship"
+  ],
+  "events": [
+    "fiery-furnace"
+  ],
+  "related_graph_nodes": [
+    "person:abednego",
+    "person:daniel",
+    "person:meshach",
+    "person:nebuchadnezzar",
+    "person:shadrach",
+    "place:babylon",
+    "theme:courage",
+    "theme:faith",
+    "theme:worship",
+    "event:fiery-furnace"
   ]
 }

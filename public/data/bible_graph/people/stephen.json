@@ -1,0 +1,22 @@
+{
+  "id": "stephen",
+  "name": "Stephen",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts"
+  ],
+  "roles": [
+    "witness"
+  ],
+  "summary": "Stephen boldly testified about Jesus.",
+  "kid_summary": "Stephen spoke bravely about Jesus.",
+  "major_events": [],
+  "related_people": [],
+  "related_places": [],
+  "themes": [],
+  "lessons": [],
+  "memory_verses": [],
+  "questions": [],
+  "notes": []
+}

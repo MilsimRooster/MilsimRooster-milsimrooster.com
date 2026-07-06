@@ -1,0 +1,36 @@
+{
+  "id": "zacchaeus",
+  "name": "Zacchaeus",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Luke"
+  ],
+  "roles": [
+    "tax collector"
+  ],
+  "summary": "Zacchaeus met Jesus and changed how he treated people.",
+  "kid_summary": "Zacchaeus climbed a tree to see Jesus.",
+  "lessons": [
+    "zacchaeus"
+  ],
+  "major_events": [
+    "zacchaeus"
+  ],
+  "related_places": [
+    "jericho"
+  ],
+  "themes": [
+    "grace",
+    "jesus",
+    "repentance"
+  ],
+  "memory_verses": [
+    "luke-19-10"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "questions": [],
+  "notes": []
+}

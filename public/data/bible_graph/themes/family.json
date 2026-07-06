@@ -1,0 +1,29 @@
+{
+  "id": "family",
+  "name": "Family",
+  "type": "theme",
+  "summary": "Family is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Family helps us see what this story teaches.",
+  "related_lessons": [
+    "baby-moses",
+    "jacob-and-esau",
+    "josephs-dreams",
+    "ruth-stays"
+  ],
+  "related_people": [
+    "esau",
+    "isaac",
+    "jacob",
+    "joseph",
+    "moses",
+    "naomi",
+    "ruth"
+  ],
+  "related_verses": [
+    "exodus-2-3",
+    "genesis-25-34",
+    "genesis-37-11",
+    "ruth-1-16"
+  ],
+  "questions": []
+}

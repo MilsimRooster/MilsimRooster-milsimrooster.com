@@ -1,0 +1,36 @@
+{
+  "id": "abel",
+  "name": "Abel",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "son of Adam and Eve"
+  ],
+  "summary": "Abel was Adam and Eve's son who brought an offering to God.",
+  "kid_summary": "Abel was Cain's brother.",
+  "lessons": [
+    "cain-and-abel"
+  ],
+  "major_events": [
+    "cain-and-abel"
+  ],
+  "related_places": [],
+  "themes": [
+    "anger",
+    "choices",
+    "sin"
+  ],
+  "memory_verses": [
+    "genesis-4-7"
+  ],
+  "related_people": [
+    "adam",
+    "cain",
+    "eve"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "creation",
+  "name": "Creation",
+  "type": "event",
+  "passage": "Genesis 1:1-2:3",
+  "summary": "God made the world good and made people to know Him and care for His creation. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "God created light, sky, land, plants, animals, and people. Everything God made showed His power and goodness.",
+  "people": [
+    "adam",
+    "eve"
+  ],
+  "places": [
+    "eden"
+  ],
+  "themes": [
+    "creation",
+    "gods-power",
+    "worship"
+  ],
+  "related_lessons": [
+    "creation-good-world"
+  ],
+  "timeline_order": 1
+}

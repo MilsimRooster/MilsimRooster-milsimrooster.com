@@ -1,0 +1,23 @@
+{
+  "id": "sermon-on-the-mount",
+  "name": "Sermon on the Mount",
+  "type": "event",
+  "passage": "Matthew 5:1-12",
+  "summary": "Jesus teaches that God's kingdom values humility, mercy, purity, and peace. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus described the blessed life in God's kingdom. His words showed a different kind of greatness.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "humility",
+    "kingdom",
+    "mercy"
+  ],
+  "related_lessons": [
+    "beatitudes"
+  ],
+  "timeline_order": 52
+}

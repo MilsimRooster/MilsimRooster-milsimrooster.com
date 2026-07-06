@@ -1,0 +1,22 @@
+{
+  "id": "isaiah",
+  "name": "Isaiah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Isaiah"
+  ],
+  "roles": [
+    "prophet"
+  ],
+  "summary": "Isaiah was a prophet who spoke God's warnings and promises.",
+  "kid_summary": "Isaiah told God's people about God's holiness and hope.",
+  "major_events": [],
+  "related_people": [],
+  "related_places": [],
+  "themes": [],
+  "lessons": [],
+  "memory_verses": [],
+  "questions": [],
+  "notes": []
+}

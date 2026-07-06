@@ -71,7 +71,32 @@
   "difficulty": "easy",
   "estimated_minutes": 12,
   "related_lessons": [
+    "baby-moses",
     "golden-calf",
-    "jericho"
+    "jericho",
+    "burning-bush",
+    "deborah",
+    "esther-speaks"
+  ],
+  "people": [
+    "joshua",
+    "moses"
+  ],
+  "places": [],
+  "themes": [
+    "courage",
+    "gods-presence",
+    "leadership"
+  ],
+  "events": [
+    "joshua-be-strong"
+  ],
+  "related_graph_nodes": [
+    "person:joshua",
+    "person:moses",
+    "theme:courage",
+    "theme:gods-presence",
+    "theme:leadership",
+    "event:joshua-be-strong"
   ]
 }

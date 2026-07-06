@@ -72,6 +72,33 @@
   "estimated_minutes": 13,
   "related_lessons": [
     "david-and-goliath",
+    "david-anointed",
+    "psalm-23",
+    "baby-moses",
+    "daniel-in-the-lions-den",
     "solomon-wisdom"
+  ],
+  "people": [
+    "david",
+    "jonathan",
+    "saul"
+  ],
+  "places": [],
+  "themes": [
+    "courage",
+    "friendship",
+    "loyalty"
+  ],
+  "events": [
+    "david-and-jonathan"
+  ],
+  "related_graph_nodes": [
+    "person:david",
+    "person:jonathan",
+    "person:saul",
+    "theme:courage",
+    "theme:friendship",
+    "theme:loyalty",
+    "event:david-and-jonathan"
   ]
 }

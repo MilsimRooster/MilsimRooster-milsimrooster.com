@@ -72,7 +72,37 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
+    "resurrection",
     "gethsemane",
-    "resurrection"
+    "birth-of-jesus",
+    "feeding-five-thousand",
+    "great-commission",
+    "jesus-at-temple"
+  ],
+  "people": [
+    "jesus",
+    "john",
+    "mary"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "forgiveness",
+    "jesus-saves",
+    "sacrifice"
+  ],
+  "events": [
+    "crucifixion"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:john",
+    "person:mary",
+    "place:jerusalem",
+    "theme:forgiveness",
+    "theme:jesus-saves",
+    "theme:sacrifice",
+    "event:crucifixion"
   ]
 }

@@ -70,7 +70,33 @@
   "difficulty": "medium",
   "estimated_minutes": 18,
   "related_lessons": [
+    "passover",
+    "golden-calf",
     "manna-in-wilderness",
-    "golden-calf"
+    "baby-moses",
+    "burning-bush",
+    "joshua-be-strong"
+  ],
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "sinai"
+  ],
+  "themes": [
+    "holiness",
+    "love",
+    "obedience"
+  ],
+  "events": [
+    "ten-commandments"
+  ],
+  "related_graph_nodes": [
+    "person:moses",
+    "place:sinai",
+    "theme:holiness",
+    "theme:love",
+    "theme:obedience",
+    "event:ten-commandments"
   ]
 }

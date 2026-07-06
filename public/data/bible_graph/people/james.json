@@ -1,0 +1,68 @@
+{
+  "id": "james",
+  "name": "James",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Matthew",
+    "Acts"
+  ],
+  "roles": [
+    "apostle"
+  ],
+  "summary": "James was one of Jesus' apostles.",
+  "kid_summary": "James was one of Jesus' followers.",
+  "lessons": [
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "pentecost"
+  ],
+  "major_events": [
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "pentecost"
+  ],
+  "related_places": [
+    "galilee",
+    "gethsemane",
+    "jerusalem"
+  ],
+  "themes": [
+    "calling",
+    "church",
+    "discipleship",
+    "faith",
+    "fear",
+    "following-jesus",
+    "gods-presence",
+    "holy-spirit",
+    "jesus",
+    "jesus-power",
+    "mission",
+    "obedience",
+    "prayer",
+    "remember",
+    "salvation"
+  ],
+  "memory_verses": [
+    "acts-2-4",
+    "luke-22-19",
+    "mark-4-39",
+    "matthew-26-39",
+    "matthew-28-20",
+    "matthew-4-19"
+  ],
+  "related_people": [
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "questions": [],
+  "notes": []
+}

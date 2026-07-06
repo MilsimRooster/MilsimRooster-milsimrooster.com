@@ -71,7 +71,30 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
+    "deborah",
+    "armor-of-god",
+    "burning-bush",
+    "daniel-chooses-faithfulness",
     "david-and-jonathan",
     "elijah-ravens"
+  ],
+  "people": [
+    "solomon"
+  ],
+  "places": [],
+  "themes": [
+    "leadership",
+    "prayer",
+    "wisdom"
+  ],
+  "events": [
+    "solomon-wisdom"
+  ],
+  "related_graph_nodes": [
+    "person:solomon",
+    "theme:leadership",
+    "theme:prayer",
+    "theme:wisdom",
+    "event:solomon-wisdom"
   ]
 }

@@ -72,6 +72,34 @@
   "estimated_minutes": 15,
   "related_lessons": [
     "joshua-be-strong",
+    "noahs-ark",
+    "abraham-and-isaac",
+    "armor-of-god",
+    "david-and-goliath",
     "deborah"
+  ],
+  "people": [
+    "joshua",
+    "rahab"
+  ],
+  "places": [
+    "jericho"
+  ],
+  "themes": [
+    "faith",
+    "obedience",
+    "victory"
+  ],
+  "events": [
+    "battle-of-jericho"
+  ],
+  "related_graph_nodes": [
+    "person:joshua",
+    "person:rahab",
+    "place:jericho",
+    "theme:faith",
+    "theme:obedience",
+    "theme:victory",
+    "event:battle-of-jericho"
   ]
 }

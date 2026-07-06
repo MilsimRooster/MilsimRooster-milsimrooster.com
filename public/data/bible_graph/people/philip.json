@@ -1,0 +1,34 @@
+{
+  "id": "philip",
+  "name": "Philip",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts"
+  ],
+  "roles": [
+    "evangelist"
+  ],
+  "summary": "Philip helped an Ethiopian official understand Scripture and Jesus.",
+  "kid_summary": "Philip helped someone understand the Bible.",
+  "lessons": [
+    "philip-and-ethiopian"
+  ],
+  "major_events": [
+    "philip-and-ethiopian"
+  ],
+  "related_places": [
+    "judea"
+  ],
+  "themes": [
+    "good-news",
+    "mission",
+    "scripture"
+  ],
+  "memory_verses": [
+    "acts-8-35"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

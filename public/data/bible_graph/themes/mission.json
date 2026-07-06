@@ -1,0 +1,28 @@
+{
+  "id": "mission",
+  "name": "Mission",
+  "type": "theme",
+  "summary": "Mission is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Mission helps us see what this story teaches.",
+  "related_lessons": [
+    "great-commission",
+    "pentecost",
+    "philip-and-ethiopian",
+    "saul-converted"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "paul",
+    "peter",
+    "philip"
+  ],
+  "related_verses": [
+    "acts-2-4",
+    "acts-8-35",
+    "acts-9-5",
+    "matthew-28-20"
+  ],
+  "questions": []
+}

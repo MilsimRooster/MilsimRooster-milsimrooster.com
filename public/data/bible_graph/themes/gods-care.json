@@ -1,0 +1,17 @@
+{
+  "id": "gods-care",
+  "name": "Gods Care",
+  "type": "theme",
+  "summary": "Gods Care is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Care helps us see what this story teaches.",
+  "related_lessons": [
+    "psalm-23"
+  ],
+  "related_people": [
+    "david"
+  ],
+  "related_verses": [
+    "psalms-23-1"
+  ],
+  "questions": []
+}

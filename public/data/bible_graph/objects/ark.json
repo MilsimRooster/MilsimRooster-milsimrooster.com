@@ -1,0 +1,21 @@
+{
+  "id": "ark",
+  "name": "Noah's Ark",
+  "passage": "Genesis 6:14",
+  "summary": "The ark was the boat God told Noah to build for rescue.",
+  "kid_summary": "The ark was the boat God told Noah to build for rescue.",
+  "people": [
+    "noah"
+  ],
+  "places": [
+    "wilderness"
+  ],
+  "themes": [
+    "obedience",
+    "salvation"
+  ],
+  "related_lessons": [
+    "noahs-ark"
+  ],
+  "type": "object"
+}

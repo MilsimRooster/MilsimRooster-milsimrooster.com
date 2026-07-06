@@ -1,0 +1,25 @@
+{
+  "id": "peter-and-cornelius",
+  "name": "Peter and Cornelius",
+  "type": "event",
+  "passage": "Acts 10:1-48",
+  "summary": "The good news of Jesus is for every nation and people group. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "God sent Peter to Cornelius, a Gentile. Peter learned that God welcomes people from every nation who turn to Him.",
+  "people": [
+    "cornelius",
+    "peter"
+  ],
+  "places": [
+    "capernaum",
+    "judea"
+  ],
+  "themes": [
+    "good-news",
+    "nations",
+    "welcome"
+  ],
+  "related_lessons": [
+    "peter-and-cornelius"
+  ],
+  "timeline_order": 72
+}

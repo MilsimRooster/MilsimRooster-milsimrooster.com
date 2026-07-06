@@ -72,6 +72,29 @@
   "estimated_minutes": 16,
   "related_lessons": [
     "good-samaritan",
+    "beatitudes",
+    "crucifixion",
+    "lords-prayer",
+    "zacchaeus",
     "parable-of-sower"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [],
+  "themes": [
+    "forgiveness",
+    "mercy",
+    "repentance"
+  ],
+  "events": [
+    "prodigal-son"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "theme:forgiveness",
+    "theme:mercy",
+    "theme:repentance",
+    "event:prodigal-son"
   ]
 }

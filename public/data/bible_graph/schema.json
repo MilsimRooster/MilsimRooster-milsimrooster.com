@@ -1,0 +1,150 @@
+{
+  "schema_version": "bible-graph/v1",
+  "description": "Reusable Bible knowledge graph nodes for lessons, search, recommendations, timelines, and game modes.",
+  "node_types": {
+    "person": [
+      "id",
+      "name",
+      "type",
+      "testament",
+      "books",
+      "roles",
+      "summary",
+      "kid_summary",
+      "major_events",
+      "related_people",
+      "related_places",
+      "themes",
+      "lessons",
+      "memory_verses",
+      "questions",
+      "notes"
+    ],
+    "place": [
+      "id",
+      "name",
+      "type",
+      "summary",
+      "kid_summary",
+      "related_people",
+      "related_events",
+      "themes",
+      "lessons"
+    ],
+    "theme": [
+      "id",
+      "name",
+      "type",
+      "summary",
+      "kid_summary",
+      "related_lessons",
+      "related_people",
+      "related_verses",
+      "questions"
+    ],
+    "event": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons",
+      "timeline_order"
+    ],
+    "miracle": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "parable": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "prophecy": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "command": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "promise": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "object": [
+      "id",
+      "name",
+      "type",
+      "passage",
+      "summary",
+      "people",
+      "places",
+      "themes",
+      "related_lessons"
+    ],
+    "memory_verse": [
+      "id",
+      "name",
+      "type",
+      "reference",
+      "prompt",
+      "themes",
+      "related_lessons"
+    ],
+    "quiz_bank": [
+      "id",
+      "name",
+      "type",
+      "summary",
+      "kid_summary",
+      "lesson_ids",
+      "questions"
+    ]
+  },
+  "lesson_reference_fields": [
+    "people",
+    "places",
+    "themes",
+    "events",
+    "related_graph_nodes"
+  ],
+  "related_graph_node_format": "type:id"
+}

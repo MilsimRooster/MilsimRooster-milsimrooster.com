@@ -1,0 +1,34 @@
+{
+  "id": "ruth",
+  "name": "Ruth",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Ruth"
+  ],
+  "roles": [
+    "faithful daughter-in-law"
+  ],
+  "summary": "Ruth showed loyal love to Naomi and became part of God's bigger story.",
+  "kid_summary": "Ruth stayed with Naomi and followed Naomi's God.",
+  "lessons": [
+    "ruth-stays"
+  ],
+  "major_events": [
+    "ruth-stays"
+  ],
+  "related_places": [],
+  "themes": [
+    "faithfulness",
+    "family",
+    "love"
+  ],
+  "memory_verses": [
+    "ruth-1-16"
+  ],
+  "related_people": [
+    "naomi"
+  ],
+  "questions": [],
+  "notes": []
+}

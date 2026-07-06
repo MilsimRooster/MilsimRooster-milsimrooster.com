@@ -1,0 +1,18 @@
+{
+  "id": "grief",
+  "name": "Grief",
+  "type": "theme",
+  "summary": "Grief is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Grief helps us see what this story teaches.",
+  "related_lessons": [
+    "lazarus"
+  ],
+  "related_people": [
+    "jesus",
+    "lazarus"
+  ],
+  "related_verses": [
+    "john-11-25"
+  ],
+  "questions": []
+}

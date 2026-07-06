@@ -71,7 +71,30 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
-    "naaman",
-    "esther-speaks"
+    "esther-speaks",
+    "armor-of-god",
+    "deborah",
+    "jesus-tempted",
+    "joshua-be-strong",
+    "naaman"
+  ],
+  "people": [
+    "josiah"
+  ],
+  "places": [],
+  "themes": [
+    "gods-word",
+    "leadership",
+    "repentance"
+  ],
+  "events": [
+    "josiah-finds-book"
+  ],
+  "related_graph_nodes": [
+    "person:josiah",
+    "theme:gods-word",
+    "theme:leadership",
+    "theme:repentance",
+    "event:josiah-finds-book"
   ]
 }

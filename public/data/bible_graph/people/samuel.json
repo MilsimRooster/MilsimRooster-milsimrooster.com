@@ -1,0 +1,46 @@
+{
+  "id": "samuel",
+  "name": "Samuel",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Samuel"
+  ],
+  "roles": [
+    "prophet",
+    "judge"
+  ],
+  "summary": "Samuel heard God's voice as a child and later served as a prophet.",
+  "kid_summary": "Samuel listened when God called his name.",
+  "lessons": [
+    "david-anointed",
+    "hannah-prays",
+    "samuel-hears-god"
+  ],
+  "major_events": [
+    "david-anointed",
+    "hannah-prays",
+    "samuel-hears-god"
+  ],
+  "related_places": [],
+  "themes": [
+    "calling",
+    "heart",
+    "hope",
+    "humility",
+    "listening",
+    "obedience",
+    "prayer",
+    "trust"
+  ],
+  "memory_verses": [
+    "1-samuel-1-10",
+    "1-samuel-16-7",
+    "1-samuel-3-10"
+  ],
+  "related_people": [
+    "david"
+  ],
+  "questions": [],
+  "notes": []
+}

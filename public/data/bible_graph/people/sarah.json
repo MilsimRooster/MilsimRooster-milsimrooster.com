@@ -1,0 +1,39 @@
+{
+  "id": "sarah",
+  "name": "Sarah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "matriarch"
+  ],
+  "summary": "Sarah received God's promise and became Isaac's mother.",
+  "kid_summary": "Sarah learned that God can keep promises that seem impossible.",
+  "lessons": [
+    "god-promises-abraham",
+    "isaac-is-born"
+  ],
+  "major_events": [
+    "god-promises-abraham",
+    "isaac-is-born"
+  ],
+  "related_places": [],
+  "themes": [
+    "faith",
+    "joy",
+    "patience",
+    "promise"
+  ],
+  "memory_verses": [
+    "genesis-15-5",
+    "genesis-21-3"
+  ],
+  "related_people": [
+    "abraham",
+    "isaac"
+  ],
+  "questions": [],
+  "notes": []
+}

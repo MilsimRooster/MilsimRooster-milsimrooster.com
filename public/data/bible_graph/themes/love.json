@@ -1,0 +1,27 @@
+{
+  "id": "love",
+  "name": "Love",
+  "type": "theme",
+  "summary": "Love means patient, faithful care that seeks another person's good.",
+  "kid_summary": "Love means patient, faithful care that seeks another person's good.",
+  "related_lessons": [
+    "good-samaritan",
+    "love-is-patient",
+    "ruth-stays",
+    "ten-commandments"
+  ],
+  "related_people": [
+    "jesus",
+    "moses",
+    "naomi",
+    "paul",
+    "ruth"
+  ],
+  "related_verses": [
+    "1-corinthians-13-4",
+    "exodus-20-1",
+    "luke-10-37",
+    "ruth-1-16"
+  ],
+  "questions": []
+}

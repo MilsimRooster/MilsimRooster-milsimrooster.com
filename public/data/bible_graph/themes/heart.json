@@ -1,0 +1,18 @@
+{
+  "id": "heart",
+  "name": "Heart",
+  "type": "theme",
+  "summary": "Heart is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Heart helps us see what this story teaches.",
+  "related_lessons": [
+    "david-anointed"
+  ],
+  "related_people": [
+    "david",
+    "samuel"
+  ],
+  "related_verses": [
+    "1-samuel-16-7"
+  ],
+  "questions": []
+}

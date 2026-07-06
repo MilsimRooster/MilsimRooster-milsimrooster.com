@@ -72,6 +72,31 @@
   "estimated_minutes": 16,
   "related_lessons": [
     "josephs-dreams",
+    "jacob-and-esau",
+    "jacob-wrestles",
+    "prodigal-son",
+    "beatitudes",
     "baby-moses"
+  ],
+  "people": [
+    "jacob",
+    "joseph"
+  ],
+  "places": [],
+  "themes": [
+    "forgiveness",
+    "gods-plan",
+    "mercy"
+  ],
+  "events": [
+    "joseph-forgives"
+  ],
+  "related_graph_nodes": [
+    "person:jacob",
+    "person:joseph",
+    "theme:forgiveness",
+    "theme:gods-plan",
+    "theme:mercy",
+    "event:joseph-forgives"
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "id": "rahab",
+  "name": "Rahab",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Joshua"
+  ],
+  "roles": [
+    "rescued helper"
+  ],
+  "summary": "Rahab helped Israel's spies at Jericho and trusted the God of Israel.",
+  "kid_summary": "Rahab showed faith when Jericho was in danger.",
+  "lessons": [
+    "jericho"
+  ],
+  "major_events": [
+    "battle-of-jericho"
+  ],
+  "related_places": [
+    "jericho"
+  ],
+  "themes": [
+    "faith",
+    "obedience",
+    "victory"
+  ],
+  "memory_verses": [
+    "joshua-6-20"
+  ],
+  "related_people": [
+    "joshua"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,206 @@
+{
+  "id": "beginnings-promises-quiz-bank",
+  "name": "Beginnings and Promises Quiz Bank",
+  "type": "quiz_bank",
+  "summary": "Reusable quiz questions from the Beginnings and Promises lesson pack.",
+  "kid_summary": "Questions from Beginnings and Promises.",
+  "lesson_ids": [
+    "creation-good-world",
+    "made-in-gods-image",
+    "garden-first-choice",
+    "cain-and-abel",
+    "noahs-ark",
+    "tower-of-babel",
+    "god-calls-abram",
+    "abraham-and-lot",
+    "god-promises-abraham",
+    "isaac-is-born",
+    "abraham-and-isaac",
+    "jacob-and-esau",
+    "jacob-wrestles",
+    "josephs-dreams",
+    "joseph-forgives"
+  ],
+  "questions": [
+    {
+      "lesson_id": "creation-good-world",
+      "question": "Who made the heavens and the earth?",
+      "answer": "God",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "creation-good-world",
+      "question": "This lesson teaches that god made the world good and made people to know Him and care for His creation.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "made-in-gods-image",
+      "question": "Why should we treat people with respect?",
+      "answer": "People are made in God's image",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "made-in-gods-image",
+      "question": "This lesson teaches that every person has value because God made people in His image.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "garden-first-choice",
+      "question": "What happened when Adam and Eve disobeyed God?",
+      "answer": "Sin entered the world",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "garden-first-choice",
+      "question": "This lesson teaches that sin breaks trust with God, but God still seeks and cares for people.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "cain-and-abel",
+      "question": "What did God warn Cain about?",
+      "answer": "Sin was crouching at the door",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "cain-and-abel",
+      "question": "This lesson teaches that anger must be brought to God before it grows into sin.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "noahs-ark",
+      "question": "What did God tell Noah to build?",
+      "answer": "An ark",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "noahs-ark",
+      "question": "The rainbow reminded Noah that God keeps His ____.",
+      "answer": "promise",
+      "type": "fill_blank"
+    },
+    {
+      "lesson_id": "tower-of-babel",
+      "question": "Why did the people build the tower?",
+      "answer": "To make a name for themselves",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "tower-of-babel",
+      "question": "This lesson teaches that pride says we can live without God, but God is still Lord over every nation.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "god-calls-abram",
+      "question": "What did Abram do when God called him?",
+      "answer": "He went as God told him",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "god-calls-abram",
+      "question": "This lesson teaches that faith means following God even when we do not know every next step.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "abraham-and-lot",
+      "question": "Who chose land first?",
+      "answer": "Lot",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "abraham-and-lot",
+      "question": "This lesson teaches that peace sometimes means letting go instead of grabbing first place.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "god-promises-abraham",
+      "question": "What did God show Abram?",
+      "answer": "The stars",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "god-promises-abraham",
+      "question": "This lesson teaches that god keeps promises even when they seem impossible to us.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "isaac-is-born",
+      "question": "What was Abraham and Sarah's son named?",
+      "answer": "Isaac",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "isaac-is-born",
+      "question": "This lesson teaches that god's timing can be surprising, but His promises do not fail.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "abraham-and-isaac",
+      "question": "What did God provide instead?",
+      "answer": "A ram",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "abraham-and-isaac",
+      "question": "This lesson teaches that god provides and calls His people to trust Him deeply.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jacob-and-esau",
+      "question": "What did Esau trade away?",
+      "answer": "His birthright",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jacob-and-esau",
+      "question": "This lesson teaches that quick wants can lead to foolish choices when we forget what matters most.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "jacob-wrestles",
+      "question": "What new name was Jacob given?",
+      "answer": "Israel",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "jacob-wrestles",
+      "question": "This lesson teaches that god can change people and give them a new way to walk.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "josephs-dreams",
+      "question": "Who became angry about Joseph's dreams?",
+      "answer": "His brothers",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "josephs-dreams",
+      "question": "This lesson teaches that god can be at work even when family life is messy and painful.",
+      "answer": "True",
+      "type": "true_false"
+    },
+    {
+      "lesson_id": "joseph-forgives",
+      "question": "What did Joseph choose instead of revenge?",
+      "answer": "Forgiveness",
+      "type": "multiple_choice"
+    },
+    {
+      "lesson_id": "joseph-forgives",
+      "question": "This lesson teaches that forgiveness trusts God with the hurt and chooses mercy instead of revenge.",
+      "answer": "True",
+      "type": "true_false"
+    }
+  ]
+}

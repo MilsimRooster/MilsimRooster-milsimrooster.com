@@ -1,0 +1,24 @@
+{
+  "id": "good-samaritan",
+  "name": "The Good Samaritan",
+  "type": "event",
+  "passage": "Luke 10:25-37",
+  "summary": "Love for our neighbor shows mercy in action. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus told about a Samaritan who helped a hurt man when others passed by. Mercy means stopping to help.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "judea",
+    "samaria"
+  ],
+  "themes": [
+    "love",
+    "mercy",
+    "neighbor"
+  ],
+  "related_lessons": [
+    "good-samaritan"
+  ],
+  "timeline_order": 56
+}

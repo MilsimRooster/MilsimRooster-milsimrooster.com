@@ -1,0 +1,63 @@
+{
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "type": "place",
+  "summary": "Jerusalem was Israel's central city and the place of the temple.",
+  "kid_summary": "Jerusalem was an important city for God's people.",
+  "lessons": [
+    "crucifixion",
+    "gethsemane",
+    "jesus-at-temple",
+    "last-supper",
+    "nehemiah-rebuilds",
+    "new-creation-hope",
+    "pentecost",
+    "peter-and-john-heal",
+    "resurrection"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "joseph-husband-of-mary",
+    "mary",
+    "nehemiah",
+    "peter"
+  ],
+  "related_events": [
+    "crucifixion",
+    "gethsemane",
+    "jesus-at-temple",
+    "last-supper",
+    "nehemiah-rebuilds",
+    "new-creation-hope",
+    "pentecost",
+    "peter-and-john-heal",
+    "resurrection"
+  ],
+  "themes": [
+    "church",
+    "compassion",
+    "courage",
+    "forgiveness",
+    "gods-promise",
+    "growth",
+    "healing",
+    "holy-spirit",
+    "hope",
+    "jesus",
+    "jesus-name",
+    "jesus-saves",
+    "joy",
+    "mission",
+    "new-creation",
+    "obedience",
+    "prayer",
+    "remember",
+    "resurrection",
+    "sacrifice",
+    "salvation",
+    "teamwork",
+    "wisdom"
+  ]
+}

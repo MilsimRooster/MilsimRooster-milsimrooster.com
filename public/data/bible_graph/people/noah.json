@@ -1,0 +1,36 @@
+{
+  "id": "noah",
+  "name": "Noah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "ark builder"
+  ],
+  "summary": "Noah obeyed God and built the ark before the flood.",
+  "kid_summary": "Noah listened to God and built the big ark.",
+  "lessons": [
+    "noahs-ark"
+  ],
+  "major_events": [
+    "flood"
+  ],
+  "related_places": [
+    "wilderness"
+  ],
+  "themes": [
+    "faith",
+    "mercy",
+    "obedience",
+    "promise",
+    "sin"
+  ],
+  "memory_verses": [
+    "genesis-9-13"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

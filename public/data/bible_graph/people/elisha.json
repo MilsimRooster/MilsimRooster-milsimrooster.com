@@ -1,0 +1,36 @@
+{
+  "id": "elisha",
+  "name": "Elisha",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "2 Kings"
+  ],
+  "roles": [
+    "prophet"
+  ],
+  "summary": "Elisha was a prophet God used to show mercy and power.",
+  "kid_summary": "Elisha told Naaman how to receive God's help.",
+  "lessons": [
+    "naaman"
+  ],
+  "major_events": [
+    "naaman"
+  ],
+  "related_places": [
+    "jordan-river"
+  ],
+  "themes": [
+    "healing",
+    "humility",
+    "obedience"
+  ],
+  "memory_verses": [
+    "2-kings-5-14"
+  ],
+  "related_people": [
+    "naaman"
+  ],
+  "questions": [],
+  "notes": []
+}

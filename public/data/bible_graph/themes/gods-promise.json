@@ -1,0 +1,18 @@
+{
+  "id": "gods-promise",
+  "name": "Gods Promise",
+  "type": "theme",
+  "summary": "Gods Promise is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Promise helps us see what this story teaches.",
+  "related_lessons": [
+    "new-creation-hope"
+  ],
+  "related_people": [
+    "jesus",
+    "john"
+  ],
+  "related_verses": [
+    "revelation-21-5"
+  ],
+  "questions": []
+}

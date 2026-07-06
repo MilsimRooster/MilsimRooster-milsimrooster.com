@@ -1,0 +1,17 @@
+{
+  "id": "suffering",
+  "name": "Suffering",
+  "type": "theme",
+  "summary": "Suffering is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Suffering helps us see what this story teaches.",
+  "related_lessons": [
+    "job-trusts"
+  ],
+  "related_people": [
+    "job"
+  ],
+  "related_verses": [
+    "job-1-20"
+  ],
+  "questions": []
+}

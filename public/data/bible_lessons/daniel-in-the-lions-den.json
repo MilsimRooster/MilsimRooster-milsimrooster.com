@@ -13,7 +13,11 @@
   },
   "tell_it": "Daniel loved God and prayed every day. Some leaders made a trick law to get Daniel in trouble. Daniel kept praying to God, was thrown into a lions' den, and God shut the lions' mouths.",
   "understand_it": "This passage teaches that prayer matters and God is faithful. Daniel did not know exactly what would happen, but he kept honoring God when it was costly.",
-  "age_modes": ["age_5_7", "age_8_11", "teens"],
+  "age_modes": [
+    "age_5_7",
+    "age_8_11",
+    "teens"
+  ],
   "age_5_7_explanation": "Daniel prayed to God, even when he was told not to. God was with Daniel near the lions.",
   "age_8_11_explanation": "Daniel had a habit of prayer before trouble came. He kept honoring God, and God protected him in a scary place.",
   "teen_explanation": "Daniel's courage came from steady faithfulness, not a sudden dramatic moment. His public obedience grew out of private prayer and trust in God.",
@@ -27,7 +31,12 @@
     {
       "type": "multiple_choice",
       "question": "What did Daniel keep doing even after the new law?",
-      "choices": ["Praying to God", "Running away", "Building an ark", "Fighting the king"],
+      "choices": [
+        "Praying to God",
+        "Running away",
+        "Building an ark",
+        "Fighting the king"
+      ],
       "answer": "Praying to God",
       "explanation": "Daniel continued his regular habit of praying to God."
     },
@@ -52,8 +61,49 @@
     "instructions": "Draw a window like Daniel's prayer window. Inside it, write three things you can pray about this week."
   },
   "prayer_prompt": "Lord, teach me to pray and trust You. Help me stay faithful when I feel pressure.",
-  "tags": ["Prayer", "Courage", "Faithfulness", "Trust", "Leadership"],
+  "tags": [
+    "Prayer",
+    "Courage",
+    "Faithfulness",
+    "Trust",
+    "Leadership"
+  ],
   "difficulty": "medium",
   "estimated_minutes": 16,
-  "related_lessons": ["david-and-goliath"]
+  "related_lessons": [
+    "fiery-furnace",
+    "daniel-chooses-faithfulness",
+    "david-and-goliath",
+    "esther-speaks",
+    "mount-carmel",
+    "nehemiah-rebuilds"
+  ],
+  "people": [
+    "daniel",
+    "darius"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "faithfulness",
+    "leadership",
+    "prayer",
+    "trust"
+  ],
+  "events": [
+    "daniel-in-the-lions-den"
+  ],
+  "related_graph_nodes": [
+    "person:daniel",
+    "person:darius",
+    "place:babylon",
+    "theme:courage",
+    "theme:faithfulness",
+    "theme:leadership",
+    "theme:prayer",
+    "theme:trust",
+    "event:daniel-in-the-lions-den"
+  ]
 }

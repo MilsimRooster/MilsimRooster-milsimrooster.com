@@ -1,0 +1,23 @@
+{
+  "id": "bethlehem",
+  "name": "Bethlehem",
+  "type": "place",
+  "summary": "Bethlehem was David's hometown and the place where Jesus was born.",
+  "kid_summary": "Jesus was born in Bethlehem.",
+  "lessons": [
+    "birth-of-jesus"
+  ],
+  "related_people": [
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary"
+  ],
+  "related_events": [
+    "birth-of-jesus"
+  ],
+  "themes": [
+    "good-news",
+    "jesus",
+    "joy"
+  ]
+}

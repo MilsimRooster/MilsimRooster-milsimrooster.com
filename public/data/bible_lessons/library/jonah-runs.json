@@ -70,7 +70,33 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "psalm-23",
-    "jonah-prays"
+    "jonah-prays",
+    "garden-first-choice",
+    "jesus-calls-disciples",
+    "samuel-hears-god",
+    "abraham-and-isaac",
+    "psalm-23"
+  ],
+  "people": [
+    "jonah"
+  ],
+  "places": [
+    "nineveh"
+  ],
+  "themes": [
+    "calling",
+    "mercy",
+    "obedience"
+  ],
+  "events": [
+    "jonah-runs"
+  ],
+  "related_graph_nodes": [
+    "person:jonah",
+    "place:nineveh",
+    "theme:calling",
+    "theme:mercy",
+    "theme:obedience",
+    "event:jonah-runs"
   ]
 }

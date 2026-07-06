@@ -1,0 +1,19 @@
+{
+  "id": "jesus-saves",
+  "name": "Jesus Saves",
+  "type": "theme",
+  "summary": "Jesus Saves is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Jesus Saves helps us see what this story teaches.",
+  "related_lessons": [
+    "crucifixion"
+  ],
+  "related_people": [
+    "jesus",
+    "john",
+    "mary"
+  ],
+  "related_verses": [
+    "luke-23-46"
+  ],
+  "questions": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "good-news",
+  "name": "Good News",
+  "type": "theme",
+  "summary": "Good News is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Good News helps us see what this story teaches.",
+  "related_lessons": [
+    "birth-of-jesus",
+    "peter-and-cornelius",
+    "philip-and-ethiopian"
+  ],
+  "related_people": [
+    "cornelius",
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary",
+    "peter",
+    "philip"
+  ],
+  "related_verses": [
+    "acts-10-34",
+    "acts-8-35",
+    "luke-2-11"
+  ],
+  "questions": []
+}

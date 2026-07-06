@@ -1,0 +1,25 @@
+{
+  "id": "jesus-at-temple",
+  "name": "Jesus at the Temple",
+  "type": "event",
+  "passage": "Luke 2:41-52",
+  "summary": "Jesus grew in wisdom and knew He belonged to His Father's work. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "When Jesus was twelve, Mary and Joseph found Him in the temple. He was listening, asking questions, and speaking with wisdom.",
+  "people": [
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "growth",
+    "jesus",
+    "wisdom"
+  ],
+  "related_lessons": [
+    "jesus-at-temple"
+  ],
+  "timeline_order": 48
+}

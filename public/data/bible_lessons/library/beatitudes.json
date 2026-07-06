@@ -70,7 +70,33 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
+    "good-samaritan",
+    "prodigal-son",
     "jesus-calls-disciples",
-    "lords-prayer"
+    "lords-prayer",
+    "birth-of-jesus",
+    "crucifixion"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "humility",
+    "kingdom",
+    "mercy"
+  ],
+  "events": [
+    "sermon-on-the-mount"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "place:galilee",
+    "theme:humility",
+    "theme:kingdom",
+    "theme:mercy",
+    "event:sermon-on-the-mount"
   ]
 }

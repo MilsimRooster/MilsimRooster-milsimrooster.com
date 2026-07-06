@@ -1,0 +1,22 @@
+{
+  "id": "capernaum",
+  "name": "Capernaum",
+  "type": "place",
+  "summary": "Capernaum was a Galilean town connected to Jesus' ministry.",
+  "kid_summary": "Capernaum was a town where Jesus helped people.",
+  "lessons": [
+    "peter-and-cornelius"
+  ],
+  "related_people": [
+    "cornelius",
+    "peter"
+  ],
+  "related_events": [
+    "peter-and-cornelius"
+  ],
+  "themes": [
+    "good-news",
+    "nations",
+    "welcome"
+  ]
+}

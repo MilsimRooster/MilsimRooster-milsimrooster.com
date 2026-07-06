@@ -71,7 +71,32 @@
   "difficulty": "easy",
   "estimated_minutes": 12,
   "related_lessons": [
+    "isaac-is-born",
+    "god-calls-abram",
     "abraham-and-lot",
-    "isaac-is-born"
+    "abraham-and-isaac",
+    "noahs-ark",
+    "armor-of-god"
+  ],
+  "people": [
+    "abraham",
+    "sarah"
+  ],
+  "places": [],
+  "themes": [
+    "faith",
+    "patience",
+    "promise"
+  ],
+  "events": [
+    "god-promises-abraham"
+  ],
+  "related_graph_nodes": [
+    "person:abraham",
+    "person:sarah",
+    "theme:faith",
+    "theme:patience",
+    "theme:promise",
+    "event:god-promises-abraham"
   ]
 }

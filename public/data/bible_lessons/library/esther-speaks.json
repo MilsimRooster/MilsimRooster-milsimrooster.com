@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
+    "deborah",
+    "joshua-be-strong",
     "josiah-finds-book",
+    "baby-moses",
+    "daniel-in-the-lions-den",
     "job-trusts"
+  ],
+  "people": [
+    "esther",
+    "mordecai"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "help",
+    "leadership"
+  ],
+  "events": [
+    "esther-saves-her-people"
+  ],
+  "related_graph_nodes": [
+    "person:esther",
+    "person:mordecai",
+    "place:babylon",
+    "theme:courage",
+    "theme:help",
+    "theme:leadership",
+    "event:esther-saves-her-people"
   ]
 }

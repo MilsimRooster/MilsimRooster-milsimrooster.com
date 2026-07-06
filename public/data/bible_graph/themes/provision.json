@@ -1,0 +1,30 @@
+{
+  "id": "provision",
+  "name": "Provision",
+  "type": "theme",
+  "summary": "Provision is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Provision helps us see what this story teaches.",
+  "related_lessons": [
+    "abraham-and-isaac",
+    "elijah-ravens",
+    "feeding-five-thousand",
+    "manna-in-wilderness"
+  ],
+  "related_people": [
+    "aaron",
+    "abraham",
+    "elijah",
+    "isaac",
+    "jesus",
+    "john",
+    "moses",
+    "peter"
+  ],
+  "related_verses": [
+    "1-kings-17-6",
+    "exodus-16-15",
+    "genesis-22-14",
+    "john-6-9"
+  ],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "peace",
+  "name": "Peace",
+  "type": "theme",
+  "summary": "Peace is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Peace helps us see what this story teaches.",
+  "related_lessons": [
+    "abraham-and-lot"
+  ],
+  "related_people": [
+    "abraham"
+  ],
+  "related_verses": [
+    "genesis-13-9"
+  ],
+  "questions": []
+}

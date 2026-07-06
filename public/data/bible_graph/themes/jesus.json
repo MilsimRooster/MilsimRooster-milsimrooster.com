@@ -1,0 +1,34 @@
+{
+  "id": "jesus",
+  "name": "Jesus",
+  "type": "theme",
+  "summary": "Jesus is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Jesus helps us see what this story teaches.",
+  "related_lessons": [
+    "birth-of-jesus",
+    "gethsemane",
+    "jesus-at-temple",
+    "jesus-baptized",
+    "last-supper",
+    "zacchaeus"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "john-the-baptist",
+    "joseph-husband-of-mary",
+    "mary",
+    "peter",
+    "zacchaeus"
+  ],
+  "related_verses": [
+    "luke-19-10",
+    "luke-2-11",
+    "luke-2-49",
+    "luke-22-19",
+    "matthew-26-39",
+    "matthew-3-16"
+  ],
+  "questions": []
+}

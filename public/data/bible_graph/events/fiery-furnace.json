@@ -1,0 +1,27 @@
+{
+  "id": "fiery-furnace",
+  "name": "The Fiery Furnace",
+  "type": "event",
+  "passage": "Daniel 3:13-30",
+  "summary": "God is able to rescue, and His people can stay faithful even before they know the outcome. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Shadrach, Meshach, and Abednego refused to worship the statue. God was with them in the fire.",
+  "people": [
+    "abednego",
+    "daniel",
+    "meshach",
+    "nebuchadnezzar",
+    "shadrach"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "faith",
+    "worship"
+  ],
+  "related_lessons": [
+    "fiery-furnace"
+  ],
+  "timeline_order": 44
+}

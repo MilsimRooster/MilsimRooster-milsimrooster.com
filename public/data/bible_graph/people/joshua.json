@@ -1,0 +1,43 @@
+{
+  "id": "joshua",
+  "name": "Joshua",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Joshua"
+  ],
+  "roles": [
+    "leader"
+  ],
+  "summary": "Joshua led Israel into the promised land after Moses.",
+  "kid_summary": "Joshua heard God say, Be strong and courageous.",
+  "lessons": [
+    "jericho",
+    "joshua-be-strong"
+  ],
+  "major_events": [
+    "battle-of-jericho",
+    "joshua-be-strong"
+  ],
+  "related_places": [
+    "jericho"
+  ],
+  "themes": [
+    "courage",
+    "faith",
+    "gods-presence",
+    "leadership",
+    "obedience",
+    "victory"
+  ],
+  "memory_verses": [
+    "joshua-1-9",
+    "joshua-6-20"
+  ],
+  "related_people": [
+    "moses",
+    "rahab"
+  ],
+  "questions": [],
+  "notes": []
+}

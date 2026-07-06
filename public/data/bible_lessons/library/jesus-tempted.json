@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
+    "parable-of-sower",
     "jesus-baptized",
-    "jesus-calls-disciples"
+    "jesus-calls-disciples",
+    "beatitudes",
+    "birth-of-jesus",
+    "crucifixion"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "judea",
+    "wilderness"
+  ],
+  "themes": [
+    "faithfulness",
+    "gods-word",
+    "temptation"
+  ],
+  "events": [
+    "temptation-of-jesus"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "place:judea",
+    "place:wilderness",
+    "theme:faithfulness",
+    "theme:gods-word",
+    "theme:temptation",
+    "event:temptation-of-jesus"
   ]
 }

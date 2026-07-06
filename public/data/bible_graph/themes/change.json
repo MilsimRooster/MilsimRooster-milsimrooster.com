@@ -1,0 +1,21 @@
+{
+  "id": "change",
+  "name": "Change",
+  "type": "theme",
+  "summary": "Change is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Change helps us see what this story teaches.",
+  "related_lessons": [
+    "jacob-wrestles",
+    "saul-converted"
+  ],
+  "related_people": [
+    "jacob",
+    "jesus",
+    "paul"
+  ],
+  "related_verses": [
+    "acts-9-5",
+    "genesis-32-28"
+  ],
+  "questions": []
+}

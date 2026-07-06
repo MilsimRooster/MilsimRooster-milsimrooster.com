@@ -1,0 +1,21 @@
+{
+  "id": "kindness",
+  "name": "Kindness",
+  "type": "theme",
+  "summary": "Kindness is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Kindness helps us see what this story teaches.",
+  "related_lessons": [
+    "love-is-patient",
+    "made-in-gods-image"
+  ],
+  "related_people": [
+    "adam",
+    "eve",
+    "paul"
+  ],
+  "related_verses": [
+    "1-corinthians-13-4",
+    "genesis-1-27"
+  ],
+  "questions": []
+}

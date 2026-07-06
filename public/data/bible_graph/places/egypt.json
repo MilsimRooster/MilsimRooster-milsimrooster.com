@@ -1,0 +1,31 @@
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "type": "place",
+  "summary": "Egypt was the land where Israel was enslaved before God rescued them.",
+  "kid_summary": "Egypt was where God's people needed rescue.",
+  "lessons": [
+    "baby-moses",
+    "passover",
+    "red-sea-crossing"
+  ],
+  "related_people": [
+    "aaron",
+    "moses"
+  ],
+  "related_events": [
+    "baby-moses",
+    "exodus",
+    "passover"
+  ],
+  "themes": [
+    "courage",
+    "faith",
+    "family",
+    "fear",
+    "obedience",
+    "protection",
+    "remember",
+    "rescue"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "john-the-baptist",
+  "name": "John the Baptist",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Matthew",
+    "Mark",
+    "Luke",
+    "John"
+  ],
+  "roles": [
+    "prophet"
+  ],
+  "summary": "John the Baptist prepared people for Jesus and baptized Him.",
+  "kid_summary": "John pointed people to Jesus.",
+  "lessons": [
+    "jesus-baptized"
+  ],
+  "major_events": [
+    "baptism-of-jesus"
+  ],
+  "related_places": [
+    "jordan-river",
+    "judea"
+  ],
+  "themes": [
+    "gods-son",
+    "jesus",
+    "obedience"
+  ],
+  "memory_verses": [
+    "matthew-3-16"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "adam",
+  "name": "Adam",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "first man"
+  ],
+  "summary": "Adam was the first man God made.",
+  "kid_summary": "Adam was the first man in God's good world.",
+  "lessons": [
+    "cain-and-abel",
+    "creation-good-world",
+    "garden-first-choice",
+    "made-in-gods-image"
+  ],
+  "major_events": [
+    "cain-and-abel",
+    "creation",
+    "fall",
+    "made-in-gods-image"
+  ],
+  "related_places": [
+    "eden"
+  ],
+  "themes": [
+    "anger",
+    "choices",
+    "creation",
+    "gods-power",
+    "identity",
+    "kindness",
+    "mercy",
+    "obedience",
+    "sin",
+    "worship"
+  ],
+  "memory_verses": [
+    "genesis-1-1",
+    "genesis-1-27",
+    "genesis-3-9",
+    "genesis-4-7"
+  ],
+  "related_people": [
+    "abel",
+    "cain",
+    "eve"
+  ],
+  "questions": [],
+  "notes": []
+}

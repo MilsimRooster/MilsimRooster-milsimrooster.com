@@ -1,0 +1,17 @@
+{
+  "id": "scripture",
+  "name": "Scripture",
+  "type": "theme",
+  "summary": "Scripture is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Scripture helps us see what this story teaches.",
+  "related_lessons": [
+    "philip-and-ethiopian"
+  ],
+  "related_people": [
+    "philip"
+  ],
+  "related_verses": [
+    "acts-8-35"
+  ],
+  "questions": []
+}

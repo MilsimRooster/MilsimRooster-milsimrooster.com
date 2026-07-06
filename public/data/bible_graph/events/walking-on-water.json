@@ -1,0 +1,24 @@
+{
+  "id": "walking-on-water",
+  "name": "Jesus Walks on Water",
+  "type": "event",
+  "passage": "Matthew 14:22-33",
+  "summary": "Faith looks to Jesus when fear feels bigger than courage. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "The disciples saw Jesus walking on the water. Peter stepped out, became afraid, and Jesus rescued him.",
+  "people": [
+    "jesus",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "rescue"
+  ],
+  "related_lessons": [
+    "walking-on-water"
+  ],
+  "timeline_order": 60
+}

@@ -1,0 +1,17 @@
+{
+  "id": "character",
+  "name": "Character",
+  "type": "theme",
+  "summary": "Character is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Character helps us see what this story teaches.",
+  "related_lessons": [
+    "fruit-of-spirit"
+  ],
+  "related_people": [
+    "paul"
+  ],
+  "related_verses": [
+    "galatians-5-22"
+  ],
+  "questions": []
+}

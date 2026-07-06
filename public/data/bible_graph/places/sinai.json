@@ -1,0 +1,32 @@
+{
+  "id": "sinai",
+  "name": "Sinai",
+  "type": "place",
+  "summary": "Mount Sinai was where God gave Israel His law.",
+  "kid_summary": "Sinai was the mountain where God gave the commandments.",
+  "lessons": [
+    "burning-bush",
+    "golden-calf",
+    "ten-commandments"
+  ],
+  "related_people": [
+    "aaron",
+    "moses"
+  ],
+  "related_events": [
+    "burning-bush",
+    "golden-calf",
+    "ten-commandments"
+  ],
+  "themes": [
+    "calling",
+    "holiness",
+    "idols",
+    "love",
+    "obedience",
+    "prayer",
+    "rescue",
+    "sin",
+    "worship"
+  ]
+}

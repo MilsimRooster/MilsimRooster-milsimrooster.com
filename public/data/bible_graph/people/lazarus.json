@@ -1,0 +1,34 @@
+{
+  "id": "lazarus",
+  "name": "Lazarus",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "John"
+  ],
+  "roles": [
+    "friend of Jesus"
+  ],
+  "summary": "Lazarus was raised from the dead by Jesus.",
+  "kid_summary": "Jesus called Lazarus out of the tomb.",
+  "lessons": [
+    "lazarus"
+  ],
+  "major_events": [
+    "lazarus"
+  ],
+  "related_places": [],
+  "themes": [
+    "grief",
+    "hope",
+    "jesus-power"
+  ],
+  "memory_verses": [
+    "john-11-25"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "questions": [],
+  "notes": []
+}

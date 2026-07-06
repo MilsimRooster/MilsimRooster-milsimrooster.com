@@ -1,0 +1,38 @@
+{
+  "id": "darius",
+  "name": "Darius",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Daniel"
+  ],
+  "roles": [
+    "king"
+  ],
+  "summary": "Darius was the king who saw God protect Daniel in the lions' den.",
+  "kid_summary": "Darius saw that God protected Daniel.",
+  "lessons": [
+    "daniel-in-the-lions-den"
+  ],
+  "major_events": [
+    "daniel-in-the-lions-den"
+  ],
+  "related_places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "faithfulness",
+    "leadership",
+    "prayer",
+    "trust"
+  ],
+  "memory_verses": [
+    "daniel-6-22"
+  ],
+  "related_people": [
+    "daniel"
+  ],
+  "questions": [],
+  "notes": []
+}

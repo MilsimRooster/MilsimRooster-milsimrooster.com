@@ -1,0 +1,20 @@
+{
+  "id": "resurrection",
+  "name": "Resurrection",
+  "type": "theme",
+  "summary": "Resurrection is Jesus rising from the dead and the hope He gives His people.",
+  "kid_summary": "Resurrection is Jesus rising from the dead and the hope He gives His people.",
+  "related_lessons": [
+    "resurrection"
+  ],
+  "related_people": [
+    "jesus",
+    "john",
+    "mary",
+    "peter"
+  ],
+  "related_verses": [
+    "john-20-18"
+  ],
+  "questions": []
+}

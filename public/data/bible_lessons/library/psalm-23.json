@@ -70,7 +70,30 @@
   "difficulty": "easy",
   "estimated_minutes": 12,
   "related_lessons": [
+    "david-and-goliath",
+    "david-and-jonathan",
+    "david-anointed",
     "job-trusts",
+    "abraham-and-isaac",
     "jonah-runs"
+  ],
+  "people": [
+    "david"
+  ],
+  "places": [],
+  "themes": [
+    "comfort",
+    "gods-care",
+    "trust"
+  ],
+  "events": [
+    "psalm-23"
+  ],
+  "related_graph_nodes": [
+    "person:david",
+    "theme:comfort",
+    "theme:gods-care",
+    "theme:trust",
+    "event:psalm-23"
   ]
 }

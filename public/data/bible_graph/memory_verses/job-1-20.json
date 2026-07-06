@@ -1,0 +1,17 @@
+{
+  "id": "job-1-20",
+  "name": "Job 1:20",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to Job Worships in Suffering.",
+  "kid_summary": "Remember Job 1:20 as a short anchor for this lesson.",
+  "reference": "Job 1:20",
+  "prompt": "Remember Job 1:20 as a short anchor for this lesson.",
+  "themes": [
+    "suffering",
+    "trust",
+    "worship"
+  ],
+  "related_lessons": [
+    "job-trusts"
+  ]
+}

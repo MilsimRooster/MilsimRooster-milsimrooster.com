@@ -70,7 +70,31 @@
   "difficulty": "medium",
   "estimated_minutes": 14,
   "related_lessons": [
+    "joseph-forgives",
+    "jacob-and-esau",
     "jacob-wrestles",
-    "joseph-forgives"
+    "baby-moses",
+    "ruth-stays"
+  ],
+  "people": [
+    "jacob",
+    "joseph"
+  ],
+  "places": [],
+  "themes": [
+    "family",
+    "gods-plan",
+    "jealousy"
+  ],
+  "events": [
+    "josephs-dreams"
+  ],
+  "related_graph_nodes": [
+    "person:jacob",
+    "person:joseph",
+    "theme:family",
+    "theme:gods-plan",
+    "theme:jealousy",
+    "event:josephs-dreams"
   ]
 }

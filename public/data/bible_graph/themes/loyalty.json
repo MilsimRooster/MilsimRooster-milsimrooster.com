@@ -1,0 +1,19 @@
+{
+  "id": "loyalty",
+  "name": "Loyalty",
+  "type": "theme",
+  "summary": "Loyalty is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Loyalty helps us see what this story teaches.",
+  "related_lessons": [
+    "david-and-jonathan"
+  ],
+  "related_people": [
+    "david",
+    "jonathan",
+    "saul"
+  ],
+  "related_verses": [
+    "1-samuel-20-17"
+  ],
+  "questions": []
+}

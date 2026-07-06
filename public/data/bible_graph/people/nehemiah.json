@@ -1,0 +1,35 @@
+{
+  "id": "nehemiah",
+  "name": "Nehemiah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Nehemiah"
+  ],
+  "roles": [
+    "builder",
+    "leader"
+  ],
+  "summary": "Nehemiah prayed and led the people to rebuild Jerusalem's wall.",
+  "kid_summary": "Nehemiah prayed and helped rebuild the wall.",
+  "lessons": [
+    "nehemiah-rebuilds"
+  ],
+  "major_events": [
+    "nehemiah-rebuilds"
+  ],
+  "related_places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "courage",
+    "prayer",
+    "teamwork"
+  ],
+  "memory_verses": [
+    "nehemiah-2-18"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}

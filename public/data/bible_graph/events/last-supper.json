@@ -1,0 +1,26 @@
+{
+  "id": "last-supper",
+  "name": "The Last Supper",
+  "type": "event",
+  "passage": "Luke 22:14-20",
+  "summary": "Jesus gave His followers a meal to remember His saving death. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus shared bread and cup with His disciples and told them to remember Him.",
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "jesus",
+    "remember",
+    "salvation"
+  ],
+  "related_lessons": [
+    "last-supper"
+  ],
+  "timeline_order": 63
+}

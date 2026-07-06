@@ -1,0 +1,20 @@
+{
+  "id": "following-jesus",
+  "name": "Following Jesus",
+  "type": "theme",
+  "summary": "Following Jesus is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Following Jesus helps us see what this story teaches.",
+  "related_lessons": [
+    "jesus-calls-disciples"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "matthew-4-19"
+  ],
+  "questions": []
+}

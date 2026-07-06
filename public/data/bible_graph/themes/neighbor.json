@@ -1,0 +1,17 @@
+{
+  "id": "neighbor",
+  "name": "Neighbor",
+  "type": "theme",
+  "summary": "Neighbor is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Neighbor helps us see what this story teaches.",
+  "related_lessons": [
+    "good-samaritan"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "related_verses": [
+    "luke-10-37"
+  ],
+  "questions": []
+}

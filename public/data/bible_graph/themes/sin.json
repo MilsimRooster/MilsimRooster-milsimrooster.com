@@ -1,0 +1,29 @@
+{
+  "id": "sin",
+  "name": "Sin",
+  "type": "theme",
+  "summary": "Sin is disobeying God and breaking trust with Him.",
+  "kid_summary": "Sin is disobeying God and breaking trust with Him.",
+  "related_lessons": [
+    "cain-and-abel",
+    "garden-first-choice",
+    "golden-calf",
+    "noahs-ark"
+  ],
+  "related_people": [
+    "aaron",
+    "abel",
+    "adam",
+    "cain",
+    "eve",
+    "moses",
+    "noah"
+  ],
+  "related_verses": [
+    "exodus-32-4",
+    "genesis-3-9",
+    "genesis-4-7",
+    "genesis-9-13"
+  ],
+  "questions": []
+}

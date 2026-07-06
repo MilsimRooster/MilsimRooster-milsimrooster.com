@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
+    "great-commission",
+    "zacchaeus",
+    "armor-of-god",
+    "beatitudes",
     "philip-and-ethiopian",
     "peter-and-cornelius"
+  ],
+  "people": [
+    "jesus",
+    "paul"
+  ],
+  "places": [
+    "judea"
+  ],
+  "themes": [
+    "change",
+    "grace",
+    "mission"
+  ],
+  "events": [
+    "conversion-of-paul"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:paul",
+    "place:judea",
+    "theme:change",
+    "theme:grace",
+    "theme:mission",
+    "event:conversion-of-paul"
   ]
 }

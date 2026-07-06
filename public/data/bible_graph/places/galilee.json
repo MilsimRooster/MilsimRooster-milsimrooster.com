@@ -1,0 +1,55 @@
+{
+  "id": "galilee",
+  "name": "Galilee",
+  "type": "place",
+  "summary": "Galilee was a region where Jesus taught, called disciples, and did miracles.",
+  "kid_summary": "Jesus taught and helped many people in Galilee.",
+  "lessons": [
+    "beatitudes",
+    "feeding-five-thousand",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "lords-prayer",
+    "walking-on-water",
+    "wise-foolish-builders"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "related_events": [
+    "feeding-five-thousand",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "lords-prayer",
+    "sermon-on-the-mount",
+    "walking-on-water",
+    "wise-foolish-builders"
+  ],
+  "themes": [
+    "calling",
+    "discipleship",
+    "faith",
+    "fear",
+    "following-jesus",
+    "forgiveness",
+    "generosity",
+    "gods-presence",
+    "humility",
+    "jesus-power",
+    "jesus-words",
+    "kingdom",
+    "mercy",
+    "mission",
+    "obedience",
+    "prayer",
+    "provision",
+    "rescue",
+    "trust",
+    "wisdom"
+  ]
+}

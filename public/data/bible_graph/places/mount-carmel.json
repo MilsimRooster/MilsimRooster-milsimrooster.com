@@ -1,0 +1,21 @@
+{
+  "id": "mount-carmel",
+  "name": "Mount Carmel",
+  "type": "place",
+  "summary": "Mount Carmel was where Elijah called Israel back to worship the Lord.",
+  "kid_summary": "Mount Carmel was where God answered Elijah by fire.",
+  "lessons": [
+    "mount-carmel"
+  ],
+  "related_people": [
+    "elijah"
+  ],
+  "related_events": [
+    "elijah-on-mount-carmel"
+  ],
+  "themes": [
+    "faith",
+    "gods-power",
+    "worship"
+  ]
+}

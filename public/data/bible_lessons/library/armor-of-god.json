@@ -72,7 +72,30 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
+    "paul-and-silas",
     "fruit-of-spirit",
-    "love-is-patient"
+    "love-is-patient",
+    "saul-converted",
+    "burning-bush",
+    "daniel-in-the-lions-den"
+  ],
+  "people": [
+    "paul"
+  ],
+  "places": [],
+  "themes": [
+    "faith",
+    "gods-word",
+    "prayer"
+  ],
+  "events": [
+    "armor-of-god"
+  ],
+  "related_graph_nodes": [
+    "person:paul",
+    "theme:faith",
+    "theme:gods-word",
+    "theme:prayer",
+    "event:armor-of-god"
   ]
 }

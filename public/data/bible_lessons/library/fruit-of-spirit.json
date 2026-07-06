@@ -71,7 +71,30 @@
   "difficulty": "easy",
   "estimated_minutes": 14,
   "related_lessons": [
+    "armor-of-god",
     "paul-and-silas",
-    "armor-of-god"
+    "love-is-patient",
+    "saul-converted",
+    "jesus-at-temple",
+    "parable-of-sower"
+  ],
+  "people": [
+    "paul"
+  ],
+  "places": [],
+  "themes": [
+    "character",
+    "growth",
+    "holy-spirit"
+  ],
+  "events": [
+    "fruit-of-spirit"
+  ],
+  "related_graph_nodes": [
+    "person:paul",
+    "theme:character",
+    "theme:growth",
+    "theme:holy-spirit",
+    "event:fruit-of-spirit"
   ]
 }

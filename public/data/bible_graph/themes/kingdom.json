@@ -1,0 +1,17 @@
+{
+  "id": "kingdom",
+  "name": "Kingdom",
+  "type": "theme",
+  "summary": "Kingdom is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Kingdom helps us see what this story teaches.",
+  "related_lessons": [
+    "beatitudes"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "related_verses": [
+    "matthew-5-3"
+  ],
+  "questions": []
+}

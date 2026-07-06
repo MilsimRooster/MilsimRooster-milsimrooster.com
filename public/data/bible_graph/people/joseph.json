@@ -1,0 +1,40 @@
+{
+  "id": "joseph",
+  "name": "Joseph",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "dreamer",
+    "leader"
+  ],
+  "summary": "Joseph was sold by his brothers, rose in Egypt, and forgave his family.",
+  "kid_summary": "Joseph forgave his brothers and saw God at work.",
+  "lessons": [
+    "joseph-forgives",
+    "josephs-dreams"
+  ],
+  "major_events": [
+    "joseph-forgives",
+    "josephs-dreams"
+  ],
+  "related_places": [],
+  "themes": [
+    "family",
+    "forgiveness",
+    "gods-plan",
+    "jealousy",
+    "mercy"
+  ],
+  "memory_verses": [
+    "genesis-37-11",
+    "genesis-45-5"
+  ],
+  "related_people": [
+    "jacob"
+  ],
+  "questions": [],
+  "notes": []
+}

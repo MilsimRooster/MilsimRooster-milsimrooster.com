@@ -1,0 +1,24 @@
+{
+  "id": "passover",
+  "name": "The Passover",
+  "type": "event",
+  "passage": "Exodus 12:1-14",
+  "summary": "God makes a way of rescue and teaches His people to remember. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "God gave Israel the Passover so they would remember His rescue. The lamb and meal pointed to God's saving power.",
+  "people": [
+    "aaron",
+    "moses"
+  ],
+  "places": [
+    "egypt"
+  ],
+  "themes": [
+    "obedience",
+    "remember",
+    "rescue"
+  ],
+  "related_lessons": [
+    "passover"
+  ],
+  "timeline_order": 18
+}

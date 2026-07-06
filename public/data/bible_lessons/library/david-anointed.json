@@ -71,6 +71,31 @@
   "estimated_minutes": 13,
   "related_lessons": [
     "samuel-hears-god",
-    "david-and-goliath"
+    "david-and-goliath",
+    "david-and-jonathan",
+    "hannah-prays",
+    "psalm-23",
+    "beatitudes"
+  ],
+  "people": [
+    "david",
+    "samuel"
+  ],
+  "places": [],
+  "themes": [
+    "calling",
+    "heart",
+    "humility"
+  ],
+  "events": [
+    "david-anointed"
+  ],
+  "related_graph_nodes": [
+    "person:david",
+    "person:samuel",
+    "theme:calling",
+    "theme:heart",
+    "theme:humility",
+    "event:david-anointed"
   ]
 }

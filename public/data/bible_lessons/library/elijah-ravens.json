@@ -70,7 +70,33 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "solomon-wisdom",
-    "mount-carmel"
+    "mount-carmel",
+    "abraham-and-isaac",
+    "manna-in-wilderness",
+    "abraham-and-lot",
+    "david-and-goliath",
+    "solomon-wisdom"
+  ],
+  "people": [
+    "elijah"
+  ],
+  "places": [
+    "wilderness"
+  ],
+  "themes": [
+    "prophets",
+    "provision",
+    "trust"
+  ],
+  "events": [
+    "elijah-ravens"
+  ],
+  "related_graph_nodes": [
+    "person:elijah",
+    "place:wilderness",
+    "theme:prophets",
+    "theme:provision",
+    "theme:trust",
+    "event:elijah-ravens"
   ]
 }

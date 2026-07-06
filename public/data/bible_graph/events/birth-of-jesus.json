@@ -1,0 +1,25 @@
+{
+  "id": "birth-of-jesus",
+  "name": "Jesus Is Born",
+  "type": "event",
+  "passage": "Luke 2:1-20",
+  "summary": "Jesus came humbly as the Savior God promised. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus was born in Bethlehem, and shepherds heard the good news from angels. They went to see Him and praised God.",
+  "people": [
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary"
+  ],
+  "places": [
+    "bethlehem"
+  ],
+  "themes": [
+    "good-news",
+    "jesus",
+    "joy"
+  ],
+  "related_lessons": [
+    "birth-of-jesus"
+  ],
+  "timeline_order": 47
+}

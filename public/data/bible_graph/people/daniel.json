@@ -1,0 +1,54 @@
+{
+  "id": "daniel",
+  "name": "Daniel",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Daniel"
+  ],
+  "roles": [
+    "prophet",
+    "exile",
+    "advisor"
+  ],
+  "summary": "Daniel was a faithful Israelite exile who served foreign kings while remaining loyal to God.",
+  "kid_summary": "Daniel loved God and kept praying even when it was dangerous.",
+  "lessons": [
+    "daniel-chooses-faithfulness",
+    "daniel-in-the-lions-den",
+    "fiery-furnace"
+  ],
+  "major_events": [
+    "daniel-chooses-faithfulness",
+    "daniel-in-the-lions-den",
+    "fiery-furnace"
+  ],
+  "related_places": [
+    "babylon"
+  ],
+  "themes": [
+    "choices",
+    "courage",
+    "faith",
+    "faithfulness",
+    "leadership",
+    "prayer",
+    "trust",
+    "wisdom",
+    "worship"
+  ],
+  "memory_verses": [
+    "daniel-1-8",
+    "daniel-3-17",
+    "daniel-6-22"
+  ],
+  "related_people": [
+    "abednego",
+    "darius",
+    "meshach",
+    "nebuchadnezzar",
+    "shadrach"
+  ],
+  "questions": [],
+  "notes": []
+}

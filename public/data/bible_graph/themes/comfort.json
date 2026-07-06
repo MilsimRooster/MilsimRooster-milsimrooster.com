@@ -1,0 +1,17 @@
+{
+  "id": "comfort",
+  "name": "Comfort",
+  "type": "theme",
+  "summary": "Comfort is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Comfort helps us see what this story teaches.",
+  "related_lessons": [
+    "psalm-23"
+  ],
+  "related_people": [
+    "david"
+  ],
+  "related_verses": [
+    "psalms-23-1"
+  ],
+  "questions": []
+}

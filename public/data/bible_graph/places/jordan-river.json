@@ -1,0 +1,28 @@
+{
+  "id": "jordan-river",
+  "name": "Jordan River",
+  "type": "place",
+  "summary": "The Jordan River appears in stories of crossing, healing, and baptism.",
+  "kid_summary": "The Jordan River is where Jesus was baptized.",
+  "lessons": [
+    "jesus-baptized",
+    "naaman"
+  ],
+  "related_people": [
+    "elisha",
+    "jesus",
+    "john-the-baptist",
+    "naaman"
+  ],
+  "related_events": [
+    "baptism-of-jesus",
+    "naaman"
+  ],
+  "themes": [
+    "gods-son",
+    "healing",
+    "humility",
+    "jesus",
+    "obedience"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "naaman",
+  "name": "Naaman",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "2 Kings"
+  ],
+  "roles": [
+    "commander"
+  ],
+  "summary": "Naaman was healed when he humbled himself and obeyed God's word through Elisha.",
+  "kid_summary": "Naaman learned to receive God's help God's way.",
+  "lessons": [
+    "naaman"
+  ],
+  "major_events": [
+    "naaman"
+  ],
+  "related_places": [
+    "jordan-river"
+  ],
+  "themes": [
+    "healing",
+    "humility",
+    "obedience"
+  ],
+  "memory_verses": [
+    "2-kings-5-14"
+  ],
+  "related_people": [
+    "elisha"
+  ],
+  "questions": [],
+  "notes": []
+}

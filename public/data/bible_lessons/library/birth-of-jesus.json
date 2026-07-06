@@ -71,7 +71,37 @@
   "difficulty": "easy",
   "estimated_minutes": 14,
   "related_lessons": [
-    "nehemiah-rebuilds",
-    "jesus-at-temple"
+    "jesus-at-temple",
+    "resurrection",
+    "crucifixion",
+    "gethsemane",
+    "jesus-baptized",
+    "last-supper"
+  ],
+  "people": [
+    "jesus",
+    "joseph-husband-of-mary",
+    "mary"
+  ],
+  "places": [
+    "bethlehem"
+  ],
+  "themes": [
+    "good-news",
+    "jesus",
+    "joy"
+  ],
+  "events": [
+    "birth-of-jesus"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:joseph-husband-of-mary",
+    "person:mary",
+    "place:bethlehem",
+    "theme:good-news",
+    "theme:jesus",
+    "theme:joy",
+    "event:birth-of-jesus"
   ]
 }

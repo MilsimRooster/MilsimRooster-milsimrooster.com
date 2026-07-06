@@ -70,7 +70,33 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
-    "lords-prayer",
-    "jesus-calms-storm"
+    "gethsemane",
+    "jesus-at-temple",
+    "jesus-baptized",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "lords-prayer"
+  ],
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "jesus-words",
+    "obedience",
+    "wisdom"
+  ],
+  "events": [
+    "wise-foolish-builders"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "place:galilee",
+    "theme:jesus-words",
+    "theme:obedience",
+    "theme:wisdom",
+    "event:wise-foolish-builders"
   ]
 }

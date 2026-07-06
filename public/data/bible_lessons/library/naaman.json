@@ -70,7 +70,35 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "mount-carmel",
-    "josiah-finds-book"
+    "abraham-and-isaac",
+    "beatitudes",
+    "david-anointed",
+    "garden-first-choice",
+    "josiah-finds-book",
+    "mount-carmel"
+  ],
+  "people": [
+    "elisha",
+    "naaman"
+  ],
+  "places": [
+    "jordan-river"
+  ],
+  "themes": [
+    "healing",
+    "humility",
+    "obedience"
+  ],
+  "events": [
+    "naaman"
+  ],
+  "related_graph_nodes": [
+    "person:elisha",
+    "person:naaman",
+    "place:jordan-river",
+    "theme:healing",
+    "theme:humility",
+    "theme:obedience",
+    "event:naaman"
   ]
 }

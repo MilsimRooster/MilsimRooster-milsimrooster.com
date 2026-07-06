@@ -71,6 +71,33 @@
   "estimated_minutes": 12,
   "related_lessons": [
     "god-promises-abraham",
-    "abraham-and-isaac"
+    "abraham-and-isaac",
+    "god-calls-abram",
+    "abraham-and-lot",
+    "jacob-and-esau",
+    "birth-of-jesus"
+  ],
+  "people": [
+    "abraham",
+    "isaac",
+    "sarah"
+  ],
+  "places": [],
+  "themes": [
+    "joy",
+    "patience",
+    "promise"
+  ],
+  "events": [
+    "isaac-is-born"
+  ],
+  "related_graph_nodes": [
+    "person:abraham",
+    "person:isaac",
+    "person:sarah",
+    "theme:joy",
+    "theme:patience",
+    "theme:promise",
+    "event:isaac-is-born"
   ]
 }

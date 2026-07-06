@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
+    "jesus-calms-storm",
     "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
     "lazarus"
+  ],
+  "people": [
+    "jesus",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "rescue"
+  ],
+  "events": [
+    "walking-on-water"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:peter",
+    "place:galilee",
+    "theme:faith",
+    "theme:fear",
+    "theme:rescue",
+    "event:walking-on-water"
   ]
 }

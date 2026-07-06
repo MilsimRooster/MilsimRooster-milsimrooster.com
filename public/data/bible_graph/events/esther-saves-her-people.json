@@ -1,0 +1,24 @@
+{
+  "id": "esther-saves-her-people",
+  "name": "Esther Saves Her People",
+  "type": "event",
+  "passage": "Esther 4:10-16",
+  "summary": "Courage can mean using your place to help people in danger. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Esther was afraid to go to the king, but she chose courage to help her people. Mordecai reminded her that her moment mattered.",
+  "people": [
+    "esther",
+    "mordecai"
+  ],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "help",
+    "leadership"
+  ],
+  "related_lessons": [
+    "esther-speaks"
+  ],
+  "timeline_order": 38
+}

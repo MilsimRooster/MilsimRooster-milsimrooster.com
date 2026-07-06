@@ -1,0 +1,22 @@
+{
+  "id": "healing",
+  "name": "Healing",
+  "type": "theme",
+  "summary": "Healing is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Healing helps us see what this story teaches.",
+  "related_lessons": [
+    "naaman",
+    "peter-and-john-heal"
+  ],
+  "related_people": [
+    "elisha",
+    "john",
+    "naaman",
+    "peter"
+  ],
+  "related_verses": [
+    "2-kings-5-14",
+    "acts-3-6"
+  ],
+  "questions": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "red-sea",
+  "name": "Red Sea",
+  "type": "place",
+  "summary": "The sea God opened so Israel could cross on dry ground.",
+  "kid_summary": "God made a path through the Red Sea.",
+  "lessons": [
+    "red-sea-crossing"
+  ],
+  "related_people": [
+    "moses"
+  ],
+  "related_events": [
+    "exodus"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "rescue"
+  ]
+}

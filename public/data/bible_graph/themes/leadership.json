@@ -1,0 +1,35 @@
+{
+  "id": "leadership",
+  "name": "Leadership",
+  "type": "theme",
+  "summary": "Leadership means using responsibility to serve and help others do what is right.",
+  "kid_summary": "Leadership means using responsibility to serve and help others do what is right.",
+  "related_lessons": [
+    "daniel-in-the-lions-den",
+    "deborah",
+    "esther-speaks",
+    "joshua-be-strong",
+    "josiah-finds-book",
+    "solomon-wisdom"
+  ],
+  "related_people": [
+    "daniel",
+    "darius",
+    "deborah",
+    "esther",
+    "joshua",
+    "josiah",
+    "mordecai",
+    "moses",
+    "solomon"
+  ],
+  "related_verses": [
+    "1-kings-3-9",
+    "2-kings-22-11",
+    "daniel-6-22",
+    "esther-4-14",
+    "joshua-1-9",
+    "judges-4-4"
+  ],
+  "questions": []
+}

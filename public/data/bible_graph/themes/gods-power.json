@@ -1,0 +1,21 @@
+{
+  "id": "gods-power",
+  "name": "Gods Power",
+  "type": "theme",
+  "summary": "Gods Power is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Power helps us see what this story teaches.",
+  "related_lessons": [
+    "creation-good-world",
+    "mount-carmel"
+  ],
+  "related_people": [
+    "adam",
+    "elijah",
+    "eve"
+  ],
+  "related_verses": [
+    "1-kings-18-39",
+    "genesis-1-1"
+  ],
+  "questions": []
+}

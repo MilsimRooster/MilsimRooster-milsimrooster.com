@@ -70,7 +70,35 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
+    "cain-and-abel",
     "made-in-gods-image",
-    "cain-and-abel"
+    "creation-good-world",
+    "jonah-runs",
+    "abraham-and-isaac",
+    "beatitudes"
+  ],
+  "people": [
+    "adam",
+    "eve"
+  ],
+  "places": [
+    "eden"
+  ],
+  "themes": [
+    "mercy",
+    "obedience",
+    "sin"
+  ],
+  "events": [
+    "fall"
+  ],
+  "related_graph_nodes": [
+    "person:adam",
+    "person:eve",
+    "place:eden",
+    "theme:mercy",
+    "theme:obedience",
+    "theme:sin",
+    "event:fall"
   ]
 }

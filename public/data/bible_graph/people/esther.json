@@ -1,0 +1,36 @@
+{
+  "id": "esther",
+  "name": "Esther",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Esther"
+  ],
+  "roles": [
+    "queen"
+  ],
+  "summary": "Esther used her place as queen to help save her people.",
+  "kid_summary": "Esther spoke up bravely to help her people.",
+  "lessons": [
+    "esther-speaks"
+  ],
+  "major_events": [
+    "esther-saves-her-people"
+  ],
+  "related_places": [
+    "babylon"
+  ],
+  "themes": [
+    "courage",
+    "help",
+    "leadership"
+  ],
+  "memory_verses": [
+    "esther-4-14"
+  ],
+  "related_people": [
+    "mordecai"
+  ],
+  "questions": [],
+  "notes": []
+}

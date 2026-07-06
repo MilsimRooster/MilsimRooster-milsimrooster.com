@@ -1,0 +1,20 @@
+{
+  "id": "anger",
+  "name": "Anger",
+  "type": "theme",
+  "summary": "Anger is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Anger helps us see what this story teaches.",
+  "related_lessons": [
+    "cain-and-abel"
+  ],
+  "related_people": [
+    "abel",
+    "adam",
+    "cain",
+    "eve"
+  ],
+  "related_verses": [
+    "genesis-4-7"
+  ],
+  "questions": []
+}

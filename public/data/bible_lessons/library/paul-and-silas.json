@@ -71,7 +71,35 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
-    "peter-and-cornelius",
-    "fruit-of-spirit"
+    "armor-of-god",
+    "fruit-of-spirit",
+    "love-is-patient",
+    "saul-converted",
+    "burning-bush",
+    "peter-and-cornelius"
+  ],
+  "people": [
+    "paul",
+    "silas"
+  ],
+  "places": [
+    "rome"
+  ],
+  "themes": [
+    "prayer",
+    "witness",
+    "worship"
+  ],
+  "events": [
+    "paul-and-silas"
+  ],
+  "related_graph_nodes": [
+    "person:paul",
+    "person:silas",
+    "place:rome",
+    "theme:prayer",
+    "theme:witness",
+    "theme:worship",
+    "event:paul-and-silas"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "gethsemane",
+  "name": "Gethsemane",
+  "type": "place",
+  "summary": "Gethsemane was the garden where Jesus prayed before the cross.",
+  "kid_summary": "Gethsemane was where Jesus prayed before He suffered.",
+  "lessons": [
+    "gethsemane"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "related_events": [
+    "gethsemane"
+  ],
+  "themes": [
+    "jesus",
+    "obedience",
+    "prayer"
+  ]
+}

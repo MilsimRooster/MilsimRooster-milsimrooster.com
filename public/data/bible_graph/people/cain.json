@@ -1,0 +1,36 @@
+{
+  "id": "cain",
+  "name": "Cain",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "son of Adam and Eve"
+  ],
+  "summary": "Cain was Adam and Eve's son who let anger grow into sin.",
+  "kid_summary": "Cain reminds us to bring anger to God before it hurts others.",
+  "lessons": [
+    "cain-and-abel"
+  ],
+  "major_events": [
+    "cain-and-abel"
+  ],
+  "related_places": [],
+  "themes": [
+    "anger",
+    "choices",
+    "sin"
+  ],
+  "memory_verses": [
+    "genesis-4-7"
+  ],
+  "related_people": [
+    "abel",
+    "adam",
+    "eve"
+  ],
+  "questions": [],
+  "notes": []
+}

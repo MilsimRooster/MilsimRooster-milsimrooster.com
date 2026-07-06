@@ -1,0 +1,42 @@
+{
+  "id": "saul",
+  "name": "Saul",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Samuel"
+  ],
+  "roles": [
+    "king"
+  ],
+  "summary": "Saul was Israel's first king.",
+  "kid_summary": "Saul was the first king of Israel.",
+  "lessons": [
+    "david-and-goliath",
+    "david-and-jonathan"
+  ],
+  "major_events": [
+    "david-and-goliath",
+    "david-and-jonathan"
+  ],
+  "related_places": [],
+  "themes": [
+    "courage",
+    "faith",
+    "fear",
+    "friendship",
+    "loyalty",
+    "obedience",
+    "trust"
+  ],
+  "memory_verses": [
+    "1-samuel-17-47",
+    "1-samuel-20-17"
+  ],
+  "related_people": [
+    "david",
+    "jonathan"
+  ],
+  "questions": [],
+  "notes": []
+}

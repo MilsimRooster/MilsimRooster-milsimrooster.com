@@ -1,0 +1,32 @@
+{
+  "id": "fear",
+  "name": "Fear",
+  "type": "theme",
+  "summary": "Fear is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Fear helps us see what this story teaches.",
+  "related_lessons": [
+    "david-and-goliath",
+    "gideon",
+    "jesus-calms-storm",
+    "red-sea-crossing",
+    "walking-on-water"
+  ],
+  "related_people": [
+    "david",
+    "gideon",
+    "james",
+    "jesus",
+    "john",
+    "moses",
+    "peter",
+    "saul"
+  ],
+  "related_verses": [
+    "1-samuel-17-47",
+    "exodus-14-21",
+    "judges-6-16",
+    "mark-4-39",
+    "matthew-14-31"
+  ],
+  "questions": []
+}

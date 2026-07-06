@@ -1,0 +1,22 @@
+{
+  "type": "event",
+  "kid_summary": "Solomon built the temple in Jerusalem as a place for Israel to worship the Lord.",
+  "id": "solomon-builds-the-temple",
+  "name": "Solomon Builds the Temple",
+  "passage": "1 Kings 6",
+  "summary": "Solomon built the temple in Jerusalem as a place for Israel to worship the Lord.",
+  "people": [
+    "solomon"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "worship",
+    "promise"
+  ],
+  "related_lessons": [
+    "solomon-wisdom"
+  ],
+  "timeline_order": 34
+}

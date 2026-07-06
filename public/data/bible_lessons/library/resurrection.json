@@ -72,6 +72,38 @@
   "estimated_minutes": 15,
   "related_lessons": [
     "crucifixion",
-    "great-commission"
+    "great-commission",
+    "feeding-five-thousand",
+    "gethsemane",
+    "jesus-calls-disciples",
+    "jesus-calms-storm"
+  ],
+  "people": [
+    "jesus",
+    "john",
+    "mary",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "hope",
+    "joy",
+    "resurrection"
+  ],
+  "events": [
+    "resurrection"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:john",
+    "person:mary",
+    "person:peter",
+    "place:jerusalem",
+    "theme:hope",
+    "theme:joy",
+    "theme:resurrection",
+    "event:resurrection"
   ]
 }

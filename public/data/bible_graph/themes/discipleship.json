@@ -1,0 +1,20 @@
+{
+  "id": "discipleship",
+  "name": "Discipleship",
+  "type": "theme",
+  "summary": "Discipleship means following Jesus and learning His way.",
+  "kid_summary": "Discipleship means following Jesus and learning His way.",
+  "related_lessons": [
+    "great-commission"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "matthew-28-20"
+  ],
+  "questions": []
+}

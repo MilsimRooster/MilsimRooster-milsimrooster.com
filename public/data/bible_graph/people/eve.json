@@ -1,0 +1,54 @@
+{
+  "id": "eve",
+  "name": "Eve",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "first woman"
+  ],
+  "summary": "Eve was the first woman and the mother of all living.",
+  "kid_summary": "Eve lived with Adam in the garden God made.",
+  "lessons": [
+    "cain-and-abel",
+    "creation-good-world",
+    "garden-first-choice",
+    "made-in-gods-image"
+  ],
+  "major_events": [
+    "cain-and-abel",
+    "creation",
+    "fall",
+    "made-in-gods-image"
+  ],
+  "related_places": [
+    "eden"
+  ],
+  "themes": [
+    "anger",
+    "choices",
+    "creation",
+    "gods-power",
+    "identity",
+    "kindness",
+    "mercy",
+    "obedience",
+    "sin",
+    "worship"
+  ],
+  "memory_verses": [
+    "genesis-1-1",
+    "genesis-1-27",
+    "genesis-3-9",
+    "genesis-4-7"
+  ],
+  "related_people": [
+    "abel",
+    "adam",
+    "cain"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "temptation",
+  "name": "Temptation",
+  "type": "theme",
+  "summary": "Temptation is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Temptation helps us see what this story teaches.",
+  "related_lessons": [
+    "jesus-tempted"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "related_verses": [
+    "matthew-4-4"
+  ],
+  "questions": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "temptation-of-jesus",
+  "name": "Temptation of Jesus",
+  "type": "event",
+  "passage": "Matthew 4:1-11",
+  "summary": "Jesus answered temptation with God's Word and remained faithful. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Jesus was tempted in the wilderness, but He did not sin. He answered each temptation with Scripture.",
+  "people": [
+    "jesus"
+  ],
+  "places": [
+    "judea",
+    "wilderness"
+  ],
+  "themes": [
+    "faithfulness",
+    "gods-word",
+    "temptation"
+  ],
+  "related_lessons": [
+    "jesus-tempted"
+  ],
+  "timeline_order": 50
+}

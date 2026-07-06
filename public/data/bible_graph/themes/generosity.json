@@ -1,0 +1,22 @@
+{
+  "id": "generosity",
+  "name": "Generosity",
+  "type": "theme",
+  "summary": "Generosity is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Generosity helps us see what this story teaches.",
+  "related_lessons": [
+    "abraham-and-lot",
+    "feeding-five-thousand"
+  ],
+  "related_people": [
+    "abraham",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "genesis-13-9",
+    "john-6-9"
+  ],
+  "questions": []
+}

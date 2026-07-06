@@ -1,0 +1,22 @@
+{
+  "id": "holy-spirit",
+  "name": "Holy Spirit",
+  "type": "theme",
+  "summary": "Holy Spirit is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Holy Spirit helps us see what this story teaches.",
+  "related_lessons": [
+    "fruit-of-spirit",
+    "pentecost"
+  ],
+  "related_people": [
+    "james",
+    "john",
+    "paul",
+    "peter"
+  ],
+  "related_verses": [
+    "acts-2-4",
+    "galatians-5-22"
+  ],
+  "questions": []
+}

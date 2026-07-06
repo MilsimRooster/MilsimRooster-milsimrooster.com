@@ -70,7 +70,37 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
+    "manna-in-wilderness",
+    "passover",
+    "joshua-be-strong",
     "ten-commandments",
-    "joshua-be-strong"
+    "baby-moses",
+    "burning-bush"
+  ],
+  "people": [
+    "aaron",
+    "moses"
+  ],
+  "places": [
+    "sinai",
+    "wilderness"
+  ],
+  "themes": [
+    "idols",
+    "sin",
+    "worship"
+  ],
+  "events": [
+    "golden-calf"
+  ],
+  "related_graph_nodes": [
+    "person:aaron",
+    "person:moses",
+    "place:sinai",
+    "place:wilderness",
+    "theme:idols",
+    "theme:sin",
+    "theme:worship",
+    "event:golden-calf"
   ]
 }

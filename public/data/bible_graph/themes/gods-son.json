@@ -1,0 +1,18 @@
+{
+  "id": "gods-son",
+  "name": "Gods Son",
+  "type": "theme",
+  "summary": "Gods Son is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Son helps us see what this story teaches.",
+  "related_lessons": [
+    "jesus-baptized"
+  ],
+  "related_people": [
+    "jesus",
+    "john-the-baptist"
+  ],
+  "related_verses": [
+    "matthew-3-16"
+  ],
+  "questions": []
+}

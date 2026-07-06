@@ -71,7 +71,39 @@
   "difficulty": "medium",
   "estimated_minutes": 15,
   "related_lessons": [
-    "zacchaeus",
-    "gethsemane"
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "feeding-five-thousand",
+    "pentecost"
+  ],
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "jesus",
+    "remember",
+    "salvation"
+  ],
+  "events": [
+    "last-supper"
+  ],
+  "related_graph_nodes": [
+    "person:james",
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:jerusalem",
+    "theme:jesus",
+    "theme:remember",
+    "theme:salvation",
+    "event:last-supper"
   ]
 }

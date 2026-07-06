@@ -1,0 +1,35 @@
+{
+  "id": "esau",
+  "name": "Esau",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "Jacob's brother"
+  ],
+  "summary": "Esau was Jacob's brother who traded his birthright for a meal.",
+  "kid_summary": "Esau made a quick choice that cost him something important.",
+  "lessons": [
+    "jacob-and-esau"
+  ],
+  "major_events": [
+    "jacob-and-esau"
+  ],
+  "related_places": [],
+  "themes": [
+    "choices",
+    "family",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "genesis-25-34"
+  ],
+  "related_people": [
+    "isaac",
+    "jacob"
+  ],
+  "questions": [],
+  "notes": []
+}

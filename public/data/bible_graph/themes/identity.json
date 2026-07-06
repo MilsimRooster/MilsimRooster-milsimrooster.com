@@ -1,0 +1,21 @@
+{
+  "id": "identity",
+  "name": "Identity",
+  "type": "theme",
+  "summary": "Identity is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Identity helps us see what this story teaches.",
+  "related_lessons": [
+    "jacob-wrestles",
+    "made-in-gods-image"
+  ],
+  "related_people": [
+    "adam",
+    "eve",
+    "jacob"
+  ],
+  "related_verses": [
+    "genesis-1-27",
+    "genesis-32-28"
+  ],
+  "questions": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "samaria",
+  "name": "Samaria",
+  "type": "place",
+  "summary": "Samaria was a region Jesus used in teaching about mercy and neighbor love.",
+  "kid_summary": "Samaria helps us remember that mercy crosses boundaries.",
+  "lessons": [
+    "good-samaritan"
+  ],
+  "related_people": [
+    "jesus"
+  ],
+  "related_events": [
+    "good-samaritan"
+  ],
+  "themes": [
+    "love",
+    "mercy",
+    "neighbor"
+  ]
+}

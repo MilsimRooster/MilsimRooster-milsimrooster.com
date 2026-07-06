@@ -1,0 +1,17 @@
+{
+  "id": "exodus-20-1",
+  "name": "Exodus 20:1",
+  "type": "memory_verse",
+  "summary": "Memory verse connected to The Ten Commandments.",
+  "kid_summary": "Remember Exodus 20:1 as a short anchor for this lesson.",
+  "reference": "Exodus 20:1",
+  "prompt": "Remember Exodus 20:1 as a short anchor for this lesson.",
+  "themes": [
+    "holiness",
+    "love",
+    "obedience"
+  ],
+  "related_lessons": [
+    "ten-commandments"
+  ]
+}

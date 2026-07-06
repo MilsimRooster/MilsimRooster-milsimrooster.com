@@ -70,7 +70,37 @@
   "difficulty": "easy",
   "estimated_minutes": 14,
   "related_lessons": [
-    "parable-of-sower",
+    "jesus-calms-storm",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "last-supper",
     "walking-on-water"
+  ],
+  "people": [
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "generosity",
+    "jesus-power",
+    "provision"
+  ],
+  "events": [
+    "feeding-five-thousand"
+  ],
+  "related_graph_nodes": [
+    "person:jesus",
+    "person:john",
+    "person:peter",
+    "place:galilee",
+    "theme:generosity",
+    "theme:jesus-power",
+    "theme:provision",
+    "event:feeding-five-thousand"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "flood",
+  "name": "Flood",
+  "type": "event",
+  "passage": "Genesis 6:9-9:17",
+  "summary": "Noah obeyed God by building the ark. God judged sin, saved Noah's family, and gave the rainbow as a sign of His promise.",
+  "kid_summary": "People had filled the earth with wrong and hurtful things. God told Noah to build a big ark. Noah obeyed God, and God kept Noah, his family, and the animals safe through the flood.",
+  "people": [
+    "noah"
+  ],
+  "places": [
+    "wilderness"
+  ],
+  "themes": [
+    "faith",
+    "mercy",
+    "obedience",
+    "promise",
+    "sin"
+  ],
+  "related_lessons": [
+    "noahs-ark"
+  ],
+  "timeline_order": 5
+}

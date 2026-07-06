@@ -1,0 +1,29 @@
+{
+  "id": "jericho",
+  "name": "Jericho",
+  "type": "place",
+  "summary": "Jericho was a fortified city Israel faced when entering the land.",
+  "kid_summary": "Jericho's walls fell when God's people obeyed.",
+  "lessons": [
+    "jericho",
+    "zacchaeus"
+  ],
+  "related_people": [
+    "jesus",
+    "joshua",
+    "rahab",
+    "zacchaeus"
+  ],
+  "related_events": [
+    "battle-of-jericho",
+    "zacchaeus"
+  ],
+  "themes": [
+    "faith",
+    "grace",
+    "jesus",
+    "obedience",
+    "repentance",
+    "victory"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "patience",
+  "name": "Patience",
+  "type": "theme",
+  "summary": "Patience is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Patience helps us see what this story teaches.",
+  "related_lessons": [
+    "god-promises-abraham",
+    "isaac-is-born",
+    "love-is-patient"
+  ],
+  "related_people": [
+    "abraham",
+    "isaac",
+    "paul",
+    "sarah"
+  ],
+  "related_verses": [
+    "1-corinthians-13-4",
+    "genesis-15-5",
+    "genesis-21-3"
+  ],
+  "questions": []
+}

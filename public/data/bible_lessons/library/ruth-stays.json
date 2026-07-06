@@ -70,7 +70,32 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
+    "baby-moses",
+    "daniel-chooses-faithfulness",
+    "daniel-in-the-lions-den",
+    "good-samaritan",
     "gideon",
     "hannah-prays"
+  ],
+  "people": [
+    "naomi",
+    "ruth"
+  ],
+  "places": [],
+  "themes": [
+    "faithfulness",
+    "family",
+    "love"
+  ],
+  "events": [
+    "ruth-stays"
+  ],
+  "related_graph_nodes": [
+    "person:naomi",
+    "person:ruth",
+    "theme:faithfulness",
+    "theme:family",
+    "theme:love",
+    "event:ruth-stays"
   ]
 }

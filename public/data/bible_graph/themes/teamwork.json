@@ -1,0 +1,17 @@
+{
+  "id": "teamwork",
+  "name": "Teamwork",
+  "type": "theme",
+  "summary": "Teamwork is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Teamwork helps us see what this story teaches.",
+  "related_lessons": [
+    "nehemiah-rebuilds"
+  ],
+  "related_people": [
+    "nehemiah"
+  ],
+  "related_verses": [
+    "nehemiah-2-18"
+  ],
+  "questions": []
+}

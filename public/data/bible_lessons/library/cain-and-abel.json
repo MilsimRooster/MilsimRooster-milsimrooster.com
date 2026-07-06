@@ -71,6 +71,35 @@
   "estimated_minutes": 14,
   "related_lessons": [
     "garden-first-choice",
+    "creation-good-world",
+    "made-in-gods-image",
+    "daniel-chooses-faithfulness",
+    "golden-calf",
     "noahs-ark"
+  ],
+  "people": [
+    "abel",
+    "adam",
+    "cain",
+    "eve"
+  ],
+  "places": [],
+  "themes": [
+    "anger",
+    "choices",
+    "sin"
+  ],
+  "events": [
+    "cain-and-abel"
+  ],
+  "related_graph_nodes": [
+    "person:abel",
+    "person:adam",
+    "person:cain",
+    "person:eve",
+    "theme:anger",
+    "theme:choices",
+    "theme:sin",
+    "event:cain-and-abel"
   ]
 }

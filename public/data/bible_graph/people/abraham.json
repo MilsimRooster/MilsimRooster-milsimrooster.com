@@ -1,0 +1,53 @@
+{
+  "id": "abraham",
+  "name": "Abraham",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Genesis"
+  ],
+  "roles": [
+    "patriarch"
+  ],
+  "summary": "Abraham trusted God's promises and became the father of many nations.",
+  "kid_summary": "Abraham followed God even when he did not know every step.",
+  "lessons": [
+    "abraham-and-isaac",
+    "abraham-and-lot",
+    "god-calls-abram",
+    "god-promises-abraham",
+    "isaac-is-born"
+  ],
+  "major_events": [
+    "abraham-and-isaac",
+    "abraham-and-lot",
+    "call-of-abraham",
+    "god-promises-abraham",
+    "isaac-is-born"
+  ],
+  "related_places": [],
+  "themes": [
+    "faith",
+    "generosity",
+    "joy",
+    "obedience",
+    "patience",
+    "peace",
+    "promise",
+    "provision",
+    "trust"
+  ],
+  "memory_verses": [
+    "genesis-12-4",
+    "genesis-13-9",
+    "genesis-15-5",
+    "genesis-21-3",
+    "genesis-22-14"
+  ],
+  "related_people": [
+    "isaac",
+    "sarah"
+  ],
+  "questions": [],
+  "notes": []
+}

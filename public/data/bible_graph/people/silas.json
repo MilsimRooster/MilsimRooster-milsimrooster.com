@@ -1,0 +1,36 @@
+{
+  "id": "silas",
+  "name": "Silas",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Acts"
+  ],
+  "roles": [
+    "missionary"
+  ],
+  "summary": "Silas prayed and sang with Paul in prison.",
+  "kid_summary": "Silas worshiped God with Paul in prison.",
+  "lessons": [
+    "paul-and-silas"
+  ],
+  "major_events": [
+    "paul-and-silas"
+  ],
+  "related_places": [
+    "rome"
+  ],
+  "themes": [
+    "prayer",
+    "witness",
+    "worship"
+  ],
+  "memory_verses": [
+    "acts-16-25"
+  ],
+  "related_people": [
+    "paul"
+  ],
+  "questions": [],
+  "notes": []
+}

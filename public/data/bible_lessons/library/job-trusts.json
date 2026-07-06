@@ -70,7 +70,30 @@
   "difficulty": "hard",
   "estimated_minutes": 16,
   "related_lessons": [
-    "esther-speaks",
-    "psalm-23"
+    "psalm-23",
+    "abraham-and-isaac",
+    "abraham-and-lot",
+    "creation-good-world",
+    "david-and-goliath",
+    "esther-speaks"
+  ],
+  "people": [
+    "job"
+  ],
+  "places": [],
+  "themes": [
+    "suffering",
+    "trust",
+    "worship"
+  ],
+  "events": [
+    "job-trusts"
+  ],
+  "related_graph_nodes": [
+    "person:job",
+    "theme:suffering",
+    "theme:trust",
+    "theme:worship",
+    "event:job-trusts"
   ]
 }

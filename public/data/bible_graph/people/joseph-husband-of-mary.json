@@ -1,0 +1,44 @@
+{
+  "id": "joseph-husband-of-mary",
+  "name": "Joseph",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Matthew",
+    "Luke"
+  ],
+  "roles": [
+    "earthly father of Jesus"
+  ],
+  "summary": "Joseph cared for Mary and Jesus with obedience and faith.",
+  "kid_summary": "Joseph helped care for young Jesus.",
+  "lessons": [
+    "birth-of-jesus",
+    "jesus-at-temple"
+  ],
+  "major_events": [
+    "birth-of-jesus",
+    "jesus-at-temple"
+  ],
+  "related_places": [
+    "bethlehem",
+    "jerusalem"
+  ],
+  "themes": [
+    "good-news",
+    "growth",
+    "jesus",
+    "joy",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "luke-2-11",
+    "luke-2-49"
+  ],
+  "related_people": [
+    "jesus",
+    "mary"
+  ],
+  "questions": [],
+  "notes": []
+}

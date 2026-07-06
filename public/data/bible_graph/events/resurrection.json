@@ -1,0 +1,26 @@
+{
+  "id": "resurrection",
+  "name": "Jesus Is Risen",
+  "type": "event",
+  "passage": "John 20:1-18",
+  "summary": "Jesus rose from the dead, giving His people hope and joy. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Mary found the tomb empty and met the risen Jesus. The resurrection changed fear into good news.",
+  "people": [
+    "jesus",
+    "john",
+    "mary",
+    "peter"
+  ],
+  "places": [
+    "jerusalem"
+  ],
+  "themes": [
+    "hope",
+    "joy",
+    "resurrection"
+  ],
+  "related_lessons": [
+    "resurrection"
+  ],
+  "timeline_order": 66
+}

@@ -1,0 +1,98 @@
+{
+  "id": "john",
+  "name": "John",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "John",
+    "Acts",
+    "Revelation"
+  ],
+  "roles": [
+    "apostle"
+  ],
+  "summary": "John was one of Jesus' apostles and a witness to His life and resurrection.",
+  "kid_summary": "John followed Jesus and wrote about Him.",
+  "lessons": [
+    "crucifixion",
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "new-creation-hope",
+    "pentecost",
+    "peter-and-john-heal",
+    "resurrection"
+  ],
+  "major_events": [
+    "crucifixion",
+    "feeding-five-thousand",
+    "gethsemane",
+    "great-commission",
+    "jesus-calls-disciples",
+    "jesus-calms-storm",
+    "last-supper",
+    "new-creation-hope",
+    "pentecost",
+    "peter-and-john-heal",
+    "resurrection"
+  ],
+  "related_places": [
+    "galilee",
+    "gethsemane",
+    "jerusalem"
+  ],
+  "themes": [
+    "calling",
+    "church",
+    "compassion",
+    "discipleship",
+    "faith",
+    "fear",
+    "following-jesus",
+    "forgiveness",
+    "generosity",
+    "gods-presence",
+    "gods-promise",
+    "healing",
+    "holy-spirit",
+    "hope",
+    "jesus",
+    "jesus-name",
+    "jesus-power",
+    "jesus-saves",
+    "joy",
+    "mission",
+    "new-creation",
+    "obedience",
+    "prayer",
+    "provision",
+    "remember",
+    "resurrection",
+    "sacrifice",
+    "salvation"
+  ],
+  "memory_verses": [
+    "acts-2-4",
+    "acts-3-6",
+    "john-20-18",
+    "john-6-9",
+    "luke-22-19",
+    "luke-23-46",
+    "mark-4-39",
+    "matthew-26-39",
+    "matthew-28-20",
+    "matthew-4-19",
+    "revelation-21-5"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "mary",
+    "peter"
+  ],
+  "questions": [],
+  "notes": []
+}

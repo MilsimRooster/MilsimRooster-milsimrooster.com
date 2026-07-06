@@ -1,0 +1,36 @@
+{
+  "id": "jonathan",
+  "name": "Jonathan",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Samuel"
+  ],
+  "roles": [
+    "friend",
+    "prince"
+  ],
+  "summary": "Jonathan was Saul's son and David's loyal friend.",
+  "kid_summary": "Jonathan protected David as a true friend.",
+  "lessons": [
+    "david-and-jonathan"
+  ],
+  "major_events": [
+    "david-and-jonathan"
+  ],
+  "related_places": [],
+  "themes": [
+    "courage",
+    "friendship",
+    "loyalty"
+  ],
+  "memory_verses": [
+    "1-samuel-20-17"
+  ],
+  "related_people": [
+    "david",
+    "saul"
+  ],
+  "questions": [],
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gods-presence",
+  "name": "Gods Presence",
+  "type": "theme",
+  "summary": "Gods Presence is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gods Presence helps us see what this story teaches.",
+  "related_lessons": [
+    "great-commission",
+    "joshua-be-strong"
+  ],
+  "related_people": [
+    "james",
+    "jesus",
+    "john",
+    "joshua",
+    "moses",
+    "peter"
+  ],
+  "related_verses": [
+    "joshua-1-9",
+    "matthew-28-20"
+  ],
+  "questions": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ten-commandments",
+  "name": "The Ten Commandments",
+  "passage": "Exodus 20:1-17",
+  "summary": "God gave commands that teach His people to love Him and others.",
+  "kid_summary": "God gave commands that teach His people to love Him and others.",
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "sinai"
+  ],
+  "themes": [
+    "obedience",
+    "holiness"
+  ],
+  "related_lessons": [
+    "ten-commandments"
+  ],
+  "type": "command"
+}

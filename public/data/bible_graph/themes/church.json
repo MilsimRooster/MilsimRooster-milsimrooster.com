@@ -1,0 +1,19 @@
+{
+  "id": "church",
+  "name": "Church",
+  "type": "theme",
+  "summary": "Church is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Church helps us see what this story teaches.",
+  "related_lessons": [
+    "pentecost"
+  ],
+  "related_people": [
+    "james",
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "acts-2-4"
+  ],
+  "questions": []
+}

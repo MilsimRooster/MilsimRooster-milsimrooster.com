@@ -1,0 +1,58 @@
+{
+  "id": "mary",
+  "name": "Mary",
+  "type": "person",
+  "testament": "New Testament",
+  "books": [
+    "Matthew",
+    "Luke",
+    "John"
+  ],
+  "roles": [
+    "mother of Jesus"
+  ],
+  "summary": "Mary was chosen by God to be the mother of Jesus.",
+  "kid_summary": "Mary heard good news that Jesus would be born.",
+  "lessons": [
+    "birth-of-jesus",
+    "crucifixion",
+    "jesus-at-temple",
+    "resurrection"
+  ],
+  "major_events": [
+    "birth-of-jesus",
+    "crucifixion",
+    "jesus-at-temple",
+    "resurrection"
+  ],
+  "related_places": [
+    "bethlehem",
+    "jerusalem"
+  ],
+  "themes": [
+    "forgiveness",
+    "good-news",
+    "growth",
+    "hope",
+    "jesus",
+    "jesus-saves",
+    "joy",
+    "resurrection",
+    "sacrifice",
+    "wisdom"
+  ],
+  "memory_verses": [
+    "john-20-18",
+    "luke-2-11",
+    "luke-2-49",
+    "luke-23-46"
+  ],
+  "related_people": [
+    "jesus",
+    "john",
+    "joseph-husband-of-mary",
+    "peter"
+  ],
+  "questions": [],
+  "notes": []
+}

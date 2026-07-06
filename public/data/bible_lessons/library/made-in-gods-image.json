@@ -72,6 +72,33 @@
   "estimated_minutes": 12,
   "related_lessons": [
     "creation-good-world",
-    "garden-first-choice"
+    "garden-first-choice",
+    "cain-and-abel",
+    "jacob-wrestles",
+    "love-is-patient"
+  ],
+  "people": [
+    "adam",
+    "eve"
+  ],
+  "places": [
+    "eden"
+  ],
+  "themes": [
+    "creation",
+    "identity",
+    "kindness"
+  ],
+  "events": [
+    "made-in-gods-image"
+  ],
+  "related_graph_nodes": [
+    "person:adam",
+    "person:eve",
+    "place:eden",
+    "theme:creation",
+    "theme:identity",
+    "theme:kindness",
+    "event:made-in-gods-image"
   ]
 }

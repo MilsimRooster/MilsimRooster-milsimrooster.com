@@ -70,7 +70,30 @@
   "difficulty": "medium",
   "estimated_minutes": 14,
   "related_lessons": [
-    "noahs-ark",
-    "god-calls-abram"
+    "beatitudes",
+    "david-anointed",
+    "naaman",
+    "peter-and-cornelius",
+    "god-calls-abram",
+    "noahs-ark"
+  ],
+  "people": [],
+  "places": [
+    "babylon"
+  ],
+  "themes": [
+    "humility",
+    "nations",
+    "pride"
+  ],
+  "events": [
+    "tower-of-babel"
+  ],
+  "related_graph_nodes": [
+    "place:babylon",
+    "theme:humility",
+    "theme:nations",
+    "theme:pride",
+    "event:tower-of-babel"
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "id": "moses",
+  "name": "Moses",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Exodus",
+    "Deuteronomy"
+  ],
+  "roles": [
+    "prophet",
+    "leader"
+  ],
+  "summary": "Moses led Israel out of Egypt and received God's law.",
+  "kid_summary": "Moses helped God's people leave Egypt.",
+  "lessons": [
+    "baby-moses",
+    "burning-bush",
+    "golden-calf",
+    "joshua-be-strong",
+    "manna-in-wilderness",
+    "passover",
+    "red-sea-crossing",
+    "ten-commandments"
+  ],
+  "major_events": [
+    "baby-moses",
+    "burning-bush",
+    "exodus",
+    "golden-calf",
+    "joshua-be-strong",
+    "manna-in-wilderness",
+    "passover",
+    "ten-commandments"
+  ],
+  "related_places": [
+    "egypt",
+    "red-sea",
+    "sinai",
+    "wilderness"
+  ],
+  "themes": [
+    "calling",
+    "courage",
+    "faith",
+    "family",
+    "fear",
+    "gods-presence",
+    "gratitude",
+    "holiness",
+    "idols",
+    "leadership",
+    "love",
+    "obedience",
+    "prayer",
+    "protection",
+    "provision",
+    "remember",
+    "rescue",
+    "sin",
+    "trust",
+    "worship"
+  ],
+  "memory_verses": [
+    "exodus-12-14",
+    "exodus-14-21",
+    "exodus-16-15",
+    "exodus-2-3",
+    "exodus-20-1",
+    "exodus-3-7",
+    "exodus-32-4",
+    "joshua-1-9"
+  ],
+  "related_people": [
+    "aaron",
+    "joshua"
+  ],
+  "questions": [],
+  "notes": []
+}

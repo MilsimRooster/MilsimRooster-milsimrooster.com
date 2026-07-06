@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse people, places, themes, events, and lesson connections in the Milsim Rooster Bible knowledge graph.">
+  <title>Bible Explorer | Milsim Rooster</title>
+  <link rel="stylesheet" href="styles.css?v=20260706-graph-1">
+  <script type="module" src="app.js?v=20260706-graph-1"></script>
+</head>
+<body>
+  <header class="site-top">
+    <a class="brand-link" href="/about/">Milsim Rooster</a>
+    <nav aria-label="Bible navigation">
+      <a href="/bible/">Digital Bible</a>
+      <a href="/bible/lessons/">Lessons</a>
+      <a href="/apps/bible-study/">Arcade</a>
+    </nav>
+  </header>
+
+  <main class="explorer-shell">
+    <section class="explorer-hero" aria-labelledby="explorerTitle">
+      <div>
+        <span>Knowledge Map</span>
+        <h1 id="explorerTitle">Bible Explorer</h1>
+      </div>
+      <label>
+        <span>Search</span>
+        <input id="graphSearch" type="search" autocomplete="off" placeholder="Daniel, Babylon, courage...">
+      </label>
+    </section>
+
+    <section class="explorer-layout">
+      <aside class="node-browser" aria-label="Bible graph categories">
+        <div id="typeTabs" class="type-tabs"></div>
+        <div id="nodeList" class="node-list"></div>
+      </aside>
+
+      <article id="nodeDetail" class="node-detail" aria-live="polite">
+        <h2>Loading...</h2>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

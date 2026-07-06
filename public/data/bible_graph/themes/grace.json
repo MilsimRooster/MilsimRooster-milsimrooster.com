@@ -1,0 +1,21 @@
+{
+  "id": "grace",
+  "name": "Grace",
+  "type": "theme",
+  "summary": "Grace is God's kindness given to people who do not earn it.",
+  "kid_summary": "Grace is God's kindness given to people who do not earn it.",
+  "related_lessons": [
+    "saul-converted",
+    "zacchaeus"
+  ],
+  "related_people": [
+    "jesus",
+    "paul",
+    "zacchaeus"
+  ],
+  "related_verses": [
+    "acts-9-5",
+    "luke-19-10"
+  ],
+  "questions": []
+}

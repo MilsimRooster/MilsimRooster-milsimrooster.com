@@ -72,6 +72,34 @@
   "estimated_minutes": 14,
   "related_lessons": [
     "passover",
-    "manna-in-wilderness"
+    "burning-bush",
+    "walking-on-water",
+    "manna-in-wilderness",
+    "baby-moses",
+    "golden-calf"
+  ],
+  "people": [
+    "moses"
+  ],
+  "places": [
+    "egypt",
+    "red-sea"
+  ],
+  "themes": [
+    "faith",
+    "fear",
+    "rescue"
+  ],
+  "events": [
+    "exodus"
+  ],
+  "related_graph_nodes": [
+    "person:moses",
+    "place:egypt",
+    "place:red-sea",
+    "theme:faith",
+    "theme:fear",
+    "theme:rescue",
+    "event:exodus"
   ]
 }

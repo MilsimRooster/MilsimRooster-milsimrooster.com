@@ -71,7 +71,33 @@
   "difficulty": "medium",
   "estimated_minutes": 16,
   "related_lessons": [
-    "peter-and-john-heal",
-    "saul-converted"
+    "saul-converted",
+    "birth-of-jesus",
+    "great-commission",
+    "pentecost",
+    "peter-and-cornelius",
+    "peter-and-john-heal"
+  ],
+  "people": [
+    "philip"
+  ],
+  "places": [
+    "judea"
+  ],
+  "themes": [
+    "good-news",
+    "mission",
+    "scripture"
+  ],
+  "events": [
+    "philip-and-ethiopian"
+  ],
+  "related_graph_nodes": [
+    "person:philip",
+    "place:judea",
+    "theme:good-news",
+    "theme:mission",
+    "theme:scripture",
+    "event:philip-and-ethiopian"
   ]
 }

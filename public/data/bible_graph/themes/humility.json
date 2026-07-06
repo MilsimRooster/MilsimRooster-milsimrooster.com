@@ -1,0 +1,27 @@
+{
+  "id": "humility",
+  "name": "Humility",
+  "type": "theme",
+  "summary": "Humility is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Humility helps us see what this story teaches.",
+  "related_lessons": [
+    "beatitudes",
+    "david-anointed",
+    "naaman",
+    "tower-of-babel"
+  ],
+  "related_people": [
+    "david",
+    "elisha",
+    "jesus",
+    "naaman",
+    "samuel"
+  ],
+  "related_verses": [
+    "1-samuel-16-7",
+    "2-kings-5-14",
+    "genesis-11-4",
+    "matthew-5-3"
+  ],
+  "questions": []
+}

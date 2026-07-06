@@ -1,0 +1,18 @@
+{
+  "id": "gratitude",
+  "name": "Gratitude",
+  "type": "theme",
+  "summary": "Gratitude is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Gratitude helps us see what this story teaches.",
+  "related_lessons": [
+    "manna-in-wilderness"
+  ],
+  "related_people": [
+    "aaron",
+    "moses"
+  ],
+  "related_verses": [
+    "exodus-16-15"
+  ],
+  "questions": []
+}

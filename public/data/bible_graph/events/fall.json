@@ -1,0 +1,24 @@
+{
+  "id": "fall",
+  "name": "Fall",
+  "type": "event",
+  "passage": "Genesis 2:15-3:24",
+  "summary": "Sin breaks trust with God, but God still seeks and cares for people. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "Adam and Eve lived in the garden and were given one command. They disobeyed God, and sin brought sadness and separation.",
+  "people": [
+    "adam",
+    "eve"
+  ],
+  "places": [
+    "eden"
+  ],
+  "themes": [
+    "mercy",
+    "obedience",
+    "sin"
+  ],
+  "related_lessons": [
+    "garden-first-choice"
+  ],
+  "timeline_order": 3
+}

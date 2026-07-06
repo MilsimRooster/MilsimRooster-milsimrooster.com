@@ -1,4 +1,4 @@
-import { loadLesson, loadLessonIndex } from "./lesson-loader.js";
+import { graphNode, loadBibleGraph, loadLesson, loadLessonIndex, recommendLessonsFor } from "./lesson-loader.js";
 
 const ageLabels = {
   age_5_7: "Ages 5-7",
@@ -41,6 +41,7 @@ const elements = {
 
 const state = {
   lessonIndex: null,
+  bibleGraph: null,
   lessonSummaries: [],
   loadedLessons: new Map(),
   activeLessonId: null,
@@ -218,6 +219,64 @@ function renderLessonDetail(lesson) {
     <section class="tab-panel">
       ${renderTabPanel(lesson, state.activeTab, ageExplanation)}
     </section>
+    ${renderConnectionsSection(lesson)}
+  `;
+}
+
+function renderConnectionsSection(lesson) {
+  const people = graphNodesFor("people", lesson.people).slice(0, 4);
+  const places = graphNodesFor("places", lesson.places).slice(0, 3);
+  const themes = graphNodesFor("themes", lesson.themes).slice(0, 5);
+  const recommendations = recommendLessonsFor(lesson, state.lessonSummaries, state.bibleGraph, 4);
+
+  return `
+    <section class="connections-panel" aria-label="Lesson connections">
+      <div class="connections-head">
+        <span>Connections</span>
+        <h3>See How This Story Fits</h3>
+      </div>
+      <div class="connections-grid">
+        ${renderConnectionGroup("People to Know", people, "person")}
+        ${renderConnectionGroup("Places", places, "place")}
+        ${renderConnectionGroup("Big Themes", themes, "theme")}
+        <article class="connection-group try-next">
+          <h4>Try Next</h4>
+          <div class="connection-links">
+            ${recommendations.length > 0
+              ? recommendations.map((summary) => `
+                <button type="button" data-lesson-id="${escapeHtml(summary.lesson_id)}">
+                  <strong>${escapeHtml(summary.title)}</strong>
+                  <span>${escapeHtml(summary.passage)}</span>
+                </button>
+              `).join("")
+              : `<p>No next lesson found yet.</p>`}
+          </div>
+        </article>
+      </div>
+      <a class="explorer-link" href="/bible/explorer/">Open the Bible Explorer</a>
+    </section>
+  `;
+}
+
+function graphNodesFor(folder, ids = []) {
+  return ids
+    .map((id) => graphNode(state.bibleGraph, folder, id))
+    .filter(Boolean);
+}
+
+function renderConnectionGroup(title, nodes, type) {
+  return `
+    <article class="connection-group">
+      <h4>${escapeHtml(title)}</h4>
+      ${nodes.length > 0
+        ? nodes.map((node) => `
+          <a class="connection-chip" href="/bible/explorer/?type=${escapeHtml(type)}&id=${escapeHtml(node.id)}">
+            <strong>${escapeHtml(node.name)}</strong>
+            <span>${escapeHtml(node.kid_summary || node.summary)}</span>
+          </a>
+        `).join("")
+        : `<p>No ${escapeHtml(title.toLowerCase())} links yet.</p>`}
+    </article>
   `;
 }
 
@@ -368,6 +427,12 @@ function wireEvents() {
   });
 
   elements.lessonDetail.addEventListener("click", (event) => {
+    const lessonButton = event.target.closest("[data-lesson-id]");
+    if (lessonButton) {
+      selectLesson(lessonButton.dataset.lessonId, { fromLibrary: true });
+      return;
+    }
+
     const button = event.target.closest("[data-tab]");
     if (!button) return;
     state.activeTab = button.dataset.tab;
@@ -380,7 +445,12 @@ function wireEvents() {
 }
 
 async function init() {
-  state.lessonIndex = await loadLessonIndex();
+  const [lessonIndex, bibleGraph] = await Promise.all([
+    loadLessonIndex(),
+    loadBibleGraph(),
+  ]);
+  state.lessonIndex = lessonIndex;
+  state.bibleGraph = bibleGraph;
   state.lessonSummaries = state.lessonIndex.lessons;
   hydrateFilterOptions();
   wireEvents();

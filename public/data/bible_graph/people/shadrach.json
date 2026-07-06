@@ -1,0 +1,45 @@
+{
+  "id": "shadrach",
+  "name": "Shadrach",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "Daniel"
+  ],
+  "roles": [
+    "exile"
+  ],
+  "summary": "Shadrach refused to worship the king's statue and trusted God in the fire.",
+  "kid_summary": "Shadrach trusted God even in the fiery furnace.",
+  "lessons": [
+    "daniel-chooses-faithfulness",
+    "fiery-furnace"
+  ],
+  "major_events": [
+    "daniel-chooses-faithfulness",
+    "fiery-furnace"
+  ],
+  "related_places": [
+    "babylon"
+  ],
+  "themes": [
+    "choices",
+    "courage",
+    "faith",
+    "faithfulness",
+    "wisdom",
+    "worship"
+  ],
+  "memory_verses": [
+    "daniel-1-8",
+    "daniel-3-17"
+  ],
+  "related_people": [
+    "abednego",
+    "daniel",
+    "meshach",
+    "nebuchadnezzar"
+  ],
+  "questions": [],
+  "notes": []
+}

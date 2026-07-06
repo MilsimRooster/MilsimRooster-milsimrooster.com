@@ -1,0 +1,18 @@
+{
+  "id": "compassion",
+  "name": "Compassion",
+  "type": "theme",
+  "summary": "Compassion is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Compassion helps us see what this story teaches.",
+  "related_lessons": [
+    "peter-and-john-heal"
+  ],
+  "related_people": [
+    "john",
+    "peter"
+  ],
+  "related_verses": [
+    "acts-3-6"
+  ],
+  "questions": []
+}

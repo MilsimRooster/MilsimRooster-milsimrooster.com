@@ -1,0 +1,29 @@
+{
+  "id": "rescue",
+  "name": "Rescue",
+  "type": "theme",
+  "summary": "Rescue is a Bible lesson theme that helps kids connect stories to everyday faith.",
+  "kid_summary": "Rescue helps us see what this story teaches.",
+  "related_lessons": [
+    "burning-bush",
+    "jonah-prays",
+    "passover",
+    "red-sea-crossing",
+    "walking-on-water"
+  ],
+  "related_people": [
+    "aaron",
+    "jesus",
+    "jonah",
+    "moses",
+    "peter"
+  ],
+  "related_verses": [
+    "exodus-12-14",
+    "exodus-14-21",
+    "exodus-3-7",
+    "jonah-2-1",
+    "matthew-14-31"
+  ],
+  "questions": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "great-commission",
+  "name": "The Great Commission",
+  "type": "event",
+  "passage": "Matthew 28:16-20",
+  "summary": "Jesus sends His followers to make disciples and promises to be with them. This short lesson helps kids read, understand, and play through the passage.",
+  "kid_summary": "After rising from the dead, Jesus sent His disciples to teach and baptize all nations. He promised His presence.",
+  "people": [
+    "james",
+    "jesus",
+    "john",
+    "peter"
+  ],
+  "places": [
+    "galilee"
+  ],
+  "themes": [
+    "discipleship",
+    "gods-presence",
+    "mission"
+  ],
+  "related_lessons": [
+    "great-commission"
+  ],
+  "timeline_order": 67
+}

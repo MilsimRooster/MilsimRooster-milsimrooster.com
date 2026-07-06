@@ -70,7 +70,34 @@
   "difficulty": "medium",
   "estimated_minutes": 14,
   "related_lessons": [
+    "josephs-dreams",
     "abraham-and-isaac",
-    "jacob-wrestles"
+    "jacob-wrestles",
+    "daniel-chooses-faithfulness",
+    "isaac-is-born",
+    "joseph-forgives"
+  ],
+  "people": [
+    "esau",
+    "isaac",
+    "jacob"
+  ],
+  "places": [],
+  "themes": [
+    "choices",
+    "family",
+    "wisdom"
+  ],
+  "events": [
+    "jacob-and-esau"
+  ],
+  "related_graph_nodes": [
+    "person:esau",
+    "person:isaac",
+    "person:jacob",
+    "theme:choices",
+    "theme:family",
+    "theme:wisdom",
+    "event:jacob-and-esau"
   ]
 }

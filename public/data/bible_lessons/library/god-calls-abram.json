@@ -71,7 +71,30 @@
   "difficulty": "easy",
   "estimated_minutes": 13,
   "related_lessons": [
-    "tower-of-babel",
-    "abraham-and-lot"
+    "god-promises-abraham",
+    "abraham-and-lot",
+    "abraham-and-isaac",
+    "isaac-is-born",
+    "david-and-goliath",
+    "tower-of-babel"
+  ],
+  "people": [
+    "abraham"
+  ],
+  "places": [],
+  "themes": [
+    "faith",
+    "promise",
+    "trust"
+  ],
+  "events": [
+    "call-of-abraham"
+  ],
+  "related_graph_nodes": [
+    "person:abraham",
+    "theme:faith",
+    "theme:promise",
+    "theme:trust",
+    "event:call-of-abraham"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "creation",
+  "name": "Creation",
+  "type": "theme",
+  "summary": "Creation teaches that God made the world good and it belongs to Him.",
+  "kid_summary": "Creation teaches that God made the world good and it belongs to Him.",
+  "related_lessons": [
+    "creation-good-world",
+    "made-in-gods-image"
+  ],
+  "related_people": [
+    "adam",
+    "eve"
+  ],
+  "related_verses": [
+    "genesis-1-1",
+    "genesis-1-27"
+  ],
+  "questions": []
+}

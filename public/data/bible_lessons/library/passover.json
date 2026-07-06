@@ -70,7 +70,35 @@
   "difficulty": "hard",
   "estimated_minutes": 18,
   "related_lessons": [
+    "golden-calf",
+    "manna-in-wilderness",
     "burning-bush",
-    "red-sea-crossing"
+    "red-sea-crossing",
+    "ten-commandments",
+    "baby-moses"
+  ],
+  "people": [
+    "aaron",
+    "moses"
+  ],
+  "places": [
+    "egypt"
+  ],
+  "themes": [
+    "obedience",
+    "remember",
+    "rescue"
+  ],
+  "events": [
+    "passover"
+  ],
+  "related_graph_nodes": [
+    "person:aaron",
+    "person:moses",
+    "place:egypt",
+    "theme:obedience",
+    "theme:remember",
+    "theme:rescue",
+    "event:passover"
   ]
 }

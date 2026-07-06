@@ -70,7 +70,30 @@
   "difficulty": "medium",
   "estimated_minutes": 14,
   "related_lessons": [
+    "abraham-and-isaac",
+    "abraham-and-lot",
+    "burning-bush",
+    "david-and-goliath",
     "deborah",
     "ruth-stays"
+  ],
+  "people": [
+    "gideon"
+  ],
+  "places": [],
+  "themes": [
+    "calling",
+    "fear",
+    "trust"
+  ],
+  "events": [
+    "gideon"
+  ],
+  "related_graph_nodes": [
+    "person:gideon",
+    "theme:calling",
+    "theme:fear",
+    "theme:trust",
+    "event:gideon"
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "elijah",
+  "name": "Elijah",
+  "type": "person",
+  "testament": "Old Testament",
+  "books": [
+    "1 Kings",
+    "2 Kings"
+  ],
+  "roles": [
+    "prophet"
+  ],
+  "summary": "Elijah was a prophet who called Israel back to worship the Lord.",
+  "kid_summary": "Elijah showed that the Lord is God.",
+  "lessons": [
+    "elijah-ravens",
+    "mount-carmel"
+  ],
+  "major_events": [
+    "elijah-on-mount-carmel",
+    "elijah-ravens"
+  ],
+  "related_places": [
+    "mount-carmel",
+    "wilderness"
+  ],
+  "themes": [
+    "faith",
+    "gods-power",
+    "prophets",
+    "provision",
+    "trust",
+    "worship"
+  ],
+  "memory_verses": [
+    "1-kings-17-6",
+    "1-kings-18-39"
+  ],
+  "related_people": [],
+  "questions": [],
+  "notes": []
+}
