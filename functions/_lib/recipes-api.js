@@ -20,6 +20,16 @@ export function serverError() {
   return json({ error: "Something went wrong. Please try again later." }, 500);
 }
 
+export function tooManyRequests(retrySeconds = 60) {
+  return new Response(JSON.stringify({ error: "Too many requests. Please wait a moment and try again." }), {
+    status: 429,
+    headers: {
+      ...JSON_HEADERS,
+      "retry-after": String(retrySeconds)
+    }
+  });
+}
+
 export function getDb(env) {
   return env?.DB || null;
 }
@@ -66,6 +76,31 @@ export async function readJson(request, maxBytes = 12000) {
   }
 }
 
+function sameSiteHost(hostname) {
+  return String(hostname || "").toLowerCase().replace(/^www\./, "");
+}
+
+export function rejectCrossSiteWrite(context) {
+  const requestUrl = new URL(context.request.url);
+  const origin = context.request.headers.get("origin");
+  const secFetchSite = context.request.headers.get("sec-fetch-site");
+
+  if (secFetchSite && !["same-origin", "same-site", "none"].includes(secFetchSite.toLowerCase())) {
+    return clientError("Cross-site requests are not allowed.", 403);
+  }
+
+  if (!origin) return null;
+
+  try {
+    const originUrl = new URL(origin);
+    if (sameSiteHost(originUrl.hostname) === sameSiteHost(requestUrl.hostname)) return null;
+  } catch {
+    return clientError("Cross-site requests are not allowed.", 403);
+  }
+
+  return clientError("Cross-site requests are not allowed.", 403);
+}
+
 export async function userHash(request) {
   const ip = request.headers.get("cf-connecting-ip") || "";
   const ua = request.headers.get("user-agent") || "";
@@ -73,6 +108,54 @@ export async function userHash(request) {
   const input = new TextEncoder().encode(`${ip}|${ua}`);
   const digest = await crypto.subtle.digest("SHA-256", input);
   return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+}
+
+async function throttleClientHash(request) {
+  const ip = request.headers.get("cf-connecting-ip") || "";
+  const ua = request.headers.get("user-agent") || "";
+  const acceptLanguage = request.headers.get("accept-language") || "";
+  const input = new TextEncoder().encode(`${ip}|${ua}|${acceptLanguage}`);
+  const digest = await crypto.subtle.digest("SHA-256", input);
+  return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("").slice(0, 32);
+}
+
+export async function enforceApiThrottle(context, bucket, limit, windowSeconds = 60) {
+  const db = getDb(context.env);
+  if (!db) return null;
+
+  const safeBucket = String(bucket || "api").replace(/[^a-z0-9_-]/gi, "").slice(0, 40) || "api";
+  const safeLimit = Math.max(1, Math.min(1000, Number(limit) || 60));
+  const safeWindow = Math.max(10, Math.min(3600, Number(windowSeconds) || 60));
+  const windowStart = Math.floor(Date.now() / (safeWindow * 1000)) * safeWindow;
+  const clientHash = await throttleClientHash(context.request);
+
+  const existing = await db.prepare(`
+    SELECT hits
+    FROM api_write_throttle
+    WHERE bucket = ? AND client_hash = ? AND window_start = ?
+  `).bind(safeBucket, clientHash, windowStart).first();
+
+  if (Number(existing?.hits || 0) >= safeLimit) {
+    return tooManyRequests(safeWindow);
+  }
+
+  await db.prepare(`
+    INSERT INTO api_write_throttle (
+      bucket,
+      client_hash,
+      window_start,
+      hits,
+      first_seen_at,
+      last_seen_at
+    )
+    VALUES (?, ?, ?, 1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+    ON CONFLICT(bucket, client_hash, window_start)
+    DO UPDATE SET
+      hits = hits + 1,
+      last_seen_at = CURRENT_TIMESTAMP
+  `).bind(safeBucket, clientHash, windowStart).run();
+
+  return null;
 }
 
 export function emptyBreakdown() {

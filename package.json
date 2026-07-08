@@ -3,14 +3,20 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "node tests/validate-headers.mjs && node tests/validate-scanner-probe-guard.mjs && node tests/validate-scanner-analytics.mjs && node tests/validate-referrer-analytics.mjs && node tests/validate-media-import-reports.mjs && node tests/validate-gallery.mjs && node tests/validate-liquid-glass.mjs && node tests/validate-liquid-glass-component.mjs && node tests/validate-portrait-selection.mjs && node tests/validate-apostles-question-clarity.mjs && node tests/validate-apostles-round-randomization.mjs && node tests/validate-digital-bible.mjs && node tests/validate-bible-lessons.mjs && node scripts/validate-bible-graph.js && node tests/validate-bible-knowledge-layer.mjs && node tests/validate-bible-study-arcade.mjs && node tests/validate-how-southern.mjs && node tests/validate-how-southern-audio.mjs && node tests/validate-quotetron-audio.mjs && node tests/validate-quotetron-lore.mjs && node tests/validate-southern-content-bank.mjs && node tests/validate-southern-translator.mjs && node tests/validate-recipes-d1.mjs"
+    "check": "node tests/validate-headers.mjs && node tests/validate-tools.mjs && node tests/validate-tools-logic.mjs && node tests/validate-pdf-workbench.mjs && node tests/validate-scanner-probe-guard.mjs && node tests/validate-scanner-analytics.mjs && node tests/validate-referrer-analytics.mjs && node tests/validate-media-import-reports.mjs && node tests/validate-gallery.mjs && node tests/validate-liquid-glass.mjs && node tests/validate-liquid-glass-component.mjs && node tests/validate-portrait-selection.mjs && node tests/validate-apostles-question-clarity.mjs && node tests/validate-apostles-round-randomization.mjs && node tests/validate-digital-bible.mjs && node tests/validate-bible-lessons.mjs && node scripts/validate-bible-graph.js && node tests/validate-bible-knowledge-layer.mjs && node tests/validate-bible-study-arcade.mjs && node tests/validate-how-southern.mjs && node tests/validate-how-southern-audio.mjs && node tests/validate-quotetron-audio.mjs && node tests/validate-quotetron-lore.mjs && node tests/validate-southern-content-bank.mjs && node tests/validate-southern-translator.mjs && node tests/validate-recipes-d1.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "gsap": "^3.15.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.1.200",
+    "qrcode": "^1.5.4",
     "react": "latest",
     "react-dom": "latest",
     "three": "^0.184.0",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
   }
 }

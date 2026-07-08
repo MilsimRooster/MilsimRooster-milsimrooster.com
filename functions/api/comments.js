@@ -3,10 +3,12 @@ import {
   cleanComment,
   cleanOptionalName,
   clientError,
+  enforceApiThrottle,
   getDb,
   json,
   looksSpammy,
   readJson,
+  rejectCrossSiteWrite,
   serverError,
   validateRecipeSlug
 } from "../_lib/recipes-api.js";
@@ -14,6 +16,10 @@ import {
 export async function onRequestPost(context) {
   const db = getDb(context.env);
   if (!db) return clientError("Feedback database is not configured.", 503);
+  const crossSite = rejectCrossSiteWrite(context);
+  if (crossSite) return crossSite;
+  const throttled = await enforceApiThrottle(context, "comments", 5, 60);
+  if (throttled) return throttled;
 
   const body = await readJson(context.request);
   if (body.error) return clientError(body.error);

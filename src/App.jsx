@@ -1,12 +1,20 @@
 const navItems = [
   { label: "About", href: "#about" },
   { label: "Gallery", href: "/" },
+  { label: "Tools", href: "/tools/" },
   { label: "Videos", href: "#videos" },
   { label: "Projects", href: "#projects" },
   { label: "Links", href: "#links" }
 ];
 
 const featuredApps = [
+  {
+    name: "Rooster's Nest",
+    href: "/tools/",
+    icon: "RN",
+    text: "Open the no-login toolbox for QR codes, passwords, UUIDs, hashes, JSON, images, PDFs, and quick browser utilities.",
+    action: "Open toolbox"
+  },
   {
     name: "Digital Bible",
     href: "/bible/",

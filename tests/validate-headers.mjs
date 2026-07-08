@@ -7,6 +7,7 @@ for (const token of [
   "/*",
   "Strict-Transport-Security: max-age=31536000; includeSubDomains",
   "Content-Security-Policy: default-src 'self'",
+  "img-src 'self' data: blob: https:",
   "frame-ancestors 'none'",
   "X-Frame-Options: DENY",
   "X-Content-Type-Options: nosniff",

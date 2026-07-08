@@ -69,6 +69,9 @@ for (const forbidden of [
 for (const token of [
   "classifyReferrer",
   "normalizeLandingPage",
+  "rejectCrossSiteWrite",
+  "enforceApiThrottle",
+  "\"referrer\"",
   "ON CONFLICT(day, referrer_family, referrer_host, landing_page)",
   "page_loads = page_loads + 1"
 ]) {

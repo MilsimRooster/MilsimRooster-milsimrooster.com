@@ -1,9 +1,11 @@
 import {
   clientError,
+  enforceApiThrottle,
   getDb,
   json,
   ratingSummary,
   readJson,
+  rejectCrossSiteWrite,
   serverError,
   userHash,
   validateRating,
@@ -29,6 +31,10 @@ export async function onRequestGet(context) {
 export async function onRequestPost(context) {
   const db = getDb(context.env);
   if (!db) return clientError("Ratings database is not configured.", 503);
+  const crossSite = rejectCrossSiteWrite(context);
+  if (crossSite) return crossSite;
+  const throttled = await enforceApiThrottle(context, "ratings", 30, 60);
+  if (throttled) return throttled;
 
   const body = await readJson(context.request);
   if (body.error) return clientError(body.error);

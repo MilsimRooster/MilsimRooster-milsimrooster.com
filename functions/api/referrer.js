@@ -1,6 +1,8 @@
 import {
+  enforceApiThrottle,
   getDb,
-  readJson
+  readJson,
+  rejectCrossSiteWrite
 } from "../_lib/recipes-api.js";
 import {
   classifyReferrer,
@@ -25,6 +27,8 @@ export async function onRequestOptions() {
 export async function onRequestPost(context) {
   const db = getDb(context.env);
   if (!db) return noContent();
+  if (rejectCrossSiteWrite(context)) return noContent();
+  if (await enforceApiThrottle(context, "referrer", 120, 60)) return noContent();
 
   const body = await readJson(context.request, 2048);
   if (body.error) return noContent();

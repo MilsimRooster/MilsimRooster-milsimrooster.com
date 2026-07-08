@@ -6,6 +6,7 @@ const read = (path) => readFile(new URL(path, root), "utf8");
 
 const [
   schema,
+  throttleMigration,
   apiLib,
   ratingsApi,
   commentsApi,
@@ -18,6 +19,7 @@ const [
   wranglerExample
 ] = await Promise.all([
   read("schema.sql"),
+  read("migrations/0004_api_write_throttle.sql"),
   read("functions/_lib/recipes-api.js"),
   read("functions/api/ratings.js"),
   read("functions/api/comments.js"),
@@ -45,6 +47,18 @@ for (const token of [
   assert.ok(schema.includes(token), `schema.sql should include ${token}`);
 }
 
+for (const source of [schema, throttleMigration]) {
+  for (const token of [
+    "CREATE TABLE IF NOT EXISTS api_write_throttle",
+    "bucket TEXT NOT NULL",
+    "client_hash TEXT NOT NULL",
+    "window_start INTEGER NOT NULL",
+    "PRIMARY KEY (bucket, client_hash, window_start)"
+  ]) {
+    assert.ok(source.includes(token), `API throttle schema should include ${token}`);
+  }
+}
+
 for (const token of [
   "rating_breakdown",
   "comments",
@@ -53,7 +67,11 @@ for (const token of [
   "COMMENT_THANKS",
   "Thanks for your feedback",
   "looksSpammy",
-  "userHash"
+  "userHash",
+  "rejectCrossSiteWrite",
+  "enforceApiThrottle",
+  "tooManyRequests",
+  "api_write_throttle"
 ]) {
   assert.ok(apiLib.includes(token), `recipes API helper should include ${token}`);
 }
@@ -64,6 +82,9 @@ for (const token of [
   "ratingSummary",
   "validateRecipeSlug",
   "validateRating",
+  "rejectCrossSiteWrite",
+  "enforceApiThrottle",
+  "\"ratings\"",
   "INSERT INTO recipe_ratings"
 ]) {
   assert.ok(ratingsApi.includes(token), `ratings API should include ${token}`);
@@ -74,6 +95,9 @@ for (const token of [
   "INSERT INTO recipe_comments",
   "approved",
   "looksSpammy",
+  "rejectCrossSiteWrite",
+  "enforceApiThrottle",
+  "\"comments\"",
   "cleanComment"
 ]) {
   assert.ok(commentsApi.includes(token), `comments API should include ${token}`);
