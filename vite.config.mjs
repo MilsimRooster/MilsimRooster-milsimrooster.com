@@ -22,6 +22,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         about: resolve(__dirname, "about/index.html"),
+        downloads: resolve(__dirname, "downloads/index.html"),
         gallery: resolve(__dirname, "apps/gallery/index.html"),
         tools: resolve(__dirname, "tools/index.html"),
         ...Object.fromEntries(toolSlugs.map((slug) => [`tool-${slug}`, resolve(__dirname, `tools/${slug}/index.html`)])),
