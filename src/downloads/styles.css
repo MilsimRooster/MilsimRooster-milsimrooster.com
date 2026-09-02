@@ -74,9 +74,11 @@ main {
 }
 
 .cover-art {
+  align-self: start;
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid var(--line-bright);
   border-radius: 8px;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.52), inset 0 1px 0 rgba(255, 255, 255, 0.22);
