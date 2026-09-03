@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Read public-domain Bible translations on Milsim Rooster, including the Berean Standard Bible and King James Version.">
+  <meta name="description" content="Read the King James Version, search Scripture by topic, and access additional Bible translations on Milsim Rooster.">
   <title>Digital Bible | Milsim Rooster</title>
-  <link rel="stylesheet" href="styles.css?v=20260705-bottom-nav-1">
-  <script src="app.js?v=20260705-bottom-nav-1" defer></script>
+  <link rel="stylesheet" href="styles-kjv-topics-20260811.css?v=20260815-lesson-return-2">
+  <script src="app-licensed-bibles-20260811.js?v=20260830-guide-return-1" defer></script>
 </head>
 <body>
   <header class="site-top">
     <a class="brand-link" href="/about/">Milsim Rooster</a>
     <nav aria-label="Bible navigation">
+      <a class="quiet-link" href="/bible/questions/">60-Question Guide</a>
+      <a class="quiet-link" href="/bible/studies/">Adult Studies</a>
       <a class="quiet-link" href="/bible/lessons/">Kids Lessons</a>
       <a class="quiet-link" href="/about/#projects">Apps and Utilities</a>
     </nav>
@@ -20,15 +22,17 @@
   <main class="reader-shell">
     <section class="reader-head" aria-labelledby="readerTitle">
       <h1 id="readerTitle">Digital Bible</h1>
-      <p class="reader-subtitle">Berean Standard Bible with King James Version available.</p>
     </section>
 
     <section class="reader-controls" aria-label="Bible reader controls">
       <label class="control-field" for="versionSelect">
         <span>Version</span>
         <select id="versionSelect">
-          <option value="bsb" selected>Berean Standard Bible</option>
           <option value="kjv">King James Version</option>
+          <option value="bsb">Berean Standard Bible</option>
+          <option value="niv" selected>New International Version (NIV)</option>
+          <option value="nlt">New Living Translation (NLT)</option>
+          <option value="nasb">New American Standard Bible 1995 (NASB)</option>
         </select>
       </label>
       <label class="control-field" for="bookSelect">
@@ -40,37 +44,73 @@
         <select id="chapterSelect"></select>
       </label>
       <label class="control-field search-field" for="searchInput">
-        <span>Search</span>
+        <span>Search selected Bible</span>
         <input id="searchInput" type="search" placeholder="faith, grace, John 3:16" autocomplete="off">
       </label>
     </section>
 
+    <div class="reader-actions">
+      <button id="openChapterButton" class="open-chapter-button" type="button" aria-expanded="false" aria-controls="scripturePanel">
+        Open selected chapter
+      </button>
+    </div>
+
+    <aside id="searchPanel" class="search-panel" aria-label="Whole Bible search results" hidden>
+      <div class="search-head">
+        <h2>Search results</h2>
+        <p id="searchCount" aria-live="polite">Ready</p>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+      <button id="searchMoreButton" class="search-more-button" type="button" hidden>Show more results</button>
+    </aside>
+
     <section class="reader-grid">
-      <article class="scripture-panel" aria-live="polite">
+      <article id="scripturePanel" class="scripture-panel" aria-live="polite" hidden>
         <header class="chapter-head">
           <p id="referenceLine">King James Version</p>
           <h2 id="chapterTitle">Loading...</h2>
         </header>
         <div id="scriptureText" class="scripture-text"></div>
+        <p id="licensedCopyright" class="licensed-copyright" hidden></p>
         <nav id="chapterBottomNav" class="chapter-bottom-nav" aria-label="Chapter navigation">
           <button id="previousChapterButton" class="chapter-nav-button secondary" type="button">Previous chapter</button>
           <button id="nextChapterButton" class="chapter-nav-button primary" type="button">Next chapter</button>
         </nav>
       </article>
 
-      <aside class="search-panel" aria-label="Search results">
-        <div class="search-head">
-          <h2>Search</h2>
-          <p id="searchCount">Ready</p>
+    </section>
+
+    <section class="topic-guide" aria-labelledby="topicGuideTitle">
+      <div class="topic-guide-head">
+        <div>
+          <p class="eyebrow">Supplemental study guide</p>
+          <h2 id="topicGuideTitle">What does Scripture say about…?</h2>
+          <p>Choose a life topic to see a short starting point and related passages. These notes help you find Scripture; they are not a replacement for reading each passage in context.</p>
         </div>
-        <div id="searchResults" class="search-results"></div>
-      </aside>
+        <label class="control-field topic-filter" for="topicSelect">
+          <span>Topic</span>
+          <select id="topicSelect">
+            <option value="">Choose a topic</option>
+          </select>
+        </label>
+      </div>
+      <article id="topicDetail" class="topic-detail" aria-live="polite" hidden>
+        <h3 id="topicTitle"></h3>
+        <p id="topicSummary"></p>
+        <div id="topicReferences" class="topic-references"></div>
+      </article>
     </section>
   </main>
 
-  <footer class="source-note">
-    <span>BSB source: Berean Standard Bible Text, public domain.</span>
-    <span>KJV source: Project Gutenberg ebook #10, public domain in the United States.</span>
-  </footer>
+  <button id="returnToSearchButton" class="return-to-search-button" type="button" hidden>
+    Back to search results
+  </button>
+  <a id="returnToLessonLink" class="return-to-lesson-link" href="/bible/lessons/" hidden>
+    Back to lesson
+  </a>
+  <a id="returnToGuideLink" class="return-to-lesson-link return-to-guide-link" href="/bible/questions/" hidden>
+    Back to 60-Question Guide
+  </a>
+
 </body>
 </html>
