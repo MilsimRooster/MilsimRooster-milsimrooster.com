@@ -186,7 +186,11 @@ function parseBible() {
       continue;
     }
 
-    const verseMatches = [...line.matchAll(/\b(\d+):(\d+)\s+/g)];
+    // Gutenberg occasionally wraps immediately after a verse marker, leaving
+    // markers such as "3:5" at the physical end of a line. Match either
+    // whitespace or end-of-line without consuming the separator so the next
+    // line is appended to the newly opened verse.
+    const verseMatches = [...line.matchAll(/\b(\d+):(\d+)(?=\s|$)/g)];
     if (verseMatches.length === 0) {
       if (currentVerse) {
         appendVerseText(currentVerse, line);
@@ -277,6 +281,22 @@ function validateKjvBooks(parsedBooks) {
   const missing = parsedBooks.filter((book) => book.chapters.length === 0).map((book) => book.name);
   if (missing.length > 0) {
     throw new Error(`Parsed books are missing chapters: ${missing.join(", ")}`);
+  }
+
+  const allVerses = parsedBooks.flatMap((book) =>
+    book.chapters.flatMap((chapter) =>
+      chapter.verses.map((verse) => ({ book, chapter, verse })),
+    ),
+  );
+  if (allVerses.length !== 31_102) {
+    throw new Error(`Unexpected KJV verse count: ${allVerses.length}; expected 31,102`);
+  }
+
+  const embeddedMarker = allVerses.find(({ verse }) => /\b\d+:\d+\b/.test(verse.text));
+  if (embeddedMarker) {
+    throw new Error(
+      `Embedded verse marker found in ${embeddedMarker.book.name} ${embeddedMarker.chapter.number}:${embeddedMarker.verse.number}`,
+    );
   }
 
   const genesisOneOne = parsedBooks[0].chapters[0].verses[0]?.text;

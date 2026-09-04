@@ -12,14 +12,11 @@ const nonHomepagePages = [
   "public/apps/apostles/index.html",
   "public/apps/apostles/new-testament-trail.html",
   "public/apps/fps-visualizer/index.html",
-  "public/apps/how-southern-are-you/index.html",
   "public/apps/recipes/index.html",
-  "public/apps/southern-translator/index.html",
   "public/apps/quotetron/index.html",
   "public/apps/quotetron/about.html",
   "public/apps/quotetron/contact.html",
   "public/apps/quotetron/privacy.html",
-  "public/apps/bug-strike/index.html",
 ];
 
 for (const token of [

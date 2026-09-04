@@ -13,6 +13,7 @@ for (const token of [
   "X-Content-Type-Options: nosniff",
   "Referrer-Policy: strict-origin-when-cross-origin",
   "Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()",
+  "gamepad=(self)",
   "/",
   "/index.html",
   "/about/*",
@@ -32,16 +33,14 @@ for (const token of [
   "/apps/apostles/*",
   "/apps/fps-visualizer/*",
   "/apps/recipes/*",
-  "/apps/how-southern-are-you/*",
-  "/apps/southern-translator/*",
   "/apps/quotetron/*",
-  "/apps/bug-strike/*",
   "/apps/gallery/*"
 ]) {
   assert.ok(headers.includes(token), `public/_headers should include ${token}`);
 }
 
 assert.ok(!headers.includes("/apps/liquid-glass-demo/*"), "public/_headers should not include retired Liquid Glass demo route");
+assert.ok(!headers.includes("/apps/fellowship-hall/*"), "public/_headers should not include retired Fellowship Hall route");
 
 const headerBlocks = headers
   .split(/\n(?=\/)/)

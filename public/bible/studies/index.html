@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Adult Bible studies built around complete passages, careful context, supported interpretation, and practical application.">
+  <title>Adult Bible Studies | Milsim Rooster</title>
+  <link rel="stylesheet" href="styles-20260812.css">
+  <link rel="stylesheet" href="theme-20260813.css">
+  <script type="module" src="app-20260812.js"></script>
+</head>
+<body>
+  <header class="site-top">
+    <a class="brand-link" href="/about/">Milsim Rooster</a>
+    <nav aria-label="Bible navigation">
+      <a href="/bible/">Digital Bible</a>
+      <a href="/bible/questions/">60-Question Guide</a>
+      <a href="/bible/lessons/">Kids Lessons</a>
+      <a href="/bible/explorer/">Bible Explorer</a>
+    </nav>
+  </header>
+
+  <main class="study-shell">
+    <section class="study-hero" aria-labelledby="studyTitle">
+      <h1 id="studyTitle">Adult Bible Studies</h1>
+      <p>Read the passage in context, follow the supporting Scripture, and keep interpretation distinct from application.</p>
+    </section>
+
+    <section class="study-controls" aria-label="Study filters">
+      <label class="search-field">
+        <span>Search studies</span>
+        <input id="studySearch" type="search" autocomplete="off" placeholder="Prayer, grace, work, suffering...">
+      </label>
+      <label>
+        <span>Topic</span>
+        <select id="topicFilter"><option value="all">All topics</option></select>
+      </label>
+      <label>
+        <span>Open Scripture in</span>
+        <select id="translationSelect">
+          <option value="kjv" selected>King James Version</option>
+          <option value="bsb">Berean Standard Bible</option>
+          <option value="niv">New International Version (NIV)</option>
+          <option value="nlt">New Living Translation (NLT)</option>
+          <option value="nasb">New American Standard Bible 1995 (NASB)</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="study-layout">
+      <aside class="study-library collapsed" aria-label="Available adult Bible studies">
+        <div class="library-head">
+          <div>
+            <h2>Choose a Study</h2>
+            <p id="studyCount">Loading...</p>
+          </div>
+          <button id="libraryToggle" type="button" aria-expanded="false" aria-controls="studyList">Browse studies</button>
+        </div>
+        <div id="studyList" class="study-list"></div>
+      </aside>
+
+      <article id="studyDetail" class="study-detail" aria-live="polite">
+        <div class="loading-card">
+          <h2>Loading studies...</h2>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

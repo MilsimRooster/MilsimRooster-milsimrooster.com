@@ -1,0 +1,78 @@
+/* Route-local palette keeps Adult Studies theme-safe even when a shared asset is cached. */
+html[data-mr-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d1210;
+  --paper: #171e1a;
+  --field: #101713;
+  --ink: #eef4ef;
+  --muted: #afbbb2;
+  --line: #39483f;
+  --pine: #84cbb5;
+  --pine-dark: #d7eee4;
+  --sage: #1c3229;
+  --gold: #e3bb68;
+  --gold-soft: #2b2416;
+  --blue-soft: #182735;
+  --red-soft: #321f1b;
+  --shadow: 0 22px 64px rgba(0, 0, 0, 0.38);
+}
+
+html[data-mr-theme="dark"] body {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(68, 132, 105, 0.22), transparent 34%),
+    radial-gradient(circle at 92% 4%, rgba(217, 165, 52, 0.11), transparent 28%),
+    var(--page) !important;
+  color: var(--ink) !important;
+}
+
+html[data-mr-theme="dark"] :is(.study-controls, .study-library, .study-detail) {
+  border-color: var(--line) !important;
+  background: rgba(23, 30, 26, 0.97) !important;
+  color: var(--ink) !important;
+}
+
+html[data-mr-theme="dark"] :is(input, select, #libraryToggle, .study-card, .claim-card, .reference-link) {
+  border-color: var(--line);
+  background: var(--field);
+  color: var(--ink);
+}
+
+html[data-mr-theme="dark"] .study-card.active {
+  border-color: var(--pine);
+  background: var(--sage);
+  box-shadow: inset 4px 0 0 var(--pine);
+}
+
+html[data-mr-theme="dark"] :is(.study-card span, .detail-kicker, .reference-link, #libraryToggle) {
+  color: var(--pine);
+}
+
+html[data-mr-theme="dark"] .study-meta span {
+  background: var(--sage);
+  color: var(--pine-dark);
+}
+
+html[data-mr-theme="dark"] .observation-section {
+  background: rgba(25, 39, 56, 0.55);
+}
+
+html[data-mr-theme="dark"] .interpretation-section {
+  background: rgba(43, 35, 22, 0.62);
+}
+
+html[data-mr-theme="dark"] .caution-section {
+  background: rgba(50, 31, 27, 0.58);
+}
+
+html[data-mr-theme="dark"] .prayer-card {
+  background: var(--gold-soft);
+}
+
+html[data-mr-theme="dark"] .accuracy-note {
+  background: var(--blue-soft);
+}
+
+html[data-mr-theme="dark"] :is(.study-card:hover, .reference-link:hover) {
+  border-color: var(--pine);
+  background: var(--sage);
+}

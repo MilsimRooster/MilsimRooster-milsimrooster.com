@@ -41,6 +41,13 @@ assert.ok(styles.includes(".image-preview-frame"), "image preview inner frame sh
 assert.ok(styles.includes("object-fit:contain"), "preview images should be contained, not clipped");
 assert.ok(!runtime.includes("await image.decode()"), "image tools should not rely only on image.decode()");
 assert.ok(!runtime.includes("buildPdf("), "Image to PDF should not rely on the old manual PDF byte builder");
+assert.ok(runtime.includes("qrDownloadFormat"), "QR Code Generator should expose an image format selector");
+assert.ok(runtime.includes("QRCode.toCanvas"), "QR Code Generator should render to canvas for PNG/JPG downloads");
+assert.ok(runtime.includes("image/png"), "QR Code Generator should support PNG downloads");
+assert.ok(runtime.includes("image/jpeg"), "QR Code Generator should support JPG downloads");
+assert.ok(runtime.includes("qr-code.png"), "QR Code Generator should download PNG files by default");
+assert.ok(runtime.includes("qr-code.jpg"), "QR Code Generator should download JPG files when selected");
+assert.ok(!runtime.includes("qr-code.svg"), "QR Code Generator should not download SVG files");
 
 for (const tool of tools) {
   const page = new URL(`../tools/${tool.slug}/index.html`, import.meta.url);

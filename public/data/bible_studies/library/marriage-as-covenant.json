@@ -1,0 +1,48 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "marriage-as-covenant",
+  "title": "Marriage as Covenant",
+  "summary": "Scripture presents marriage as a faithful one-flesh covenant under God, calls spouses to sacrificial and reciprocal care, and honors singleness while requiring safety and humility around disputed interpretations.",
+  "primary_references": [
+    { "label": "Genesis 2:18-25", "book": "Genesis", "book_slug": "genesis", "start": { "chapter": 2, "verse": 18 }, "end": { "chapter": 2, "verse": 25 }, "role": "primary" },
+    { "label": "Malachi 2:13-16", "book": "Malachi", "book_slug": "malachi", "start": { "chapter": 2, "verse": 13 }, "end": { "chapter": 2, "verse": 16 }, "role": "primary" },
+    { "label": "Ephesians 5:21-33", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 5, "verse": 21 }, "end": { "chapter": 5, "verse": 33 }, "role": "primary" },
+    { "label": "1 Corinthians 7:1-40", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 1 }, "end": { "chapter": 7, "verse": 40 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Genesis describes a man leaving his father and mother, holding fast to his wife, and the two becoming one flesh.", "supporting_references": [{ "label": "Genesis 2:18-25", "book": "Genesis", "book_slug": "genesis", "start": { "chapter": 2, "verse": 18 }, "end": { "chapter": 2, "verse": 25 }, "role": "supporting" }] },
+    { "text": "Malachi calls the wife a covenant partner and condemns faithless treatment within marriage.", "supporting_references": [{ "label": "Malachi 2:13-16", "book": "Malachi", "book_slug": "malachi", "start": { "chapter": 2, "verse": 13 }, "end": { "chapter": 2, "verse": 16 }, "role": "supporting" }] },
+    { "text": "Ephesians places marital instruction within submission to one another in reverence for Christ and commands husbands to love with Christlike self-giving care.", "supporting_references": [{ "label": "Ephesians 5:21-33", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 5, "verse": 21 }, "end": { "chapter": 5, "verse": 33 }, "role": "supporting" }] },
+    { "text": "First Corinthians 7 gives reciprocal responsibilities to husband and wife, allows temporary abstinence by mutual agreement, and treats both marriage and singleness as honorable callings.", "supporting_references": [{ "label": "1 Corinthians 7:1-9", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 1 }, "end": { "chapter": 7, "verse": 9 }, "role": "supporting" }, { "label": "1 Corinthians 7:25-40", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 25 }, "end": { "chapter": 7, "verse": 40 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Marriage entails faithful, exclusive, embodied union and covenant responsibility before God.", "supporting_references": [{ "label": "Genesis 2:23-25", "book": "Genesis", "book_slug": "genesis", "start": { "chapter": 2, "verse": 23 }, "end": { "chapter": 2, "verse": 25 }, "role": "supporting" }, { "label": "Malachi 2:13-16", "book": "Malachi", "book_slug": "malachi", "start": { "chapter": 2, "verse": 13 }, "end": { "chapter": 2, "verse": 16 }, "role": "supporting" }] },
+    { "text": "Whatever view is taken of marital roles, Ephesians gives no warrant for domination: husbands are commanded to love their wives with Christlike self-giving care and to nourish and cherish them.", "supporting_references": [{ "label": "Ephesians 5:25-33", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 5, "verse": 25 }, "end": { "chapter": 5, "verse": 33 }, "role": "supporting" }] },
+    { "text": "Marriage includes reciprocal care, and singleness is not an inferior spiritual class or evidence of an incomplete life.", "supporting_references": [{ "label": "1 Corinthians 7:1-9", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 1 }, "end": { "chapter": 7, "verse": 9 }, "role": "supporting" }, { "label": "1 Corinthians 7:32-40", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 32 }, "end": { "chapter": 7, "verse": 40 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "legitimate-dispute", "text": "Faithful evangelicals differ between complementarian and egalitarian readings of marital roles in Ephesians 5; this study does not claim that one short lesson resolves that debate.", "supporting_references": [{ "label": "Ephesians 5:21-33", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 5, "verse": 21 }, "end": { "chapter": 5, "verse": 33 }, "role": "supporting" }] },
+    { "kind": "legitimate-dispute", "text": "Christians also differ over the biblical grounds for divorce and remarriage and how particular cases should be judged; First Corinthians 7 addresses several situations without making every case simple.", "supporting_references": [{ "label": "1 Corinthians 7:10-24", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 10 }, "end": { "chapter": 7, "verse": 24 }, "role": "supporting" }, { "label": "1 Corinthians 7:39-40", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 39 }, "end": { "chapter": 7, "verse": 40 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "Submission never authorizes sin, coercion, violence, sexual violation, intimidation, isolation, or abuse, and a spouse is not required to remain physically present in danger.", "supporting_references": [{ "label": "Ephesians 5:21-33", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 5, "verse": 21 }, "end": { "chapter": 5, "verse": 33 }, "role": "supporting" }, { "label": "1 Corinthians 7:3-5", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 3 }, "end": { "chapter": 7, "verse": 5 }, "role": "supporting" }, { "label": "Romans 13:1-4", "book": "Romans", "book_slug": "romans", "start": { "chapter": 13, "verse": 1 }, "end": { "chapter": 13, "verse": 4 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "These passages must not imply that marriage is required, infertility is a moral failure, or one spouse can repair every troubled marriage through greater submission.", "supporting_references": [{ "label": "1 Corinthians 7:7-9", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 7 }, "end": { "chapter": 7, "verse": 9 }, "role": "supporting" }, { "label": "1 Corinthians 7:25-35", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 7, "verse": 25 }, "end": { "chapter": 7, "verse": 35 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Practice fidelity, truthfulness, sacrificial service, reciprocal care, consent, respect, and shared accountability to Christ.",
+    "Honor single adults and married adults without treating either status as a measure of spiritual worth.",
+    "Seek competent pastoral and professional help for serious conflict, and make immediate safety the priority when abuse or threats are present."
+  ],
+  "discussion": [
+    "What features of covenant faithfulness appear across these passages?",
+    "How does Christ's self-giving love rule out the use of authority for domination or harm?",
+    "Which conclusions are clearly shared by the passages, and which questions require humility because Christians interpret them differently?"
+  ],
+  "prayer": "Faithful God, form truth, fidelity, sacrificial love, reciprocal care, and wisdom in our relationships. Honor those who are single, strengthen healthy marriages, protect those in danger, and lead troubled families toward truthful and competent help.",
+  "pastoral_safety": [
+    "No marriage teaching should be used to keep someone in danger or compel submission to sin, coercion, or abuse.",
+    "In immediate danger, prioritize emergency services, safe shelter, and qualified local help before couples counseling or direct confrontation.",
+    "Complementarian and egalitarian role interpretations and divorce-remarriage questions are identified as legitimate evangelical disputes, not settled here."
+  ],
+  "tags": ["Marriage", "Covenant", "Faithfulness"],
+  "estimated_minutes": 50,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

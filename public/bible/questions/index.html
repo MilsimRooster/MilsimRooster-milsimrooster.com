@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search 60 Scripture-first questions about Heaven, resurrection, the end times, angels, Hell, tradition, and common Bible assumptions.">
+  <title>60-Question Scripture Guide | Digital Bible</title>
+  <link rel="stylesheet" href="questions-20260830.css">
+  <script src="questions-20260830.js?v=20260901-content-audit-1" defer></script>
+</head>
+<body>
+  <header class="site-top">
+    <a class="brand-link" href="/about/">Milsim Rooster</a>
+    <nav aria-label="Bible navigation">
+      <a href="/bible/">Digital Bible</a>
+      <a aria-current="page" href="/bible/questions/">60-Question Guide</a>
+      <a href="/bible/studies/">Adult Studies</a>
+      <a href="/bible/lessons/">Kids Lessons</a>
+    </nav>
+  </header>
+
+  <main class="guide-shell">
+    <section class="guide-hero">
+      <p class="eyebrow">What does the Bible actually say?</p>
+      <h1>60 Scripture-First Questions</h1>
+      <p>Search a question in your own words. Each answer distinguishes what Scripture states from what is inferred or debated, with passages provided so you can read the context yourself.</p>
+    </section>
+
+    <section class="search-panel" aria-label="Search the question guide">
+      <label for="questionSearch">Ask a question or search a topic</label>
+      <div class="search-row">
+        <input id="questionSearch" type="search" inputmode="search" autocomplete="off" enterkeyhint="search" placeholder="Where do I go when I die?">
+        <button id="clearSearch" type="button" hidden>Clear</button>
+      </div>
+      <div id="categoryFilters" class="category-filters" aria-label="Filter by category"></div>
+      <p id="resultSummary" class="result-summary" aria-live="polite"></p>
+    </section>
+
+    <section id="questionResults" class="question-results" aria-label="Guide questions"></section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" type="button" hidden>Back to top</button>
+</body>
+</html>

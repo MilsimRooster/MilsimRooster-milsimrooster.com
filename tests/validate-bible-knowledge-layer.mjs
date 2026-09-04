@@ -89,5 +89,7 @@ assert.ok(explorerApp.includes("browse people"), "Bible Explorer app should supp
 assert.ok(explorerApp.includes("browse places"), "Bible Explorer app should support places browsing");
 assert.ok(explorerApp.includes("browse themes"), "Bible Explorer app should support theme browsing");
 assert.ok(explorerApp.includes("browse events"), "Bible Explorer app should support event browsing");
+assert.ok(explorerApp.includes("/bible/#kjv."), "Bible Explorer Scripture links should honor the reader's KJV default");
+assert.ok(!explorerApp.includes("/bible/#bsb."), "Bible Explorer Scripture links should not override the reader to BSB");
 
 console.log("Bible knowledge layer validation passed.");

@@ -1,0 +1,42 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "enduring-suffering-with-hope",
+  "title": "Enduring Suffering Without Losing Hope",
+  "summary": "Romans 8 takes suffering seriously while grounding Christian hope in future redemption, the Spirit's help, God's purpose in conforming believers to Christ, and God's inseparable love.",
+  "primary_references": [
+    { "label": "Romans 8:18-39", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 18 }, "end": { "chapter": 8, "verse": 39 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Paul describes creation and believers as groaning while they wait for liberation and bodily redemption.", "supporting_references": [{ "label": "Romans 8:18-25", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 18 }, "end": { "chapter": 8, "verse": 25 }, "role": "supporting" }] },
+    { "text": "The Spirit helps believers in weakness and intercedes when they do not know how to pray.", "supporting_references": [{ "label": "Romans 8:26-27", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 26 }, "end": { "chapter": 8, "verse": 27 }, "role": "supporting" }] },
+    { "text": "Paul names tribulation, distress, persecution, famine, nakedness, danger, and death before declaring that none can separate believers from God's love in Christ.", "supporting_references": [{ "label": "Romans 8:31-39", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 31 }, "end": { "chapter": 8, "verse": 39 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Christian hope does not deny present suffering; it waits patiently for a future redemption not yet fully seen.", "supporting_references": [{ "label": "Romans 8:18-25", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 18 }, "end": { "chapter": 8, "verse": 25 }, "role": "supporting" }] },
+    { "text": "God's promised good is tied to his purpose and the believer's conformity to Christ, not to every event feeling good or resolving quickly.", "supporting_references": [{ "label": "Romans 8:28-30", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 28 }, "end": { "chapter": 8, "verse": 30 }, "role": "supporting" }] },
+    { "text": "The security emphasized at the passage's close is God's love in Christ amid severe hardship, not immunity from hardship.", "supporting_references": [{ "label": "Romans 8:35-39", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 35 }, "end": { "chapter": 8, "verse": 39 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "pastoral-safety", "text": "Romans 8:28 does not call every event good or promise immediate comfort, healing, wealth, or a visible explanation for tragedy.", "supporting_references": [{ "label": "Romans 8:18-30", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 18 }, "end": { "chapter": 8, "verse": 30 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "The passage does not authorize speculation about a specific hidden reason God allowed another person's suffering or blame the sufferer for lacking faith.", "supporting_references": [{ "label": "Romans 8:26-27", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 26 }, "end": { "chapter": 8, "verse": 27 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "Lament, grief, weakness, and seeking relief are compatible with hope; Paul openly describes groaning and weakness within faithful Christian life.", "supporting_references": [{ "label": "Romans 8:22-27", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 22 }, "end": { "chapter": 8, "verse": 27 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Lament honestly and pray even when you do not know what to ask.",
+    "Receive practical, medical, professional, and communal help rather than treating isolation as stronger faith.",
+    "Continue doing the next faithful good while placing final hope in bodily redemption and God's inseparable love in Christ."
+  ],
+  "discussion": [
+    "What kinds of groaning does Romans 8 acknowledge without condemning?",
+    "How does verses 28-30 define the good toward which God is working?",
+    "What practical support would embody hope for someone who is suffering now?"
+  ],
+  "prayer": "God of steadfast love, meet us in weakness and help us when words fail. Sustain honest hope, surround sufferers with wise care, and hold us in the love of Christ as we wait for redemption.",
+  "pastoral_safety": [
+    "Do not simplify another person's suffering, assign blame, or claim knowledge of God's specific hidden reason for a tragedy.",
+    "Lament, grief, medical care, counseling, practical help, and efforts to escape harm are not failures of faith."
+  ],
+  "tags": ["Suffering", "Hope", "Resurrection"],
+  "estimated_minutes": 35,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

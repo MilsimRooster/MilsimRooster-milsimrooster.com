@@ -45,12 +45,10 @@ if (-not $SkipLiveCheck) {
         "https://milsimrooster.com/apps/bible-study/",
         "https://milsimrooster.com/apps/apostles/",
         "https://milsimrooster.com/apps/apostles/new-testament-trail.html",
-        "https://milsimrooster.com/apps/bug-strike/",
         "https://milsimrooster.com/apps/fps-visualizer/",
-        "https://milsimrooster.com/apps/how-southern-are-you/",
         "https://milsimrooster.com/apps/quotetron/",
         "https://milsimrooster.com/apps/recipes/",
-        "https://milsimrooster.com/apps/southern-translator/"
+        "https://milsimrooster.com/apps/rotorline/",
     )
 
     Run-Step "Check live routes" {

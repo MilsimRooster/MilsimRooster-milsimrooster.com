@@ -1,2 +1,11 @@
 /apps/bible-study /bible/ 302
 /apps/bible-study/* /bible/ 302
+/apps/fellowship-hall / 302
+/apps/fellowship-hall/ / 302
+/apps/fellowship-hall/* / 302
+/apps/bug-strike / 302
+/apps/bug-strike/* / 302
+/apps/how-southern-are-you / 302
+/apps/how-southern-are-you/* / 302
+/apps/southern-translator / 302
+/apps/southern-translator/* / 302

@@ -1,0 +1,47 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "romans-grace-faith-new-life",
+  "title": "Romans: Grace, Faith, and New Life",
+  "summary": "Selected movements in Romans show God's righteousness revealed through Christ, justification received through faith, peace with God, freedom from sin's mastery, life in the Spirit, and transformed worship.",
+  "primary_references": [
+    { "label": "Romans 3:21-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 21 }, "end": { "chapter": 3, "verse": 31 }, "role": "primary" },
+    { "label": "Romans 5:1-11", "book": "Romans", "book_slug": "romans", "start": { "chapter": 5, "verse": 1 }, "end": { "chapter": 5, "verse": 11 }, "role": "primary" },
+    { "label": "Romans 6:1-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 1 }, "end": { "chapter": 6, "verse": 14 }, "role": "primary" },
+    { "label": "Romans 8:1-17", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 1 }, "end": { "chapter": 8, "verse": 17 }, "role": "primary" },
+    { "label": "Romans 12:1-2", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 1 }, "end": { "chapter": 12, "verse": 2 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Romans 3 says God's righteousness is revealed through Jesus Christ, excludes boasting, and places Jews and Gentiles before the one God on the same basis of faith.", "supporting_references": [{ "label": "Romans 3:21-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 21 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }] },
+    { "text": "Romans 5 connects justification by faith with peace with God, access to grace, hope, Christ's death for sinners, and reconciliation.", "supporting_references": [{ "label": "Romans 5:1-11", "book": "Romans", "book_slug": "romans", "start": { "chapter": 5, "verse": 1 }, "end": { "chapter": 5, "verse": 11 }, "role": "supporting" }] },
+    { "text": "Romans 6 rejects continuing in sin as a proper response to grace and connects baptism into Christ with death to sin and newness of life.", "supporting_references": [{ "label": "Romans 6:1-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 1 }, "end": { "chapter": 6, "verse": 14 }, "role": "supporting" }] },
+    { "text": "Romans 8 describes no condemnation in Christ, the Spirit's indwelling work, adoption, and a new obligation that is not owed to the flesh.", "supporting_references": [{ "label": "Romans 8:1-17", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 1 }, "end": { "chapter": 8, "verse": 17 }, "role": "supporting" }] },
+    { "text": "Romans 12 calls for a whole-life response to God's mercies through embodied worship and renewed thinking.", "supporting_references": [{ "label": "Romans 12:1-2", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 1 }, "end": { "chapter": 12, "verse": 2 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Justification is received through faith apart from works of the law, so human boasting is excluded.", "supporting_references": [{ "label": "Romans 3:21-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 21 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }] },
+    { "text": "Peace and reconciliation with God rest in Jesus Christ and God's love demonstrated while people were still sinners.", "supporting_references": [{ "label": "Romans 5:1-11", "book": "Romans", "book_slug": "romans", "start": { "chapter": 5, "verse": 1 }, "end": { "chapter": 5, "verse": 11 }, "role": "supporting" }] },
+    { "text": "Grace does not excuse surrender to sin; believers are called to present themselves to God for righteous service and live by the Spirit as adopted children.", "supporting_references": [{ "label": "Romans 6:11-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 11 }, "end": { "chapter": 6, "verse": 14 }, "role": "supporting" }, { "label": "Romans 8:9-17", "book": "Romans", "book_slug": "romans", "start": { "chapter": 8, "verse": 9 }, "end": { "chapter": 8, "verse": 17 }, "role": "supporting" }] },
+    { "text": "The fitting response to God's mercy is renewed, embodied, discerning life rather than either merit-seeking legalism or obedience-free presumption.", "supporting_references": [{ "label": "Romans 3:27-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 27 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }, { "label": "Romans 6:1-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 1 }, "end": { "chapter": 6, "verse": 14 }, "role": "supporting" }, { "label": "Romans 12:1-2", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 1 }, "end": { "chapter": 12, "verse": 2 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "scope", "text": "Romans should be followed as a sustained argument about sin, grace, Israel, the nations, and transformed community rather than reduced to disconnected proof-texts.", "supporting_references": [{ "label": "Romans 3:21-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 21 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }, { "label": "Romans 12:1-2", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 1 }, "end": { "chapter": 12, "verse": 2 }, "role": "supporting" }] },
+    { "kind": "legitimate-dispute", "text": "Evangelicals differ over the identity of the speaker in Romans 7, election in Romans 9, baptismal language in Romans 6, perseverance, and the scope of submission to government in Romans 13.", "supporting_references": [{ "label": "Romans 6:1-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 1 }, "end": { "chapter": 6, "verse": 14 }, "role": "supporting" }, { "label": "Romans 7:14-25", "book": "Romans", "book_slug": "romans", "start": { "chapter": 7, "verse": 14 }, "end": { "chapter": 7, "verse": 25 }, "role": "supporting" }, { "label": "Romans 9:1-33", "book": "Romans", "book_slug": "romans", "start": { "chapter": 9, "verse": 1 }, "end": { "chapter": 9, "verse": 33 }, "role": "supporting" }, { "label": "Romans 13:1-7", "book": "Romans", "book_slug": "romans", "start": { "chapter": 13, "verse": 1 }, "end": { "chapter": 13, "verse": 7 }, "role": "supporting" }] },
+    { "kind": "legitimate-dispute", "text": "Interpreters debate whether a phrase in Romans 3:22 emphasizes faith in Jesus Christ or the faithfulness of Jesus Christ; either discussion should remain within Paul's larger emphasis on God's saving action in Christ and the response of faith.", "supporting_references": [{ "label": "Romans 3:21-26", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 21 }, "end": { "chapter": 3, "verse": 26 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "Avoid legalism that treats works as earning acceptance and antinomianism that treats grace as eliminating obedience; Paul rejects both distortions in this argument.", "supporting_references": [{ "label": "Romans 3:27-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 27 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }, { "label": "Romans 6:1-14", "book": "Romans", "book_slug": "romans", "start": { "chapter": 6, "verse": 1 }, "end": { "chapter": 6, "verse": 14 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Trust Christ rather than personal merit and reject all spiritual boasting.",
+    "Count yourself called out of sin's mastery, present your life to God, and depend on the Spirit in daily obedience.",
+    "Offer ordinary embodied life to God and test decisions through renewed, Scripture-shaped thinking."
+  ],
+  "discussion": [
+    "How do grace and obedience relate across Romans 3, 6, 8, and 12?",
+    "What forms of boasting are excluded by justification through faith?",
+    "Where do you need to live from your new identity in Christ rather than return to an old master?"
+  ],
+  "prayer": "Righteous and merciful God, keep us from boasting and from abusing grace. Ground our peace in Christ, lead us by your Spirit, and renew our minds and bodies for obedient worship.",
+  "pastoral_safety": [],
+  "tags": ["Romans", "Grace", "New Life"],
+  "estimated_minutes": 50,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

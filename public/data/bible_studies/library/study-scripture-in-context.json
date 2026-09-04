@@ -1,0 +1,41 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "study-scripture-in-context",
+  "title": "How to Study Scripture in Context",
+  "summary": "A practical method for reading whole passages attentively, respecting their setting and genre, and locating them within the Bible's testimony to God's work in Christ.",
+  "primary_references": [
+    { "label": "2 Timothy 3:14-17", "book": "2 Timothy", "book_slug": "2-timothy", "start": { "chapter": 3, "verse": 14 }, "end": { "chapter": 3, "verse": 17 }, "role": "primary" },
+    { "label": "Nehemiah 8:1-12", "book": "Nehemiah", "book_slug": "nehemiah", "start": { "chapter": 8, "verse": 1 }, "end": { "chapter": 8, "verse": 12 }, "role": "primary" },
+    { "label": "Luke 24:13-49", "book": "Luke", "book_slug": "luke", "start": { "chapter": 24, "verse": 13 }, "end": { "chapter": 24, "verse": 49 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Paul tells Timothy to continue in the sacred writings he had learned and describes those writings as useful for teaching, correction, and training.", "supporting_references": [{ "label": "2 Timothy 3:14-17", "book": "2 Timothy", "book_slug": "2-timothy", "start": { "chapter": 3, "verse": 14 }, "end": { "chapter": 3, "verse": 17 }, "role": "supporting" }] },
+    { "text": "In Nehemiah, the Law is read publicly, explained so the people can understand it, and answered with worship, grief, instruction, and joy.", "supporting_references": [{ "label": "Nehemiah 8:1-12", "book": "Nehemiah", "book_slug": "nehemiah", "start": { "chapter": 8, "verse": 1 }, "end": { "chapter": 8, "verse": 12 }, "role": "supporting" }] },
+    { "text": "The risen Jesus explains his suffering and glory from the Scriptures and commissions witnesses after opening their understanding.", "supporting_references": [{ "label": "Luke 24:25-49", "book": "Luke", "book_slug": "luke", "start": { "chapter": 24, "verse": 25 }, "end": { "chapter": 24, "verse": 49 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Scripture equips God's people for faithful belief, character, and service rather than merely supplying isolated facts.", "supporting_references": [{ "label": "2 Timothy 3:14-17", "book": "2 Timothy", "book_slug": "2-timothy", "start": { "chapter": 3, "verse": 14 }, "end": { "chapter": 3, "verse": 17 }, "role": "supporting" }] },
+    { "text": "Understanding Scripture includes attentive reading, clear explanation, and an obedient response within the gathered community.", "supporting_references": [{ "label": "Nehemiah 8:2-12", "book": "Nehemiah", "book_slug": "nehemiah", "start": { "chapter": 8, "verse": 2 }, "end": { "chapter": 8, "verse": 12 }, "role": "supporting" }] },
+    { "text": "Christians read the Bible's larger story in light of Jesus' death, resurrection, and mission to the nations.", "supporting_references": [{ "label": "Luke 24:44-49", "book": "Luke", "book_slug": "luke", "start": { "chapter": 24, "verse": 44 }, "end": { "chapter": 24, "verse": 49 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "genre", "text": "Reading faithfully does not mean flattening poetry, narrative, prophecy, letters, and parables into the same kind of prose; each passage should be read according to its literary form and context.", "supporting_references": [{ "label": "Luke 24:44-47", "book": "Luke", "book_slug": "luke", "start": { "chapter": 24, "verse": 44 }, "end": { "chapter": 24, "verse": 47 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "Jesus' fulfillment of Scripture does not justify turning every narrative detail into a hidden symbol about him; interpretations should follow the passage and the Bible's own connections.", "supporting_references": [{ "label": "Luke 24:44-47", "book": "Luke", "book_slug": "luke", "start": { "chapter": 24, "verse": 44 }, "end": { "chapter": 24, "verse": 47 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "Paul's statement about Scripture's usefulness does not identify one English translation as the only faithful translation or remove the need for careful interpretation.", "supporting_references": [{ "label": "2 Timothy 3:14-17", "book": "2 Timothy", "book_slug": "2-timothy", "start": { "chapter": 3, "verse": 14 }, "end": { "chapter": 3, "verse": 17 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Read the complete paragraph before selecting a verse for guidance.",
+    "Identify the speaker, audience, situation, genre, repeated ideas, and connection to the surrounding book.",
+    "Compare related passages, state what is directly observed before drawing conclusions, and ask how a faithful response follows from the text."
+  ],
+  "discussion": [
+    "Which detail in these passages most changes how you think about understanding Scripture?",
+    "What is the difference between an observation from the text and an application drawn from it?",
+    "Where are you most tempted to read a familiar verse without its surrounding paragraph?"
+  ],
+  "prayer": "God, give us humility, attention, and wisdom as we read. Help us understand what you have revealed, receive correction, see Christ faithfully, and obey what is true.",
+  "pastoral_safety": [],
+  "tags": ["Scripture", "Context", "Interpretation"],
+  "estimated_minutes": 35,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

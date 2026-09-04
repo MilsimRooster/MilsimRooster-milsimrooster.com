@@ -172,8 +172,8 @@ function inputText(label = "Text") {
   return `<label for="tool-input">${label}</label><textarea id="tool-input" placeholder="Paste or type here"></textarea>`;
 }
 
-function canvasToBlob(canvas, type = "image/png") {
-  return new Promise((resolve) => canvas.toBlob(resolve, type));
+function canvasToBlob(canvas, type = "image/png", quality) {
+  return new Promise((resolve) => canvas.toBlob(resolve, type, quality));
 }
 
 async function fileToDrawable(file) {
@@ -847,21 +847,44 @@ function initTool(tool) {
   }
 
   if (tool.slug === "qr-code-generator") {
-    renderTool(tool, inputText("Text or URL"), `<div id="tool-output" class="qr-output output-box"></div>`);
+    renderTool(tool, `
+      ${inputText("Text or URL")}
+      <div class="field-row">
+        <label for="qrDownloadFormat">Download format</label>
+        <select id="qrDownloadFormat">
+          <option value="png">PNG</option>
+          <option value="jpg">JPG</option>
+        </select>
+      </div>
+    `, `<div id="tool-output" class="qr-output output-box"></div>`);
     wireCommon({
       run: async () => {
         setError("");
         const text = document.querySelector("#tool-input").value.trim();
         if (!text) throw new Error("Enter text or a URL first.");
-        output().innerHTML = await QRCode.toString(text, { type: "svg", margin: 2, width: 256 });
+        const canvas = document.createElement("canvas");
+        await QRCode.toCanvas(canvas, text, {
+          margin: 2,
+          width: 512,
+          color: {
+            dark: "#000000ff",
+            light: "#ffffffff"
+          }
+        });
+        output().replaceChildren(canvas);
       },
       clear: () => { output().innerHTML = ""; },
-      downloadName: "qr-code.svg"
+      downloadName: "qr-code.png"
     });
-    replaceDownloadHandler(() => {
-      const svg = output().innerHTML;
-      if (!svg) return setError("Generate a QR code first.");
-      downloadBlob(new Blob([svg], { type: "image/svg+xml" }), "qr-code.svg");
+    replaceDownloadHandler(async () => {
+      const canvas = output().querySelector("canvas");
+      if (!canvas) return setError("Generate a QR code first.");
+      const format = document.querySelector("#qrDownloadFormat").value === "jpg" ? "jpg" : "png";
+      const type = format === "jpg" ? "image/jpeg" : "image/png";
+      const filename = format === "jpg" ? "qr-code.jpg" : "qr-code.png";
+      const blob = await canvasToBlob(canvas, type, 0.94);
+      if (!blob) return setError("Could not prepare that QR image.");
+      downloadBlob(blob, filename, "Opened QR image in a new tab. Use Share or Save Image from Safari.");
     });
   } else if (tool.slug === "password-generator") {
     renderTool(tool, `

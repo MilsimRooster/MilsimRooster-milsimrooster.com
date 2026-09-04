@@ -72,6 +72,11 @@ for (const token of [
 }
 
 assert.equal(bucketScannerPath("/.env"), "hidden-config");
+assert.equal(bucketScannerPath("/mailing/.env"), "hidden-config");
+assert.equal(bucketScannerPath("/@fs/root/.env"), "vite-fs-probe");
+assert.equal(bucketScannerPath("/backend/.aws/credentials"), "credential-probe");
+assert.equal(bucketScannerPath("/id_ecdsa"), "credential-probe");
+assert.equal(bucketScannerPath("/api/config.json"), "app-config");
 assert.equal(bucketScannerPath("/wp-content/plugins/thing.php"), "wordpress");
 assert.equal(bucketScannerPath("/_profiler/phpinfo"), "debug-profiler");
 assert.equal(bucketScannerPath("/assets/main.js.map"), "source-map");

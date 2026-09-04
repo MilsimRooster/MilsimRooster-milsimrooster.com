@@ -209,7 +209,7 @@ function renderDetailGroup(title, nodes) {
 function readerHref(reference) {
   const match = String(reference || "").match(/^([1-3]?\s?[A-Za-z]+)\s+(\d+)/);
   if (!match) return "/bible/";
-  return `/bible/#bsb.${match[1].toLowerCase().replace(/\s+/g, "-")}.${match[2]}`;
+  return `/bible/#kjv.${match[1].toLowerCase().replace(/\s+/g, "-")}.${match[2]}`;
 }
 
 function selectNode(folder, id, { replaceUrl = true } = {}) {

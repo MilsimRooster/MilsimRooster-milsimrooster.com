@@ -1,0 +1,44 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "wisdom-for-anxiety-and-fear",
+  "title": "Wisdom for Anxiety and Fear",
+  "summary": "Paul and Jesus direct believers toward prayer, truthful thought, learned contentment, the Father's care, and present faithfulness without shaming those who need additional help.",
+  "primary_references": [
+    { "label": "Philippians 4:2-13", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 2 }, "end": { "chapter": 4, "verse": 13 }, "role": "primary" },
+    { "label": "Matthew 6:25-34", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 25 }, "end": { "chapter": 6, "verse": 34 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Paul addresses a real conflict in the church before calling the community to rejoicing, gentleness, prayer, thanksgiving, and disciplined thought.", "supporting_references": [{ "label": "Philippians 4:2-9", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 2 }, "end": { "chapter": 4, "verse": 9 }, "role": "supporting" }] },
+    { "text": "Paul says contentment was learned across both abundance and need, rather than describing a life without distress or deprivation.", "supporting_references": [{ "label": "Philippians 4:10-13", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 10 }, "end": { "chapter": 4, "verse": 13 }, "role": "supporting" }] },
+    { "text": "Jesus points to the Father's care, distinguishes present trouble from tomorrow's concerns, and calls disciples to seek God's kingdom and righteousness.", "supporting_references": [{ "label": "Matthew 6:25-34", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 25 }, "end": { "chapter": 6, "verse": 34 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Believers may bring concerns to God through prayer and petition with thanksgiving instead of hiding them.", "supporting_references": [{ "label": "Philippians 4:5-7", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 5 }, "end": { "chapter": 4, "verse": 7 }, "role": "supporting" }] },
+    { "text": "Christian thought should be trained toward what is true, honorable, just, pure, lovely, commendable, excellent, and praiseworthy.", "supporting_references": [{ "label": "Philippians 4:8-9", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 8 }, "end": { "chapter": 4, "verse": 9 }, "role": "supporting" }] },
+    { "text": "Jesus redirects consuming worry toward trust in the Father's knowledge and faithful attention to God's kingdom and today's responsibilities.", "supporting_references": [{ "label": "Matthew 6:31-34", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 31 }, "end": { "chapter": 6, "verse": 34 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "scope", "text": "Philippians 4:13 concerns Christ-given strength for contentment in changing circumstances, not an unlimited promise of achievement.", "supporting_references": [{ "label": "Philippians 4:10-13", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 10 }, "end": { "chapter": 4, "verse": 13 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "These commands should not be used to label an anxiety disorder as automatic proof of weak faith or to shame a person whose symptoms persist.", "supporting_references": [{ "label": "Philippians 4:5-7", "book": "Philippians", "book_slug": "philippians", "start": { "chapter": 4, "verse": 5 }, "end": { "chapter": 4, "verse": 7 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "Trusting God does not forbid prudent planning, Christian community support, or qualified medical and mental-health care.", "supporting_references": [{ "label": "Matthew 6:33-34", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 33 }, "end": { "chapter": 6, "verse": 34 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Name concerns honestly in prayer, include thanksgiving, and ask trusted believers for support.",
+    "Challenge false or catastrophic thoughts with what is true and attend to the responsibilities of today.",
+    "Seek qualified care when anxiety persists, causes significant distress, or interferes with daily life."
+  ],
+  "discussion": [
+    "How does the context of Philippians 4:13 change a common reading of that verse?",
+    "Which practices in these passages can support you without becoming a formula for instant relief?",
+    "Who can offer wise spiritual, practical, or professional support when fear becomes overwhelming?"
+  ],
+  "prayer": "Father, you know our needs and fears. Teach us to bring them to you, think truthfully, receive wise help, seek your kingdom, and depend on Christ in both abundance and need.",
+  "pastoral_safety": [
+    "Anxiety is not automatically evidence of weak faith.",
+    "Spiritual practices can accompany, not replace, appropriate professional care.",
+    "If fear includes immediate danger or thoughts of self-harm, seek emergency help now rather than relying on this study alone."
+  ],
+  "tags": ["Anxiety", "Fear", "Peace"],
+  "estimated_minutes": 35,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "forgiveness-and-reconciliation",
+  "title": "Forgiveness and Reconciliation",
+  "summary": "Jesus and Paul call believers to truthful accountability, mercy, refusal of personal vengeance, and the wise pursuit of peace without confusing forgiveness with unsafe access or automatic restoration of trust.",
+  "primary_references": [
+    { "label": "Matthew 18:15-35", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 15 }, "end": { "chapter": 18, "verse": 35 }, "role": "primary" },
+    { "label": "Romans 12:9-21", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 9 }, "end": { "chapter": 12, "verse": 21 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Matthew 18 presents a process that names sin, seeks a person's restoration, involves witnesses when needed, and recognizes communal accountability.", "supporting_references": [{ "label": "Matthew 18:15-20", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 15 }, "end": { "chapter": 18, "verse": 20 }, "role": "supporting" }] },
+    { "text": "Jesus' parable connects the mercy a servant has received with the servant's obligation to show mercy to another.", "supporting_references": [{ "label": "Matthew 18:21-35", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 21 }, "end": { "chapter": 18, "verse": 35 }, "role": "supporting" }] },
+    { "text": "Romans commands sincere love, opposition to evil, refusal of personal revenge, care for enemies, and pursuit of peace where possible.", "supporting_references": [{ "label": "Romans 12:9-21", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 9 }, "end": { "chapter": 12, "verse": 21 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Those who have received mercy from God are called to renounce a vindictive spirit and extend mercy to others.", "supporting_references": [{ "label": "Matthew 18:21-35", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 21 }, "end": { "chapter": 18, "verse": 35 }, "role": "supporting" }] },
+    { "text": "Biblical peacemaking does not conceal evil; it combines truthful confrontation, concern for restoration, and accountable community.", "supporting_references": [{ "label": "Matthew 18:15-20", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 15 }, "end": { "chapter": 18, "verse": 20 }, "role": "supporting" }] },
+    { "text": "Believers must not pursue personal vengeance, while the qualification about peace recognizes that reconciliation is not always within one person's control.", "supporting_references": [{ "label": "Romans 12:17-21", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 17 }, "end": { "chapter": 12, "verse": 21 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "pastoral-safety", "text": "Forgiveness does not mean denying the wrong, restoring trust immediately, removing consequences, or granting unsafe access to the person who caused harm.", "supporting_references": [{ "label": "Matthew 18:15-20", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 15 }, "end": { "chapter": 18, "verse": 20 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "Reconciliation cannot be guaranteed by one person's willingness to forgive; peace may depend on the other person's response, including truthful repentance and participation.", "supporting_references": [{ "label": "Romans 12:18", "book": "Romans", "book_slug": "romans", "start": { "chapter": 12, "verse": 18 }, "end": { "chapter": 12, "verse": 18 }, "role": "supporting" }, { "label": "Luke 17:3-4", "book": "Luke", "book_slug": "luke", "start": { "chapter": 17, "verse": 3 }, "end": { "chapter": 17, "verse": 4 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "Matthew 18's restoration process must not be used as a barrier to immediate safety, reporting a crime, or involving qualified authorities when abuse or danger is present.", "supporting_references": [{ "label": "Matthew 18:15-20", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 18, "verse": 15 }, "end": { "chapter": 18, "verse": 20 }, "role": "supporting" }, { "label": "Romans 13:1-4", "book": "Romans", "book_slug": "romans", "start": { "chapter": 13, "verse": 1 }, "end": { "chapter": 13, "verse": 4 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Renounce personal revenge while naming the wrongdoing honestly and grieving its effects.",
+    "Remain open to genuine repentance without confusing openness with immediate trust or unrestricted access.",
+    "Use wise boundaries and seek pastoral, legal, medical, or professional help when harm, threats, abuse, or criminal conduct are involved."
+  ],
+  "discussion": [
+    "How do mercy and truthful accountability work together in Matthew 18?",
+    "What does Romans 12:18 acknowledge about the limits of one person's responsibility for peace?",
+    "Which boundary could support mercy without ignoring safety or justice?"
+  ],
+  "prayer": "God of mercy and truth, keep us from vengeance. Give us courage to name wrong, wisdom to establish safe boundaries, willingness to forgive, and humility to pursue peace wherever it is truly possible.",
+  "pastoral_safety": [
+    "Forgiveness does not erase justice, boundaries, consequences, or the need for safety.",
+    "Crimes, threats, abuse, stalking, or immediate danger may require civil reporting and professional intervention before any direct contact.",
+    "Reconciliation and restored trust require more than one person's decision to forgive."
+  ],
+  "tags": ["Forgiveness", "Reconciliation", "Boundaries"],
+  "estimated_minutes": 40,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

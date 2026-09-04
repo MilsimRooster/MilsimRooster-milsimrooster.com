@@ -1,0 +1,19 @@
+{
+  "schema_version": "adult-bible-study-index/v1",
+  "library_version": "1.0.0",
+  "updated_at": "2026-08-12",
+  "study_count": 10,
+  "editorial_notice": "These studies distinguish textual observation from teaching, interpretive caution, and application. Readers should read each full passage and seek trusted pastoral counsel for personal doctrinal or safety-sensitive questions.",
+  "studies": [
+    { "study_id": "study-scripture-in-context", "title": "How to Study Scripture in Context", "file": "library/study-scripture-in-context.json", "category": "Bible Study", "tags": ["Scripture", "Context", "Interpretation"], "estimated_minutes": 35, "sort_order": 1 },
+    { "study_id": "gospel-and-salvation", "title": "The Gospel and Salvation", "file": "library/gospel-and-salvation.json", "category": "Foundations", "tags": ["Gospel", "Grace", "Faith"], "estimated_minutes": 35, "sort_order": 2 },
+    { "study_id": "prayer-that-changes-us", "title": "Prayer That Changes Us", "file": "library/prayer-that-changes-us.json", "category": "Spiritual Practices", "tags": ["Prayer", "Forgiveness", "Trust"], "estimated_minutes": 30, "sort_order": 3 },
+    { "study_id": "wisdom-for-anxiety-and-fear", "title": "Wisdom for Anxiety and Fear", "file": "library/wisdom-for-anxiety-and-fear.json", "category": "Pastoral Care", "tags": ["Anxiety", "Fear", "Peace"], "estimated_minutes": 35, "sort_order": 4 },
+    { "study_id": "forgiveness-and-reconciliation", "title": "Forgiveness and Reconciliation", "file": "library/forgiveness-and-reconciliation.json", "category": "Relationships", "tags": ["Forgiveness", "Reconciliation", "Boundaries"], "estimated_minutes": 40, "sort_order": 5 },
+    { "study_id": "purpose-in-ordinary-work", "title": "Finding Purpose in Ordinary Work", "file": "library/purpose-in-ordinary-work.json", "category": "Christian Life", "tags": ["Work", "Vocation", "Stewardship"], "estimated_minutes": 35, "sort_order": 6 },
+    { "study_id": "enduring-suffering-with-hope", "title": "Enduring Suffering Without Losing Hope", "file": "library/enduring-suffering-with-hope.json", "category": "Pastoral Care", "tags": ["Suffering", "Hope", "Resurrection"], "estimated_minutes": 35, "sort_order": 7 },
+    { "study_id": "marriage-as-covenant", "title": "Marriage as Covenant", "file": "library/marriage-as-covenant.json", "category": "Relationships", "tags": ["Marriage", "Covenant", "Faithfulness"], "estimated_minutes": 50, "sort_order": 8 },
+    { "study_id": "romans-grace-faith-new-life", "title": "Romans: Grace, Faith, and New Life", "file": "library/romans-grace-faith-new-life.json", "category": "Book Study", "tags": ["Romans", "Grace", "New Life"], "estimated_minutes": 50, "sort_order": 9 },
+    { "study_id": "james-faith-in-life", "title": "James: Faith That Shows Up in Life", "file": "library/james-faith-in-life.json", "category": "Book Study", "tags": ["James", "Faith", "Works"], "estimated_minutes": 50, "sort_order": 10 }
+  ]
+}

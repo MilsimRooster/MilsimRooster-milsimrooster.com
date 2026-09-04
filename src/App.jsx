@@ -31,10 +31,11 @@ const featuredApps = [
     action: "Open lessons"
   },
   {
-    name: "Bug Strike",
-    href: "/apps/bug-strike/",
-    icon: "BS",
-    text: "Play the revived arcade shooter where a debugger ship blasts malware swarms, bosses, hostile packets, and powerups."
+    name: "Adult Bible Studies",
+    href: "/bible/studies/",
+    icon: "ABS",
+    text: "Study Scripture in context with supported observations, careful interpretation, practical application, and discussion prompts.",
+    action: "Open studies"
   },
   {
     name: "Apostles Quest",
@@ -49,17 +50,12 @@ const featuredApps = [
     text: "Open the kid-friendly New Testament flashcard game for Gospels, Acts, letters, book order, teams, and matching."
   },
   {
-    name: "How Southern Are You?",
-    href: "/apps/how-southern-are-you/",
-    icon: "HS",
-    text: "Take the funny Southern culture quiz and get a screenshot-friendly score card to share."
+    name: "Rotorline: Island Strike",
+    href: "/apps/rotorline/",
+    icon: "RL",
+    text: "Fly the MH-6 through supply, rescue, and combat-support missions in a controller-ready WebGL warzone.",
+    action: "Launch Rotorline"
   },
-  {
-    name: "Southern Translator",
-    href: "/apps/southern-translator/",
-    icon: "ST",
-    text: "Translate Southern sayings, grandma warnings, weather talk, and church phrases into plain English."
-  }
 ];
 
 const projects = [

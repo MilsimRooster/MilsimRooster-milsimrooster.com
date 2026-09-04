@@ -1,0 +1,39 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "prayer-that-changes-us",
+  "title": "Prayer That Changes Us",
+  "summary": "Jesus teaches prayer that seeks the Father's honor and kingdom, depends on him for daily needs, receives and extends forgiveness, and asks for protection from evil.",
+  "primary_references": [
+    { "label": "Matthew 6:5-15", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 5 }, "end": { "chapter": 6, "verse": 15 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Jesus contrasts prayer performed for public approval with prayer directed sincerely to the Father.", "supporting_references": [{ "label": "Matthew 6:5-6", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 5 }, "end": { "chapter": 6, "verse": 6 }, "role": "supporting" }] },
+    { "text": "Jesus rejects empty wordiness and says the Father knows human needs, yet he still teaches his disciples to ask.", "supporting_references": [{ "label": "Matthew 6:7-9", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 7 }, "end": { "chapter": 6, "verse": 9 }, "role": "supporting" }] },
+    { "text": "The model prayer moves from God's name, kingdom, and will to daily provision, forgiveness, and deliverance.", "supporting_references": [{ "label": "Matthew 6:9-13", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 9 }, "end": { "chapter": 6, "verse": 13 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Christian prayer is communion with the Father, not a performance designed to gain human admiration.", "supporting_references": [{ "label": "Matthew 6:5-8", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 5 }, "end": { "chapter": 6, "verse": 8 }, "role": "supporting" }] },
+    { "text": "Jesus' model teaches disciples to seek God's holiness, reign, and will while also bringing daily needs.", "supporting_references": [{ "label": "Matthew 6:9-11", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 9 }, "end": { "chapter": 6, "verse": 11 }, "role": "supporting" }] },
+    { "text": "Receiving forgiveness and cultivating a forgiving posture belong together in Jesus' instruction to disciples.", "supporting_references": [{ "label": "Matthew 6:12-15", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 12 }, "end": { "chapter": 6, "verse": 15 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "scope", "text": "The warning against empty repetition is not a ban on every memorized or repeated prayer; the target in context is manipulative wordiness and public performance.", "supporting_references": [{ "label": "Matthew 6:5-8", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 5 }, "end": { "chapter": 6, "verse": 8 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "Prayer is not a technique for forcing God to provide a preferred outcome, and Jesus' model places requests beneath the Father's name, kingdom, and will.", "supporting_references": [{ "label": "Matthew 6:9-13", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 9 }, "end": { "chapter": 6, "verse": 13 }, "role": "supporting" }] },
+    { "kind": "textual-note", "text": "English translations sometimes handle the closing doxology in verse 13 differently because of manuscript evidence; the variation does not change the prayer's central pattern.", "supporting_references": [{ "label": "Matthew 6:13", "book": "Matthew", "book_slug": "matthew", "start": { "chapter": 6, "verse": 13 }, "end": { "chapter": 6, "verse": 13 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Use the Lord's Prayer as a pattern for worship, submission, provision, confession, forgiveness, and spiritual protection.",
+    "Pray honestly and privately as well as with the church, without turning prayer into a display.",
+    "Bring requests persistently while entrusting the outcome to God's wisdom and will."
+  ],
+  "discussion": [
+    "Which part of Jesus' prayer most needs to reshape your current prayers?",
+    "How can asking for daily bread cultivate dependence without discouraging responsible action?",
+    "What is the difference between sincere persistence and trying to manipulate God with words?"
+  ],
+  "prayer": "Father, let your name be honored, your kingdom welcomed, and your will obeyed among us. Give what we need, forgive us, make us forgiving, and keep us from evil.",
+  "pastoral_safety": ["Do not promise that a particular prayer will produce healing, money, success, or another specified outcome."],
+  "tags": ["Prayer", "Forgiveness", "Trust"],
+  "estimated_minutes": 30,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

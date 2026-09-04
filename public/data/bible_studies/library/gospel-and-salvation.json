@@ -1,0 +1,42 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "gospel-and-salvation",
+  "title": "The Gospel and Salvation",
+  "summary": "A study of the apostolic gospel, God's gracious rescue through Christ, and the good works that follow rather than purchase salvation.",
+  "primary_references": [
+    { "label": "Mark 1:14-15", "book": "Mark", "book_slug": "mark", "start": { "chapter": 1, "verse": 14 }, "end": { "chapter": 1, "verse": 15 }, "role": "primary" },
+    { "label": "1 Corinthians 15:1-8", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 15, "verse": 1 }, "end": { "chapter": 15, "verse": 8 }, "role": "primary" },
+    { "label": "Ephesians 2:1-10", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 1 }, "end": { "chapter": 2, "verse": 10 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "Jesus announces the kingdom of God and calls hearers to repent and believe the gospel.", "supporting_references": [{ "label": "Mark 1:14-15", "book": "Mark", "book_slug": "mark", "start": { "chapter": 1, "verse": 14 }, "end": { "chapter": 1, "verse": 15 }, "role": "supporting" }] },
+    { "text": "Paul summarizes the received gospel around Christ's death for sins, burial, resurrection, and appearances to witnesses.", "supporting_references": [{ "label": "1 Corinthians 15:1-8", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 15, "verse": 1 }, "end": { "chapter": 15, "verse": 8 }, "role": "supporting" }] },
+    { "text": "Ephesians describes people as spiritually dead and following sinful desires before emphasizing God's mercy, love, and action in making them alive with Christ.", "supporting_references": [{ "label": "Ephesians 2:1-6", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 1 }, "end": { "chapter": 2, "verse": 6 }, "role": "supporting" }] },
+    { "text": "The passage excludes boasting in human works while also saying believers are created in Christ for good works prepared by God.", "supporting_references": [{ "label": "Ephesians 2:8-10", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 8 }, "end": { "chapter": 2, "verse": 10 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "The gospel calls for repentance and faith rather than mere assent or religious performance.", "supporting_references": [{ "label": "Mark 1:14-15", "book": "Mark", "book_slug": "mark", "start": { "chapter": 1, "verse": 14 }, "end": { "chapter": 1, "verse": 15 }, "role": "supporting" }, { "label": "Ephesians 2:8-9", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 8 }, "end": { "chapter": 2, "verse": 9 }, "role": "supporting" }] },
+    { "text": "The Christian gospel centers on the real death and resurrection of Jesus Christ for sinners, not merely on moral improvement.", "supporting_references": [{ "label": "1 Corinthians 15:1-8", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 15, "verse": 1 }, "end": { "chapter": 15, "verse": 8 }, "role": "supporting" }] },
+    { "text": "Salvation is God's gracious gift received through faith, leaving no basis for self-congratulation before God.", "supporting_references": [{ "label": "Ephesians 2:4-9", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 4 }, "end": { "chapter": 2, "verse": 9 }, "role": "supporting" }] },
+    { "text": "Good works are the intended fruit and path of the saved life, not the price paid to obtain God's grace.", "supporting_references": [{ "label": "Ephesians 2:8-10", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 8 }, "end": { "chapter": 2, "verse": 10 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "scope", "text": "The gospel should not be reduced to reciting a formula or recalling an emotional moment while ignoring enduring trust in the crucified and risen Christ.", "supporting_references": [{ "label": "1 Corinthians 15:1-2", "book": "1 Corinthians", "book_slug": "1-corinthians", "start": { "chapter": 15, "verse": 1 }, "end": { "chapter": 15, "verse": 2 }, "role": "supporting" }] },
+    { "kind": "legitimate-dispute", "text": "Faithful evangelical traditions differ over election, the extent of the atonement, perseverance, baptism's relation to conversion, and the order of salvation; these passages establish the gospel's center without resolving every part of those debates.", "supporting_references": [{ "label": "Ephesians 2:1-10", "book": "Ephesians", "book_slug": "ephesians", "start": { "chapter": 2, "verse": 1 }, "end": { "chapter": 2, "verse": 10 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Turn from sin and trust the crucified and risen Christ rather than personal merit or religious performance.",
+    "Receive grace with humility and abandon boasting over other people.",
+    "Practice the good works God gives you to do as the fruit of new life, not as leverage over God."
+  ],
+  "discussion": [
+    "Which parts of Paul's gospel summary are essential rather than optional?",
+    "How does grace confront both despair and pride?",
+    "What good work could flow from gratitude for salvation this week?"
+  ],
+  "prayer": "Merciful God, keep our confidence in Jesus Christ, who died and rose. Free us from boasting, teach us to receive grace, and shape our lives into grateful service.",
+  "pastoral_safety": [],
+  "tags": ["Gospel", "Grace", "Faith"],
+  "estimated_minutes": 35,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

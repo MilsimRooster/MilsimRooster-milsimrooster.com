@@ -1,0 +1,45 @@
+{
+  "schema_version": "adult-bible-study/v1",
+  "study_id": "james-faith-in-life",
+  "title": "James: Faith That Shows Up in Life",
+  "summary": "James confronts a merely verbal faith by calling believers to obedient hearing, impartial mercy, disciplined speech, practical care, patient endurance, confession, and prayer.",
+  "primary_references": [
+    { "label": "James 1:19-27", "book": "James", "book_slug": "james", "start": { "chapter": 1, "verse": 19 }, "end": { "chapter": 1, "verse": 27 }, "role": "primary" },
+    { "label": "James 2:1-26", "book": "James", "book_slug": "james", "start": { "chapter": 2, "verse": 1 }, "end": { "chapter": 2, "verse": 26 }, "role": "primary" },
+    { "label": "James 3:1-18", "book": "James", "book_slug": "james", "start": { "chapter": 3, "verse": 1 }, "end": { "chapter": 3, "verse": 18 }, "role": "primary" },
+    { "label": "James 5:7-20", "book": "James", "book_slug": "james", "start": { "chapter": 5, "verse": 7 }, "end": { "chapter": 5, "verse": 20 }, "role": "primary" }
+  ],
+  "observations": [
+    { "text": "James contrasts merely hearing the word with doing it and connects faithful religion with guarded speech and care for vulnerable people.", "supporting_references": [{ "label": "James 1:19-27", "book": "James", "book_slug": "james", "start": { "chapter": 1, "verse": 19 }, "end": { "chapter": 1, "verse": 27 }, "role": "supporting" }] },
+    { "text": "James condemns favoritism toward the wealthy and tests a claimed faith by whether it responds to a neighbor's material need.", "supporting_references": [{ "label": "James 2:1-17", "book": "James", "book_slug": "james", "start": { "chapter": 2, "verse": 1 }, "end": { "chapter": 2, "verse": 17 }, "role": "supporting" }] },
+    { "text": "James describes the tongue's disproportionate power to direct and destroy and contrasts selfish ambition with peaceable wisdom shown by conduct.", "supporting_references": [{ "label": "James 3:1-18", "book": "James", "book_slug": "james", "start": { "chapter": 3, "verse": 1 }, "end": { "chapter": 3, "verse": 18 }, "role": "supporting" }] },
+    { "text": "James closes by calling for patience, truthful speech, prayer in suffering and joy, care for the sick, confession, and restoration of wandering people.", "supporting_references": [{ "label": "James 5:7-20", "book": "James", "book_slug": "james", "start": { "chapter": 5, "verse": 7 }, "end": { "chapter": 5, "verse": 20 }, "role": "supporting" }] }
+  ],
+  "teaching": [
+    { "text": "Receiving God's word includes obedient action rather than passive exposure alone.", "supporting_references": [{ "label": "James 1:21-27", "book": "James", "book_slug": "james", "start": { "chapter": 1, "verse": 21 }, "end": { "chapter": 1, "verse": 27 }, "role": "supporting" }] },
+    { "text": "A profession of faith that remains alone and refuses merciful action toward people in need is dead and cannot be treated as saving faith.", "supporting_references": [{ "label": "James 2:14-26", "book": "James", "book_slug": "james", "start": { "chapter": 2, "verse": 14 }, "end": { "chapter": 2, "verse": 26 }, "role": "supporting" }] },
+    { "text": "Godly wisdom is recognizable in humble, peaceable conduct rather than envy, disorder, or self-promotion.", "supporting_references": [{ "label": "James 3:13-18", "book": "James", "book_slug": "james", "start": { "chapter": 3, "verse": 13 }, "end": { "chapter": 3, "verse": 18 }, "role": "supporting" }] },
+    { "text": "Faithful community life includes patient endurance, prayer, confession, practical care, and efforts to restore those who wander from truth.", "supporting_references": [{ "label": "James 5:7-20", "book": "James", "book_slug": "james", "start": { "chapter": 5, "verse": 7 }, "end": { "chapter": 5, "verse": 20 }, "role": "supporting" }] }
+  ],
+  "interpretive_cautions": [
+    { "kind": "legitimate-dispute", "text": "James must not be used to teach that works purchase salvation; Protestant traditions commonly understand Paul as opposing works as the basis of justification and James as opposing a merely verbal faith, while Christian traditions phrase the relationship between faith and works differently.", "supporting_references": [{ "label": "James 2:14-26", "book": "James", "book_slug": "james", "start": { "chapter": 2, "verse": 14 }, "end": { "chapter": 2, "verse": 26 }, "role": "supporting" }, { "label": "Romans 3:27-31", "book": "Romans", "book_slug": "romans", "start": { "chapter": 3, "verse": 27 }, "end": { "chapter": 3, "verse": 31 }, "role": "supporting" }] },
+    { "kind": "pastoral-safety", "text": "James 5 encourages prayer and communal care for the sick but must not be turned into a guarantee that every person prayed for will receive physical healing in this life.", "supporting_references": [{ "label": "James 5:13-18", "book": "James", "book_slug": "james", "start": { "chapter": 5, "verse": 13 }, "end": { "chapter": 5, "verse": 18 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "James' warning to the rich targets hoarding, fraud, self-indulgence, and oppression; it should not be reduced to the claim that possessing any money is itself sinful.", "supporting_references": [{ "label": "James 5:1-6", "book": "James", "book_slug": "james", "start": { "chapter": 5, "verse": 1 }, "end": { "chapter": 5, "verse": 6 }, "role": "supporting" }] },
+    { "kind": "scope", "text": "The call to be slow to speak does not require silence about wrongdoing; James also commands truthful action and condemns injustice.", "supporting_references": [{ "label": "James 1:19-27", "book": "James", "book_slug": "james", "start": { "chapter": 1, "verse": 19 }, "end": { "chapter": 1, "verse": 27 }, "role": "supporting" }] }
+  ],
+  "application": [
+    "Examine whether professed faith produces mercy, impartiality, practical care, truthful speech, and generosity without treating those works as leverage over God.",
+    "Slow down reactive speech, reject favoritism, and choose peaceable wisdom in a current conflict.",
+    "Pray, confess appropriately, seek care when sick, and help restore a wandering person with humility rather than superiority."
+  ],
+  "discussion": [
+    "What contrast does James draw between living faith and a claim that remains alone?",
+    "Where are favoritism or careless speech most likely to enter your community?",
+    "How can prayer and practical care work together when someone is sick or suffering?"
+  ],
+  "prayer": "God of wisdom and mercy, make us doers of your word. Guard our speech, uproot favoritism, form living faith in merciful action, and teach us to pray, confess, endure, and care for one another.",
+  "pastoral_safety": ["Prayer for healing should accompany compassionate care and appropriate medical attention, never blame the sick person, and never promise a particular physical outcome."],
+  "tags": ["James", "Faith", "Works"],
+  "estimated_minutes": 50,
+  "review": { "status": "public-ready", "reference_review": "automated-passed", "doctrinal_review": "independent-editorial", "reviewed_at": "2026-08-12", "content_version": "1.0.0" }
+}

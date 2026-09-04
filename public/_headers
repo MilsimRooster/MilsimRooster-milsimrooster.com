@@ -1,10 +1,10 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://fums.api.bible; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' blob: https://fums.api.bible; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), gamepad=(self)
 
 /
   Cache-Control: no-cache, max-age=0, must-revalidate
@@ -33,6 +33,12 @@
 /data/bible_lessons/library/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
+/data/bible_studies/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/data/bible_studies/library/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
 /data/bible_graph/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
@@ -57,16 +63,10 @@
 /apps/recipes/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
-/apps/how-southern-are-you/*
-  Cache-Control: no-cache, max-age=0, must-revalidate
-
-/apps/southern-translator/*
+/apps/rotorline/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
 /apps/quotetron/*
-  Cache-Control: no-cache, max-age=0, must-revalidate
-
-/apps/bug-strike/*
   Cache-Control: no-cache, max-age=0, must-revalidate
 
 /apps/gallery/*
