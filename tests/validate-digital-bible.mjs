@@ -62,6 +62,8 @@ assert.ok(hiddenShelfBible.includes("*** START OF THE PROJECT GUTENBERG EBOOK TH
 assert.ok(html.includes("<title>Digital Bible | Milsim Rooster</title>"), "reader should have a clear page title");
 assert.ok(html.includes('href="styles-kjv-topics-20260811.css?v=20260815-lesson-return-2"'), "reader should load cache-busted KJV and topics CSS");
 assert.ok(html.includes('src="app-licensed-bibles-20260811.js?v=20260830-guide-return-1"'), "reader should load the cache-busted licensed-Bibles JS with guide return support");
+assert.ok(html.includes('href="/assets/css/app-theme-20260812.css"'), "reader should load the shared light and dark theme stylesheet directly");
+assert.ok(html.includes('src="/assets/js/app-theme-20260812.js"'), "reader should load the shared light and dark theme control directly");
 assert.ok(html.includes('id="versionSelect"'), "reader should expose a version selector");
 assert.ok(html.includes('id="bookSelect"'), "reader should expose a book selector");
 assert.ok(html.includes('id="chapterSelect"'), "reader should expose a chapter selector");

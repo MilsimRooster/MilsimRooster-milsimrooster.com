@@ -1,0 +1,437 @@
+/* Shared light/dark mode for Milsim Rooster app surfaces. */
+.mr-theme-toggle {
+  position: fixed;
+  right: max(14px, env(safe-area-inset-right));
+  bottom: max(14px, env(safe-area-inset-bottom));
+  z-index: 2147483000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0 14px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(18, 24, 20, 0.94);
+  color: #f7faf7;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(14px);
+  font: 800 13px/1 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  cursor: pointer;
+  isolation: isolate;
+  overflow: hidden;
+  touch-action: manipulation;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease, transform 150ms ease;
+}
+
+.mr-theme-toggle:hover {
+  transform: translateY(-2px);
+}
+
+.mr-theme-toggle:focus-visible {
+  outline: 3px solid #d6a84b;
+  outline-offset: 3px;
+}
+
+.mr-theme-toggle__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.mr-theme-toggle__label {
+  max-width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  opacity: 0;
+  white-space: nowrap;
+  transition: max-width 150ms ease, margin-left 150ms ease, opacity 150ms ease;
+}
+
+.mr-theme-toggle:is(:hover, :focus-visible) .mr-theme-toggle__label {
+  max-width: 86px;
+  margin-left: 7px;
+  opacity: 1;
+}
+
+html[data-mr-theme="dark"] .mr-theme-toggle {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(246, 248, 243, 0.96);
+  color: #172019;
+}
+
+html[data-mr-theme="light"] {
+  color-scheme: light;
+  --mr-app-bg: #f4f6f1;
+  --mr-surface: #fffdf8;
+  --mr-surface-strong: #ffffff;
+  --mr-field: #ffffff;
+  --mr-text: #172019;
+  --mr-muted: #5b6860;
+  --mr-line: #d4ddd6;
+  --mr-accent: #246c5c;
+}
+
+html[data-mr-theme="dark"] {
+  color-scheme: dark;
+  --mr-app-bg: #0d1210;
+  --mr-surface: #171e1a;
+  --mr-surface-strong: #202922;
+  --mr-field: #101713;
+  --mr-text: #eef4ef;
+  --mr-muted: #afbbb2;
+  --mr-line: #39483f;
+  --mr-accent: #84cbb5;
+}
+
+html[data-mr-app]:not([data-mr-app="rotorline"]):not([data-mr-app="bug-strike"]) body {
+  padding-bottom: max(76px, calc(64px + env(safe-area-inset-bottom))) !important;
+}
+
+/* Variable-based light apps. */
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="apostles"],
+  [data-mr-app="fps-visualizer"],
+  [data-mr-app="bible"],
+  [data-mr-app="bible-lessons"],
+  [data-mr-app="bible-studies"],
+  [data-mr-app="bible-explorer"],
+  [data-mr-app="bible-study"]
+) {
+  --bg: var(--mr-app-bg);
+  --page: var(--mr-app-bg);
+  --paper: var(--mr-surface);
+  --panel: var(--mr-surface);
+  --field: var(--mr-field);
+  --ink: var(--mr-text);
+  --text: var(--mr-text);
+  --muted: var(--mr-muted);
+  --line: var(--mr-line);
+  --border: var(--mr-line);
+  --mint: #172a20;
+  --peach: #2a2019;
+  --sky: #192738;
+  --cream: #272217;
+  --shadow: 0 20px 54px rgba(0, 0, 0, 0.34);
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="apostles"],
+  [data-mr-app="fps-visualizer"],
+  [data-mr-app="bible"],
+  [data-mr-app="bible-lessons"],
+  [data-mr-app="bible-studies"],
+  [data-mr-app="bible-explorer"],
+  [data-mr-app="bible-study"]
+) body {
+  background: radial-gradient(circle at 15% 0%, rgba(68, 132, 105, 0.2), transparent 34%), var(--mr-app-bg) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] :is(
+  .game-panel, .nt-game, .setup-panel, .finish-card, .finish-score, .final-score,
+  .score-tile, .question-card,
+  .mini-card, .match-item, .tab, .segment, .answer-button, .book-choice, .books-panel,
+  .flashcard-panel, .study-card, .deck-card, .mode-choice, .trail-stop, .trail-note,
+  .feedback, .fact-list div, .book-progress span
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] :is(input, select, textarea, .ghost-button, .icon-button) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] :is(.tab.active, .segment.active) {
+  border-color: #e3bb68 !important;
+  background: #d6a84b !important;
+  color: #172019 !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] .primary-button {
+  color: #ffffff !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] :is(
+  .match-item.matched, .book-progress span.complete, .feedback.good
+) {
+  border-color: #4f946c !important;
+  background: #183023 !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="apostles"] :is(
+  .book-choice.wrong, .feedback.bad
+) {
+  border-color: #a95c5c !important;
+  background: #331b1b !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="fps-visualizer"] :is(
+  .panel, .controls, .metric, .chart-wrap, .table-wrap, .notes
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"][data-mr-app="fps-visualizer"] :is(input, select, textarea) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="bible"],
+  [data-mr-app="bible-lessons"],
+  [data-mr-app="bible-studies"],
+  [data-mr-app="bible-explorer"]
+) :is(
+  .reader-controls, .scripture-panel, .search-panel, .topic-guide, .topic-detail,
+  .lesson-filters, .lesson-list-panel, .lesson-detail, .lesson-card, .connections-panel,
+  .memory-card, .prompt-card, .quiz-card, .teacher-grid, .node-browser, .node-detail,
+  .lesson-strip, .question-strip, .empty-state,
+  .study-controls, .study-library, .study-detail, .study-card, .claim-card,
+  .prayer-card, .accuracy-note
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="bible"],
+  [data-mr-app="bible-lessons"],
+  [data-mr-app="bible-studies"],
+  [data-mr-app="bible-explorer"]
+) :is(input, select, textarea, button:not(.mr-theme-toggle):not(.open-chapter-button):not(.return-to-search-button)) {
+  border-color: var(--mr-line);
+  background-color: var(--mr-field);
+  color: var(--mr-text);
+}
+
+html[data-mr-theme="dark"][data-mr-app="bible-study"] :is(
+  .round-panel, .game-tab, .launch-card, .route-panel, .question-card, .answer-button
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+}
+
+/* Variable-based dark apps gain a full light palette. */
+html[data-mr-theme="light"]:is(
+  [data-mr-app="tools"],
+  [data-mr-app="quotetron"],
+  [data-mr-app="recipes"],
+  [data-mr-app="bug-strike"],
+  [data-mr-app="rotorline"],
+  [data-mr-app="gallery"]
+) {
+  --bg: var(--mr-app-bg);
+  --page: var(--mr-app-bg);
+  --paper: var(--mr-surface);
+  --panel: var(--mr-surface);
+  --panel-strong: #f0f4ef;
+  --panel-soft: rgba(24, 38, 29, 0.06);
+  --panel-bg: rgba(255, 255, 255, 0.94);
+  --panel-edge: rgba(36, 108, 92, 0.32);
+  --glass: rgba(248, 251, 248, 0.88);
+  --dark: var(--mr-app-bg);
+  --frame: rgba(36, 108, 92, 0.24);
+  --text: var(--mr-text);
+  --ink: var(--mr-text);
+  --muted: var(--mr-muted);
+  --line: var(--mr-line);
+  --border: var(--mr-line);
+  --shadow: rgba(18, 30, 23, 0.18);
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="tools"],
+  [data-mr-app="quotetron"],
+  [data-mr-app="recipes"],
+  [data-mr-app="bug-strike"]
+) body {
+  background: radial-gradient(circle at 15% 0%, rgba(76, 139, 111, 0.14), transparent 32%), var(--mr-app-bg) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="tools"] :is(
+  .tool-topbar, .card, .tool-panel, .privacy-note, .pdf-page-rail, .pdf-main-panel, .pdf-viewer-stage
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+  box-shadow: 0 18px 48px rgba(22, 34, 27, 0.12) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="tools"] :is(input, select, textarea, output, .tool-button, .pdf-upload) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="quotetron"] :is(
+  .content-page, .quote-form-card, .tool-card, .rate-card, .result-card, .field-control,
+  .lore-card, .lore-artifacts li, .lore-close, .help-panel
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="quotetron"] :is(input, select, textarea, button.secondary) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="recipes"] :is(
+  .topbar, .dinner-card, .detail-card, .suggestion-card, .panel, .recipe-card,
+  .shopping-panel, .planner-panel, .feedback-card, .comment-form, .recipe-dialog
+) {
+  border-color: var(--mr-line) !important;
+  background: rgba(255, 253, 248, 0.96) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="recipes"] :is(input, select, textarea, .secondary-button, .rating-buttons button) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="bug-strike"] :is(.panel, .mobile-controls) {
+  border-color: var(--mr-line) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: var(--mr-text) !important;
+}
+
+/* Warm Southern apps already use light cards; light mode lifts the surrounding page. */
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) body {
+  background: linear-gradient(145deg, #fff8e9, #efe2c8) !important;
+  color: #21170f !important;
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(.topbar, .home-link, .audio-toggle) {
+  color: #21170f !important;
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(.home-link, .audio-toggle) {
+  border-color: rgba(33, 23, 15, 0.2) !important;
+  background: rgba(255, 255, 255, 0.58) !important;
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(
+  .hero-card:not(.title-card), .quiz-card, .result-card, .control-card, .share-panel
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+  box-shadow: 0 24px 72px rgba(41, 31, 20, 0.16) !important;
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(
+  button:not(.mr-theme-toggle):not(.primary-button):not(.active), textarea, input
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(.intro, .tiny-note, .result-card p, .meaning-grid p, .rooster-notes) {
+  color: var(--mr-muted) !important;
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(
+  .hero-card:not(.title-card), .quiz-card, .result-card, .control-card, .share-panel
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-surface) !important;
+  color: var(--mr-text) !important;
+  box-shadow: 0 24px 72px rgba(0, 0, 0, 0.34) !important;
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(
+  button:not(.mr-theme-toggle):not(.primary-button):not(.active), textarea, input
+) {
+  border-color: var(--mr-line) !important;
+  background: var(--mr-field) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="dark"]:is(
+  [data-mr-app="how-southern-are-you"],
+  [data-mr-app="southern-translator"]
+) :is(.intro, .tiny-note, .result-card p, .meaning-grid p, .rooster-notes) {
+  color: var(--mr-muted) !important;
+}
+
+/* Full-screen games keep their authored world/canvas while their menus become readable in light mode. */
+html[data-mr-theme="light"][data-mr-app="rotorline"] #ui :is(.panel, .settings select) {
+  border-color: var(--mr-line) !important;
+  background: rgba(255, 253, 248, 0.96) !important;
+  color: var(--mr-text) !important;
+}
+
+html[data-mr-theme="light"][data-mr-app="rotorline"] #ui .panel :is(p, li, label, span, small) {
+  color: #3f4a43;
+}
+
+@media (max-width: 600px) {
+  .mr-theme-toggle {
+    right: max(10px, env(safe-area-inset-right));
+    bottom: max(10px, env(safe-area-inset-bottom));
+    min-width: 42px;
+    min-height: 42px;
+    padding-inline: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mr-theme-toggle {
+    transition: none;
+  }
+
+  .mr-theme-toggle__label {
+    transition: none;
+  }
+
+  .mr-theme-toggle:hover {
+    transform: none;
+  }
+}
